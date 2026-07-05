@@ -4,28 +4,28 @@ Her parça için ücretsiz, LLM'siz başlık + açıklama + etiket üretir.
 Deterministik: aynı part index -> aynı metadata (tekrar yüklemede tutarlı).
 """
 
-# Dikkat çekici Türkçe "hook" şablonları. {n} parça numarası ile değişir.
+# Family-friendly English attention "hooks". Rotates by part index.
 HOOKS = [
-    "Bunu Sonuna Kadar İzle 👀",
-    "İnanamayacaksın 😱",
-    "Herkes Bunu Konuşuyor",
-    "Sonu Seni Şaşırtacak",
-    "Bunu Kaçırma!",
-    "Beklemediğin An Geldi",
-    "Bir Kez İzleyince Duramayacaksın",
-    "Bu Nasıl Oldu? 🤯",
-    "İzleyen Herkes Şok Oldu",
-    "Devamı Daha da İyi 🔥",
-    "Gözlerine İnanamayacaksın",
-    "Bu Anı Bekliyordun",
+    "Watch Till the End 👀",
+    "You Won't Believe This! 😮",
+    "Everyone's Talking About This",
+    "Wait For It...",
+    "Don't Miss This!",
+    "This Is Amazing! 🤩",
+    "So Satisfying to Watch",
+    "How Did They Do That? 🤯",
+    "This Made My Day 😄",
+    "It Gets Even Better 🔥",
+    "You'll Want to See This",
+    "The Best Part Is Coming",
 ]
 
-# Başlık sonuna eklenecek hashtag havuzu (rotasyonla)
+# Hashtag pool appended to the title (rotates)
 HASHTAG_SETS = [
-    "#shorts #keşfet #viral",
-    "#shorts #fyp #trend",
-    "#shorts #viral #keşfet",
-    "#shorts #eğlence #fyp",
+    "#shorts #viral #fun",
+    "#shorts #fyp #trending",
+    "#shorts #viral #explore",
+    "#shorts #fun #fyp",
 ]
 
 MAX_TITLE = 100  # YouTube başlık limiti
@@ -43,7 +43,7 @@ def build_metadata(index: int, cfg: dict) -> dict:
     # Başlık: [Seri Bölüm X] + Temel Başlık + Hook + hashtag
     pieces = []
     if series:
-        pieces.append(f"{series} Bölüm {part_no}")
+        pieces.append(f"{series} Part {part_no}")
     if base:
         pieces.append(base)
     pieces.append(hook)
@@ -51,12 +51,12 @@ def build_metadata(index: int, cfg: dict) -> dict:
     core = " | ".join(pieces)
     title = f"{core} {hashtags}".strip()
     if len(title) > MAX_TITLE:
-        # hashtag'siz dene, yine uzunsa kes
+        # try without hashtags, still too long -> cut
         title = core[:MAX_TITLE].rstrip()
 
     series_line = ""
     if series:
-        series_line = f"{series} serisinin {part_no}. bölümü.\n\n"
+        series_line = f"Part {part_no} of the {series} series.\n\n"
 
     desc_tmpl = cfg.get(
         "description_template",
@@ -64,9 +64,9 @@ def build_metadata(index: int, cfg: dict) -> dict:
     )
     description = desc_tmpl.format(title=core, series=series_line)
 
-    # Etiketler (config) + otomatik birkaç tanesi
+    # Tags (from config) + a few automatic ones
     tags = list(cfg.get("tags", []))
-    for extra in ["shorts", f"bölüm {part_no}", "türkçe shorts"]:
+    for extra in ["shorts", f"part {part_no}", "english shorts", "family friendly"]:
         if extra not in tags:
             tags.append(extra)
     # YouTube toplam etiket karakter limiti ~500; güvenli tarafta kal

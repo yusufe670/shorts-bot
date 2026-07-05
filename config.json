@@ -2,24 +2,24 @@
   "segment_seconds": 58,
   "reencode_vertical": true,
 
-  "base_title": "İzlemeye Doyamayacaksın",
+  "base_title": "Can't Stop Watching",
   "series_name": "",
   "add_part_number": true,
 
-  "description_template": "{title}\n\n{series}Beğendiysen abone ol, kaçırma! 👇\n\n#shorts #keşfet #viral #fyp",
+  "description_template": "{title}\n\n{series}If you enjoyed it, subscribe so you don't miss the next one! 👇\n\n#shorts #viral #fun #family",
 
   "tags": [
     "shorts",
-    "keşfet",
     "viral",
+    "fun",
     "fyp",
-    "kısa video",
-    "trend",
-    "eğlence"
+    "trending",
+    "family friendly",
+    "entertainment"
   ],
 
   "categoryId": "24",
   "privacyStatus": "public",
   "madeForKids": false,
-  "defaultLanguage": "tr"
+  "defaultLanguage": "en"
 }

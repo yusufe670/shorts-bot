@@ -2,6 +2,7 @@
 client_secret.json
 token.json
 github_secrets.txt
+_sec_*.txt
 *.env
 
 # Python

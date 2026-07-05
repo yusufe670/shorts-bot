@@ -5,6 +5,10 @@ github_secrets.txt
 _sec_*.txt
 *.env
 
+# Yerel PC uygulaması — repoya gitmez
+app.py
+Shorts Studio.bat
+
 # Python
 __pycache__/
 *.pyc

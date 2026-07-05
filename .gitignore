@@ -1,0 +1,16 @@
+# Gizli kimlik bilgileri — ASLA commit etme
+client_secret.json
+token.json
+github_secrets.txt
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Kaynak uzun video (100MB üstü GitHub'a girmez; sadece parts/ push edilir)
+source/*.mp4
+source/*.mov
+source/*.mkv

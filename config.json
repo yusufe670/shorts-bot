@@ -1,0 +1,25 @@
+{
+  "segment_seconds": 58,
+  "reencode_vertical": false,
+
+  "base_title": "İzlemeye Doyamayacaksın",
+  "series_name": "",
+  "add_part_number": true,
+
+  "description_template": "{title}\n\n{series}Beğendiysen abone ol, kaçırma! 👇\n\n#shorts #keşfet #viral #fyp",
+
+  "tags": [
+    "shorts",
+    "keşfet",
+    "viral",
+    "fyp",
+    "kısa video",
+    "trend",
+    "eğlence"
+  ],
+
+  "categoryId": "24",
+  "privacyStatus": "public",
+  "madeForKids": false,
+  "defaultLanguage": "tr"
+}

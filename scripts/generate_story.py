@@ -14,6 +14,7 @@ Akış:
 TTS, altyazı ve montaj yardımcıları generate_video.py'den yeniden kullanılır.
 """
 import json
+import random
 import shutil
 import subprocess
 import sys
@@ -22,7 +23,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import generate_video as gv  # noqa: E402  (run, synth_all, chunk_words, render_caption_png, sabitler)
@@ -89,6 +90,94 @@ def ken_burns(image, duration, out_mp4, zoom_in=True):
     return out_mp4
 
 
+# ---------------- hook / cta / müzik ----------------
+CTA_TAIL = 2.6          # sonda CTA için eklenen ekstra saniye
+HOOK_START, HOOK_END = 0.2, 2.5
+MUSIC_VOL = 0.40        # sesin ~12-15 dB altında hafif fon
+FONT = gv.FONT
+
+MOOD = {
+    "warm": ["adventure", "heartwarming", "funny", "animal"],
+    "mystery": ["mystery", "legend", "history", "folktale", "detective"],
+    "dreamy": ["fantasy", "space", "scifi", "sci-fi", "magic"],
+}
+
+
+def pick_music(genre):
+    g = (genre or "").lower()
+    for mood, keys in MOOD.items():
+        if any(k in g for k in keys):
+            f = ROOT / "assets" / "music" / f"{mood}.mp3"
+            return f if f.exists() else None
+    f = ROOT / "assets" / "music" / "warm.mp3"
+    return f if f.exists() else None
+
+
+def _wrap(words, max_chars):
+    lines, cur = [], ""
+    for w in words:
+        if cur and len(cur) + 1 + len(w) > max_chars:
+            lines.append(cur); cur = w
+        else:
+            cur = (cur + " " + w).strip()
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def _rounded(draw, box, radius, fill):
+    draw.rounded_rectangle(box, radius=radius, fill=fill)
+
+
+def render_hook_png(text, path):
+    """İlk 2 sn'de görünecek büyük, dikkat çekici hook kartı (koyu şeffaf zeminli)."""
+    text = text.upper().strip().rstrip(".")
+    size, stroke, pad, gap = 104, 11, 46, 18
+    lines = _wrap(text.split(), 15) or [text]
+    font = ImageFont.truetype(str(FONT), size)
+    while size > 54:
+        font = ImageFont.truetype(str(FONT), size)
+        widths = [font.getbbox(ln, stroke_width=stroke)[2] for ln in lines]
+        if max(widths) <= 1000 - 2 * pad:
+            break
+        size -= 6
+    lh = font.getbbox("Ay", stroke_width=stroke)[3]
+    tw = max(font.getbbox(ln, stroke_width=stroke)[2] for ln in lines)
+    th = lh * len(lines) + gap * (len(lines) - 1)
+    img = Image.new("RGBA", (tw + pad * 2, th + pad * 2), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    _rounded(d, [0, 0, img.width, img.height], 40, (0, 0, 0, 150))
+    y = pad
+    for ln in lines:
+        w = font.getbbox(ln, stroke_width=stroke)[2]
+        d.text(((img.width - w) / 2, y), ln, font=font, fill=(255, 231, 76, 255),
+               stroke_width=stroke, stroke_fill=(0, 0, 0, 255))
+        y += lh + gap
+    img.save(path)
+    return img.size
+
+
+def render_cta_png(text, path):
+    """Son karede görünecek CTA/cliffhanger (pill zeminli)."""
+    text = text.strip()
+    size, stroke, pad = 74, 8, 40
+    font = ImageFont.truetype(str(FONT), size)
+    while size > 44:
+        font = ImageFont.truetype(str(FONT), size)
+        if font.getbbox(text, stroke_width=stroke)[2] <= 1000 - 2 * pad:
+            break
+        size -= 5
+    bb = font.getbbox(text, stroke_width=stroke)
+    tw, th = bb[2], bb[3]
+    img = Image.new("RGBA", (tw + pad * 2, th + pad * 2), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    _rounded(d, [0, 0, img.width, img.height], img.height // 2, (200, 30, 40, 220))
+    d.text((pad, pad - bb[1]), text, font=font, fill=(255, 255, 255, 255),
+           stroke_width=stroke, stroke_fill=(0, 0, 0, 255))
+    img.save(path)
+    return img.size
+
+
 def build_meta(story, cfg):
     title = story["title"].strip()
     if "#short" not in title.lower():
@@ -147,16 +236,24 @@ def main():
             "-c", "copy", str(voice_all)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
     # 3) her sahne için AI resim + Ken Burns segmenti
-    base_seed = (abs(hash(story["id"])) % 90000) + 1000
-    segs = []
+    # her üretimde rastgele seed -> aynı hikaye tekrar gelse bile görseller farklı çıkar
+    base_seed = random.randint(1000, 900000)
+    segs, last_img = [], None
     for i, (mp3, dur, gwords, sc) in enumerate(kept):
         scene_img = sc["image"].replace("the character", character) if character else sc["image"]
         prompt = f"{scene_img}. Art style: {style}."
         img = WORK / f"img_{i:02d}.jpg"
         ok = gen_image(prompt, img, base_seed + i)
+        last_img = img
         seg = ken_burns(img, dur, WORK / f"seg_{i:02d}.mp4", zoom_in=(i % 2 == 0))
         segs.append(seg)
         print(f"  sahne {i+1}/{len(kept)}: {'AI resim' if ok else 'gradyan yedek'}")
+
+    # CTA kuyruğu: son resmi CTA_TAIL saniye daha tut
+    if last_img is not None:
+        segs.append(ken_burns(last_img, CTA_TAIL, WORK / "seg_cta.mp4", zoom_in=True))
+    video_total = min(total + CTA_TAIL, 59.5)
+
     vlist = WORK / "vlist.txt"
     vlist.write_text("".join(f"file '{s.as_posix()}'\n" for s in segs), encoding="utf-8")
     bg = WORK / "bg.mp4"
@@ -172,33 +269,61 @@ def main():
         w, h = gv.render_caption_png(text, p)
         cap_imgs.append((p, w, h, cs, ce))
 
-    # 5) montaj: bg + altyazı overlay + ses
+    # hook + cta kartları + müzik seçimi
+    hook_text = (story.get("hook") or " ".join(seo._clean(story["title"]).split()[:6])).strip()
+    cta_text = (story.get("cta") or "Follow for daily stories").strip()
+    hook_png = WORK / "hook.png"; hw, hh = render_hook_png(hook_text, hook_png)
+    cta_png = WORK / "cta.png"; cw, ch = render_cta_png(cta_text, cta_png)
+    music = pick_music(story.get("genre"))
+
+    # 5) montaj: bg + altyazı + hook + cta + (ses + müzik)
     inputs = ["-i", str(bg)]
     for (p, *_rest) in cap_imgs:
         inputs += ["-i", str(p)]
-    inputs += ["-i", str(voice_all)]
+    hook_idx = 1 + len(cap_imgs)
+    cta_idx = hook_idx + 1
+    voice_idx = cta_idx + 1
+    inputs += ["-i", str(hook_png), "-i", str(cta_png), "-i", str(voice_all)]
+    music_idx = voice_idx + 1
+    if music:
+        inputs += ["-i", str(music)]
+
     fc, last = [], "0:v"
     for k, (p, w, h, cs, ce) in enumerate(cap_imgs):
-        x = int((W - w) / 2)
-        y = int(CAP_Y - h / 2)
+        x = int((W - w) / 2); y = int(CAP_Y - h / 2)
         out = f"v{k}"
         fc.append(f"[{last}][{k+1}:v]overlay={x}:{y}:enable='between(t,{cs:.3f},{ce:.3f})'[{out}]")
         last = out
-    filter_complex = ";".join(fc) if fc else "[0:v]null[v0]"
-    vmap = f"[{last}]" if fc else "0:v"
-    audio_in = len(cap_imgs) + 1
+    # hook (üst-orta, ilk saniyeler)
+    hx = int((W - hw) / 2); hy = int(0.24 * H)
+    fc.append(f"[{last}][{hook_idx}:v]overlay={hx}:{hy}:enable='between(t,{HOOK_START},{HOOK_END})'[vh]")
+    # cta (orta, sonda)
+    cta_start = max(0.0, total - 0.6)
+    cx = int((W - cw) / 2); cy = int(0.50 * H - ch / 2)
+    fc.append(f"[vh][{cta_idx}:v]overlay={cx}:{cy}:enable='between(t,{cta_start:.2f},{video_total:.2f})'[vout]")
 
+    # ses: konuşma + hafif müzik (son 1.2 sn fade out, taşmaya karşı limiter)
+    if music:
+        fc.append(
+            f"[{music_idx}:a]volume={MUSIC_VOL},afade=t=out:st={max(0.1, video_total-1.2):.2f}:d=1.2[mus];"
+            f"[{voice_idx}:a][mus]amix=inputs=2:duration=longest:dropout_transition=0:normalize=0,"
+            f"alimiter=limit=0.95[aout]")
+        amap = "[aout]"
+    else:
+        amap = f"{voice_idx}:a"
+
+    filter_complex = ";".join(fc)
     OUT.mkdir(exist_ok=True)
     final = OUT / "short.mp4"
     cmd = ["ffmpeg", "-y", *inputs, "-filter_complex", filter_complex,
-           "-map", vmap, "-map", f"{audio_in}:a",
-           "-t", f"{min(total, MAX_SECONDS):.3f}",
+           "-map", "[vout]", "-map", amap,
+           "-t", f"{video_total:.3f}",
            "-c:v", "libx264", "-preset", "medium", "-crf", "21",
            "-c:a", "aac", "-b:a", "160k", "-pix_fmt", "yuv420p",
            "-movflags", "+faststart", "-r", str(FPS), str(final)]
     r = gv.run(cmd, capture_output=True, text=True)
     if r.returncode != 0 or not final.exists():
-        print("MONTAJ HATASI:\n", (r.stderr or "")[-1500:]); return 1
+        print("MONTAJ HATASI:\n", (r.stderr or "")[-1800:]); return 1
 
     meta = seo.build_seo_meta(story, cfg)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")

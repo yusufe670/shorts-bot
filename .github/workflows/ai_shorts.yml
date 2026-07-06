@@ -1,0 +1,51 @@
+name: AI Shorts Üret ve Yükle
+
+on:
+  schedule:
+    # Her 4 saatte bir = günde 6 (YouTube API kotasına tam sığar)
+    - cron: "0 */4 * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: ai-shorts-upload
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  make-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: ffmpeg kur
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Python bağımlılıkları
+        run: pip install -r requirements.txt
+
+      - name: Video üret
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python scripts/generate_video.py
+
+      - name: YouTube'a yükle
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python scripts/upload_generated.py
+
+      - name: İlerlemeyi kaydet
+        if: success()
+        run: |
+          git config user.name "shorts-bot"
+          git config user.email "bot@users.noreflect.github.com"
+          git add state/content_progress.json
+          git diff --staged --quiet || git commit -m "İlerleme: sıradaki içerik [skip ci]"
+          git push

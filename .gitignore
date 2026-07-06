@@ -9,6 +9,9 @@ _sec_*.txt
 app.py
 Shorts Studio.bat
 
+# Üretilen video çıktısı — repoya gitmez (her çalışmada yeniden üretilir)
+output/
+
 # Python
 __pycache__/
 *.pyc

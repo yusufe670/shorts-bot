@@ -1,13 +1,10 @@
-name: Shorts Otomatik Yükle
+name: (Eski) Parça Yükleyici - Manuel
 
+# NOT: Bu eski sistem (uzun videoyu bölüp parça yükleme) ARTIK OTOMATİK DEĞİL.
+# Aktif sistem: ai_shorts.yml (AI ile üretilen shorts). Çift yükleme olmasın diye
+# bunun zamanlaması kapatıldı; sadece elle tetiklenebilir.
 on:
-  schedule:
-    # UTC saatiyle her 4 saatte bir = günde 6 yükleme.
-    # Bu, YouTube API varsayılan kotasına (10.000 birim ≈ 6 yükleme/gün) TAM sığar,
-    # yani kota hatası almazsın. Daha sık istersen '0 */3 * * *' yap (günde 8) ama
-    # o zaman günde 2 yükleme kota aşımıyla atlanır (veri kaybı olmaz, sonra denenir).
-    - cron: "0 */4 * * *"
-  workflow_dispatch: {}   # Actions sekmesinden elle de tetikleyebilirsin
+  workflow_dispatch: {}   # sadece Actions sekmesinden elle
 
 # progress.json'u repoya geri yazabilmek için yazma izni
 permissions:

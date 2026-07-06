@@ -356,9 +356,13 @@ def main():
     # filigran (üst, tüm video)
     if use_wm:
         wx = int((W - ww) / 2); wy = int(0.045 * H)
-        fc.append(f"[vc][{wm_idx}:v]overlay={wx}:{wy}[vout]")
+        fc.append(f"[vc][{wm_idx}:v]overlay={wx}:{wy}[vbar]")
     else:
-        fc.append("[vc]null[vout]")
+        fc.append("[vc]null[vbar]")
+    # ilerleme çubuğu (tepede, dolarak ilerler — 'sona ne olacak' retention)
+    fc.append(
+        f"[vbar]drawbox=x=0:y=0:w=iw:h=10:color=white@0.22:thickness=fill,"
+        f"drawbox=x=0:y=0:w='iw*t/{video_total:.2f}':h=10:color=0xFFE74C@0.95:thickness=fill[vout]")
 
     # ses: konuşma + hafif müzik (son 1.2 sn fade out, taşmaya karşı limiter)
     if music:

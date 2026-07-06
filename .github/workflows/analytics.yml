@@ -21,7 +21,7 @@ jobs:
       - name: Rapor üret
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
-          PROGRESS_FILE: state/story_progress.json
+          PROGRESS_FILE: state/visual_progress.json
         run: python scripts/analytics.py
       - name: Raporu kaydet
         if: success()

@@ -108,7 +108,7 @@ def ken_burns(image, duration, out_mp4, zoom_in=True):
 
 
 # ---------------- hook / cta / müzik ----------------
-CTA_TAIL = 2.6          # sonda CTA için eklenen ekstra saniye
+CTA_TAIL = 0.8          # sonda kısa CTA tutuşu (ölü an minimum — retention için)
 HOOK_START, HOOK_END = 0.2, 2.5
 MUSIC_VOL = 0.40        # sesin ~12-15 dB altında hafif fon
 FONT = gv.FONT
@@ -337,8 +337,8 @@ def main():
     # hook (üst-orta, ilk saniyeler)
     hx = int((W - hw) / 2); hy = int(0.24 * H)
     fc.append(f"[{last}][{hook_idx}:v]overlay={hx}:{hy}:enable='between(t,{HOOK_START},{HOOK_END})'[vh]")
-    # cta (orta, sonda)
-    cta_start = max(0.0, total - 0.6)
+    # cta (orta, son ~2.4 sn — çoğu anlatım üstünde, ölü an yok)
+    cta_start = max(0.0, total - 2.4)
     cx = int((W - cw) / 2); cy = int(0.50 * H - ch / 2)
     fc.append(f"[vh][{cta_idx}:v]overlay={cx}:{cy}:enable='between(t,{cta_start:.2f},{video_total:.2f})'[vc]")
     # filigran (üst, tüm video)

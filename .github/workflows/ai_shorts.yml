@@ -29,23 +29,23 @@ jobs:
       - name: Python bağımlılıkları
         run: pip install -r requirements.txt
 
-      - name: Video üret
-        env:
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-        run: python scripts/generate_video.py
+      - name: Hikaye videosu üret (AI resimler)
+        run: python scripts/generate_story.py
 
       - name: YouTube'a yükle
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          PROGRESS_FILE: state/story_progress.json
+          BANK_FILE: content/stories.json
         run: python scripts/upload_generated.py
 
       - name: İlerlemeyi kaydet
         if: success()
         run: |
           git config user.name "shorts-bot"
-          git config user.email "bot@users.noreflect.github.com"
-          git add state/content_progress.json
-          git diff --staged --quiet || git commit -m "İlerleme: sıradaki içerik [skip ci]"
+          git config user.email "bot@users.noreply.github.com"
+          git add state/story_progress.json
+          git diff --staged --quiet || git commit -m "İlerleme: sıradaki hikaye [skip ci]"
           git push

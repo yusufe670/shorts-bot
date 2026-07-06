@@ -22,8 +22,10 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "output"
 VIDEO = OUT / "short.mp4"
 META = OUT / "meta.json"
-STATE = ROOT / "state" / "content_progress.json"
-BANK = ROOT / "content" / "facts.json"
+# Hangi ilerleme/bank dosyası kullanılacağı ortam değişkeniyle ayarlanır
+# (hikaye modu için PROGRESS_FILE=state/story_progress.json, BANK_FILE=content/stories.json)
+STATE = ROOT / os.environ.get("PROGRESS_FILE", "state/content_progress.json")
+BANK = ROOT / os.environ.get("BANK_FILE", "content/facts.json")
 
 TOKEN_URI = "https://oauth2.googleapis.com/token"
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]

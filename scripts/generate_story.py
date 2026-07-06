@@ -26,6 +26,7 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import generate_video as gv  # noqa: E402  (run, synth_all, chunk_words, render_caption_png, sabitler)
+import seo  # noqa: E402  (SEO başlık/açıklama/etiket motoru)
 
 ROOT = gv.ROOT
 CONFIG = gv.CONFIG
@@ -199,7 +200,7 @@ def main():
     if r.returncode != 0 or not final.exists():
         print("MONTAJ HATASI:\n", (r.stderr or "")[-1500:]); return 1
 
-    meta = build_meta(story, cfg)
+    meta = seo.build_seo_meta(story, cfg)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"BİTTİ -> {final}  ({gv.ffprobe_duration(final):.1f} sn)")
     print("Başlık:", meta["title"])

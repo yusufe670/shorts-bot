@@ -41,11 +41,24 @@ jobs:
           BANK_FILE: content/stories.json
         run: python scripts/upload_generated.py
 
-      - name: İlerlemeyi kaydet
+      - name: İlerlemeyi kaydet (dayanıklı push — tekrar yüklemeyi önler)
         if: success()
         run: |
           git config user.name "shorts-bot"
           git config user.email "bot@users.noreply.github.com"
           git add state/story_progress.json
-          git diff --staged --quiet || git commit -m "İlerleme: sıradaki hikaye [skip ci]"
-          git push
+          if git diff --staged --quiet; then
+            echo "İlerleme değişmedi, kaydedilecek bir şey yok."
+            exit 0
+          fi
+          git commit -m "İlerleme: sıradaki hikaye [skip ci]"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push origin main; then
+              echo "İlerleme kaydedildi (deneme $i)."
+              exit 0
+            fi
+            echo "push denemesi $i reddedildi, yeniden eşitlenip denenecek..."
+            sleep 3
+          done
+          echo "HATA: ilerleme 5 denemede push edilemedi." >&2
+          exit 1

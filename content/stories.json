@@ -1,1898 +1,1646 @@
 [
   {
-    "id": "lumen-01-floating-city",
+    "id": "lumen-ep01",
     "series": "Lumen & the Lantern",
     "genre": "fantasy",
-    "title": "The Door in the Sky Only Opens When You Stop Looking Down ☁️",
-    "hook": "One door hangs in empty air",
-    "cta": "The next door awaits",
+    "title": "A Magic Lantern Opened a Door That Should NOT Exist ✨",
+    "hook": "The door appears only at midnight",
+    "cta": "Where next?",
     "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
     "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
     "scenes": [
       {
-        "text": "A golden door floats high in the clouds, and only Lumen's lantern can reach it.",
-        "image": "the character standing on a cliff at sunrise, raising a glowing golden lantern toward a mysterious ornate door hovering in the sky, wide cinematic shot, soft dawn light"
+        "text": "At midnight the character's golden lantern flickers with a strange humming glow.",
+        "image": "the character, a small child holding a glowing golden lantern, standing in a dark cozy attic at midnight, warm magical light, storybook art"
       },
       {
-        "text": "The lantern flares, a bridge of pure light appears, and the character steps through.",
-        "image": "the character walking across a shimmering bridge of golden light toward the open sky-door, lantern blazing, dramatic clouds swirling far below, magical atmosphere"
+        "text": "A shimmering door of pure light blooms where the wall stood.",
+        "image": "a glowing shimmering door made of golden light appearing on an attic wall, sparkles, the character watching in wonder"
       },
       {
-        "text": "Beyond it, an entire city floats gently on drifting islands of glowing stone.",
-        "image": "the character gasping at a vast floating city of towers and gardens resting on drifting sky-islands, birds gliding between them, awe-filled establishing shot, golden light"
+        "text": "She steps through and gasps at a city floating above endless clouds.",
+        "image": "the character stepping through a light door onto a floating city in the sky, towers drifting on clouds, sunrise colors"
       },
       {
-        "text": "But the islands are drifting apart, and a small child waits alone on one.",
-        "image": "the character noticing a worried little child waiting on a tiny separating island, a widening gap of open sky between them, tense cinematic wide shot, soft light"
+        "text": "But every bridge between the towers has gone dark and cold.",
+        "image": "the character on a floating city with dark unlit bridges between sky towers, dim and quiet, worried expression"
       },
       {
-        "text": "Lumen lifts the lantern high, and its warm glow gently calls the islands closer.",
-        "image": "the character holding the golden lantern overhead as its light gently pulls two floating stone islands slowly back together, hopeful magical glow, dramatic angle"
+        "text": "She lifts the lantern high and warm light races across every bridge.",
+        "image": "the character raising a golden lantern as warm light spreads across sky bridges, glowing gold, joyful moment"
       },
       {
-        "text": "The gap closes, and Lumen guides the child safely across the joined stone.",
-        "image": "the character reaching out to guide the smiling rescued child across the reunited floating islands, warm lantern light between them, tender cinematic moment"
-      },
-      {
-        "text": "The happy city floats as one again, sky-lanterns rising in thanks above.",
-        "image": "the character watching countless glowing sky-lanterns rise over the reunited floating city at dusk, gardens blooming, joyful warm wide shot"
-      },
-      {
-        "text": "Then Lumen's lantern flickers toward another door, humming with a brand-new secret.",
-        "image": "the character turning as the golden lantern points toward a faint new glowing doorway shimmering in the twilight clouds, curious hopeful expression, magical light"
+        "text": "The city sparkles awake, and one bridge points somewhere brand new.",
+        "image": "a floating city fully lit and sparkling, one glowing bridge pointing toward a distant mysterious portal, the character smiling"
       }
     ],
     "tags": [
       "Lumen & the Lantern",
-      "Lumen and the Lantern",
-      "kids story",
-      "floating city",
-      "magic lantern",
-      "family friendly",
-      "AI animation",
-      "bedtime story",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "pip-sky-01-crystal-desert",
-    "series": "Pip the Sky Explorer",
-    "genre": "space",
-    "title": "Her Rocket Landed on a Desert Made of Singing Crystal. Then One Cracked Open ✨",
-    "hook": "The sand was singing crystal",
-    "cta": "Which planet next?",
-    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
-    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
-    "scenes": [
-      {
-        "text": "Pip's tiny rocket touches down on a desert where every grain of sand is glowing crystal.",
-        "image": "the character in a puffy explorer suit stepping out of a small round rocket onto a vast desert of glowing pink and blue crystal sand, tiny silver robot Bolt beside her, cinematic wide shot, sparkling twilight"
-      },
-      {
-        "text": "The crystals hum a soft melody, and one tall spire begins to gently glow brighter.",
-        "image": "the character and little robot Bolt facing a towering singing crystal spire that pulses with warm light, humming sound waves shimmering in the air, magical wide angle"
-      },
-      {
-        "text": "Bolt taps the spire, and with a chime it cracks open like a giant egg.",
-        "image": "the character watching wide-eyed as a huge crystal spire splits open with a bright chime, robot Bolt reaching a claw toward the crack, dazzling light spilling out"
-      },
-      {
-        "text": "Inside sleeps a tiny crystal fox, dim and sad because its song went silent.",
-        "image": "the character kneeling before a small translucent crystal fox curled inside the open spire, its glow faint and dull, gentle sorrowful expression, soft magical light"
-      },
-      {
-        "text": "Pip realizes the fox only shines when someone sings along with its melody.",
-        "image": "the character humming softly with hands cupped, the little crystal fox lifting its head as faint color returns to its body, robot Bolt beeping a tune, warm glow"
-      },
-      {
-        "text": "She and Bolt sing the desert's tune, and the whole plain lights up at once.",
-        "image": "the character and robot Bolt singing joyfully as the entire crystal desert erupts in rainbow light, the crystal fox glowing bright and dancing, epic wide reveal"
-      },
-      {
-        "text": "The fox curls up glowing, and a new melody drifts from a far-off dune.",
-        "image": "the character and Bolt boarding their rocket at dusk while the bright crystal fox waves goodbye, a mysterious new glow shimmering on the horizon dunes, hopeful cinematic shot"
-      }
-    ],
-    "tags": [
-      "Pip the Sky Explorer",
-      "pip the sky explorer",
-      "kids story",
-      "space adventure",
-      "crystal planet",
-      "friendship",
-      "family friendly",
-      "AI animation",
-      "short film"
-    ]
-  },
-  {
-    "id": "midnight-library-01-japan-crane",
-    "series": "The Midnight Library",
-    "genre": "folktale",
-    "title": "A Glowing Book Opened by Itself, and a Paper Crane Flew Out of the Page 🕊️",
-    "hook": "The paper bird was breathing",
-    "cta": "The next tale is waiting",
-    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
-    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
-    "scenes": [
-      {
-        "text": "At midnight the ancient book blazes gold, and a folded paper crane lifts off the page.",
-        "image": "the character in a vast candlelit library at night, a huge glowing leather book open on a stand, a small paper crane rising from the page trailing golden light, wonder-filled expression"
-      },
-      {
-        "text": "The pages swirl, and Kai is pulled into a moonlit Japanese village by the sea.",
-        "image": "the character being gently swept through swirling golden pages into a misty Japanese coastal village under a full moon, lanterns glowing, cinematic wide shot"
-      },
-      {
-        "text": "There, a kind girl nurses a wounded crane back to health through a long winter.",
-        "image": "the character watching a gentle village girl in a soft kimono feeding a resting white crane by a warm fire, snow falling outside, tender candlelight"
-      },
-      {
-        "text": "The healed crane returns as a mysterious visitor who weaves shimmering cloth overnight.",
-        "image": "the character peeking through a paper screen at a graceful visitor weaving glowing silvery cloth on a wooden loom, moonlight and drifting feathers, magical hush"
-      },
-      {
-        "text": "Kai learns her secret: kindness given freely always finds its quiet way home.",
-        "image": "the character standing in wonder as the visitor gently transforms into a radiant white crane made of light, feathers glowing, awe-filled magical reveal"
-      },
-      {
-        "text": "The crane bows once, then soars into the stars, leaving a single glowing feather.",
-        "image": "the character catching a softly glowing feather as a luminous crane spirals up into a starry sky over the village, hopeful cinematic silhouette"
-      },
-      {
-        "text": "The feather becomes a bookmark, and the library doors hum with the next story.",
-        "image": "the character back in the glowing midnight library placing a shining feather bookmark into the ancient book, tall shelves stretching into darkness, warm inviting light"
-      }
-    ],
-    "tags": [
-      "The Midnight Library",
-      "midnight library",
-      "japanese folktale",
-      "crane",
-      "kids story",
-      "kindness",
-      "family friendly",
-      "AI animation",
-      "bedtime story",
-      "mythology"
-    ]
-  },
-  {
-    "id": "lumen-02-upside-down-ocean",
-    "series": "Lumen & the Lantern",
-    "genre": "fantasy",
-    "title": "She Opened a Door and the Ocean Was Above Her Head 🌊",
-    "hook": "The whole sea flows overhead",
-    "cta": "One more door tomorrow",
-    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
-    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
-    "scenes": [
-      {
-        "text": "Lumen's lantern reveals a door dripping with seawater that falls upward, not down.",
-        "image": "the character touching a glowing door on a rocky wall as water droplets rise upward off it, lantern casting golden light, mysterious dim cavern, cinematic close shot"
-      },
-      {
-        "text": "She steps through into a world where the whole ocean hangs like a ceiling.",
-        "image": "the character standing on dry sand staring up at a vast shimmering ocean flowing across the sky like a ceiling, fish swimming above, awe-filled wide shot, teal and gold light"
-      },
-      {
-        "text": "Bright fish swim through the air, but one glowing whale rests stuck below.",
-        "image": "the character watching a small glowing whale resting on the dry ground beneath the upside-down sea, unable to rise, gentle worried expression, soft magical light"
-      },
-      {
-        "text": "The gentle whale slipped from the ceiling-sea and cannot find its way back up.",
-        "image": "the character kneeling beside a gentle glowing whale resting on golden sand, the inverted ocean glimmering far above them, tender cinematic composition, warm light"
-      },
-      {
-        "text": "Lumen raises her lantern, and its light forms a rising column of shining water.",
-        "image": "the character lifting the golden lantern as a glowing spiral of water lifts upward from the sand toward the ceiling-ocean, magical dramatic wide shot"
-      },
-      {
-        "text": "The whale floats up the shining column and slips happily home into the sky-sea.",
-        "image": "the character smiling as the glowing whale drifts upward along a column of light back into the overhead ocean, joyful hopeful glow, cinematic low angle"
-      },
-      {
-        "text": "The freed whale sings, and the entire hanging ocean sparkles brighter above.",
-        "image": "the character standing beneath the shimmering upside-down sea as it glows radiantly, the whale circling happily overhead, warm magical wide shot"
-      },
-      {
-        "text": "Her lantern trembles, sensing yet another impossible door waiting somewhere near.",
-        "image": "the character noticing the golden lantern flicker toward a distant faint glowing doorway near the shore, curious eager expression, dreamy dusk light"
-      }
-    ],
-    "tags": [
-      "Lumen & the Lantern",
-      "Lumen and the Lantern",
-      "kids story",
-      "upside down ocean",
-      "magic lantern",
-      "whale",
-      "family friendly",
-      "AI animation",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "pip-sky-02-singing-forest",
-    "series": "Pip the Sky Explorer",
-    "genre": "space",
-    "title": "Every Tree on This Planet Sings. But One Had Gone Completely Silent 🌳",
-    "hook": "Every tree sang but one",
-    "cta": "Follow for planet 3",
-    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
-    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
-    "scenes": [
-      {
-        "text": "Pip lands in a forest where every leaf chimes a note when the wind blows.",
-        "image": "the character in an explorer suit standing among glowing musical trees with chiming leaves, tiny robot Bolt hovering nearby, sunbeams and floating notes, magical wide shot"
-      },
-      {
-        "text": "The whole forest sings a happy song, except one gray tree standing sad and still.",
-        "image": "the character pointing at a single silent gray tree surrounded by colorful singing trees, robot Bolt tilting its head curiously, soft warm forest light"
-      },
-      {
-        "text": "Pip climbs closer and finds the tree's chimes are tangled with sticky vines.",
-        "image": "the character climbing the trunk of the gray tree, discovering silver chime-leaves knotted in dark tangled vines, robot Bolt shining a light, cinematic close-up"
-      },
-      {
-        "text": "Bolt's tiny scissors can't reach, so Pip gently frees each chime by hand.",
-        "image": "the character carefully untangling shimmering chime-leaves from vines with her fingers, robot Bolt holding a branch aside, focused tender expression, dappled light"
-      },
-      {
-        "text": "One by one the leaves ring out, and the silent tree finds its voice.",
-        "image": "the character smiling as the freed gray tree bursts into color and sound, chime-leaves ringing, robot Bolt spinning happily, radiant magical glow"
-      },
-      {
-        "text": "The forest welcomes its lost singer, and every tree glows a little warmer.",
-        "image": "the character standing in the center of a glowing singing forest as all the trees shine together in harmony, robot Bolt dancing, joyful wide reveal, golden light"
-      },
-      {
-        "text": "As they leave, the trees hum a brand new song no planet has heard.",
-        "image": "the character and robot Bolt waving from their rocket as it lifts above the glowing musical forest, a swirl of colorful notes rising into the stars, hopeful cinematic shot"
-      }
-    ],
-    "tags": [
-      "Pip the Sky Explorer",
-      "pip the sky explorer",
-      "kids story",
-      "space adventure",
-      "singing forest",
-      "kindness",
-      "family friendly",
-      "AI animation",
-      "short film"
-    ]
-  },
-  {
-    "id": "midnight-library-02-greece-labyrinth",
-    "series": "The Midnight Library",
-    "genre": "folktale",
-    "title": "The Book Whispered a Warning, Then Pulled Him Into a Maze Nobody Escapes 🧵",
-    "hook": "One thread. One way out",
-    "cta": "Another door glows next",
-    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
-    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
-    "scenes": [
-      {
-        "text": "The book whispers \"turn back,\" but Kai touches the page and stone walls rise around him.",
-        "image": "the character reaching toward a glowing page as towering ancient Greek stone maze walls erupt around him, torchlight flickering, dramatic swirling dust, tense wonder"
-      },
-      {
-        "text": "He's inside the great labyrinth of Crete, its corridors twisting like a living puzzle.",
-        "image": "the character standing at a fork in an endless torchlit stone labyrinth, mysterious shadows and carved columns, cinematic maze perspective, moody amber light"
-      },
-      {
-        "text": "A brave young hero shares a shining ball of thread to mark the path.",
-        "image": "the character meeting a kind young Greek hero in a simple tunic who hands over a glowing golden ball of thread, warm torchlight, hopeful determined faces"
-      },
-      {
-        "text": "Together they unwind the thread, turning after turn, the walls seeming to breathe.",
-        "image": "the character and the hero walking deeper into the maze trailing a luminous thread behind them, walls looming, dramatic depth, glowing line on stone floor"
-      },
-      {
-        "text": "At the heart waits only a sleeping stone beast, gentle when spoken to softly.",
-        "image": "the character kneeling calmly before a large slumbering horned stone creature at the maze's center, soft glowing light, peaceful surprising reveal, no fear"
-      },
-      {
-        "text": "Following the glowing thread back, Kai learns wisdom guides where courage alone can't.",
-        "image": "the character and hero following the shining thread back toward a bright exit, walls opening ahead, triumphant golden light spilling in, relieved joy"
-      },
-      {
-        "text": "The thread snaps into starlight, and the library shelves ripple, ready for more.",
-        "image": "the character back in the midnight library as a golden thread dissolves into drifting sparks over the open book, towering shelves shimmering, warm magical glow"
-      }
-    ],
-    "tags": [
-      "The Midnight Library",
-      "midnight library",
-      "greek mythology",
-      "labyrinth",
-      "kids story",
-      "wisdom",
-      "family friendly",
-      "AI animation",
+      "kidsstory",
+      "bedtimestory",
+      "magic",
+      "fantasy",
+      "shorts",
       "adventure",
-      "bedtime story"
+      "familyfriendly",
+      "lumen"
     ]
   },
   {
-    "id": "lumen-03-cloud-forest",
-    "series": "Lumen & the Lantern",
-    "genre": "fantasy",
-    "title": "The Forest Where Every Tree Is Made of Living Cloud 🌥️",
-    "hook": "The trees drift when you touch them",
-    "cta": "Follow for the next door",
-    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
-    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
-    "scenes": [
-      {
-        "text": "Lumen's lantern glows near a door woven entirely from soft curling mist.",
-        "image": "the character approaching a shimmering doorway made of swirling white mist, golden lantern light catching the vapor, mysterious quiet hillside, cinematic soft focus"
-      },
-      {
-        "text": "Inside grows a forest where every towering tree is made of drifting cloud.",
-        "image": "the character wandering wide-eyed through a forest of enormous fluffy cloud-trees glowing pink and gold, mist floating between them, magical establishing shot"
-      },
-      {
-        "text": "A tiny cloud-fox has lost its glow and is slowly fading to soft grey.",
-        "image": "the character finding a small dim grey cloud-fox curled sadly among bright glowing cloud-trees, gentle worried expression, soft muted light, tender close shot"
-      },
-      {
-        "text": "The forest's light is dimming because its great heart-tree has stopped shining.",
-        "image": "the character gazing up at a huge central cloud-tree that has gone dark and grey, the forest fading around it, dramatic wide cinematic shot, fading light"
-      },
-      {
-        "text": "Lumen touches her warm lantern gently to the great grey heart-tree.",
-        "image": "the character pressing the glowing golden lantern softly against the dark cloud heart-tree, warm light beginning to spread through its misty branches, magical moment"
-      },
-      {
-        "text": "Golden warmth spreads, and color rushes back through every cloud in the forest.",
-        "image": "the character watching in wonder as glowing color floods outward through the cloud-trees, the whole forest blooming with pink and gold light, radiant wide shot"
-      },
-      {
-        "text": "The little fox glows bright again and leaps joyfully through the shining mist.",
-        "image": "the character laughing as the now-glowing cloud-fox bounds happily around the luminous cloud forest, playful warm magical atmosphere, cinematic wide shot"
-      },
-      {
-        "text": "Her lantern drifts forward, pointing past the trees toward one more glowing door.",
-        "image": "the character following the golden lantern as it floats toward a faint new doorway shimmering deep in the glowing cloud forest, curious hopeful expression"
-      }
-    ],
-    "tags": [
-      "Lumen & the Lantern",
-      "Lumen and the Lantern",
-      "kids story",
-      "cloud forest",
-      "magic lantern",
-      "cloud fox",
-      "family friendly",
-      "AI animation",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "pip-sky-03-floating-islands",
+    "id": "pip-pip-01-crystal-desert",
     "series": "Pip the Sky Explorer",
     "genre": "space",
-    "title": "The Islands on This Planet Float in the Sky. One Was Slowly Sinking 🏝️",
-    "hook": "One floating island was falling",
-    "cta": "Wait for the ending",
+    "title": "Pip Landed On A Desert Made Of Singing Crystals",
+    "hook": "This whole desert is humming",
+    "cta": "Where next, Pip?",
     "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
     "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
     "scenes": [
       {
-        "text": "Pip's rocket weaves between islands that drift like clouds high above a golden sea.",
-        "image": "the character piloting a small rocket between lush green floating islands suspended in a bright sky, robot Bolt at the window, waterfalls pouring off island edges, epic wide shot"
+        "text": "The character lands on a desert glowing with tall crystals.",
+        "image": "the character, a small round-helmet kid astronaut, stepping from a tiny rocket onto a vast desert of towering rainbow crystals, wide-eyed wonder, soft golden light, storybook style"
       },
       {
-        "text": "One little island is slowly sinking, its trees tipping toward the sea below.",
-        "image": "the character watching in alarm as a small floating island droops and drifts downward, trees leaning, robot Bolt pointing, dramatic tilted cinematic angle, warm anxious light"
+        "text": "Every crystal hums a note when the wind touches it.",
+        "image": "the character touching a glowing crystal that emits shimmering musical waves, sparkles in the air, robot Bolt beside, magical dreamy storybook style"
       },
       {
-        "text": "They land and find the island's glowing float-stone has cracked and lost its light.",
-        "image": "the character crouched over a large cracked glowing stone at the island's heart, its light flickering weakly, robot Bolt scanning it, soft golden dusk light"
+        "text": "But one huge crystal stays silent, dark, and completely still.",
+        "image": "the character staring up at one enormous cracked gray crystal that stays dark while all others glow, mystery mood, storybook style"
       },
       {
-        "text": "A shy cloud creature admits it hid the missing glow-shards inside a nearby nest.",
-        "image": "the character gently coaxing a fluffy shy cloud creature that cradles bright glowing shards in a cloud-nest, robot Bolt waving hello, tender magical light"
+        "text": "Pip notices sand blocking a tiny hole at its base.",
+        "image": "the character kneeling, discovering a small sand-clogged opening at the crystal's base, curious expression, robot Bolt shining a light, storybook style"
       },
       {
-        "text": "Pip promises the creature a warm home, and it returns the glowing shards.",
-        "image": "the character cupping her hands as the cloud creature happily hands over bright glow-shards, robot Bolt beeping thanks, hopeful gentle expressions, radiant light"
+        "text": "Gently she clears the sand, and the giant crystal sings loudly.",
+        "image": "the character brushing sand away as the giant crystal bursts into brilliant light and sound, whole desert glowing in harmony, joyful, storybook style"
       },
       {
-        "text": "The float-stone mends and the island rises, lifting back into the golden sky.",
-        "image": "the character cheering as the repaired glowing float-stone lifts the whole island upward through clouds, robot Bolt spinning, cloud creature riding along, triumphant wide shot"
-      },
-      {
-        "text": "The cloud creature moves in, and a new island appears drifting far away.",
-        "image": "the character and robot Bolt in their rocket looking back at the floating island now home to the happy cloud creature, a mysterious new island rising on the horizon, hopeful cinematic shot"
+        "text": "The whole desert glows in one song, then points somewhere new.",
+        "image": "the character and robot Bolt watching the glowing desert form a beam of light pointing toward a distant strange planet, wonder, storybook style"
       }
     ],
     "tags": [
       "Pip the Sky Explorer",
-      "pip the sky explorer",
-      "kids story",
-      "space adventure",
-      "floating islands",
-      "problem solving",
-      "family friendly",
-      "AI animation",
-      "short film"
+      "kids",
+      "space",
+      "adventure",
+      "storytime",
+      "cartoon",
+      "crystal",
+      "pip"
     ]
   },
   {
-    "id": "midnight-library-03-africa-anansi",
+    "id": "library-ml-01",
     "series": "The Midnight Library",
     "genre": "folktale",
-    "title": "He Found a Tiny Spider on the Page. It Bowed... and Told Him a Secret 🕸️",
-    "hook": "This spider owns all stories",
-    "cta": "Turn to the next page",
+    "title": "This Glowing Book Pulled Kai Into an Ancient Japanese Legend 🌸",
+    "hook": "The book glowed at midnight",
+    "cta": "One page left",
     "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
     "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
     "scenes": [
       {
-        "text": "A tiny spider crawls from the glowing book, bows, and whispers, \"Follow me into the tale.\"",
-        "image": "the character leaning close as a small clever spider on a shining page bows politely, threads of light trailing from it, warm candlelit library, delighted surprise"
+        "text": "At midnight, one book on the shelf starts glowing softly.",
+        "image": "the character, a curious child in pajamas, reaching toward a glowing golden book on a dark library shelf, warm magical light"
       },
       {
-        "text": "The page unfolds into a sunlit West African forest bursting with color and song.",
-        "image": "the character stepping into a vibrant sunlit West African forest, tall trees, bright birds, warm golden light, lush painterly detail, joyful wonder"
+        "text": "Kai opens it and light swallows the entire silent room.",
+        "image": "the character opening a radiant ancient book, brilliant light bursting from the pages, sparkles filling a cozy old library"
       },
       {
-        "text": "Long ago, all the world's stories were locked away by the mighty Sky King.",
-        "image": "the character gazing up at a glowing golden box of stories held high in a majestic sky palace above the clouds, radiant beams, awe and longing"
+        "text": "Suddenly Kai stands in old Japan beneath blooming cherry trees.",
+        "image": "the character standing amazed under pink cherry blossom trees in ancient Japan, petals drifting, soft sunlight, wonder on face"
       },
       {
-        "text": "Clever little Anansi the spider offers wit, not strength, to win them free.",
-        "image": "the character walking beside a small confident spider wearing a tiny hat, plotting cleverly along a forest path, dappled sunlight, mischievous friendly mood"
+        "text": "A wise crane says kindness planted today blooms for others tomorrow.",
+        "image": "the character listening to a graceful white crane spirit, glowing feathers, cherry petals swirling gently around them"
       },
       {
-        "text": "With riddles and cleverness, Anansi gently outsmarts every challenge set before him.",
-        "image": "the character watching the little spider cleverly solving a shining puzzle before the amused Sky King, glowing symbols floating, colorful magical contest"
+        "text": "Kai plants one tiny seed and a tree instantly blossoms.",
+        "image": "the character planting a small seed as a cherry tree magically bursts into full pink bloom, golden sparkles"
       },
       {
-        "text": "The stories spill across the world, and Kai sees cleverness can be kindness too.",
-        "image": "the character surrounded by glowing storybooks raining gently from the sky into villages below, spider smiling, radiant golden celebration, hopeful wide shot"
-      },
-      {
-        "text": "The spider spins one last silver thread, and the library glows for the next chapter.",
-        "image": "the character back in the midnight library as a silver web shimmers over the open book then fades to sparks, tall glowing shelves, cozy magical warmth"
+        "text": "Back home, the book turns its page, glowing for more.",
+        "image": "the character back in the dark library holding the glowing book as a new page turns by itself, magical light"
       }
     ],
     "tags": [
       "The Midnight Library",
-      "midnight library",
-      "anansi",
-      "african folktale",
-      "kids story",
-      "cleverness",
-      "family friendly",
-      "AI animation",
-      "mythology",
-      "bedtime story"
+      "midnightlibrary",
+      "storytime",
+      "japan",
+      "kindness",
+      "shorts",
+      "kids",
+      "fairytale",
+      "magic"
     ]
   },
   {
-    "id": "lumen-04-star-desert",
+    "id": "lumen-ep02",
     "series": "Lumen & the Lantern",
     "genre": "fantasy",
-    "title": "In This Desert, the Sand Is Made of Fallen Stars ✨",
-    "hook": "Each grain here once shone above",
-    "cta": "The next door is close",
+    "title": "She Stepped Into an Ocean That Floats UPSIDE DOWN 🌊",
+    "hook": "The whole sea hangs above her head",
+    "cta": "One drop left?",
     "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
     "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
     "scenes": [
       {
-        "text": "Lumen's lantern uncovers a door half-buried in dunes that sparkle like night sky.",
-        "image": "the character brushing glowing star-dust off a golden buried door in a sparkling desert, lantern light shimmering, mysterious twilight, cinematic close shot"
+        "text": "The character's lantern paints a glowing door onto the misty morning air.",
+        "image": "the character drawing a glowing door in misty air with a golden lantern, soft dawn light, storybook style"
       },
       {
-        "text": "Beyond it lies a desert where every grain of sand is a tiny fallen star.",
-        "image": "the character standing atop a vast dune of glittering star-sand under a deep violet sky, endless sparkling desert stretching out, awe-filled wide establishing shot"
+        "text": "Beyond it, an entire ocean floats upside down over the sand.",
+        "image": "the character standing on dry sand beneath a floating upside-down ocean in the sky, fish swimming above, surreal wonder"
       },
       {
-        "text": "One enormous star lies dim and cool, sunk deep within a shimmering dune.",
-        "image": "the character discovering a huge dimmed star half-buried in glowing sand, its light nearly gone, gentle concerned expression, soft magical light, cinematic close shot"
+        "text": "A tiny fish lies trapped below, gasping far from the water.",
+        "image": "the character kneeling beside a small fish stranded on sand under a floating ocean, gentle worried expression"
       },
       {
-        "text": "Without its light, the whole desert is slowly losing its gentle shimmer.",
-        "image": "the character looking across the fading star-desert as patches of sand turn dull and dark, dramatic wide shot, dimming violet twilight, quiet tense atmosphere"
+        "text": "She scoops it gently and lifts her glowing lantern skyward.",
+        "image": "the character cupping a small fish and raising a golden lantern toward a floating ocean, warm light beam"
       },
       {
-        "text": "Lumen holds her lantern to the fallen star and shares its steady, warm flame.",
-        "image": "the character cupping the golden lantern beside the dim buried star as warm light flows into it, glow rekindling in the sand, magical tender moment"
+        "text": "A soft bridge of light rises, carrying the fish safely home.",
+        "image": "a glowing gentle light bridge lifting a small fish up into a floating ocean, sparkles, the character smiling with relief"
       },
       {
-        "text": "The great star blazes awake and rises, lifting sparkle back into the dunes.",
-        "image": "the character shielding her eyes as the revived star rises glowing from the dune, light spreading across the desert, radiant dramatic wide shot"
-      },
-      {
-        "text": "The whole desert shimmers again, and the risen star hangs bright overhead.",
-        "image": "the character standing in a fully sparkling star-desert with the glowing star floating high above like a small sun, joyful warm magical wide shot"
-      },
-      {
-        "text": "Her lantern hums and turns, sensing another door hidden past the dunes.",
-        "image": "the character watching the golden lantern glow toward a faint doorway shimmering at the edge of the sparkling dunes, curious eager expression, dreamy light"
+        "text": "The grateful ocean ripples, revealing another glowing door beneath the waves.",
+        "image": "a floating ocean rippling with light revealing a new glowing door on the seabed, the character looking curious"
       }
     ],
     "tags": [
       "Lumen & the Lantern",
-      "Lumen and the Lantern",
-      "kids story",
-      "star desert",
-      "magic lantern",
-      "fallen star",
-      "family friendly",
-      "AI animation",
-      "fantasy adventure"
+      "kidsstory",
+      "magic",
+      "ocean",
+      "fantasy",
+      "shorts",
+      "kindness",
+      "familyfriendly",
+      "lumen"
     ]
   },
   {
-    "id": "pip-sky-04-candy-ice-world",
+    "id": "pip-pip-02-singing-forest",
     "series": "Pip the Sky Explorer",
     "genre": "space",
-    "title": "This Whole World Is Candy-Colored Ice. Something Was Frozen Inside It 🍭",
-    "hook": "Something moved inside the ice",
-    "cta": "Which planet next?",
+    "title": "A Forest That Sings Stopped Singing When Pip Arrived",
+    "hook": "The singing forest went silent",
+    "cta": "Listen for more!",
     "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
     "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
     "scenes": [
       {
-        "text": "Pip skids onto a planet of candy-colored ice, pink and blue and mint green.",
-        "image": "the character sliding out of a rocket onto glossy swirled candy-colored ice, robot Bolt slipping beside her, pastel frozen hills stretching to the horizon, sparkling cinematic wide shot"
+        "text": "The character lands in a forest where the trees sing softly.",
+        "image": "the character stepping from a rocket into a lush forest of glowing trees with mouth-shaped blossoms humming melodies, magical, storybook style"
       },
       {
-        "text": "Deep inside a swirl of frozen ice, a small shape flickers and slowly moves.",
-        "image": "the character pressing her mittens to a wall of translucent candy ice, a faint glowing shape stirring deep within, robot Bolt shining a beam, mysterious cool light"
+        "text": "Suddenly every tree goes silent as Pip walks deeper inside.",
+        "image": "the character walking deeper as the glowing singing trees fall silent one by one, worried expression, robot Bolt beside, storybook style"
       },
       {
-        "text": "It's a tiny penguin creature, shivering, its warm light nearly frozen out.",
-        "image": "the character peering at a small round penguin creature trapped in glowing ice, its inner light dim and shivering, robot Bolt looking worried, soft blue glow"
+        "text": "One little sapling shivers, too shy to sing its note.",
+        "image": "the character finding a tiny trembling sapling with a dim closed blossom, gentle concern, soft light, storybook style"
       },
       {
-        "text": "Bolt's heat ray is too weak, so Pip warms the ice with a hug's breath.",
-        "image": "the character breathing warm mist onto the ice and hugging it close, robot Bolt adding a gentle heat glow, the ice beginning to melt softly, tender warm light"
+        "text": "Pip hums a warm tune to help the sapling feel brave.",
+        "image": "the character kneeling and humming to the tiny sapling, glowing musical notes floating between them, tender moment, storybook style"
       },
       {
-        "text": "The ice melts free and the little penguin's inner light flares warm and bright.",
-        "image": "the character catching the freed penguin creature as its body glows warm orange, robot Bolt cheering, melting candy ice sparkling around them, joyful radiant light"
-      },
-      {
-        "text": "Grateful, the penguin slides them across the world on a glowing candy trail.",
-        "image": "the character and robot Bolt riding on the happy glowing penguin as it slides across shimmering candy ice, leaving a bright rainbow trail, playful epic wide shot"
-      },
-      {
-        "text": "It leads them to a frozen door in the ice, humming with hidden light.",
-        "image": "the character and robot Bolt arriving before a glowing frozen doorway carved in candy ice, faint warm light pulsing behind it, curious hopeful expressions, cinematic dusk light"
+        "text": "The sapling sings, and the whole forest joins in together.",
+        "image": "the character cheering as the little sapling blooms and every tree bursts into glowing song around her, joyful, storybook style"
       }
     ],
     "tags": [
       "Pip the Sky Explorer",
-      "pip the sky explorer",
-      "kids story",
-      "space adventure",
-      "ice world",
-      "rescue",
-      "family friendly",
-      "AI animation",
-      "short film"
+      "kids",
+      "space",
+      "adventure",
+      "kindness",
+      "cartoon",
+      "forest",
+      "pip"
     ]
   },
   {
-    "id": "midnight-library-04-norse-tree",
+    "id": "library-ml-02",
     "series": "The Midnight Library",
     "genre": "folktale",
-    "title": "The Book Was Freezing Cold. It Pulled Him to a Tree That Holds Up the Sky 🌳",
-    "hook": "One tree. Nine hidden worlds",
-    "cta": "The next world is waiting",
+    "title": "Kai Opened the Book and Fell Into an African Sky Legend ✨",
+    "hook": "Stars poured from the page",
+    "cta": "The page glows again",
     "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
     "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
     "scenes": [
       {
-        "text": "Frost creeps across the glowing book, and icy wind sweeps Kai into a starry north.",
-        "image": "the character shivering with wonder as frost spreads over a glowing page and swirling snow pulls him into a vast starlit northern sky, aurora light, cinematic awe"
+        "text": "The glowing book flips open to a page full of stars.",
+        "image": "the character in a dark library staring at a glowing open book, tiny stars floating up from the pages"
       },
       {
-        "text": "Before him rises a colossal world tree, its branches cradling nine glowing realms.",
-        "image": "the character standing tiny before an enormous ancient world tree stretching into the stars, glowing realms nestled in its branches, aurora colors, breathtaking scale"
+        "text": "Kai tumbles into a warm African night beneath endless stars.",
+        "image": "the character standing on a golden savanna at night under a huge starry sky, acacia trees, wonder"
       },
       {
-        "text": "A wise messenger squirrel scurries the trunk, carrying words between sky and roots.",
-        "image": "the character meeting a bright talkative squirrel darting along the giant trunk carrying a glowing acorn message, mossy bark, soft magical northern light"
+        "text": "An old storyteller whispers how people once tossed stars skyward.",
+        "image": "the character sitting with a kind elderly African storyteller by a warm fire, glowing embers rising like stars"
       },
       {
-        "text": "High above, a great eagle guards the crown; below, gentle roots drink starlight.",
-        "image": "the character gazing up at a majestic glowing eagle perched atop the world tree's crown among stars, wings spread wide, luminous aurora, reverent wonder"
+        "text": "She says share your light and the sky shines brighter.",
+        "image": "the character watching the storyteller lift a glowing ember toward the sky, sparks becoming bright new stars"
       },
       {
-        "text": "Kai learns the whole tree stands because every realm quietly cares for another.",
-        "image": "the character watching glowing threads of light connect all nine realms across the great tree like a living web, harmonious radiant network, peaceful awe"
+        "text": "Kai throws sparks up and a new constellation appears.",
+        "image": "the character joyfully tossing glowing sparks into the night sky as they form a shining constellation"
       },
       {
-        "text": "A single glowing acorn drops into his hands, warm as a tiny sun.",
-        "image": "the character cupping a softly glowing golden acorn that lights his face, the vast tree behind him, tender hopeful close-up, aurora shimmering"
-      },
-      {
-        "text": "The acorn dissolves into sparks, and the midnight library hums for the next tale.",
-        "image": "the character back in the glowing library as a golden acorn dissolves into drifting light above the open book, towering shelves, cozy enchanted glow"
+        "text": "The library returns, and the next page already glows.",
+        "image": "the character back in the cozy library as the magic book's next page lights up softly, golden glow"
       }
     ],
     "tags": [
       "The Midnight Library",
-      "midnight library",
-      "norse mythology",
-      "world tree",
-      "kids story",
-      "connection",
-      "family friendly",
-      "AI animation",
-      "mythology",
-      "bedtime story"
-    ]
-  },
-  {
-    "id": "lumen-05-mirror-lake-world",
-    "series": "Lumen & the Lantern",
-    "genre": "fantasy",
-    "title": "The Lake That Shows a World Living Beneath the Reflection 🪞",
-    "hook": "Her reflection waved back first",
-    "cta": "Step through the next door",
-    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
-    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
-    "scenes": [
-      {
-        "text": "Lumen's lantern reveals a door on a still lake, and her reflection waves first.",
-        "image": "the character kneeling at a glassy moonlit lake as a glowing golden door appears on its surface, her reflection waving up at her, mysterious calm silvery light, cinematic"
-      },
-      {
-        "text": "She steps down through the mirror into a soft upside-down twilight world.",
-        "image": "the character stepping through the lake's surface into a gentle mirrored world of inverted trees and floating light, dreamlike calm atmosphere, magical wide shot"
-      },
-      {
-        "text": "There, a reflection-child has lost the person they were meant to mirror.",
-        "image": "the character meeting a translucent glowing reflection-child standing alone with no one to copy, lonely gentle expression, soft silvery light, tender close shot"
-      },
-      {
-        "text": "Without its match, the mirror-world is beginning to blur and softly fade.",
-        "image": "the character watching the mirrored twilight world ripple and blur at its edges, shapes dissolving, dramatic wide cinematic shot, fading silver light"
-      },
-      {
-        "text": "Lumen shines her lantern so the child can mirror its warm, steady flame.",
-        "image": "the character holding the golden lantern before the reflection-child, its glow giving the child something bright to copy, warm light steadying the world, magical moment"
-      },
-      {
-        "text": "The child glows with borrowed light, and the whole mirror-world sharpens again.",
-        "image": "the character smiling as the reflection-child brightens and the blurred mirrored world snaps back into clear glowing detail, radiant hopeful wide shot"
-      },
-      {
-        "text": "Steady and shining, the mirror-child now lights the world for everyone below.",
-        "image": "the character waving as the glowing reflection-child rises like a small beacon over the clear mirrored twilight world, joyful warm magical wide shot"
-      },
-      {
-        "text": "Her lantern ripples the water, revealing the glow of one more waiting door.",
-        "image": "the character noticing the golden lantern's light ripple across the mirror-lake toward a faint new doorway shimmering beneath the surface, curious hopeful expression"
-      }
-    ],
-    "tags": [
-      "Lumen & the Lantern",
-      "Lumen and the Lantern",
-      "kids story",
-      "mirror world",
-      "magic lantern",
-      "reflection",
-      "family friendly",
-      "AI animation",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "pip-sky-05-mirror-lake-planet",
-    "series": "Pip the Sky Explorer",
-    "genre": "space",
-    "title": "The Lake on This Planet Was a Perfect Mirror. Her Reflection Waved First 🪞",
-    "hook": "Her reflection waved back first",
-    "cta": "Follow for part 6",
-    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
-    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
-    "scenes": [
-      {
-        "text": "Pip lands beside a lake so still it mirrors every star in the sky.",
-        "image": "the character stepping toward a perfectly still mirror lake reflecting a galaxy of stars, robot Bolt at the shore, glassy calm water, dreamy cinematic wide shot"
-      },
-      {
-        "text": "When she waves, her reflection waves back first, a whole second too early.",
-        "image": "the character raising her hand at the mirror lake as her reflection waves back ahead of her, robot Bolt tilting in confusion, uncanny magical light, close reflection shot"
-      },
-      {
-        "text": "A gentle mirror-twin lives in the water, lonely and copying every visitor.",
-        "image": "the character kneeling at the water's edge facing a friendly shimmering mirror-twin looking up from the lake, robot Bolt peering in, soft glowing reflection, tender light"
-      },
-      {
-        "text": "The twin has never done anything of its very own, only copied others.",
-        "image": "the character talking kindly to the sad mirror-twin in the lake, the twin mimicking her every move helplessly, robot Bolt watching, gentle melancholy glow"
-      },
-      {
-        "text": "Pip teaches it to dance freely, and the twin invents its very first move.",
-        "image": "the character dancing joyfully while the mirror-twin breaks free of copying to spin its own new dance, robot Bolt bouncing along, water rippling with light, radiant joy"
-      },
-      {
-        "text": "The lake bursts with color as the twin finally moves all on its own.",
-        "image": "the character laughing as the mirror lake erupts in swirling colors and the free mirror-twin dances independently, robot Bolt spinning, dazzling magical wide reveal"
-      },
-      {
-        "text": "The twin ripples a goodbye and paints a new star-map on the water.",
-        "image": "the character and robot Bolt returning to their rocket while the mirror-twin swirls a glowing star-map across the lake pointing to a new world, hopeful cinematic dusk shot"
-      }
-    ],
-    "tags": [
-      "Pip the Sky Explorer",
-      "pip the sky explorer",
-      "kids story",
-      "space adventure",
-      "mirror lake",
-      "self discovery",
-      "family friendly",
-      "AI animation",
-      "short film"
-    ]
-  },
-  {
-    "id": "midnight-library-05-china-dragon",
-    "series": "The Midnight Library",
-    "genre": "folktale",
-    "title": "The Page Rippled Like Water, Then a River Dragon Rose to Save a Village 🐉",
-    "hook": "The rain stopped for years",
-    "cta": "One more page glows on",
-    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
-    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
-    "scenes": [
-      {
-        "text": "The page ripples like water, and a warm rush pulls Kai into an ancient China of dry fields.",
-        "image": "the character swept through a rippling watery page into a sun-cracked ancient Chinese valley of empty rice fields, distant misty mountains, golden dusty light, worried wonder"
-      },
-      {
-        "text": "The rivers have gone silent, and a whole village waits, hopeful, for rain.",
-        "image": "the character standing among kind villagers gazing at a cloudless sky over dry terraces, red lanterns unlit, warm longing atmosphere, cinematic wide shot"
-      },
-      {
-        "text": "A gentle river dragon sleeps beneath the hills, tired and long forgotten.",
-        "image": "the character discovering a vast gentle serpentine river dragon curled asleep in a misty stone cavern, softly glowing scales, blue-gold light, quiet awe"
-      },
-      {
-        "text": "Kai plays a small kind song, and the dragon's eyes open like lanterns.",
-        "image": "the character playing a tiny flute as the great dragon's glowing amber eyes slowly open in the misty cavern, swirling light, magical gentle awakening"
-      },
-      {
-        "text": "The dragon rises, coils through the clouds, and calls the rains back home.",
-        "image": "the character watching a magnificent river dragon spiral up into gathering clouds above the village, first raindrops shining, dramatic hopeful sky, radiant scales"
-      },
-      {
-        "text": "Fields drink deep, and Kai sees that gentleness can wake even sleeping giants.",
-        "image": "the character standing in gentle rain as green sprouts and villagers rejoice under glowing lanterns, the dragon curling protectively in the clouds, joyful warm light"
-      },
-      {
-        "text": "A single silver raindrop lands on the book, and the library shimmers anew.",
-        "image": "the character back in the midnight library as a glowing silver raindrop ripples across the open book into sparks, tall shelves gleaming, cozy magical calm"
-      }
-    ],
-    "tags": [
-      "The Midnight Library",
-      "midnight library",
-      "chinese mythology",
-      "dragon",
-      "kids story",
-      "gentleness",
-      "family friendly",
-      "AI animation",
-      "mythology",
-      "bedtime story"
-    ]
-  },
-  {
-    "id": "lumen-06-candle-mountains",
-    "series": "Lumen & the Lantern",
-    "genre": "fantasy",
-    "title": "A Mountain Range Where Every Peak Is a Giant Candle 🕯️",
-    "hook": "The tallest flame just went dark",
-    "cta": "Another door is calling",
-    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
-    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
-    "scenes": [
-      {
-        "text": "Lumen's lantern lights a door carved into a mountain that flickers like soft wax.",
-        "image": "the character opening a glowing golden door set in a warm waxy mountainside, soft firelight flickering around it, mysterious dusk, cinematic close shot"
-      },
-      {
-        "text": "Beyond stretch mountains whose snowy peaks burn like enormous gentle candles.",
-        "image": "the character standing before a vast range of mountain-candles with soft flames glowing on every peak, warm golden light over the valley, awe-filled wide shot"
-      },
-      {
-        "text": "But the tallest peak's flame has gone dark, and a soft chill creeps in.",
-        "image": "the character noticing the highest mountain-candle gone dark and grey, frost spreading down its slopes, gentle worried expression, dramatic dimming light"
-      },
-      {
-        "text": "The valley below cools as warmth fades from the sleeping mountain flame.",
-        "image": "the character looking down at a frosting valley where little glowing villagers gather in the cool air, dark peak looming above, tense cinematic wide shot"
-      },
-      {
-        "text": "Lumen climbs high and touches her small lantern to the giant dark wick.",
-        "image": "the character reaching the summit and pressing her golden lantern to the huge cool candle-wick, a spark beginning to catch, dramatic windswept magical moment"
-      },
-      {
-        "text": "A great flame rises gently to life, spilling warm light down the whole range.",
-        "image": "the character shielding her face as the tallest mountain-candle glows warmly alight, golden light flooding across all the peaks, radiant dramatic wide shot"
-      },
-      {
-        "text": "The valley warms, and every candle-peak glows cozy and safe once more.",
-        "image": "the character smiling over a cozy warmed valley bathed in the light of glowing mountain-candles, warm hopeful magical wide shot, soft golden evening"
-      },
-      {
-        "text": "Her lantern leans toward the horizon, where another door softly glows.",
-        "image": "the character following the golden lantern as it tilts toward a faint doorway glowing on the distant candle-lit ridgeline, curious eager expression, warm light"
-      }
-    ],
-    "tags": [
-      "Lumen & the Lantern",
-      "Lumen and the Lantern",
-      "kids story",
-      "candle mountains",
-      "magic lantern",
-      "warmth",
-      "family friendly",
-      "AI animation",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "pip-sky-06-upside-down-planet",
-    "series": "Pip the Sky Explorer",
-    "genre": "space",
-    "title": "On This Planet, Rain Falls Upward. Someone Was Stuck at the Top 🌧️",
-    "hook": "Here the rain falls up",
-    "cta": "Wait for the twist",
-    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
-    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
-    "scenes": [
-      {
-        "text": "Pip lands where rain falls upward and rivers pour toward the bright sky.",
-        "image": "the character standing amazed as raindrops and waterfalls flow upward into a glowing sky, robot Bolt anchored to the ground, whimsical upside-down landscape, cinematic wide shot"
-      },
-      {
-        "text": "High above, a small creature clings to a cloud, unable to float back down.",
-        "image": "the character shielding her eyes to spot a tiny frightened creature stranded on a high cloud, upward rain streaming past, robot Bolt scanning skyward, dramatic low angle"
-      },
-      {
-        "text": "It floated up chasing a bubble and now can't find its way home.",
-        "image": "the character calling gently up to the small creature clutching a shimmering bubble on a distant cloud, robot Bolt beeping reassurance, soft worried expressions, dreamy light"
-      },
-      {
-        "text": "Pip fills her umbrella with heavy pebbles so it sinks instead of rising.",
-        "image": "the character cleverly loading a bright umbrella with smooth pebbles to weigh it down, robot Bolt handing her stones, upward rain around them, inventive warm light"
-      },
-      {
-        "text": "She rides the weighted umbrella up, catches the creature, and they drift down together.",
-        "image": "the character floating upward on a weighted umbrella to gently scoop the small creature off the cloud, robot Bolt hovering nearby, tender heroic magical shot"
-      },
-      {
-        "text": "Safe on the ground, the grateful creature glows and turns the rain to gold.",
-        "image": "the character hugging the rescued glowing creature as the upward rain shimmers into golden droplets around them, robot Bolt cheering, radiant joyful wide reveal"
-      },
-      {
-        "text": "It gifts Pip a floating bubble that shows a strange planet no one's seen.",
-        "image": "the character holding a glowing bubble that reveals a mysterious new planet inside, robot Bolt gazing in wonder, upside-down world behind them, hopeful cinematic dusk shot"
-      }
-    ],
-    "tags": [
-      "Pip the Sky Explorer",
-      "pip the sky explorer",
-      "kids story",
-      "space adventure",
-      "upside down world",
-      "cleverness",
-      "family friendly",
-      "AI animation",
-      "short film"
-    ]
-  },
-  {
-    "id": "midnight-library-06-egypt-boat",
-    "series": "The Midnight Library",
-    "genre": "folktale",
-    "title": "The Book Glowed Like the Sun. It Pulled Him Onto a Boat That Sails the Night Sky ☀️",
-    "hook": "The sun sails a secret river",
-    "cta": "The next story awaits you",
-    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
-    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
-    "scenes": [
-      {
-        "text": "The book glows like sunrise, and warm sand pours across the page, pulling Kai in.",
-        "image": "the character reaching into a page glowing like the sun as golden sand swirls up and carries him away, warm library dissolving, radiant cinematic light"
-      },
-      {
-        "text": "He lands beside a shining river in ancient Egypt as the sun begins to set.",
-        "image": "the character standing on a golden riverbank in ancient Egypt at sunset, palms and pyramids silhouetted, glittering water, warm amber light, quiet wonder"
-      },
-      {
-        "text": "An old boatman explains the sun sails a hidden river through the night.",
-        "image": "the character listening to a kind old boatman pointing at a glowing golden sun-boat resting on the shining river, dusk colors, gentle mystery, soft light"
-      },
-      {
-        "text": "Kai climbs aboard the golden sun-boat as it lifts into the starlit dark.",
-        "image": "the character stepping onto a radiant golden boat that rises gently into a starry night sky above the river, glowing sun-disk at the prow, magical awe"
-      },
-      {
-        "text": "Through the quiet night it carries light safely toward a brand new dawn.",
-        "image": "the character sailing the glowing sun-boat across a vast starry sky, warm light trailing behind, distant horizon beginning to brighten, hopeful cinematic voyage"
-      },
-      {
-        "text": "Kai learns that even the sun must rest, so morning can return.",
-        "image": "the character watching a golden sunrise bloom over the ancient river as the boat lands softly, birds waking, radiant warm dawn, peaceful joyful glow"
-      },
-      {
-        "text": "A grain of glowing sand falls on the book, and the library warms again.",
-        "image": "the character back in the midnight library as a single glowing sand grain sparks across the open book, tall shelves lit gold, cozy enchanted hush"
-      }
-    ],
-    "tags": [
-      "The Midnight Library",
-      "midnight library",
-      "egyptian mythology",
-      "sun boat",
-      "kids story",
-      "rest",
-      "family friendly",
-      "AI animation",
-      "mythology",
-      "bedtime story"
-    ]
-  },
-  {
-    "id": "lumen-07-library-of-doors",
-    "series": "Lumen & the Lantern",
-    "genre": "fantasy",
-    "title": "Behind the Door Was a Library Where Every Book Is Another Door 📚",
-    "hook": "Every book here is a doorway",
-    "cta": "Turn the page, find a door",
-    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
-    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
-    "scenes": [
-      {
-        "text": "Lumen's lantern opens a door into a library taller than any sky.",
-        "image": "the character stepping into an endless towering library with spiral staircases and glowing shelves, golden lantern light, awe-filled magical establishing shot"
-      },
-      {
-        "text": "Every single book is a tiny glowing door to somewhere impossible.",
-        "image": "the character opening a book to reveal a miniature glowing doorway inside its pages, other books glowing softly on the shelves, wondrous warm light, cinematic close shot"
-      },
-      {
-        "text": "But the books have gone quiet, their little doorway-lights flickering out.",
-        "image": "the character surrounded by dimming books whose inner glows are fading dark, worried gentle expression, soft shadows lengthening in the vast library, calm tense atmosphere"
-      },
-      {
-        "text": "A shy ink-sprite forgot the one story that keeps every book alight.",
-        "image": "the character kneeling beside a small glowing ink-sprite looking lost among dim books, unable to remember, soft flickering light, tender cinematic close shot"
-      },
-      {
-        "text": "Lumen lifts her lantern, and its glow helps the sprite remember the tale.",
-        "image": "the character holding the golden lantern as warm light surrounds the ink-sprite, memories swirling to life in glowing letters, magical hopeful moment"
-      },
-      {
-        "text": "The sprite sings the story, and light rushes back through every glowing book.",
-        "image": "the character watching golden light cascade across the shelves as thousands of books relight their tiny doorway-glows, radiant dramatic wide shot"
-      },
-      {
-        "text": "The whole library shines, each book a door waiting to be opened.",
-        "image": "the character standing amid the fully glowing endless library, countless little doorway-lights sparkling on every shelf, joyful warm magical wide shot"
-      },
-      {
-        "text": "Her lantern nudges one special book that hums with a brand-new world.",
-        "image": "the character noticing the golden lantern glow brighter beside one particular humming book on the shelf, curious eager expression, warm inviting light"
-      }
-    ],
-    "tags": [
-      "Lumen & the Lantern",
-      "Lumen and the Lantern",
-      "kids story",
-      "magic library",
-      "magic lantern",
-      "books",
-      "family friendly",
-      "AI animation",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "pip-sky-07-glass-mountain",
-    "series": "Pip the Sky Explorer",
-    "genre": "space",
-    "title": "A Mountain of Pure Glass. Something Beautiful Was Trapped at Its Heart 💎",
-    "hook": "A light pulsed inside glass",
-    "cta": "Which planet next?",
-    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
-    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
-    "scenes": [
-      {
-        "text": "Pip lands at the foot of a mountain made entirely of clear shining glass.",
-        "image": "the character craning up at a towering translucent glass mountain glittering in sunlight, robot Bolt beside her, rainbow refractions everywhere, awe-filled cinematic wide shot"
-      },
-      {
-        "text": "Deep at its heart, a warm light pulses slowly like a sleeping heartbeat.",
-        "image": "the character pressing a hand to the glass wall, a soft warm light pulsing deep inside the mountain, robot Bolt scanning, mysterious glowing refractions, cinematic close-up"
-      },
-      {
-        "text": "The glass paths keep splitting, a shining maze that bends the light around.",
-        "image": "the character stepping into a maze of glass corridors that split and shimmer, robot Bolt lighting the way, dazzling refracted rainbows, disorienting magical light"
-      },
-      {
-        "text": "Pip follows the beams of light instead of the paths, letting them guide her.",
-        "image": "the character following glowing beams of light through the glass maze, robot Bolt tracing the rays, focused clever expression, radiant shafts of color, cinematic depth"
-      },
-      {
-        "text": "At the center waits a gentle light-bird whose glow was scattered by the glass.",
-        "image": "the character reaching a bright chamber where a graceful glowing light-bird sits with dim scattered feathers, robot Bolt beeping softly, warm magical central glow"
-      },
-      {
-        "text": "She gathers the stray beams, and the bird blazes whole and bright again.",
-        "image": "the character cupping scattered light beams back to the bird as it flares into brilliant color and spreads glowing wings, robot Bolt cheering, dazzling radiant reveal"
-      },
-      {
-        "text": "The light-bird bursts free, painting the sky, and points toward the next world.",
-        "image": "the character and robot Bolt watching the light-bird soar out of the glass mountain streaking rainbow light across the sky toward a distant planet, hopeful cinematic shot"
-      }
-    ],
-    "tags": [
-      "Pip the Sky Explorer",
-      "pip the sky explorer",
-      "kids story",
-      "space adventure",
-      "glass mountain",
-      "puzzle",
-      "family friendly",
-      "AI animation",
-      "short film"
-    ]
-  },
-  {
-    "id": "midnight-library-07-india-elephant",
-    "series": "The Midnight Library",
-    "genre": "folktale",
-    "title": "The Book Trembled, Then Pulled Him Into a Race to Move a Mountain 🐘",
-    "hook": "One elephant. One impossible mountain",
-    "cta": "Another page is glowing",
-    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
-    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
-    "scenes": [
-      {
-        "text": "The book trembles like a drum, and monsoon-scented wind sweeps Kai into ancient India.",
-        "image": "the character pulled through a glowing page into a lush green ancient Indian valley, misty hills, colorful temples, warm humid light, vivid painterly wonder"
-      },
-      {
-        "text": "A village is trapped, cut off by a fallen mountain across their only road.",
-        "image": "the character standing with worried villagers before a huge fallen rocky mountain blocking a jungle path, dramatic scale, dappled green light, tense hope"
-      },
-      {
-        "text": "A gentle wise elephant offers to help, though everyone says it's impossible.",
-        "image": "the character beside a calm majestic decorated elephant facing the towering rockfall, kind determined eyes, villagers watching, warm golden light, quiet courage"
-      },
-      {
-        "text": "Instead of force, the elephant clears one careful stone at a time.",
-        "image": "the character helping the patient elephant lift stones one by one from the rock pile, steady teamwork, dust and sunbeams, hopeful determined mood"
-      },
-      {
-        "text": "Villagers join, and together, stone by stone, the mountain slowly opens a path.",
-        "image": "the character and cheering villagers working alongside the elephant as a clear path opens through the cleared rocks, radiant light spilling through, joyful triumph"
-      },
-      {
-        "text": "Kai learns the biggest task shrinks when many gentle hands share it.",
-        "image": "the character walking the open road with the elephant and grateful villagers toward their reunited home, garlands and lanterns, warm celebratory glow"
-      },
-      {
-        "text": "A tiny glowing bell chimes onto the book, and the library sings softly.",
-        "image": "the character back in the midnight library as a small glowing golden bell sparks over the open book, tall shelves shimmering, cozy magical warmth"
-      }
-    ],
-    "tags": [
-      "The Midnight Library",
-      "midnight library",
-      "indian folktale",
-      "elephant",
-      "kids story",
-      "teamwork",
-      "family friendly",
-      "AI animation",
-      "mythology",
-      "bedtime story"
-    ]
-  },
-  {
-    "id": "lumen-08-rainbow-rivers",
-    "series": "Lumen & the Lantern",
-    "genre": "fantasy",
-    "title": "The Door to a Land Where Rivers Run in Rainbow Colors 🌈",
-    "hook": "One color drained from the water",
-    "cta": "The next door glows ahead",
-    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
-    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
-    "scenes": [
-      {
-        "text": "Lumen's lantern opens a door where colored waterfalls pour in seven bright hues.",
-        "image": "the character stepping through a glowing golden door beside seven rainbow waterfalls cascading down glowing cliffs, awe-filled magical establishing shot, vivid light"
-      },
-      {
-        "text": "Rivers of red, gold, and violet weave through valleys glowing like fresh paint.",
-        "image": "the character walking along braided rainbow rivers flowing through luminous colorful valleys, radiant magical landscape, cinematic wide shot, vivid saturated colors"
-      },
-      {
-        "text": "But the blue river has faded to grey, and its little fish look lost.",
-        "image": "the character finding a drained grey river beside the vivid colored ones, dull fish drifting slowly, gentle worried expression, muted light contrast, cinematic"
-      },
-      {
-        "text": "The blue's color-spring ran dry, and its shade is vanishing from the land.",
-        "image": "the character discovering a cracked dry spring where blue color once flowed, grey spreading across nearby fields, dramatic wide shot, fading color, calm tense mood"
-      },
-      {
-        "text": "Lumen lowers her lantern, and its warm light coaxes the blue spring awake.",
-        "image": "the character holding the golden lantern over the dry color-spring as glowing blue begins to well up and flow, magical hopeful moment, soft radiant light"
-      },
-      {
-        "text": "Bright blue rushes back, filling the river and painting the valley whole.",
-        "image": "the character watching vivid blue water surge down the river, color flooding back across the valley, fish shimmering blue again, radiant dramatic wide shot"
-      },
-      {
-        "text": "All seven rivers glow together, weaving a living rainbow across the land.",
-        "image": "the character standing where seven glowing rainbow rivers meet, colors swirling brilliantly through the valley, joyful warm magical wide shot, vivid light"
-      },
-      {
-        "text": "Her lantern shimmers, casting its glow toward one more waiting door.",
-        "image": "the character turning as the golden lantern points toward a faint doorway glowing behind a rainbow waterfall, curious eager expression, radiant colorful light"
-      }
-    ],
-    "tags": [
-      "Lumen & the Lantern",
-      "Lumen and the Lantern",
-      "kids story",
-      "rainbow rivers",
-      "magic lantern",
-      "color magic",
-      "family friendly",
-      "AI animation",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "pip-sky-08-bubble-ocean-planet",
-    "series": "Pip the Sky Explorer",
-    "genre": "space",
-    "title": "An Ocean Made of Giant Bubbles. Inside One, a Face Looked Back 🫧",
-    "hook": "A face looked back out",
-    "cta": "Follow for part 9",
-    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
-    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
-    "scenes": [
-      {
-        "text": "Pip lands on a planet where the ocean is millions of giant floating bubbles.",
-        "image": "the character bouncing gently on an ocean of enormous iridescent floating bubbles, robot Bolt hopping beside her, shimmering rainbow spheres to the horizon, playful cinematic wide shot"
-      },
-      {
-        "text": "Inside one huge bubble, a small friendly face presses close and looks back.",
-        "image": "the character leaning toward a giant transparent bubble where a small gentle creature's face peers out at her, robot Bolt tilting, soft glowing bubble light, curious close-up"
-      },
-      {
-        "text": "The little bubble-fish is stuck, unable to pop its way out alone.",
-        "image": "the character watching a tiny glowing bubble-fish swim in circles trapped inside a giant bubble, robot Bolt scanning, worried gentle expressions, iridescent light"
-      },
-      {
-        "text": "Popping it would scare the fish, so Pip must free it another way.",
-        "image": "the character thinking hard beside the trapped bubble-fish, robot Bolt projecting ideas, soft shimmering bubbles floating around, thoughtful warm light, cinematic scene"
-      },
-      {
-        "text": "She hums a low note that gently merges bubbles, opening a soft doorway out.",
-        "image": "the character humming as two giant bubbles gently merge into a soft doorway, the bubble-fish swimming free, robot Bolt beeping happily, magical shimmering light"
-      },
-      {
-        "text": "The freed bubble-fish glows bright and gives them a joyful bubble-ride.",
-        "image": "the character and robot Bolt riding inside a big clear bubble steered by the happy glowing bubble-fish, bouncing across the bubble ocean, joyful epic wide shot"
-      },
-      {
-        "text": "It floats them to a bubble bigger than any, glowing with a hidden world.",
-        "image": "the character and robot Bolt gazing at a colossal bubble glowing with a whole tiny world inside, the bubble-fish nudging them toward it, wondrous hopeful cinematic dusk shot"
-      }
-    ],
-    "tags": [
-      "Pip the Sky Explorer",
-      "pip the sky explorer",
-      "kids story",
-      "space adventure",
-      "bubble ocean",
-      "gentleness",
-      "family friendly",
-      "AI animation",
-      "short film"
-    ]
-  },
-  {
-    "id": "midnight-library-08-ireland-selkie",
-    "series": "The Midnight Library",
-    "genre": "folktale",
-    "title": "The Book Smelled Like the Sea. Then a Seal Slipped Off Its Skin and Became a Girl 🌊",
-    "hook": "Her coat was made of starlight",
-    "cta": "The next tale is calling",
-    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
-    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
-    "scenes": [
-      {
-        "text": "The book smells of salt and sea, and cool mist pulls Kai to a rocky Irish coast.",
-        "image": "the character swept through a glowing misty page onto wild Irish sea-cliffs at twilight, crashing silver waves, green headlands, moody blue light, breathless wonder"
-      },
-      {
-        "text": "On the moonlit rocks, a gentle seal slips off her sealskin and becomes a girl.",
-        "image": "the character watching from behind a rock as a seal transforms into a kind smiling selkie girl on moonlit shore stones, shimmering sealskin glowing, magical hush"
-      },
-      {
-        "text": "She's a selkie, of the sea folk, come ashore to dance in the moonlight.",
-        "image": "the character joining a graceful selkie girl dancing lightly on the moonlit beach, glowing foam, drifting stars, joyful gentle magic, silver light"
-      },
-      {
-        "text": "But her precious sealskin has drifted away on the rising midnight tide.",
-        "image": "the character and the worried selkie girl searching moonlit rock pools as a shimmering sealskin floats on dark waves, tense hopeful mood, silver sea-glow"
-      },
-      {
-        "text": "Kai swims out and returns her skin, asking nothing at all in return.",
-        "image": "the character wading into gentle glowing surf to hand a shimmering sealskin back to the grateful selkie girl, moonlit spray, tender kind moment"
-      },
-      {
-        "text": "She learns that true freedom is a gift you give, never take.",
-        "image": "the character waving as the joyful selkie slips back into the glowing sea and leaps as a seal into the moonlit waves, radiant splash, hopeful farewell"
-      },
-      {
-        "text": "A small pearl rolls onto the book, and the library glows like tide-light.",
-        "image": "the character back in the midnight library as a glowing pearl sparks across the open book, shelves gleaming like moonlit water, cozy enchanted calm"
-      }
-    ],
-    "tags": [
-      "The Midnight Library",
-      "midnight library",
-      "irish folklore",
-      "selkie",
-      "kids story",
-      "freedom",
-      "family friendly",
-      "AI animation",
-      "mythology",
-      "bedtime story"
-    ]
-  },
-  {
-    "id": "lumen-09-clockwork-sky",
-    "series": "Lumen & the Lantern",
-    "genre": "fantasy",
-    "title": "A Sky Made of Giant Gears That Just Stopped Turning ⚙️",
-    "hook": "The whole sky froze in place",
-    "cta": "One more door remains",
-    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
-    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
-    "scenes": [
-      {
-        "text": "Lumen's lantern opens a door beneath a sky of enormous slow-turning golden gears.",
-        "image": "the character stepping through a glowing door under a vast clockwork sky of giant brass gears turning slowly overhead, awe-filled magical establishing shot, warm metallic light"
-      },
-      {
-        "text": "In this world, day and night are turned by the great gears above.",
-        "image": "the character watching massive sky-gears rotate to move a golden sun across a mechanical heaven, cinematic wide shot, warm amber light, wondrous atmosphere"
-      },
-      {
-        "text": "Suddenly the gears slow to a halt, holding the sky in dim twilight.",
-        "image": "the character looking up in concern as the giant sky-gears gently stop, the sun paused halfway, light dimming, dramatic tense wide shot"
-      },
-      {
-        "text": "A tiny gear has slipped loose, and a small tinker-mouse cannot reach it.",
-        "image": "the character finding a worried little tinker-mouse straining toward a fallen glowing gear-tooth just out of reach, gentle expression, soft mechanical light, close shot"
-      },
-      {
-        "text": "Lumen raises her lantern, and its light lifts the little gear gently home.",
-        "image": "the character holding the golden lantern as its glowing light floats the small gear back into its slot among the great sky-gears, magical hopeful moment"
-      },
-      {
-        "text": "With a warm click, the whole clockwork sky begins to turn once more.",
-        "image": "the character smiling as the giant sky-gears resume turning smoothly, the golden sun sliding forward, light returning, radiant dramatic wide shot"
-      },
-      {
-        "text": "Day sweeps back across the land, and the grateful mouse cheers happily.",
-        "image": "the character standing in bright restored daylight beneath the smoothly turning clockwork sky, the tinker-mouse celebrating, joyful warm magical wide shot"
-      },
-      {
-        "text": "Her lantern ticks toward a doorway glowing between two slow-spinning gears.",
-        "image": "the character noticing the golden lantern glow toward a faint doorway shimmering between the turning sky-gears, curious eager expression, warm amber light"
-      }
-    ],
-    "tags": [
-      "Lumen & the Lantern",
-      "Lumen and the Lantern",
-      "kids story",
-      "clockwork sky",
-      "magic lantern",
-      "gears",
-      "family friendly",
-      "AI animation",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "pip-sky-09-clockwork-canyon",
-    "series": "Pip the Sky Explorer",
-    "genre": "space",
-    "title": "A Canyon Full of Giant Gears. One Stopped, and Time Froze With It ⚙️",
-    "hook": "Time froze in the canyon",
-    "cta": "Wait for the ending",
-    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
-    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
-    "scenes": [
-      {
-        "text": "Pip lands in a canyon of enormous turning gears, ticking like a giant clock.",
-        "image": "the character standing among towering golden clockwork gears turning slowly in a deep canyon, robot Bolt beside her, warm brass light and floating dust, epic cinematic wide shot"
-      },
-      {
-        "text": "Suddenly everything freezes, birds mid-flight, waterfalls still, one giant gear jammed tight.",
-        "image": "the character amazed among frozen mid-air birds and a stopped waterfall, one huge gear jammed still, robot Bolt unfrozen beside her, eerie golden stillness, cinematic scene"
-      },
-      {
-        "text": "A tiny gear-sprite is caught in the jam, unable to keep the canyon moving.",
-        "image": "the character discovering a small glowing gear-sprite pinned between two stuck brass gears, robot Bolt shining a light, worried gentle expression, warm frozen glow"
-      },
-      {
-        "text": "Bolt is too small to push, so Pip finds the one loose bolt.",
-        "image": "the character searching the giant jammed gear and spotting a single loose glowing bolt, robot Bolt pointing, focused clever expression, cinematic detail, brass light"
-      },
-      {
-        "text": "She tightens the bolt, and with a mighty clunk the great gear turns again.",
-        "image": "the character straining to turn the loose bolt as the huge gear lurches back into motion, robot Bolt cheering, sparks of light, triumphant dynamic wide shot"
-      },
-      {
-        "text": "Time rushes back, birds fly, waterfalls roar, and the little sprite spins free.",
-        "image": "the character laughing as the whole canyon springs to life, birds soaring, waterfalls flowing, the freed gear-sprite spinning joyfully, robot Bolt dancing, radiant reveal"
-      },
-      {
-        "text": "The grateful sprite winds Pip's rocket with new power for a farther world.",
-        "image": "the character and robot Bolt watching the gear-sprite wind a glowing key into their rocket, brass light swirling, a distant new planet on the horizon, hopeful cinematic shot"
-      }
-    ],
-    "tags": [
-      "Pip the Sky Explorer",
-      "pip the sky explorer",
-      "kids story",
-      "space adventure",
-      "clockwork canyon",
-      "fixing",
-      "family friendly",
-      "AI animation",
-      "short film"
-    ]
-  },
-  {
-    "id": "midnight-library-09-andes-condor",
-    "series": "The Midnight Library",
-    "genre": "folktale",
-    "title": "The Book Pulled Him Above the Clouds, Where a Giant Bird Carries the Sunrise 🏔️",
-    "hook": "The mountains had lost morning",
-    "cta": "One more door is glowing",
-    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
-    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
-    "scenes": [
-      {
-        "text": "Thin cold air rushes from the book, lifting Kai high into the misty Andes mountains.",
-        "image": "the character swept through a glowing page up into towering misty Andes peaks above the clouds, snowy summits, thin golden light, dizzying breathtaking wonder"
-      },
-      {
-        "text": "A high village shivers in endless grey; their mornings have gone missing.",
-        "image": "the character among gentle Andean villagers in colorful woven ponchos under a dull grey mountain sky, unlit stone homes, longing hopeful mood, soft cold light"
-      },
-      {
-        "text": "Legend says a great condor carries the sunrise on its mighty wings.",
-        "image": "the character gazing at a distant enormous condor circling a far peak with faint golden light on its wings, dramatic mountain scale, mysterious hope"
-      },
-      {
-        "text": "But the tired condor has forgotten the way back to the dawn.",
-        "image": "the character finding a weary giant condor resting on a lonely cliff, dim feathers, misty grey air, gentle compassionate encounter, soft muted light"
-      },
-      {
-        "text": "Kai sings the village's brightest song to help the great bird remember.",
-        "image": "the character singing warmly to the condor as color and light slowly return to its spreading wings, golden glow blooming, magical uplifting moment"
-      },
-      {
-        "text": "The condor soars, and dawn floods the peaks; Kai sees hope rekindles memory.",
-        "image": "the character watching the radiant condor sweep across the sky as golden sunrise pours over every mountain and village, jubilant warm light, triumphant wide shot"
-      },
-      {
-        "text": "A glowing feather drifts onto the book, and the library warms with dawn-light.",
-        "image": "the character back in the midnight library as a golden condor feather sparks over the open book, tall shelves glowing warm, cozy magical hush"
-      }
-    ],
-    "tags": [
-      "The Midnight Library",
-      "midnight library",
-      "andean legend",
-      "condor",
-      "kids story",
-      "hope",
-      "family friendly",
-      "AI animation",
-      "mythology",
-      "bedtime story"
-    ]
-  },
-  {
-    "id": "lumen-10-frozen-music",
-    "series": "Lumen & the Lantern",
-    "genre": "fantasy",
-    "title": "The World Where Music Freezes Into Glowing Ice Sculptures 🎵",
-    "hook": "A song hangs frozen midair",
-    "cta": "The last doors are near",
-    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
-    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
-    "scenes": [
-      {
-        "text": "Lumen's lantern opens a door where songs freeze into glowing crystal shapes.",
-        "image": "the character stepping through a golden door into a hall of floating frozen musical notes glowing like crystal ice, awe-filled magical establishing shot, cool luminous light"
-      },
-      {
-        "text": "Every melody hangs in the air as a shimmering sculpture of shining ice.",
-        "image": "the character wandering among suspended glowing ice-sculptures shaped like swirling music, soft blue and gold light glinting, wondrous cinematic wide shot"
-      },
-      {
-        "text": "But the grandest song has cracked, and its frozen music is going quiet.",
-        "image": "the character finding a huge cracked ice-sculpture of a song dimming and splintering softly, gentle worried expression, cool fading light, dramatic close shot"
-      },
-      {
-        "text": "A little singer lost her voice and cannot warm the frozen melody free.",
-        "image": "the character kneeling beside a small sad singer who has no voice, before the great dimming frozen song, tender expression, soft cool light, cinematic close shot"
-      },
-      {
-        "text": "Lumen holds her lantern near, and its gentle warmth thaws the melody awake.",
-        "image": "the character bringing the golden lantern close to the frozen song as gentle warmth melts it into flowing glowing light and sound, magical hopeful moment"
-      },
-      {
-        "text": "The song streams free as living light, and the little singer's voice returns.",
-        "image": "the character smiling as the freed melody swirls out in ribbons of glowing light and the little singer sings again, radiant dramatic wide shot"
-      },
-      {
-        "text": "New songs bloom into bright sculptures, and the whole hall glows with music.",
-        "image": "the character standing amid dozens of glowing musical ice-sculptures shimmering to life, warm and cool light dancing together, joyful magical wide shot"
-      },
-      {
-        "text": "Her lantern chimes softly, pointing to yet another door still to open.",
-        "image": "the character turning as the golden lantern glows toward a faint doorway shimmering among the frozen songs, curious eager expression, luminous light"
-      }
-    ],
-    "tags": [
-      "Lumen & the Lantern",
-      "Lumen and the Lantern",
-      "kids story",
-      "frozen music",
-      "magic lantern",
-      "ice sculptures",
-      "family friendly",
-      "AI animation",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "pip-sky-10-shadow-garden",
-    "series": "Pip the Sky Explorer",
-    "genre": "space",
-    "title": "A Garden Where Shadows Come Alive. One Had Lost Its Owner 🌙",
-    "hook": "This shadow had no owner",
-    "cta": "Which planet next?",
-    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
-    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
-    "scenes": [
-      {
-        "text": "Pip lands in a moonlit garden where every flower's shadow dances on its own.",
-        "image": "the character walking through a glowing moonlit garden where flower shadows sway and dance freely on the ground, robot Bolt beside her, silvery magical light, cinematic wide shot"
-      },
-      {
-        "text": "One little shadow drifts alone, shaped like a creature but with nothing to belong to.",
-        "image": "the character noticing a small lonely shadow-creature drifting with no owner among the dancing shadows, robot Bolt tilting, soft blue moonlight, gentle curious expression"
-      },
-      {
-        "text": "The shadow lost its friend and searches every night, never finding a match.",
-        "image": "the character crouching kindly beside the sad wandering shadow as it drifts searching the garden, robot Bolt projecting soft light, tender melancholy moonlit scene"
-      },
-      {
-        "text": "Pip shines Bolt's lantern to see what shape the lonely shadow truly is.",
-        "image": "the character holding up robot Bolt's glowing lantern to reveal the shadow's true gentle shape on a garden wall, thoughtful clever expression, warm magical light"
-      },
-      {
-        "text": "She finds a sleeping glow-deer whose shadow had wandered off in the night.",
-        "image": "the character discovering a small sleeping glow-deer curled under a flower, its shadow missing, robot Bolt pointing gently, soft radiant moonlit reveal"
-      },
-      {
-        "text": "The shadow rushes home to the glow-deer, and the whole garden shines brighter.",
-        "image": "the character smiling as the happy shadow reunites with the waking glow-deer and the entire moonlit garden blooms with light, robot Bolt spinning, joyful radiant wide reveal"
-      },
-      {
-        "text": "The glow-deer leads them to a gate of light between the sleeping flowers.",
-        "image": "the character and robot Bolt following the glowing deer toward a shimmering gate of light among the garden flowers, a new world glowing beyond, hopeful cinematic dusk shot"
-      }
-    ],
-    "tags": [
-      "Pip the Sky Explorer",
-      "pip the sky explorer",
-      "kids story",
-      "space adventure",
-      "shadow garden",
-      "belonging",
-      "family friendly",
-      "AI animation",
-      "short film"
-    ]
-  },
-  {
-    "id": "midnight-library-10-hawaii-volcano",
-    "series": "The Midnight Library",
-    "genre": "folktale",
-    "title": "The Book Grew Warm as Fire, Then Pulled Him to Calm an Angry Volcano 🌺",
-    "hook": "One flower calmed a volcano",
-    "cta": "The next page is glowing",
-    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
-    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
-    "scenes": [
-      {
-        "text": "The book grows warm as embers, and a soft tropical wind sweeps Kai to Hawaii.",
-        "image": "the character pulled through a glowing warm page onto a lush Hawaiian island at dusk, palm trees, glowing distant volcano, warm rose-gold light, wonder"
-      },
-      {
-        "text": "An island trembles beneath a restless volcano, and the villagers are frightened.",
-        "image": "the character standing with worried islanders on a flower-lined shore as a glowing volcano rumbles in the distance, warm ember light, tense hopeful mood"
-      },
-      {
-        "text": "They say a proud fire spirit sleeps within, lonely and easily upset.",
-        "image": "the character gazing up a misty slope toward a glowing crater where a graceful fire spirit's warm light flickers, dramatic ember glow, cautious wonder"
-      },
-      {
-        "text": "Instead of fear, Kai climbs up with a single bright island flower.",
-        "image": "the character bravely climbing a warm volcanic path holding one glowing tropical flower, ember light and soft steam, determined gentle courage"
-      },
-      {
-        "text": "He offers the flower and a kind word, and the fire softens to a glow.",
-        "image": "the character gently offering a glowing flower to a graceful smiling fire spirit at the crater's edge, warm calming light spreading, tender magical peace"
-      },
-      {
-        "text": "The mountain quiets, and Kai learns even fiery hearts long to be seen kindly.",
-        "image": "the character walking down the calm glowing slope as the fire spirit waves warmly and the island celebrates below with flowers and lights, joyful golden dusk"
-      },
-      {
-        "text": "A tiny glowing ember flower lands on the book, and the library warms softly.",
-        "image": "the character back in the midnight library as a glowing ember flower sparks over the open book, tall shelves lit warm gold, cozy enchanted calm"
-      }
-    ],
-    "tags": [
-      "The Midnight Library",
-      "midnight library",
-      "hawaiian legend",
-      "volcano spirit",
-      "kids story",
-      "compassion",
-      "family friendly",
-      "AI animation",
-      "mythology",
-      "bedtime story"
-    ]
-  },
-  {
-    "id": "lumen-11-glass-desert-night",
-    "series": "Lumen & the Lantern",
-    "genre": "fantasy",
-    "title": "A Desert of Glass Where the Whole Sky Lives Under Your Feet 🌌",
-    "hook": "The stars are below her",
-    "cta": "One final door awaits",
-    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
-    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
-    "scenes": [
-      {
-        "text": "Lumen's lantern opens a door onto a desert of smooth, mirror-like glass.",
-        "image": "the character stepping through a golden door onto an endless plain of dark polished glass reflecting the night sky, awe-filled magical establishing shot, deep starlit tones"
-      },
-      {
-        "text": "The glass reflects the stars so perfectly she seems to walk through space.",
-        "image": "the character walking across glowing glass that mirrors a galaxy of stars beneath her feet, floating among the cosmos, dreamlike cinematic wide shot, starlight"
-      },
-      {
-        "text": "But a crack in the glass is dimming the reflected stars one by one.",
-        "image": "the character noticing a dark crack spreading across the glass, reflected stars fading into it, gentle worried expression, dramatic tense wide shot, dimming light"
-      },
-      {
-        "text": "A small star-child is caught, drifting where the mirror-sky is breaking.",
-        "image": "the character reaching toward a tiny worried glowing star-child caught in the spreading crack of the glass desert, tender urgent expression, soft starlight, cinematic"
-      },
-      {
-        "text": "Lumen presses her lantern to the crack, and its warm light seals it shut.",
-        "image": "the character pressing the golden lantern against the widening glass crack as glowing light mends it smooth, the star-child rising free, magical hopeful moment"
-      },
-      {
-        "text": "The mirror heals, and every reflected star blinks brightly back to life.",
-        "image": "the character watching the glass desert glow whole again, countless stars shimmering beneath her feet, the star-child glowing safely, radiant dramatic wide shot"
-      },
-      {
-        "text": "She walks on a perfect sky of stars, the star-child dancing beside her.",
-        "image": "the character strolling across the flawless star-filled glass with the happy glowing star-child, cosmos glittering below, joyful warm magical wide shot"
-      },
-      {
-        "text": "Her lantern glows toward one last door, brighter than all the stars.",
-        "image": "the character gazing at a radiant final doorway glowing on the horizon of the star-glass desert, curious hopeful expression, brilliant magical light"
-      }
-    ],
-    "tags": [
-      "Lumen & the Lantern",
-      "Lumen and the Lantern",
-      "kids story",
-      "glass desert",
-      "magic lantern",
+      "midnightlibrary",
+      "africa",
       "stars",
-      "family friendly",
-      "AI animation",
-      "fantasy adventure"
-    ]
-  },
-  {
-    "id": "pip-sky-11-rainbow-storm-planet",
-    "series": "Pip the Sky Explorer",
-    "genre": "space",
-    "title": "A Planet Trapped in Endless Rainbow Storms. One Little Cloud Was Crying 🌈",
-    "hook": "The rainbow storm never stopped",
-    "cta": "Follow for the finale",
-    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
-    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
-    "scenes": [
-      {
-        "text": "Pip lands on a world spinning with endless rainbow storms that never once stop.",
-        "image": "the character bracing in swirling rainbow storm clouds and colorful lightning, robot Bolt anchored beside her, dramatic vivid cinematic wide shot, magical whirling colors"
-      },
-      {
-        "text": "In the heart of the storm, one small cloud sits crying rainbow tears.",
-        "image": "the character spotting a tiny sad cloud crying colorful glowing tears at the storm's center, robot Bolt reaching out, swirling rainbow winds, tender dramatic light"
-      },
-      {
-        "text": "The little cloud is scared and alone, and its worry keeps the storm spinning.",
-        "image": "the character floating close to the frightened little cloud shivering in the storm's eye, robot Bolt glowing gently, swirling colors around them, compassionate cinematic scene"
-      },
-      {
-        "text": "Pip can't stop the storm by force, so she simply keeps the cloud company.",
-        "image": "the character sitting calmly beside the little cloud offering a gentle smile, robot Bolt humming softly, the rainbow storm slowing around them, warm reassuring light"
-      },
-      {
-        "text": "As the cloud feels safe, its tears turn to laughter and the winds calm.",
-        "image": "the character laughing with the little cloud as its rainbow tears become sparkles and the storm winds gently settle, robot Bolt cheering, radiant clearing light"
-      },
-      {
-        "text": "The storm parts into a soft rainbow sky, calm and glowing for the first time.",
-        "image": "the character standing under a newly calm glowing rainbow sky with the happy little cloud floating close, robot Bolt spinning, peaceful magical wide reveal"
-      },
-      {
-        "text": "The grateful cloud carries them upward toward one last unexplored world above.",
-        "image": "the character and robot Bolt riding the happy rainbow cloud upward through a calm colorful sky toward a final glowing planet, hopeful triumphant cinematic dusk shot"
-      }
-    ],
-    "tags": [
-      "Pip the Sky Explorer",
-      "pip the sky explorer",
-      "kids story",
-      "space adventure",
-      "rainbow storm",
-      "comfort",
-      "family friendly",
-      "AI animation",
-      "short film"
-    ]
-  },
-  {
-    "id": "midnight-library-11-arabia-lamp",
-    "series": "The Midnight Library",
-    "genre": "folktale",
-    "title": "The Book Glittered Like Gold. It Pulled Him Into a Cave of a Thousand Wishes 🪔",
-    "hook": "The real treasure wasn't gold",
-    "cta": "One last page glows on",
-    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
-    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
-    "scenes": [
-      {
-        "text": "The book glitters like treasure, and warm desert wind pulls Kai into old Arabia.",
-        "image": "the character swept through a glittering golden page into a moonlit Arabian desert of dunes and distant domes, starry sky, warm amber light, thrilled wonder"
-      },
-      {
-        "text": "A hidden cave brims with jewels, and one old, dusty, quiet lamp.",
-        "image": "the character standing amazed in a glowing cave piled with jewels and gold, a small plain dusty lamp resting alone on a stone, warm treasure light"
-      },
-      {
-        "text": "He passes the riches and gently polishes the humble little lamp instead.",
-        "image": "the character kindly polishing a small dusty lamp with his sleeve amid mountains of glittering jewels, warm focused glow, gentle curious expression"
-      },
-      {
-        "text": "A friendly spirit of light swirls out, offering one single wish.",
-        "image": "the character stepping back in delight as a swirling gentle spirit of glowing light rises from the lamp, radiant blue-gold ribbons, magical joyful reveal"
-      },
-      {
-        "text": "Kai wishes not for gold, but for the trapped spirit's freedom.",
-        "image": "the character smiling warmly and gesturing kindly as the light spirit glows brighter with grateful joy, jewels forgotten behind them, tender radiant moment"
-      },
-      {
-        "text": "The spirit soars free, and Kai learns kindness is the rarest treasure of all.",
-        "image": "the character watching the freed spirit of light spiral joyfully into the starry desert sky, sparkling trail, jubilant hopeful glow, warm wide shot"
-      },
-      {
-        "text": "A glowing golden spark settles on the book, and the library shines brighter.",
-        "image": "the character back in the midnight library as a golden spark dances across the open book, tall shelves glittering, cozy enchanted warm glow"
-      }
-    ],
-    "tags": [
-      "The Midnight Library",
-      "midnight library",
-      "arabian tale",
-      "magic lamp",
-      "kids story",
       "generosity",
-      "family friendly",
-      "AI animation",
-      "mythology",
-      "bedtime story"
+      "shorts",
+      "bedtimestory",
+      "kids",
+      "magic"
     ]
   },
   {
-    "id": "lumen-12-garden-of-first-light",
+    "id": "lumen-ep03",
     "series": "Lumen & the Lantern",
     "genre": "fantasy",
-    "title": "The Final Door Led to the Garden Where All Light Is Born 🌅",
-    "hook": "Here is where her lantern was lit",
-    "cta": "Every door begins here",
+    "title": "A Forest Made of CLOUDS Was Slowly Disappearing ☁️",
+    "hook": "Every tree here is made of cloud",
+    "cta": "Is it fading?",
     "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
     "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
     "scenes": [
       {
-        "text": "Lumen's lantern glows its brightest before a door woven of pure dawn.",
-        "image": "the character standing before a radiant golden door made of glowing sunrise light, her lantern blazing warmly, awe-filled magical establishing shot, luminous dawn"
+        "text": "The character's lantern glows, and a door opens into soft white mist.",
+        "image": "the character opening a glowing door into white mist with a golden lantern, dreamy soft light, storybook art"
       },
       {
-        "text": "Inside blooms a garden where every flower is a spark of brand-new light.",
-        "image": "the character stepping into a vast glowing garden where luminous flowers bloom into tiny lights that drift into the sky, wondrous magical wide shot, golden radiance"
+        "text": "Inside stands a whole forest of trees shaped from puffy clouds.",
+        "image": "the character standing in a magical forest where every tree is made of fluffy white clouds, pastel sky, wonder"
       },
       {
-        "text": "This is where all the world's light is born, then sent everywhere.",
-        "image": "the character watching countless motes of light rise from the glowing garden and stream toward distant worlds, awe-filled cinematic wide shot, warm dawn colors"
+        "text": "But the clouds are fading thin, and the forest grows faint.",
+        "image": "a cloud forest fading and turning thin and transparent, dim pale colors, the character looking concerned"
       },
       {
-        "text": "But the garden's central lightseed has dimmed, and the blooms are slowing.",
-        "image": "the character noticing a large dimming lightseed at the garden's heart, flowers fading and lights thinning, gentle worried expression, soft fading glow, cinematic"
+        "text": "She whispers kind words and shares her lantern's gentle warmth.",
+        "image": "the character whispering softly and holding a golden lantern glowing warmly among fading cloud trees"
       },
       {
-        "text": "Lumen realizes her own lantern was first lit from this very seed.",
-        "image": "the character holding her glowing lantern beside the dim lightseed, recognizing its familiar warm glow, tender emotional expression, soft radiant light, close shot"
+        "text": "The clouds drink the light and puff back into fluffy shapes.",
+        "image": "cloud trees growing full and fluffy again glowing with warm light, the character smiling brightly, magical revival"
       },
       {
-        "text": "She gives her lantern's light back, and the great seed blazes joyfully awake.",
-        "image": "the character touching her golden lantern to the lightseed as warmth pours back and the seed bursts into brilliant radiance, magical joyful moment, radiant light"
-      },
-      {
-        "text": "Light floods the garden, blooming into every door to every world she's seen.",
-        "image": "the character standing in a fully radiant garden as glowing lights bloom into countless distant doorways of past worlds, joyful awe-filled magical wide shot"
-      },
-      {
-        "text": "Her lantern shines endless now, ready to open any door she dreams.",
-        "image": "the character raising her ever-glowing lantern in the garden of first light, countless doors shimmering around her, hopeful triumphant expression, brilliant warm light"
+        "text": "A cloud fox appears and beckons toward a hidden shining path.",
+        "image": "a small fluffy cloud fox beckoning the character toward a glowing hidden path in a cloud forest, sparkles"
       }
     ],
     "tags": [
       "Lumen & the Lantern",
-      "Lumen and the Lantern",
-      "kids story",
-      "garden of light",
-      "magic lantern",
-      "dawn",
-      "family friendly",
-      "AI animation",
-      "fantasy adventure"
+      "kidsstory",
+      "clouds",
+      "magic",
+      "fantasy",
+      "shorts",
+      "nature",
+      "familyfriendly",
+      "lumen"
     ]
   },
   {
-    "id": "pip-sky-12-star-garden-finale",
+    "id": "pip-pip-03-candy-ice-world",
     "series": "Pip the Sky Explorer",
     "genre": "space",
-    "title": "The Last Planet Was a Garden of Living Stars. One Refused to Shine ⭐",
-    "hook": "One star refused to shine",
-    "cta": "Start from episode 1",
+    "title": "Pip Found A World Made Of Candy Ice That Was Melting",
+    "hook": "This candy world is melting",
+    "cta": "Save it next time!",
     "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
     "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
     "scenes": [
       {
-        "text": "Pip's rocket lands in a garden where stars grow on vines like glowing flowers.",
-        "image": "the character stepping into a magical garden of living stars blooming on glowing vines, robot Bolt beside her, a soft galaxy sky above, breathtaking cinematic wide shot"
+        "text": "The character lands on a shimmering world of pink candy ice.",
+        "image": "the character stepping onto a sparkling landscape of pink and blue candy ice, glittering sugar hills, wonder, storybook style"
       },
       {
-        "text": "Every star sparkles except one small bud that stays dark and closed tight.",
-        "image": "the character kneeling before a single dark unopened star-bud among thousands of glowing stars, robot Bolt scanning it, wondrous starlit garden glow, cinematic close-up"
+        "text": "But the sweet ice is slowly melting into sticky puddles.",
+        "image": "the character worried as candy-ice hills drip and melt into glossy puddles, warm glow overhead, storybook style"
       },
       {
-        "text": "The little star is afraid it won't shine as bright as all the rest.",
-        "image": "the character gently cupping the shy dark star-bud as it trembles among brilliant glowing stars, robot Bolt glowing softly, tender reassuring magical light"
+        "text": "Pip spots a runaway sun-lamp stuck high in the sky.",
+        "image": "the character pointing up at a glowing sun-lamp orb stuck and blazing above the melting candy world, robot Bolt beside, storybook style"
       },
       {
-        "text": "Pip tells it every star she's met on her journey shone its own way.",
-        "image": "the character speaking kindly to the little star, faint glowing memories of the crystal fox, glow-deer, and rainbow cloud shimmering around her, robot Bolt beeping, warm nostalgic light"
+        "text": "Bolt boosts Pip up to reach the overheated glowing switch.",
+        "image": "the character riding on robot Bolt's extended spring legs, reaching toward a glowing switch on the floating sun-lamp, storybook style"
       },
       {
-        "text": "The little star believes at last and slowly opens into its own gentle glow.",
-        "image": "the character beaming as the shy star-bud unfolds and lights up with a soft unique glow, robot Bolt cheering, the whole garden brightening, radiant emotional reveal"
+        "text": "She dims the lamp, and the candy world freezes solid again.",
+        "image": "the character flipping the switch as the candy-ice world sparkles and refreezes into gleaming frosty peaks, relief and joy, storybook style"
       },
       {
-        "text": "The whole star garden blazes together, brighter than any world Pip has seen.",
-        "image": "the character and robot Bolt standing in a dazzling garden of living stars all shining at once, the newest star glowing among them, epic breathtaking wide reveal"
-      },
-      {
-        "text": "Pip and Bolt fly home glowing, already dreaming of the next strange planet.",
-        "image": "the character and robot Bolt waving from their rocket as it soars past the glowing star garden into a sky full of unexplored worlds, hopeful triumphant cinematic finale shot"
+        "text": "The frozen world sparkles, hiding a doorway Pip never noticed before.",
+        "image": "the character discovering a glowing frozen doorway revealed in the refrozen candy ice, curious, robot Bolt beside, storybook style"
       }
     ],
     "tags": [
       "Pip the Sky Explorer",
-      "pip the sky explorer",
-      "kids story",
-      "space adventure",
-      "star garden",
-      "believe in yourself",
-      "family friendly",
-      "AI animation",
-      "short film"
+      "kids",
+      "space",
+      "adventure",
+      "candy",
+      "cartoon",
+      "problem-solving",
+      "pip"
     ]
   },
   {
-    "id": "midnight-library-12-native-turtle",
+    "id": "library-ml-03",
     "series": "The Midnight Library",
     "genre": "folktale",
-    "title": "The Last Page Glowed Blue. It Pulled Him to a Turtle Carrying the Whole World 🐢",
-    "hook": "The whole world rides one back",
-    "cta": "The library will call again",
+    "title": "The Midnight Book Dragged Kai Into a Norse Ice Legend ❄️",
+    "hook": "Frost crept across the page",
+    "cta": "Turn the next page",
     "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
     "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
     "scenes": [
       {
-        "text": "The final page glows deep blue, and cool water-light pulls Kai into a vast starry sky.",
-        "image": "the character swept through a glowing blue page into an endless starlit sky above dark shining water, drifting mist, deep blue-silver light, hushed wonder"
+        "text": "Frost creeps across the glowing book as Kai leans closer.",
+        "image": "the character leaning toward a glowing book as frost crystals spread across its pages in a dark library"
       },
       {
-        "text": "Long ago there was only water, and gentle sky-beings searching for a home.",
-        "image": "the character floating among kind glowing sky-beings above an endless calm dark sea under countless stars, soft blue radiance, peaceful vast wonder"
+        "text": "Kai is pulled into a shimmering land of northern lights.",
+        "image": "the character standing in a snowy Norse landscape under swirling green and purple northern lights, awe"
       },
       {
-        "text": "A humble turtle offers its broad back as a place for the earth to grow.",
-        "image": "the character standing on the wide glowing shell of an enormous gentle turtle rising from starlit water, kind ancient eyes, radiant blue-gold light, awe"
+        "text": "A gentle frost fox explains why patience melts the coldest hearts.",
+        "image": "the character meeting a glowing white frost fox in the snow, aurora lights above, soft magical mist"
       },
       {
-        "text": "A tiny muskrat dives deep and brings up one small handful of soil.",
-        "image": "the character cheering as a brave little muskrat surfaces holding a glowing handful of earth toward the great turtle's shell, sparkling water, hopeful magic"
+        "text": "Kai waits calmly and a frozen river begins to sing.",
+        "image": "the character standing patiently beside a frozen river cracking into glowing musical light, aurora reflections"
       },
       {
-        "text": "The soil spreads and blooms into forests, rivers, and mountains upon the shell.",
-        "image": "the character watching a whole living world of glowing forests and rivers bloom across the giant turtle's back, radiant sunrise, breathtaking magical creation"
+        "text": "Spring blossoms burst through the ice as warmth floods everywhere.",
+        "image": "the character smiling as flowers bloom through melting ice, warm golden light spreading across the snow"
       },
       {
-        "text": "Kai learns the whole world rests on one small, patient act of kindness.",
-        "image": "the character standing joyfully atop the great world-turtle as it swims calmly through the stars carrying a glowing living earth, triumphant tender wide shot"
-      },
-      {
-        "text": "The book closes softly, and the midnight library waits, glowing, for whoever comes next.",
-        "image": "the character gently closing the glowing ancient book in the warm midnight library, tall shelves fading into cozy darkness, one lamp glowing, hopeful magical hush"
+        "text": "The library glows again, and another legend waits inside.",
+        "image": "the character in the library holding the softly glowing book as a new frosty page turns, magical shimmer"
       }
     ],
     "tags": [
       "The Midnight Library",
-      "midnight library",
-      "native american legend",
-      "world turtle",
-      "kids story",
-      "humility",
-      "family friendly",
-      "AI animation",
-      "mythology",
-      "bedtime story"
+      "midnightlibrary",
+      "norse",
+      "aurora",
+      "patience",
+      "shorts",
+      "storytime",
+      "kids",
+      "winter"
+    ]
+  },
+  {
+    "id": "lumen-ep04",
+    "series": "Lumen & the Lantern",
+    "genre": "fantasy",
+    "title": "In the Star Desert, the Stars FELL to the Ground ⭐",
+    "hook": "The stars crashed onto the sand",
+    "cta": "Can she help?",
+    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
+    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
+    "scenes": [
+      {
+        "text": "The character lifts her lantern and a doorway splits the darkness open.",
+        "image": "the character opening a glowing doorway in darkness with a golden lantern, night atmosphere, storybook style"
+      },
+      {
+        "text": "She steps into a desert where fallen stars glow on the sand.",
+        "image": "the character standing in a vast desert with glowing fallen stars scattered on the sand, deep blue night, wonder"
+      },
+      {
+        "text": "The little stars shiver, too dim to climb back home.",
+        "image": "small dim glowing stars shivering on desert sand under a dark empty sky, the character kneeling beside them gently"
+      },
+      {
+        "text": "She touches each star with her lantern's warm golden glow.",
+        "image": "the character touching fallen stars with a golden lantern, warm light passing into them, magical glow"
+      },
+      {
+        "text": "One by one they brighten and float gently back skyward.",
+        "image": "glowing stars floating up from the desert into the night sky, the character watching joyfully, trails of light"
+      },
+      {
+        "text": "The last star winks and drops a glowing key at her feet.",
+        "image": "a bright star winking in the sky dropping a small glowing key onto the sand near the character, sparkles"
+      }
+    ],
+    "tags": [
+      "Lumen & the Lantern",
+      "kidsstory",
+      "stars",
+      "magic",
+      "fantasy",
+      "shorts",
+      "night",
+      "familyfriendly",
+      "lumen"
+    ]
+  },
+  {
+    "id": "pip-pip-04-floating-islands",
+    "series": "Pip the Sky Explorer",
+    "genre": "space",
+    "title": "On This Planet The Islands Float And One Is Falling",
+    "hook": "One island is falling fast",
+    "cta": "Catch it, Pip!",
+    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
+    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
+    "scenes": [
+      {
+        "text": "The character lands among islands floating gently in a purple sky.",
+        "image": "the character on a small floating island surrounded by many others drifting in a dreamy purple sky, wonder, storybook style"
+      },
+      {
+        "text": "One little island is slowly sinking toward the clouds below.",
+        "image": "the character watching a tiny island tilt and sink downward toward soft clouds, alarmed, robot Bolt beside, storybook style"
+      },
+      {
+        "text": "Its glowing balloon-flower has lost all of its shining air.",
+        "image": "the character examining a deflated glowing balloon-flower on the sinking island, dim petals, gentle concern, storybook style"
+      },
+      {
+        "text": "Pip and Bolt gently blow warm air back into it.",
+        "image": "the character and robot Bolt blowing sparkling air into the balloon-flower, petals slowly inflating and glowing, teamwork, storybook style"
+      },
+      {
+        "text": "The flower puffs up, lifting the island safely into the sky.",
+        "image": "the character cheering as the glowing balloon-flower inflates and floats the little island back up among the others, joyful, storybook style"
+      }
+    ],
+    "tags": [
+      "Pip the Sky Explorer",
+      "kids",
+      "space",
+      "adventure",
+      "teamwork",
+      "cartoon",
+      "floating",
+      "pip"
+    ]
+  },
+  {
+    "id": "library-ml-04",
+    "series": "The Midnight Library",
+    "genre": "folktale",
+    "title": "Kai Vanished Into the Book and Landed in Ancient India 🪷",
+    "hook": "The book was still warm",
+    "cta": "One more chapter",
+    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
+    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
+    "scenes": [
+      {
+        "text": "The book pulses with warm light as Kai touches the cover.",
+        "image": "the character touching a warm glowing book cover in a dark library, golden light pulsing outward"
+      },
+      {
+        "text": "Kai lands beside a shining river in ancient sunlit India.",
+        "image": "the character standing by a sparkling river in ancient India, golden temples, lotus flowers, warm sunlight"
+      },
+      {
+        "text": "A wise elephant shares how small acts carry the greatest strength.",
+        "image": "the character walking beside a gentle decorated elephant near a glowing river, lotus petals floating"
+      },
+      {
+        "text": "Kai helps a tiny ant and the river glows brightly.",
+        "image": "the character gently helping a tiny ant across a leaf as the river glows with golden magical light"
+      },
+      {
+        "text": "Thousands of lotus flowers bloom, thanking one small kind deed.",
+        "image": "the character surrounded by thousands of glowing lotus flowers blooming across the water, radiant golden light"
+      },
+      {
+        "text": "The midnight library returns, its next page already glowing.",
+        "image": "the character back in the cozy dark library as the magic book glows and turns a fresh page"
+      }
+    ],
+    "tags": [
+      "The Midnight Library",
+      "midnightlibrary",
+      "india",
+      "lotus",
+      "kindness",
+      "shorts",
+      "bedtimestory",
+      "kids",
+      "magic"
+    ]
+  },
+  {
+    "id": "lumen-ep05",
+    "series": "Lumen & the Lantern",
+    "genre": "fantasy",
+    "title": "The Glowing Key Opened a City INSIDE a Giant Bubble 🫧",
+    "hook": "A whole city sleeps in a bubble",
+    "cta": "Will it pop?",
+    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
+    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
+    "scenes": [
+      {
+        "text": "The character turns the glowing key and a bubble door swirls open.",
+        "image": "the character turning a glowing key in a swirling bubble-shaped door, iridescent light, golden lantern, storybook art"
+      },
+      {
+        "text": "Inside floats a tiny city sleeping within one giant shimmering bubble.",
+        "image": "the character gazing at a tiny city floating inside a huge iridescent soap bubble, dreamy colors, wonder"
+      },
+      {
+        "text": "But a thin crack spreads across the fragile glowing wall.",
+        "image": "a thin crack spreading across a giant iridescent bubble holding a city, the character looking alarmed but brave"
+      },
+      {
+        "text": "She presses her lantern softly against the trembling crack.",
+        "image": "the character pressing a golden lantern gently against a cracking bubble wall, warm healing light spreading"
+      },
+      {
+        "text": "Golden light seals it, and the bubble hums with new strength.",
+        "image": "a giant bubble sealing and glowing golden with light, the city inside safe, the character smiling with relief"
+      },
+      {
+        "text": "The tiny citizens wave, and a rainbow ramp rolls toward her.",
+        "image": "tiny glowing citizens waving from a bubble city as a rainbow ramp unfolds toward the character, joyful sparkles"
+      }
+    ],
+    "tags": [
+      "Lumen & the Lantern",
+      "kidsstory",
+      "bubble",
+      "magic",
+      "fantasy",
+      "shorts",
+      "city",
+      "familyfriendly",
+      "lumen"
+    ]
+  },
+  {
+    "id": "pip-pip-05-mirror-lake",
+    "series": "Pip the Sky Explorer",
+    "genre": "space",
+    "title": "Pip's Reflection Waved Back On A Planet Of Mirror Lakes",
+    "hook": "Her reflection waved first",
+    "cta": "Come see more!",
+    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
+    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
+    "scenes": [
+      {
+        "text": "The character lands beside a lake as smooth as a mirror.",
+        "image": "the character standing at the edge of a perfectly still mirror lake reflecting a starry sky, calm wonder, storybook style"
+      },
+      {
+        "text": "Her reflection suddenly waves before Pip even moves at all.",
+        "image": "the character surprised as her mirror reflection waves back on its own, sparkles rippling, robot Bolt startled, storybook style"
+      },
+      {
+        "text": "The friendly reflection points sadly at a crack in the lake.",
+        "image": "the character watching her reflection point to a jagged dark crack splitting the mirror lake's surface, mystery, storybook style"
+      },
+      {
+        "text": "Pip places a smooth stone to seal the growing crack.",
+        "image": "the character gently setting a glowing round stone into the crack on the lake surface, focused kindness, storybook style"
+      },
+      {
+        "text": "The lake heals, and her reflection blows a grateful little kiss.",
+        "image": "the character smiling as the healed mirror lake glows and her reflection blows a sparkling thank-you kiss, warm, storybook style"
+      }
+    ],
+    "tags": [
+      "Pip the Sky Explorer",
+      "kids",
+      "space",
+      "adventure",
+      "mystery",
+      "cartoon",
+      "mirror",
+      "pip"
+    ]
+  },
+  {
+    "id": "library-ml-05",
+    "series": "The Midnight Library",
+    "genre": "folktale",
+    "title": "This Book Sent Kai Into a Mexican Legend of Lights 🕯️",
+    "hook": "Petals spilled from the page",
+    "cta": "The book isn't done",
+    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
+    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
+    "scenes": [
+      {
+        "text": "Golden marigold petals spill from the glowing book onto Kai.",
+        "image": "the character in a dark library as bright orange marigold petals pour magically from a glowing open book"
+      },
+      {
+        "text": "Kai steps into a warm Mexican village glowing with candles.",
+        "image": "the character standing in a festive Mexican village at night, glowing candles, marigolds, colorful papel picado"
+      },
+      {
+        "text": "A kind grandmother says remembering loved ones keeps their light alive.",
+        "image": "the character sitting with a warm Mexican grandmother beside glowing candles and marigolds, soft golden light"
+      },
+      {
+        "text": "Kai lights one candle and the whole village sparkles awake.",
+        "image": "the character lighting a single candle as hundreds of lights flicker on across the festive village, magical glow"
+      },
+      {
+        "text": "Music and warmth flood the streets under a starry sky.",
+        "image": "the character smiling in a glowing candlelit street with dancing lights and marigolds under a starry sky"
+      },
+      {
+        "text": "The library glows softly, its next tale waiting inside.",
+        "image": "the character back in the library holding the warm glowing book as a new page lights up gently"
+      }
+    ],
+    "tags": [
+      "The Midnight Library",
+      "midnightlibrary",
+      "mexico",
+      "candles",
+      "memory",
+      "shorts",
+      "storytime",
+      "kids",
+      "culture"
+    ]
+  },
+  {
+    "id": "lumen-ep06",
+    "series": "Lumen & the Lantern",
+    "genre": "fantasy",
+    "title": "She Found a Staircase Made of PIANO KEYS in the Sky 🎹",
+    "hook": "Every single step plays a note",
+    "cta": "What's at the top?",
+    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
+    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
+    "scenes": [
+      {
+        "text": "The character's lantern reveals a door humming with quiet music.",
+        "image": "the character opening a glowing door that hums with musical notes, golden lantern, floating music symbols, storybook art"
+      },
+      {
+        "text": "Beyond it climbs a staircase built from giant glowing piano keys.",
+        "image": "the character at the bottom of a sky staircase built from giant glowing piano keys, floating in clouds, wonder"
+      },
+      {
+        "text": "But the keys stay silent, their colors dull and gray.",
+        "image": "a piano-key staircase in the sky looking gray silent and dull, the character touching a key with a curious frown"
+      },
+      {
+        "text": "She hums a tune and each step lights beneath her feet.",
+        "image": "the character humming and stepping on piano keys that light up in bright colors under her feet, musical glow"
+      },
+      {
+        "text": "The whole staircase sings a bright, joyful melody upward.",
+        "image": "a full piano-key staircase glowing in rainbow colors playing music, the character climbing joyfully, notes floating"
+      },
+      {
+        "text": "At the top waits a door shaped like a glowing note.",
+        "image": "a glowing door shaped like a musical note at the top of a sky staircase, the character reaching for it, sparkles"
+      }
+    ],
+    "tags": [
+      "Lumen & the Lantern",
+      "kidsstory",
+      "music",
+      "magic",
+      "fantasy",
+      "shorts",
+      "sky",
+      "familyfriendly",
+      "lumen"
+    ]
+  },
+  {
+    "id": "pip-pip-06-cloud-city",
+    "series": "Pip the Sky Explorer",
+    "genre": "space",
+    "title": "Pip Reached A City Built On Clouds That Was Drifting Apart",
+    "hook": "This cloud city is splitting",
+    "cta": "More skies await!",
+    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
+    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
+    "scenes": [
+      {
+        "text": "The character lands in a bright city built on fluffy clouds.",
+        "image": "the character arriving in a whimsical city of little houses resting on fluffy white clouds, sunny sky, wonder, storybook style"
+      },
+      {
+        "text": "But the clouds are drifting apart, splitting the city in two.",
+        "image": "the character alarmed as cloud platforms slowly drift apart, a widening gap splitting the cloud city, robot Bolt beside, storybook style"
+      },
+      {
+        "text": "A tiny cloud-puff engine has stopped puffing in the middle.",
+        "image": "the character discovering a small cloud-puff engine gone still between the drifting clouds, dim and quiet, storybook style"
+      },
+      {
+        "text": "Pip tickles it gently until it giggles and puffs again.",
+        "image": "the character gently tickling the little cloud engine as it giggles and releases fluffy puffs, playful joy, storybook style"
+      },
+      {
+        "text": "The puffs push the clouds back, joining the city together.",
+        "image": "the character cheering as fluffy puffs nudge the cloud platforms back together into one whole city, joyful, storybook style"
+      }
+    ],
+    "tags": [
+      "Pip the Sky Explorer",
+      "kids",
+      "space",
+      "adventure",
+      "clouds",
+      "cartoon",
+      "kindness",
+      "pip"
+    ]
+  },
+  {
+    "id": "library-ml-06",
+    "series": "The Midnight Library",
+    "genre": "folktale",
+    "title": "Kai Opened the Book and Sailed Into a Polynesian Legend 🌊",
+    "hook": "Waves poured off the page",
+    "cta": "Sail to the next",
+    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
+    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
+    "scenes": [
+      {
+        "text": "Ocean waves ripple out of the glowing book toward Kai.",
+        "image": "the character in a dark library as glowing blue waves ripple magically out of an open book"
+      },
+      {
+        "text": "Kai stands on a warm Polynesian shore beneath swaying palms.",
+        "image": "the character standing barefoot on a sunny Polynesian beach with turquoise water and swaying palm trees"
+      },
+      {
+        "text": "A wise sea turtle teaches that courage means guiding others home.",
+        "image": "the character meeting a gentle glowing sea turtle in shallow turquoise water, golden sunlight sparkling"
+      },
+      {
+        "text": "Kai reads the stars and finds a lost little canoe.",
+        "image": "the character pointing to glowing stars above the ocean, guiding a small canoe toward the shore"
+      },
+      {
+        "text": "Grateful dolphins leap as the whole ocean shimmers with light.",
+        "image": "the character cheering as dolphins leap from a shimmering glowing ocean under a bright starry sky"
+      },
+      {
+        "text": "Back home, the book glows, ready for one more voyage.",
+        "image": "the character in the cozy library holding the glowing book as a new watery page turns, magical light"
+      }
+    ],
+    "tags": [
+      "The Midnight Library",
+      "midnightlibrary",
+      "polynesia",
+      "ocean",
+      "courage",
+      "shorts",
+      "bedtimestory",
+      "kids",
+      "adventure"
+    ]
+  },
+  {
+    "id": "lumen-ep07",
+    "series": "Lumen & the Lantern",
+    "genre": "fantasy",
+    "title": "A World Where Everything Was Frozen MID-AIR ❄️",
+    "hook": "Even the rain stopped falling here",
+    "cta": "Time to move?",
+    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
+    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
+    "scenes": [
+      {
+        "text": "The character opens a door and steps into perfect frozen stillness.",
+        "image": "the character stepping through a glowing door into a frozen still world, golden lantern, soft frosty light, storybook art"
+      },
+      {
+        "text": "Raindrops hang frozen in the air, birds paused mid-flight.",
+        "image": "raindrops and birds frozen still in mid-air in a magical world, the character standing amazed among them, pale light"
+      },
+      {
+        "text": "A tiny bird is stuck, unable to reach its waiting nest.",
+        "image": "a small bird frozen in mid-air near its nest, the character reaching out gently, frozen still world"
+      },
+      {
+        "text": "She warms the bird with a soft glow from her lantern.",
+        "image": "the character warming a frozen bird with golden lantern light, gentle glow melting the stillness around it"
+      },
+      {
+        "text": "Time flows again, and the bird flutters happily home.",
+        "image": "a bird fluttering to its nest as raindrops fall again, the character smiling, world coming back to life"
+      },
+      {
+        "text": "The freed wind whispers and blows open a hidden gate.",
+        "image": "wind blowing open a hidden glowing gate in a now-moving world, the character stepping toward it, leaves swirling"
+      }
+    ],
+    "tags": [
+      "Lumen & the Lantern",
+      "kidsstory",
+      "winter",
+      "magic",
+      "fantasy",
+      "shorts",
+      "time",
+      "familyfriendly",
+      "lumen"
+    ]
+  },
+  {
+    "id": "pip-pip-07-glass-canyon",
+    "series": "Pip the Sky Explorer",
+    "genre": "space",
+    "title": "Pip Entered A Glass Canyon Where Every Echo Was Trapped",
+    "hook": "Her voice never comes back",
+    "cta": "Free the sound!",
+    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
+    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
+    "scenes": [
+      {
+        "text": "The character lands inside a canyon made of shimmering colored glass.",
+        "image": "the character standing in a deep canyon of translucent rainbow glass walls, light refracting everywhere, wonder, storybook style"
+      },
+      {
+        "text": "Every sound she makes gets stuck and never echoes back.",
+        "image": "the character calling out with sound waves visibly frozen against the glass walls, puzzled, robot Bolt beside, storybook style"
+      },
+      {
+        "text": "A big glass knot in the wall is tangling every echo.",
+        "image": "the character spotting a swirling tangled glass knot in the canyon wall trapping glowing sound waves, mystery, storybook style"
+      },
+      {
+        "text": "Pip taps a clever rhythm that untangles the twisted knot.",
+        "image": "the character tapping a glowing rhythm on the glass as the tangled knot slowly unwinds, focused cleverness, storybook style"
+      },
+      {
+        "text": "Suddenly the whole canyon echoes with music, and it dances.",
+        "image": "the character delighted as the glass canyon rings with colorful echoing music and light dances across the walls, joyful, storybook style"
+      }
+    ],
+    "tags": [
+      "Pip the Sky Explorer",
+      "kids",
+      "space",
+      "adventure",
+      "puzzle",
+      "cartoon",
+      "sound",
+      "pip"
+    ]
+  },
+  {
+    "id": "library-ml-07",
+    "series": "The Midnight Library",
+    "genre": "folktale",
+    "title": "The Glowing Book Pulled Kai Into an Ancient Egyptian Legend 🐈",
+    "hook": "Gold light leaked out",
+    "cta": "The scroll continues",
+    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
+    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
+    "scenes": [
+      {
+        "text": "Golden light leaks from the book as Kai peeks inside.",
+        "image": "the character peeking into a glowing book leaking golden light in a dark library, sparkles rising"
+      },
+      {
+        "text": "Kai appears beside towering pyramids under a warm desert sun.",
+        "image": "the character standing before golden pyramids in ancient Egypt under a warm bright sun, awe on face"
+      },
+      {
+        "text": "A gentle cat guardian says wisdom grows when we help freely.",
+        "image": "the character meeting an elegant golden Egyptian cat with glowing eyes beside a sunlit temple"
+      },
+      {
+        "text": "Kai shares water and a dry garden blooms with life.",
+        "image": "the character pouring water as a desert garden magically blooms green and gold, sparkling light"
+      },
+      {
+        "text": "Golden hieroglyphs light up, spelling a thank-you across the wall.",
+        "image": "the character watching glowing golden hieroglyphs light up warmly across an ancient temple wall"
+      },
+      {
+        "text": "The library returns, its next glowing page turning slowly.",
+        "image": "the character back in the library holding the glowing book as a golden page turns by itself"
+      }
+    ],
+    "tags": [
+      "The Midnight Library",
+      "midnightlibrary",
+      "egypt",
+      "pyramids",
+      "wisdom",
+      "shorts",
+      "storytime",
+      "kids",
+      "magic"
+    ]
+  },
+  {
+    "id": "lumen-ep08",
+    "series": "Lumen & the Lantern",
+    "genre": "fantasy",
+    "title": "The Gate Led to a Library Where Books FLY 📚",
+    "hook": "The books escaped their shelves",
+    "cta": "Which page next?",
+    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
+    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
+    "scenes": [
+      {
+        "text": "The character's lantern opens a door full of fluttering pages.",
+        "image": "the character opening a glowing door with paper pages fluttering out, golden lantern, warm cozy light, storybook art"
+      },
+      {
+        "text": "Inside, thousands of books soar like birds through the air.",
+        "image": "the character standing in a giant magical library where glowing books fly like birds through the air, wonder"
+      },
+      {
+        "text": "But one little book flaps sadly, its glow fading away.",
+        "image": "a small book flapping weakly with a fading glow near the character, other books flying bright around it"
+      },
+      {
+        "text": "She cradles it close and shines her warm lantern light.",
+        "image": "the character cradling a small dim book and shining a golden lantern on it, warm light returning to the pages"
+      },
+      {
+        "text": "Its pages blaze golden, and it soars up joyfully.",
+        "image": "a small book glowing bright gold and soaring upward happily, the character cheering, flying books all around"
+      },
+      {
+        "text": "The grateful book drops a map marked with a glowing X.",
+        "image": "a flying book dropping a glowing treasure map with a shining X into the character's hands, sparkles"
+      }
+    ],
+    "tags": [
+      "Lumen & the Lantern",
+      "kidsstory",
+      "books",
+      "magic",
+      "fantasy",
+      "shorts",
+      "library",
+      "familyfriendly",
+      "lumen"
+    ]
+  },
+  {
+    "id": "pip-pip-08-upside-down",
+    "series": "Pip the Sky Explorer",
+    "genre": "space",
+    "title": "On This Planet Everything Falls Up And Pip Is Floating",
+    "hook": "Everything falls the wrong way",
+    "cta": "Don't float away!",
+    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
+    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
+    "scenes": [
+      {
+        "text": "The character lands on a world where everything falls straight up.",
+        "image": "the character floating upward beside rocks and flowers all drifting up into a green sky, upside-down world, wonder, storybook style"
+      },
+      {
+        "text": "Pip and Bolt keep drifting away from the ground helplessly.",
+        "image": "the character and robot Bolt tumbling upward away from the ground, reaching for each other, playful worry, storybook style"
+      },
+      {
+        "text": "A sneaky gravity-well at the center pulls everything the wrong way.",
+        "image": "the character spotting a glowing cracked gravity-well pulling objects upward from the planet's center, mystery mood, storybook style"
+      },
+      {
+        "text": "Pip plants a heavy seed to patch the broken well.",
+        "image": "the character pressing a large glowing seed into the cracked gravity-well, focused effort, robot Bolt helping, storybook style"
+      },
+      {
+        "text": "Gravity flips back, and everything gently settles down again.",
+        "image": "the character laughing as rocks, flowers, and Bolt float softly back down to the ground, relief and joy, storybook style"
+      }
+    ],
+    "tags": [
+      "Pip the Sky Explorer",
+      "kids",
+      "space",
+      "adventure",
+      "gravity",
+      "cartoon",
+      "problem-solving",
+      "pip"
+    ]
+  },
+  {
+    "id": "library-ml-08",
+    "series": "The Midnight Library",
+    "genre": "folktale",
+    "title": "Kai Fell Into the Book and Woke Up in Ancient China 🐉",
+    "hook": "The page breathed like wind",
+    "cta": "The tale flies on",
+    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
+    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
+    "scenes": [
+      {
+        "text": "A soft wind breathes from the book, lifting Kai's hair.",
+        "image": "the character in a dark library as gentle glowing wind swirls from an open book, papers fluttering"
+      },
+      {
+        "text": "Kai lands on a misty mountain in ancient sunrise China.",
+        "image": "the character standing on a misty green mountain in ancient China at sunrise, pagodas below, soft light"
+      },
+      {
+        "text": "A friendly cloud dragon says gentleness can move the mightiest mountains.",
+        "image": "the character meeting a long friendly blue cloud dragon curling through mountain mist, glowing softly"
+      },
+      {
+        "text": "Kai speaks kindly and a stubborn boulder rolls gently aside.",
+        "image": "the character speaking softly as a huge boulder glows and rolls gently aside, clearing a mountain path"
+      },
+      {
+        "text": "Lanterns rise glowing as villagers cheer their new open road.",
+        "image": "the character smiling as glowing red lanterns float up over a joyful Chinese mountain village at dusk"
+      },
+      {
+        "text": "The midnight library glows, its next page fluttering open.",
+        "image": "the character back in the library as the magic book glows and a windswept page turns itself"
+      }
+    ],
+    "tags": [
+      "The Midnight Library",
+      "midnightlibrary",
+      "china",
+      "dragon",
+      "gentleness",
+      "shorts",
+      "bedtimestory",
+      "kids",
+      "culture"
+    ]
+  },
+  {
+    "id": "lumen-ep09",
+    "series": "Lumen & the Lantern",
+    "genre": "fantasy",
+    "title": "The Map's X Was a Mountain Made of GLASS 🏔️",
+    "hook": "The whole mountain is see-through",
+    "cta": "What's inside?",
+    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
+    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
+    "scenes": [
+      {
+        "text": "The character follows the glowing map through a door of light.",
+        "image": "the character walking through a glowing door following a shining map, golden lantern, storybook art, bright path"
+      },
+      {
+        "text": "It leads to a towering mountain made of clear shining glass.",
+        "image": "the character standing before a huge transparent glass mountain sparkling in sunlight, awe on her face, wonder"
+      },
+      {
+        "text": "Deep inside, a trapped light flickers, too weak to escape.",
+        "image": "a faint flickering light trapped deep inside a glass mountain, the character peering in, glass glowing softly"
+      },
+      {
+        "text": "She holds her lantern to the glass and shares its glow.",
+        "image": "the character pressing a golden lantern against a glass mountain, warm light flowing inside, glowing bright"
+      },
+      {
+        "text": "The whole mountain lights up like a giant glowing jewel.",
+        "image": "a glass mountain glowing like a giant jewel filled with rainbow light, the character amazed and joyful"
+      },
+      {
+        "text": "A hidden door of light melts open at its base.",
+        "image": "a glowing door melting open at the base of a shining glass mountain, the character stepping toward it, sparkles"
+      }
+    ],
+    "tags": [
+      "Lumen & the Lantern",
+      "kidsstory",
+      "mountain",
+      "magic",
+      "fantasy",
+      "shorts",
+      "glass",
+      "familyfriendly",
+      "lumen"
+    ]
+  },
+  {
+    "id": "pip-pip-09-rainbow-river",
+    "series": "Pip the Sky Explorer",
+    "genre": "space",
+    "title": "Pip Found A Rainbow River That Ran Out Of Colors",
+    "hook": "The rainbow river turned gray",
+    "cta": "Paint it back!",
+    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
+    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
+    "scenes": [
+      {
+        "text": "The character lands beside a river flowing with liquid rainbows.",
+        "image": "the character kneeling beside a glowing river of swirling liquid rainbow colors, dazzled wonder, storybook style"
+      },
+      {
+        "text": "Slowly the colors drain away, leaving the river dull and gray.",
+        "image": "the character watching the rainbow river fade to plain gray water, colors draining downstream, sad mood, storybook style"
+      },
+      {
+        "text": "Upstream, a clogged color-spring can no longer pour its paint.",
+        "image": "the character discovering a blocked glowing color-spring upstream, dim and jammed with pebbles, robot Bolt beside, storybook style"
+      },
+      {
+        "text": "Pip carefully lifts each pebble to free the trapped colors.",
+        "image": "the character gently removing glowing pebbles from the color-spring, sparkling paint beginning to seep out, focused, storybook style"
+      },
+      {
+        "text": "Colors rush back, and the river glows brighter than ever.",
+        "image": "the character cheering as vivid rainbow colors flood back through the river, radiant and glowing, joyful, storybook style"
+      }
+    ],
+    "tags": [
+      "Pip the Sky Explorer",
+      "kids",
+      "space",
+      "adventure",
+      "color",
+      "cartoon",
+      "kindness",
+      "pip"
+    ]
+  },
+  {
+    "id": "library-ml-09",
+    "series": "The Midnight Library",
+    "genre": "folktale",
+    "title": "This Book Whisked Kai Into a Celtic Forest Legend 🍀",
+    "hook": "Green light spilled everywhere",
+    "cta": "Deeper in the woods",
+    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
+    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
+    "scenes": [
+      {
+        "text": "Green light spills from the book across the dark library floor.",
+        "image": "the character in a dark library as glowing green light and leaves spill from an open book"
+      },
+      {
+        "text": "Kai steps into a misty emerald Celtic forest full of whispers.",
+        "image": "the character standing in a misty green Celtic forest with glowing mushrooms and ancient mossy stones"
+      },
+      {
+        "text": "A tiny glowing sprite says honesty unlocks the forest's oldest secrets.",
+        "image": "the character meeting a tiny glowing forest sprite with fluttering wings, soft green light, mist"
+      },
+      {
+        "text": "Kai tells the truth and a hidden stone doorway opens.",
+        "image": "the character watching an ancient mossy stone doorway glow and swing open in the green forest"
+      },
+      {
+        "text": "Inside, golden fireflies swirl into a sparkling grateful thank-you.",
+        "image": "the character surrounded by golden fireflies swirling into a glowing thank-you shape in a magical grove"
+      },
+      {
+        "text": "The library returns, its next page glowing softly green.",
+        "image": "the character in the cozy library holding the book as a green-glowing page turns, magical mist"
+      }
+    ],
+    "tags": [
+      "The Midnight Library",
+      "midnightlibrary",
+      "celtic",
+      "forest",
+      "honesty",
+      "shorts",
+      "storytime",
+      "kids",
+      "fairytale"
+    ]
+  },
+  {
+    "id": "lumen-ep10",
+    "series": "Lumen & the Lantern",
+    "genre": "fantasy",
+    "title": "Inside the Mountain Lived a Baby DRAGON of Light 🐉",
+    "hook": "Something glows in the dark cave",
+    "cta": "Will it wake?",
+    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
+    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
+    "scenes": [
+      {
+        "text": "The character steps inside the mountain, lantern glowing in the dark.",
+        "image": "the character stepping into a dark glass cavern with a golden lantern glowing, sparkling walls, storybook art"
+      },
+      {
+        "text": "Curled in the center sleeps a tiny dragon made of light.",
+        "image": "a small gentle baby dragon made of soft glowing light sleeping curled in a cave, the character gazing in wonder"
+      },
+      {
+        "text": "But its glow is dimming, and it shivers in the cold.",
+        "image": "a tiny light dragon shivering with a dimming glow in a cold cave, the character kneeling worried and kind"
+      },
+      {
+        "text": "She sets her warm lantern beside the sleepy little dragon.",
+        "image": "the character placing a golden lantern beside a small light dragon, warm glow surrounding it gently"
+      },
+      {
+        "text": "The dragon wakes, glowing bright, and nuzzles her hand.",
+        "image": "a baby light dragon waking glowing brightly and nuzzling the character's hand, joyful sparkles, warm cave"
+      },
+      {
+        "text": "Together they fly toward a swirling door in the sky.",
+        "image": "the character riding a glowing baby dragon toward a swirling magical sky door, trails of light, adventure"
+      }
+    ],
+    "tags": [
+      "Lumen & the Lantern",
+      "kidsstory",
+      "dragon",
+      "magic",
+      "fantasy",
+      "shorts",
+      "friendship",
+      "familyfriendly",
+      "lumen"
+    ]
+  },
+  {
+    "id": "pip-pip-10-star-garden",
+    "series": "Pip the Sky Explorer",
+    "genre": "space",
+    "title": "Pip Landed In A Garden Where The Flowers Are Baby Stars",
+    "hook": "These flowers are baby stars",
+    "cta": "Watch them shine!",
+    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
+    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
+    "scenes": [
+      {
+        "text": "The character lands in a garden where flowers are tiny stars.",
+        "image": "the character wandering a night garden where every flower is a small glowing star on a stem, magical wonder, storybook style"
+      },
+      {
+        "text": "But one flowerbed of stars refuses to light up at all.",
+        "image": "the character finding a patch of dim gray star-flowers among the glowing ones, gentle concern, robot Bolt beside, storybook style"
+      },
+      {
+        "text": "The little stars are thirsty for a sip of moonlight.",
+        "image": "the character noticing the dim star-flowers drooping, longing toward a distant glowing moon, tender mood, storybook style"
+      },
+      {
+        "text": "Pip tilts a mirror to pour moonlight onto the flowers.",
+        "image": "the character angling a glowing mirror to catch moonbeams and shine them onto the dim star-flowers, clever focus, storybook style"
+      },
+      {
+        "text": "The tiny stars wake up and twinkle across the whole garden.",
+        "image": "the character delighted as the star-flowers burst into twinkling light, the entire garden sparkling, joyful, storybook style"
+      }
+    ],
+    "tags": [
+      "Pip the Sky Explorer",
+      "kids",
+      "space",
+      "adventure",
+      "stars",
+      "cartoon",
+      "garden",
+      "pip"
+    ]
+  },
+  {
+    "id": "library-ml-10",
+    "series": "The Midnight Library",
+    "genre": "folktale",
+    "title": "Kai Opened the Book and Soared Into an Andean Sky Legend 🦅",
+    "hook": "The page pulled him up",
+    "cta": "Higher next time",
+    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
+    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
+    "scenes": [
+      {
+        "text": "The glowing book tugs upward, lifting Kai off the floor.",
+        "image": "the character floating upward in a dark library as a glowing book lifts them with magical wind"
+      },
+      {
+        "text": "Kai lands high in the misty green Andes mountains.",
+        "image": "the character standing on a high misty Andes mountain peak with terraced hills and llamas, soft light"
+      },
+      {
+        "text": "A great condor says helping others lifts us all higher.",
+        "image": "the character meeting a majestic glowing condor spreading wide wings above the misty Andean peaks"
+      },
+      {
+        "text": "Kai frees a tangled kite for a worried little herder.",
+        "image": "the character gently untangling a colorful kite for a small Andean herder child, mountains behind"
+      },
+      {
+        "text": "The kite soars as the whole valley glows with sunshine.",
+        "image": "the character smiling as a bright kite soars over a golden glowing Andean valley, condor circling"
+      },
+      {
+        "text": "Back home, the book glows, ready to fly again.",
+        "image": "the character in the library holding the softly glowing book as a new page turns, magical shimmer"
+      }
+    ],
+    "tags": [
+      "The Midnight Library",
+      "midnightlibrary",
+      "andes",
+      "condor",
+      "helping",
+      "shorts",
+      "bedtimestory",
+      "kids",
+      "adventure"
+    ]
+  },
+  {
+    "id": "lumen-ep11",
+    "series": "Lumen & the Lantern",
+    "genre": "fantasy",
+    "title": "They Landed in a Garden Where Flowers SING 🌸",
+    "hook": "The flowers are humming softly",
+    "cta": "One quiet bloom?",
+    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
+    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
+    "scenes": [
+      {
+        "text": "The character and her dragon glide through a door of petals.",
+        "image": "the character riding a glowing light dragon through a door made of swirling petals, golden lantern, storybook art"
+      },
+      {
+        "text": "They land in a garden where every flower softly sings.",
+        "image": "the character in a magical garden where glowing flowers sing softly, colorful blooms, floating music notes, wonder"
+      },
+      {
+        "text": "But one gray flower stays silent, drooping all alone.",
+        "image": "a single gray drooping silent flower among glowing singing flowers, the character kneeling beside it kindly"
+      },
+      {
+        "text": "She cups it gently and shares her lantern's tender light.",
+        "image": "the character cupping a gray flower and shining a golden lantern on it, warm light reviving the petals"
+      },
+      {
+        "text": "It blooms bright and joins the garden's happy chorus.",
+        "image": "a flower blooming bright and colorful joining a singing garden, the character smiling, dragon dancing, notes floating"
+      },
+      {
+        "text": "The tallest flower bends, opening a path of glowing petals.",
+        "image": "a tall glowing flower bending to reveal a path of shining petals, the character and dragon following, sparkles"
+      }
+    ],
+    "tags": [
+      "Lumen & the Lantern",
+      "kidsstory",
+      "garden",
+      "magic",
+      "fantasy",
+      "shorts",
+      "flowers",
+      "familyfriendly",
+      "lumen"
+    ]
+  },
+  {
+    "id": "pip-pip-11-bubble-ocean",
+    "series": "Pip the Sky Explorer",
+    "genre": "space",
+    "title": "Pip Dove Into An Ocean Made Entirely Of Floating Bubbles",
+    "hook": "This ocean is all bubbles",
+    "cta": "Dive in again!",
+    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
+    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
+    "scenes": [
+      {
+        "text": "The character lands at an ocean made of giant floating bubbles.",
+        "image": "the character standing before a shimmering ocean of huge iridescent floating bubbles, dazzled wonder, storybook style"
+      },
+      {
+        "text": "But the bubbles keep popping, and the ocean is disappearing fast.",
+        "image": "the character worried as giant bubbles pop and vanish, the bubble ocean shrinking, robot Bolt beside, storybook style"
+      },
+      {
+        "text": "A sharp coral spike keeps bursting each rising bubble apart.",
+        "image": "the character spotting a jagged coral spike popping bubbles as they rise, mystery mood, storybook style"
+      },
+      {
+        "text": "Pip gently wraps the spike in soft glowing seaweed.",
+        "image": "the character carefully wrapping the coral spike in soft glowing seaweed to make it safe, focused kindness, storybook style"
+      },
+      {
+        "text": "The bubbles stop popping and the ocean fills up shining again.",
+        "image": "the character cheering as bubbles rise safely and the iridescent ocean swells back to full, radiant joy, storybook style"
+      }
+    ],
+    "tags": [
+      "Pip the Sky Explorer",
+      "kids",
+      "space",
+      "adventure",
+      "ocean",
+      "cartoon",
+      "problem-solving",
+      "pip"
+    ]
+  },
+  {
+    "id": "library-ml-11",
+    "series": "The Midnight Library",
+    "genre": "folktale",
+    "title": "The Midnight Book Pulled Kai Into an Arabian Desert Legend 🌙",
+    "hook": "Sand swirled off the page",
+    "cta": "Follow the next star",
+    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
+    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
+    "scenes": [
+      {
+        "text": "Golden sand swirls up from the book around Kai's feet.",
+        "image": "the character in a dark library as golden sand swirls magically up from a glowing open book"
+      },
+      {
+        "text": "Kai arrives in a warm desert beneath a giant moon.",
+        "image": "the character standing on golden desert dunes under a huge glowing moon, distant caravan, soft light"
+      },
+      {
+        "text": "A wise old camel says generosity turns strangers into true friends.",
+        "image": "the character meeting a kind glowing camel beside a desert oasis under bright moonlight and stars"
+      },
+      {
+        "text": "Kai shares dates with travelers and a spring bubbles up.",
+        "image": "the character sharing dates with grateful desert travelers as a sparkling spring bubbles from the sand"
+      },
+      {
+        "text": "A lush oasis blooms, glowing beneath a thousand desert stars.",
+        "image": "the character smiling in a glowing green oasis with palm trees and water under a starry desert sky"
+      },
+      {
+        "text": "The library glows again, its next page shimmering gold.",
+        "image": "the character back in the library holding the glowing book as a golden sandy page turns itself"
+      }
+    ],
+    "tags": [
+      "The Midnight Library",
+      "midnightlibrary",
+      "arabian",
+      "desert",
+      "generosity",
+      "shorts",
+      "storytime",
+      "kids",
+      "magic"
+    ]
+  },
+  {
+    "id": "lumen-ep12",
+    "series": "Lumen & the Lantern",
+    "genre": "fantasy",
+    "title": "The Last Door Led Back Home — But Something CHANGED 🏡",
+    "hook": "The final door glows the brightest",
+    "cta": "The adventure continues",
+    "style": "cinematic storybook illustration, warm golden lantern glow against deep blue magical night, painterly, dreamy, highly detailed, soft depth of field",
+    "character": "Lumen, a brave 10-year-old girl with short silver-white hair, big curious eyes, a deep midnight-blue hooded cloak, always carrying a glowing golden lantern",
+    "scenes": [
+      {
+        "text": "The character and dragon reach a warm door glowing softly gold.",
+        "image": "the character and glowing light dragon standing before a warm golden door, petals falling, golden lantern, storybook art"
+      },
+      {
+        "text": "It opens to her own cozy attic, quiet and familiar.",
+        "image": "the character stepping into a cozy familiar attic through a glowing door, warm night light, dragon beside her"
+      },
+      {
+        "text": "But her plain old lantern now sparkles with every world she saw.",
+        "image": "the character holding a golden lantern glowing with tiny images of clouds oceans stars and flowers inside, wonder"
+      },
+      {
+        "text": "The little dragon curls up glowing gently on her shelf.",
+        "image": "a tiny glowing light dragon curled up sleeping on a cozy attic shelf, warm light, the character smiling softly"
+      },
+      {
+        "text": "She smiles, knowing countless doors are still waiting to open.",
+        "image": "the character smiling and hugging a glowing lantern in a cozy attic, tiny sparkles hinting at hidden doors"
+      },
+      {
+        "text": "The lantern flickers, and a brand new door begins to glow.",
+        "image": "a golden lantern flickering as a new glowing door starts appearing on an attic wall, the character's eyes lighting up"
+      }
+    ],
+    "tags": [
+      "Lumen & the Lantern",
+      "kidsstory",
+      "magic",
+      "fantasy",
+      "shorts",
+      "home",
+      "adventure",
+      "familyfriendly",
+      "lumen"
+    ]
+  },
+  {
+    "id": "pip-pip-12-clockwork-moon",
+    "series": "Pip the Sky Explorer",
+    "genre": "space",
+    "title": "Pip Found A Clockwork Moon That Forgot How To Turn",
+    "hook": "This moon stopped turning",
+    "cta": "Keep exploring, Pip!",
+    "style": "vibrant colorful sci-fi storybook illustration, glowing alien landscapes, bright wondrous cinematic lighting, highly detailed, playful",
+    "character": "Pip, a cheerful 8-year-old astronaut kid in a round white-and-orange spacesuit with a clear glass helmet, freckles, next to a tiny floating round blue robot named Bolt",
+    "scenes": [
+      {
+        "text": "The character lands on a moon made of golden spinning gears.",
+        "image": "the character stepping onto a shining clockwork moon of interlocking golden gears and cogs, wonder, storybook style"
+      },
+      {
+        "text": "But all the gears have frozen, and the moon stopped turning.",
+        "image": "the character standing on the still clockwork moon, all golden gears frozen in place, quiet mystery, robot Bolt beside, storybook style"
+      },
+      {
+        "text": "One tiny gear popped out and rolled away downhill.",
+        "image": "the character noticing a small golden gear missing, an empty slot in the mechanism, a gear rolling off, storybook style"
+      },
+      {
+        "text": "Pip chases it and clicks the little gear back home.",
+        "image": "the character catching the runaway golden gear and clicking it into its empty slot, satisfied focus, storybook style"
+      },
+      {
+        "text": "The moon whirs to life, spinning brightly across the sky.",
+        "image": "the character cheering as the clockwork moon whirs and spins, golden gears glowing and turning, joyful, storybook style"
+      },
+      {
+        "text": "It lights a path to a hundred more worlds waiting.",
+        "image": "the character and robot Bolt gazing at a glowing trail of light leading to countless distant strange planets, wonder, storybook style"
+      }
+    ],
+    "tags": [
+      "Pip the Sky Explorer",
+      "kids",
+      "space",
+      "adventure",
+      "clockwork",
+      "cartoon",
+      "moon",
+      "pip"
+    ]
+  },
+  {
+    "id": "library-ml-12",
+    "series": "The Midnight Library",
+    "genre": "folktale",
+    "title": "Kai's Final Book Opened Into a Native American Sky Legend 🌈",
+    "hook": "Every page glowed at once",
+    "cta": "The library never ends",
+    "style": "cinematic storybook illustration, moody moonlit library glow, magical golden book light, rich cultural mythic detail, painterly, highly detailed",
+    "character": "Kai, a curious 11-year-old child in cozy star-patterned pajamas holding a giant glowing ancient book, in a vast moonlit library with floating candles",
+    "scenes": [
+      {
+        "text": "Every book on the shelf glows at once around Kai.",
+        "image": "the character in a dark library surrounded by dozens of glowing books, brilliant magical light everywhere"
+      },
+      {
+        "text": "One page pulls Kai into wide golden painted plains.",
+        "image": "the character standing on vast golden plains at sunset with distant mountains, warm glowing light"
+      },
+      {
+        "text": "A gentle spirit bear says gratitude paints the sky with color.",
+        "image": "the character meeting a kind glowing spirit bear on golden plains beneath a soft rainbow sky"
+      },
+      {
+        "text": "Kai thanks the land and a giant rainbow arcs overhead.",
+        "image": "the character raising arms in thanks as a huge glowing rainbow arcs across the plains sky"
+      },
+      {
+        "text": "Every legend's friend appears, waving from within the shining light.",
+        "image": "the character smiling as the crane, fox, dragon and bear appear together in glowing rainbow light"
+      },
+      {
+        "text": "The library waits, glowing, holding endless stories yet untold.",
+        "image": "the character back in the cozy glowing library smiling at shelves of softly glowing magical books"
+      }
+    ],
+    "tags": [
+      "The Midnight Library",
+      "midnightlibrary",
+      "nativeamerican",
+      "gratitude",
+      "rainbow",
+      "shorts",
+      "bedtimestory",
+      "kids",
+      "finale"
     ]
   }
 ]

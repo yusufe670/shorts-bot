@@ -2,8 +2,8 @@ name: AI Shorts Üret ve Yükle
 
 on:
   schedule:
-    # Her 8 saatte bir = günde 3 (Todd/Ümit: düşük performanslı/yeni kanalda ≤3/gün)
-    - cron: "0 */8 * * *"
+    # Her 6 saatte bir = günde 4 (3 ile 6/gün arası dengeli). Kota tavanı: 6/gün.
+    - cron: "0 */6 * * *"
   workflow_dispatch: {}
 
 concurrency:

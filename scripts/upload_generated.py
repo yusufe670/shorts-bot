@@ -90,7 +90,8 @@ def main():
         bank_len = index + 1
     state["next_index"] = (index + 1) % max(1, bank_len)
     state.setdefault("made", []).append(
-        {"index": index, "video_id": video_id, "title": meta["title"]}
+        {"index": index, "video_id": video_id, "title": meta["title"],
+         "series": meta.get("series", "")}
     )
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"İlerleme kaydedildi. Sıradaki index: {state['next_index']}")

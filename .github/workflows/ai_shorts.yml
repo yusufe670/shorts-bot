@@ -32,6 +32,17 @@ jobs:
       - name: Hikaye videosu üret (AI resimler)
         run: python scripts/generate_story.py
 
+      - name: Videoyu indirilebilir yap (TikTok/Reels cross-post için)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: short-${{ github.run_number }}
+          path: |
+            output/short.mp4
+            output/tiktok.txt
+          retention-days: 30
+          if-no-files-found: ignore
+
       - name: YouTube'a yükle
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}

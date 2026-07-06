@@ -40,20 +40,37 @@ W, H, FPS, MAX_SECONDS, CAP_Y = gv.W, gv.H, gv.FPS, gv.MAX_SECONDS, gv.CAP_Y
 POLL_URL = "https://image.pollinations.ai/prompt/"
 
 
+def _image_ok(path):
+    """Kalite denetimi: bozuk / neredeyse boş / aşırı karanlık-parlak görseli ele."""
+    try:
+        im = Image.open(path).convert("L").resize((64, 114))
+    except Exception:
+        return False
+    px = list(im.getdata())
+    n = len(px)
+    mean = sum(px) / n
+    std = (sum((p - mean) ** 2 for p in px) / n) ** 0.5
+    return std >= 14 and 12 <= mean <= 243   # düz/karanlık/parlak değilse geç
+
+
 def gen_image(prompt, dest, seed):
-    """Pollinations.ai ile ücretsiz AI resim üret. Başarısızsa gradyan yedeği."""
-    full = (f"{prompt}. vertical 9:16 cinematic composition, no text, no words, "
-            f"no watermark, no letters")
-    url = (POLL_URL + urllib.parse.quote(full)
-           + f"?width=1080&height=1920&nologo=true&model=flux&seed={seed}")
-    for attempt in range(3):
+    """Pollinations.ai ile ücretsiz AI resim (kalite denetimli). Başarısızsa gradyan."""
+    full = (f"{prompt}. vertical 9:16 cinematic composition. "
+            f"absolutely no text, no letters, no words, no captions, "
+            f"no watermark, no signature, no numbers on the image")
+    for attempt in range(4):
+        s = seed + attempt * 7919   # her denemede farklı seed
+        url = (POLL_URL + urllib.parse.quote(full)
+               + f"?width=1080&height=1920&nologo=true&model=flux&seed={s}")
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
             data = urllib.request.urlopen(req, timeout=120).read()
             if len(data) > 5000:
                 dest.write_bytes(data)
-                Image.open(dest).verify()   # gerçekten resim mi?
-                return True
+                Image.open(dest).verify()
+                if _image_ok(dest):
+                    return True
+                print(f"    kalite denetimi geçemedi (deneme {attempt+1}), yeniden...")
         except Exception as e:
             print(f"    resim denemesi {attempt+1} başarısız: {str(e)[:120]}")
             time.sleep(3)
@@ -178,6 +195,19 @@ def render_cta_png(text, path):
     return img.size
 
 
+def render_watermark_png(handle, path):
+    """Kanal markası: küçük, yarı saydam filigran (üst-orta)."""
+    size, stroke, pad = 40, 4, 12
+    font = ImageFont.truetype(str(FONT), size)
+    bb = font.getbbox(handle, stroke_width=stroke)
+    img = Image.new("RGBA", (bb[2] + pad * 2, bb[3] + pad * 2), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.text((pad, pad - bb[1]), handle, font=font, fill=(255, 255, 255, 175),
+           stroke_width=stroke, stroke_fill=(0, 0, 0, 130))
+    img.save(path)
+    return img.size
+
+
 def build_meta(story, cfg):
     title = story["title"].strip()
     if "#short" not in title.lower():
@@ -210,8 +240,9 @@ def main():
     idx = int(state.get("next_index", 0)) % len(bank)
     story = bank[idx]
     voice = cfg.get("voice", "en-US-AriaNeural")
-    style = story.get("style", "cinematic storybook illustration, dramatic lighting")
+    style = cfg.get("signature_style") or story.get("style", "cinematic storybook illustration, dramatic lighting")
     character = story.get("character", "")
+    handle = cfg.get("channel_handle", "").strip()
     print(f"[{idx}] {story['title']}  ({len(story['scenes'])} sahne)")
 
     if WORK.exists():
@@ -269,21 +300,30 @@ def main():
         w, h = gv.render_caption_png(text, p)
         cap_imgs.append((p, w, h, cs, ce))
 
-    # hook + cta kartları + müzik seçimi
+    # hook + cta + filigran kartları + müzik seçimi
     hook_text = (story.get("hook") or " ".join(seo._clean(story["title"]).split()[:6])).strip()
     cta_text = (story.get("cta") or "Follow for daily stories").strip()
     hook_png = WORK / "hook.png"; hw, hh = render_hook_png(hook_text, hook_png)
     cta_png = WORK / "cta.png"; cw, ch = render_cta_png(cta_text, cta_png)
+    use_wm = bool(handle) and handle != "@YourChannel"
+    if use_wm:
+        wm_png = WORK / "wm.png"; ww, wh = render_watermark_png(handle, wm_png)
     music = pick_music(story.get("genre"))
 
-    # 5) montaj: bg + altyazı + hook + cta + (ses + müzik)
+    # 5) montaj: bg + altyazı + hook + cta + filigran + (ses + müzik)
     inputs = ["-i", str(bg)]
     for (p, *_rest) in cap_imgs:
         inputs += ["-i", str(p)]
     hook_idx = 1 + len(cap_imgs)
     cta_idx = hook_idx + 1
-    voice_idx = cta_idx + 1
-    inputs += ["-i", str(hook_png), "-i", str(cta_png), "-i", str(voice_all)]
+    inputs += ["-i", str(hook_png), "-i", str(cta_png)]
+    if use_wm:
+        wm_idx = cta_idx + 1
+        inputs += ["-i", str(wm_png)]
+        voice_idx = wm_idx + 1
+    else:
+        voice_idx = cta_idx + 1
+    inputs += ["-i", str(voice_all)]
     music_idx = voice_idx + 1
     if music:
         inputs += ["-i", str(music)]
@@ -300,7 +340,13 @@ def main():
     # cta (orta, sonda)
     cta_start = max(0.0, total - 0.6)
     cx = int((W - cw) / 2); cy = int(0.50 * H - ch / 2)
-    fc.append(f"[vh][{cta_idx}:v]overlay={cx}:{cy}:enable='between(t,{cta_start:.2f},{video_total:.2f})'[vout]")
+    fc.append(f"[vh][{cta_idx}:v]overlay={cx}:{cy}:enable='between(t,{cta_start:.2f},{video_total:.2f})'[vc]")
+    # filigran (üst, tüm video)
+    if use_wm:
+        wx = int((W - ww) / 2); wy = int(0.045 * H)
+        fc.append(f"[vc][{wm_idx}:v]overlay={wx}:{wy}[vout]")
+    else:
+        fc.append("[vc]null[vout]")
 
     # ses: konuşma + hafif müzik (son 1.2 sn fade out, taşmaya karşı limiter)
     if music:
@@ -326,7 +372,10 @@ def main():
         print("MONTAJ HATASI:\n", (r.stderr or "")[-1800:]); return 1
 
     meta = seo.build_seo_meta(story, cfg)
+    meta["series"] = story.get("series", "")
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    # TikTok / Reels için hazır başlık (elle cross-post için)
+    (OUT / "tiktok.txt").write_text(seo.build_short_caption(story), encoding="utf-8")
     print(f"BİTTİ -> {final}  ({gv.ffprobe_duration(final):.1f} sn)")
     print("Başlık:", meta["title"])
     return 0

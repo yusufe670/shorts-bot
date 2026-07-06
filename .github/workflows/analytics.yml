@@ -1,0 +1,43 @@
+name: Performans Raporu
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"   # her Pazartesi 08:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Bağımlılıklar
+        run: pip install -r requirements.txt
+      - name: Rapor üret
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          PROGRESS_FILE: state/story_progress.json
+        run: python scripts/analytics.py
+      - name: Raporu kaydet
+        if: success()
+        run: |
+          git config user.name "shorts-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add analytics_report.md
+          if git diff --staged --quiet; then
+            echo "Rapor değişmedi."
+            exit 0
+          fi
+          git commit -m "Performans raporu güncellendi [skip ci]"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push origin main; then
+              exit 0
+            fi
+            sleep 3
+          done
+          exit 1

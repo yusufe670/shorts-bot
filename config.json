@@ -19,5 +19,8 @@
   "madeForKids": false,
   "defaultLanguage": "en",
 
-  "voice": "en-US-AriaNeural"
+  "voice": "en-US-AriaNeural",
+
+  "signature_style": "",
+  "channel_handle": "@YourChannel"
 }

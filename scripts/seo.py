@@ -144,6 +144,19 @@ def build_description(story: dict) -> str:
     return "\n".join(x for x in lines if x is not None).strip()
 
 
+def build_short_caption(story: dict) -> str:
+    """TikTok / Reels için kısa, hook-önce, az ama güçlü hashtag'li başlık."""
+    g = _genre(story)
+    hook = story.get("hook") or _clean(story["title"])
+    q = g["q"]
+    tags = ["#fyp", "#storytime", "#story", "#aistory", "#shorts"] + g["hash"][:2]
+    seen, uniq = set(), []
+    for t in tags:
+        if t.lower() not in seen:
+            seen.add(t.lower()); uniq.append(t)
+    return f"{hook} ✨\n{q}\n" + " ".join(uniq[:6])
+
+
 def build_seo_meta(story: dict, cfg: dict) -> dict:
     return {
         "title": build_title(story),

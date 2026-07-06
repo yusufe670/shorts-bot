@@ -208,6 +208,16 @@ def render_watermark_png(handle, path):
     return img.size
 
 
+def make_thumbnail(base_img, hook_png, dest):
+    """Kanal sayfası/arama için kapak: ilk sahne + hook metni."""
+    base = Image.open(base_img).convert("RGBA").resize((W, H))
+    hook = Image.open(hook_png).convert("RGBA")
+    x = (W - hook.width) // 2
+    y = int(H * 0.30)
+    base.alpha_composite(hook, (x, y))
+    base.convert("RGB").save(dest, quality=90)
+
+
 def build_meta(story, cfg):
     title = story["title"].strip()
     if "#short" not in title.lower():
@@ -269,12 +279,14 @@ def main():
     # 3) her sahne için AI resim + Ken Burns segmenti
     # her üretimde rastgele seed -> aynı hikaye tekrar gelse bile görseller farklı çıkar
     base_seed = random.randint(1000, 900000)
-    segs, last_img = [], None
+    segs, last_img, first_img = [], None, None
     for i, (mp3, dur, gwords, sc) in enumerate(kept):
         scene_img = sc["image"].replace("the character", character) if character else sc["image"]
         prompt = f"{scene_img}. Art style: {style}."
         img = WORK / f"img_{i:02d}.jpg"
         ok = gen_image(prompt, img, base_seed + i)
+        if first_img is None:
+            first_img = img
         last_img = img
         seg = ken_burns(img, dur, WORK / f"seg_{i:02d}.mp4", zoom_in=(i % 2 == 0))
         segs.append(seg)
@@ -376,6 +388,12 @@ def main():
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     # TikTok / Reels için hazır başlık (elle cross-post için)
     (OUT / "tiktok.txt").write_text(seo.build_short_caption(story), encoding="utf-8")
+    # kanal sayfası/arama için kapak
+    try:
+        if first_img and first_img.exists():
+            make_thumbnail(first_img, hook_png, OUT / "thumb.jpg")
+    except Exception as e:
+        print("kapak atlandı:", str(e)[:100])
     print(f"BİTTİ -> {final}  ({gv.ffprobe_duration(final):.1f} sn)")
     print("Başlık:", meta["title"])
     return 0

@@ -84,6 +84,17 @@ def main():
         print(f"❌ YouTube API hatası: {e}")
         return 1
 
+    # kapak (thumbnail) ayarla — hesap doğrulanmamışsa sessizce atla
+    thumb = OUT / "thumb.jpg"
+    if thumb.exists():
+        try:
+            service.thumbnails().set(
+                videoId=video_id, media_body=MediaFileUpload(str(thumb))
+            ).execute()
+            print("🖼️  Kapak ayarlandı.")
+        except Exception as e:
+            print("Kapak ayarlanamadı (hesap doğrulanmamış olabilir):", str(e)[:120])
+
     try:
         bank_len = len(json.loads(BANK.read_text(encoding="utf-8")))
     except Exception:

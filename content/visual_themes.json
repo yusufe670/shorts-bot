@@ -506,6 +506,196 @@
     ]
   },
   {
+    "id": "cars-with-faces",
+    "category": "kids",
+    "title": "Cute CARS With FACES! 🚗 Which One Wins the Race?",
+    "hook": "Cars come ALIVE with faces",
+    "comment_q": "Which cute car would you drive?",
+    "cta": "Follow for more living cars!",
+    "music_mood": "warm",
+    "style": "adorable cheerful 3D Pixar-style cartoon render, one cute chubby friendly vehicle with big sparkly headlight eyes and a happy smiling grille, glossy candy-colored paint, soft rounded body, bouncy playful pose on a bright sunny cartoon road, fluffy clouds and colorful hills in the background, wholesome and family-friendly, consistent centered framing",
+    "reveals": [
+      {
+        "label": "Red Racer",
+        "image": "a cute chubby red race car with big sparkly headlight eyes and a wide happy grille smile, number 1 on the door, zooming forward with a cheerful zoom trail, sunny cartoon racetrack with checkered flags"
+      },
+      {
+        "label": "Blue Truck",
+        "image": "a friendly little blue pickup truck with round headlight eyes and a big goofy grin, tiny cargo of colorful balloons in the back, bouncing along a sunny country road with rolling green hills"
+      },
+      {
+        "label": "Yellow Bus",
+        "image": "a happy chubby yellow school bus with sparkly window eyes and a cheerful smiling front, tiny wheels bouncing, driving past a cartoon town with fluffy clouds and bright sunshine"
+      },
+      {
+        "label": "Green Jeep",
+        "image": "a cute rounded green off-road jeep with big friendly headlight eyes and a wide grin, splashing playfully through a muddy puddle, sunny jungle road with palm trees and butterflies"
+      },
+      {
+        "label": "Pink Convertible",
+        "image": "an adorable glossy pink convertible car with long sparkly eyelash headlights and a sweet smile, tiny heart stickers on the side, cruising down a sunny beach road with palm trees"
+      },
+      {
+        "label": "Fire Engine",
+        "image": "a chubby cheerful red fire engine with big sparkly eyes, a shiny ladder and tiny hose, ringing its happy bell with a proud grin, sunny cartoon city street with fluffy clouds"
+      },
+      {
+        "label": "Police Car",
+        "image": "a cute rounded black-and-white police car with friendly headlight eyes and a big smile, little flashing blue-and-red lights on top, waving cheerfully on a sunny cartoon street"
+      },
+      {
+        "label": "Monster Truck",
+        "image": "a roly-poly purple monster truck with giant chunky tires and huge sparkly eyes, bouncing high with a goofy toothy grin, sunny arena with cheering colorful flags and confetti"
+      },
+      {
+        "label": "Ice Cream Van",
+        "image": "an adorable pastel-mint ice cream van with sparkly window eyes and a happy jingling smile, tiny ice cream cones on the roof, parked in a sunny park with balloons and flowers"
+      },
+      {
+        "label": "Rainbow Rocket Car",
+        "image": "a chubby rainbow-colored rocket car with flame boosters, big excited sparkly eyes and a huge grin, blasting forward leaving a colorful rainbow trail, bright sunny sky with star bursts"
+      }
+    ],
+    "tags": [
+      "cars",
+      "vehicles",
+      "kids",
+      "cute",
+      "cartoon",
+      "reveal",
+      "wholesome",
+      "shorts",
+      "viral"
+    ]
+  },
+  {
+    "id": "dinosaurs-as-elemental-titans",
+    "category": "animal",
+    "title": "Every Dinosaur Reborn as an ELEMENTAL TITAN 🔥 Which Is Yours?",
+    "hook": "Dinosaurs became TITANS",
+    "comment_q": "Which titan dino is yours?",
+    "cta": "Follow for the finale",
+    "music_mood": "mystery",
+    "style": "hyper-detailed cinematic fantasy portrait, one magnificent dinosaur reimagined as a majestic elemental titan with a body glowing with pure elemental energy and light, dramatic dark epic backdrop, powerful rim lighting, swirling glowing particles, ultra vibrant elemental glow, noble awe-inspiring pose, gentle non-scary expression, 8k concept art, family-friendly wondrous, consistent centered framing",
+    "reveals": [
+      {
+        "label": "FIRE T-REX",
+        "image": "a mighty T-rex with a body glowing like molten lava and warm ember light, cracks of radiant orange fire rippling across its scales, glowing embers drifting off, proud majestic stance, non-scary noble gaze, blazing warm aura"
+      },
+      {
+        "label": "THUNDER TRICERATOPS",
+        "image": "a powerful triceratops crackling with glowing blue-white lightning across its frill and horns, electric energy arcing along its body, brilliant storm glow behind it, sturdy calm pose, charged radiant power"
+      },
+      {
+        "label": "CRYSTAL STEGOSAURUS",
+        "image": "a gentle stegosaurus with back plates made of glowing translucent crystal in cyan and violet, soft light pulsing through each plate, shimmering gem sheen across its body, serene graceful stance"
+      },
+      {
+        "label": "OCEAN SPINOSAURUS",
+        "image": "a sleek spinosaurus with a tall sail glowing like flowing water and blue bioluminescence, glowing ripples cascading down its body, drifting light droplets, calm majestic pose, radiant aqua glow"
+      },
+      {
+        "label": "GOLDEN BRACHIOSAURUS",
+        "image": "a colossal gentle brachiosaurus with a body glowing in warm amber and gold light, radiant sunlight shimmering along its long neck, soft golden halo behind it, peaceful noble grace"
+      },
+      {
+        "label": "STORM PTERODACTYL",
+        "image": "a graceful pterodactyl gliding with vast wings glowing in electric silver-blue light, streaks of glowing wind trailing off the wingtips, brilliant sky glow behind, majestic soaring pose"
+      },
+      {
+        "label": "EMERALD VELOCIRAPTOR",
+        "image": "a swift velociraptor with sleek feathers glowing vivid emerald and jade light, glowing green energy trailing as it stands poised, bright luminous eyes, agile elegant stance, jewel-bright glow"
+      },
+      {
+        "label": "FROST ANKYLOSAURUS",
+        "image": "a sturdy ankylosaurus armored in glowing pale-blue ice crystal, frost shimmering across its plated back and club tail, drifting snow sparkles, calm gentle expression, icy ethereal glow"
+      },
+      {
+        "label": "AURORA PARASAUROLOPHUS",
+        "image": "an elegant parasaurolophus with a long crest glowing in shifting aurora colors of teal, pink and violet, luminous light flowing along its body, graceful serene pose, enchanting northern-light glow"
+      },
+      {
+        "label": "GALAXY TITANOSAURUS",
+        "image": "a breathtaking colossal titanosaurus with a body glowing like a swirling starry galaxy, constellations twinkling across its immense form, cosmic dust drifting around it, awe-inspiring majestic finale"
+      }
+    ],
+    "tags": [
+      "animals",
+      "dinosaurs",
+      "trex",
+      "dino",
+      "elemental",
+      "fantasy",
+      "reveal",
+      "shorts",
+      "viral",
+      "whichareyou"
+    ]
+  },
+  {
+    "id": "animals-strongest-superpowers",
+    "category": "science",
+    "title": "Every Animal's REAL Superpower 🦸 Nature's Wildest Abilities",
+    "hook": "Animals have real SUPERPOWERS",
+    "comment_q": "Which power would you want?",
+    "cta": "Follow for Part 2",
+    "music_mood": "mystery",
+    "style": "breathtaking cinematic wildlife art, a single animal shown mid-action dramatically demonstrating its natural superpower, glowing energy accents highlighting the ability, epic god-ray lighting, ultra-detailed fur and texture, shallow depth of field, awe-inspiring heroic scale, vibrant nature color palette, 8k, family-friendly, consistent centered framing and camera angle",
+    "reveals": [
+      {
+        "label": "MANTIS SHRIMP",
+        "image": "a vivid rainbow-colored mantis shrimp underwater unleashing a lightning-fast punch, a glowing shockwave bubble bursting from its club, radiant blue and gold energy ripple, dramatic ocean light beams, powerful and colorful"
+      },
+      {
+        "label": "PEREGRINE FALCON",
+        "image": "a sleek peregrine falcon diving straight down through the sky at blistering speed, motion streaks of wind trailing its wings, sunlit clouds rushing past, glowing speed lines, fierce focused eyes, epic aerial drama"
+      },
+      {
+        "label": "ELECTRIC EEL",
+        "image": "a long dark electric eel in murky water crackling with brilliant blue electricity arcing along its body, glowing lightning bolts rippling through the water, sparks and luminous energy, powerful and shocking"
+      },
+      {
+        "label": "GECKO",
+        "image": "a tiny gecko clinging upside down to a smooth glass surface, its glowing toe pads magnified, soft blue light showing invisible grip forces, dramatic close-up, impossible sticky power, clean bright light"
+      },
+      {
+        "label": "ARCTIC FOX",
+        "image": "a fluffy white arctic fox nearly invisible in a glittering snowfield, faint shimmering aura showing its perfect camouflage and warmth, soft blue winter glow, cozy and magical, breath misting in cold air"
+      },
+      {
+        "label": "TARDIGRADE",
+        "image": "a microscopic water bear tardigrade shown huge and heroic floating in space near ice and fire, a glowing protective shield around its plump body, surviving the impossible, whimsical yet epic, cosmic backdrop"
+      },
+      {
+        "label": "MANTIS",
+        "image": "a striking green praying mantis frozen mid-strike with lightning-fast forelegs snapping shut, glowing motion arc tracing the blinding speed, dew-covered leaf stage, dramatic macro light, elegant deadly precision"
+      },
+      {
+        "label": "OCTOPUS",
+        "image": "a color-shifting octopus melting its skin texture to match coral and rock, glowing ripples of transformation across its body, mesmerizing camouflage magic, vibrant reef light, shape-shifting master"
+      },
+      {
+        "label": "BOMBARDIER BEETLE",
+        "image": "a small dark beetle firing a hot glowing spray blast from its rear with a burst of steam and sparks, radiant orange chemical jet, dramatic defensive superpower, crisp macro studio light"
+      },
+      {
+        "label": "HUMAN",
+        "image": "a lone human silhouette standing tall on a ridge at golden sunrise, a warm glowing brain and steady heart lit within, the ultimate superpower of imagination and endurance, epic inspiring light, awe of our own kind"
+      }
+    ],
+    "tags": [
+      "science",
+      "animals",
+      "wildlife",
+      "nature",
+      "superpowers",
+      "reveal",
+      "biology",
+      "shorts",
+      "viral"
+    ]
+  },
+  {
     "id": "most-valuable-things-on-earth",
     "category": "finance-wealth",
     "title": "The Most VALUABLE Things on Earth by Weight 💎 Guess #1?",
@@ -1009,6 +1199,196 @@
       "shorts",
       "viral",
       "history"
+    ]
+  },
+  {
+    "id": "food-with-faces",
+    "category": "kids",
+    "title": "If Your SNACKS Had FACES! 🍕 Which Cutie Would You Eat?",
+    "hook": "SNACKS with adorable faces",
+    "comment_q": "Which cute snack is your favorite?",
+    "cta": "Follow for more happy foods!",
+    "music_mood": "warm",
+    "style": "adorable cheerful 3D cartoon render, one cute chubby friendly food item with big sparkly eyes tiny arms and a happy smile, soft rounded squishy shape in bright appetizing candy colors, playful bouncy pose on a clean pastel kitchen counter, soft sunny light and little sparkles, wholesome and family-friendly, consistent centered framing",
+    "reveals": [
+      {
+        "label": "Happy Pizza",
+        "image": "a cute round cheese pizza slice with big sparkly eyes, tiny arms waving and a wide cheesy grin, pepperoni cheeks, bouncing happily on a pastel counter with little sparkles"
+      },
+      {
+        "label": "Smiley Burger",
+        "image": "a chubby cheerful cheeseburger with sesame-seed bun, big happy eyes and a melty smile, tiny arms giving a thumbs-up, sitting on a bright checkered picnic cloth in sunny light"
+      },
+      {
+        "label": "Donut Buddy",
+        "image": "an adorable pink frosted donut with rainbow sprinkles, big sparkly eyes and a sweet happy smile, doing a little wiggly dance, soft pastel kitchen background with sparkles"
+      },
+      {
+        "label": "Cool Ice Cream",
+        "image": "a cute triple-scoop ice cream cone in pastel colors with big twinkly eyes and a happy grin, tiny arms up in joy, a cherry hat on top, sunny cheerful background with sparkles"
+      },
+      {
+        "label": "Giggly Fries",
+        "image": "a happy red carton of golden french fries with two big sparkly eyes and a wide grin, the fries poking up like spiky hair, giggling on a bright fast-food counter"
+      },
+      {
+        "label": "Sweet Cupcake",
+        "image": "a chubby cupcake with swirly pastel frosting, big sparkly eyes and rosy cheeks with a sweet smile, a cherry on top, sitting proudly on a doily with little floating hearts"
+      },
+      {
+        "label": "Taco Amigo",
+        "image": "a cute folded taco with big friendly eyes and a cheerful grin, tiny arms doing a little wave, colorful fillings peeking out, sunny cartoon kitchen with sparkles"
+      },
+      {
+        "label": "Sushi Pals",
+        "image": "two adorable sushi rolls side by side with big sparkly eyes and tiny happy smiles, soft rounded rice and colorful toppings, sitting on a little wooden board with sparkles"
+      },
+      {
+        "label": "Popcorn Party",
+        "image": "a cheerful red-striped popcorn bucket with big happy eyes and a wide grin, fluffy popcorn puffs bouncing out joyfully, tiny arms up, bright cinema-themed background with sparkles"
+      },
+      {
+        "label": "Rainbow Candy",
+        "image": "a chubby rainbow lollipop with a swirly spiral, big excited sparkly eyes and a huge happy grin, tiny arms spinning cheerfully, candy-colored background with floating sprinkles and sparkles"
+      }
+    ],
+    "tags": [
+      "food",
+      "snacks",
+      "kids",
+      "cute",
+      "cartoon",
+      "reveal",
+      "wholesome",
+      "shorts",
+      "viral"
+    ]
+  },
+  {
+    "id": "butterflies-as-living-stained-glass",
+    "category": "animal",
+    "title": "Every Butterfly Made of GLOWING STAINED GLASS ✨ Which Is Yours?",
+    "hook": "Butterflies made of GLASS",
+    "comment_q": "Which butterfly is yours?",
+    "cta": "Follow for the finale",
+    "music_mood": "dreamy",
+    "style": "hyper-detailed cinematic macro portrait, one magnificent butterfly with translucent wings made of glowing stained glass and light, radiant colored glass panels glowing from within, dramatic dark backdrop, soft backlight shining through the wings, floating glowing particles, ultra vibrant luminous glow, delicate graceful pose, 8k concept art, family-friendly enchanting, consistent centered framing",
+    "reveals": [
+      {
+        "label": "RUBY MONARCH",
+        "image": "a monarch butterfly with wings of glowing ruby and amber stained glass, warm crimson and gold light shining through each glowing panel, delicate black leading between the glass, radiant fiery glow"
+      },
+      {
+        "label": "SAPPHIRE MORPHO",
+        "image": "a large morpho butterfly with wings of glowing deep sapphire glass, brilliant electric-blue light pulsing through translucent panels, iridescent shimmer along the edges, dazzling azure glow"
+      },
+      {
+        "label": "EMERALD SWALLOWTAIL",
+        "image": "an elegant swallowtail with wings of glowing emerald and jade stained glass, soft green light glinting through leaf-shaped panels, delicate glowing tails trailing, graceful luminous glow"
+      },
+      {
+        "label": "AMETHYST GLASSWING",
+        "image": "a delicate glasswing butterfly with wings of glowing violet amethyst glass, translucent purple panels shimmering with soft light, dreamy faceted sheen, mysterious enchanting glow"
+      },
+      {
+        "label": "GOLDEN SULPHUR",
+        "image": "a bright sulphur butterfly with wings of glowing honey-gold and topaz glass, warm sunlit light streaming through radiant panels, gentle golden shimmer, cheerful luminous glow"
+      },
+      {
+        "label": "OPAL BLUE MOON",
+        "image": "a blue moon butterfly with wings of glowing iridescent opal glass, flickering pink, blue and green light dancing across translucent panels, whimsical rainbow sheen, magical glow"
+      },
+      {
+        "label": "CRIMSON PEACOCK",
+        "image": "a peacock butterfly with wings of glowing crimson and orange stained glass, luminous eye-spots glowing like jewels of light, rich warm panels shimmering, radiant vivid glow"
+      },
+      {
+        "label": "AURORA BIRDWING",
+        "image": "a large birdwing butterfly with vast wings of glowing aurora-colored glass, shifting teal, gold and rose light flowing through the panels, majestic graceful span, enchanting radiant glow"
+      },
+      {
+        "label": "CRYSTAL SNOW FRITILLARY",
+        "image": "a delicate fritillary with wings of glowing frosted crystal glass, pale-blue and white light sparkling through icy translucent panels, drifting frost shimmer, ethereal serene glow"
+      },
+      {
+        "label": "GALAXY EMPEROR",
+        "image": "a magnificent emperor butterfly with vast wings of glowing galaxy glass, tiny stars twinkling across deep violet and blue translucent panels, cosmic light streaming through, breathtaking celestial finale"
+      }
+    ],
+    "tags": [
+      "animals",
+      "butterfly",
+      "insects",
+      "stainedglass",
+      "glow",
+      "reveal",
+      "shorts",
+      "viral",
+      "satisfying",
+      "whichareyou"
+    ]
+  },
+  {
+    "id": "weather-as-epic-forces",
+    "category": "science",
+    "title": "Every Type of Weather as an EPIC FORCE ⛈️ Nature Unleashed",
+    "hook": "Weather is a living FORCE",
+    "comment_q": "Which one have you seen for real?",
+    "cta": "Follow for the Seasons",
+    "music_mood": "mystery",
+    "style": "breathtaking cinematic sky photography, a single dramatic weather phenomenon filling the frame in its most awe-inspiring moment, a tiny lone figure or small house on the ground for scale, epic dramatic lighting, ultra-detailed clouds and light, overwhelming natural power, vivid true-to-life color palette, 8k, family-friendly, consistent wide landscape framing",
+    "reveals": [
+      {
+        "label": "LIGHTNING",
+        "image": "a colossal branching bolt of brilliant white-blue lightning splitting a dark stormy sky, illuminating churning purple clouds, a tiny house glowing far below on the plain, electric raw power, dramatic flash light"
+      },
+      {
+        "label": "TORNADO",
+        "image": "a towering dark grey tornado funnel twisting down to a golden prairie, swirling dust and debris at its base, dramatic storm clouds above, a tiny farmhouse dwarfed nearby, terrifying majestic scale"
+      },
+      {
+        "label": "RAINBOW",
+        "image": "a vivid full double rainbow arcing across a fresh rain-washed valley, glistening wet green hills and soft parting clouds, sun breaking through golden rays, a tiny figure looking up in wonder, peaceful and radiant"
+      },
+      {
+        "label": "BLIZZARD",
+        "image": "a fierce white blizzard whipping snow sideways across a frozen landscape, swirling ice and near-whiteout haze, a tiny bundled figure trudging through drifts, cold blue glow, wild howling winter power"
+      },
+      {
+        "label": "HURRICANE",
+        "image": "a vast spiraling hurricane seen from just above the clouds, the calm dark eye at its center surrounded by massive swirling white cloud bands, glowing sunlight rimming the storm, immense planetary-scale power"
+      },
+      {
+        "label": "SANDSTORM",
+        "image": "a towering wall of orange-brown sand rolling over a desert like a curtain swallowing the sky, glowing sun dimmed behind the dust, a tiny figure bracing below, epic dramatic haboob, awe and dust-lit light"
+      },
+      {
+        "label": "AURORA",
+        "image": "shimmering green and violet northern lights rippling like glowing silk curtains across a starry night sky, mirrored on a still icy lake, a tiny silhouette gazing up, dreamy magical cold glow, serene wonder"
+      },
+      {
+        "label": "HAILSTORM",
+        "image": "giant glittering hailstones frozen in mid-fall against a bruised green-grey storm sky, ice chunks bouncing and splashing on the ground, dramatic backlight glinting off the ice, chaotic frozen power"
+      },
+      {
+        "label": "FOG",
+        "image": "a thick soft glowing fog rolling through a silent pine forest at dawn, pale light beams piercing the mist, a tiny lone figure on a path fading into the white, mysterious dreamy hush, gentle eerie beauty"
+      },
+      {
+        "label": "THE PERFECT STORM",
+        "image": "an apocalyptic supercell with lightning tornado and towering anvil clouds all at once over a vast plain, glowing storm light and swirling color, a tiny house beneath the immense sky, ultimate weather spectacle"
+      }
+    ],
+    "tags": [
+      "science",
+      "weather",
+      "storms",
+      "nature",
+      "earth",
+      "reveal",
+      "meteorology",
+      "shorts",
+      "viral"
     ]
   },
   {
@@ -1518,6 +1898,197 @@
     ]
   },
   {
+    "id": "baby-sea-animals",
+    "category": "kids",
+    "title": "The CUTEST Baby SEA Animals! 🐠 Which Ocean Buddy Do You Love?",
+    "hook": "The CUTEST baby sea animals",
+    "comment_q": "Which ocean buddy is your favorite?",
+    "cta": "Follow for more sea babies!",
+    "music_mood": "dreamy",
+    "style": "adorable cheerful 3D cartoon render, one impossibly cute chubby baby sea creature with giant sparkly eyes and a tiny happy smile, soft rounded squishy body in bright pastel ocean colors, playful floating pose in a dreamy sunlit underwater world with glowing coral bubbles and gentle rays of light, wholesome and gentle, family-friendly, consistent centered framing",
+    "reveals": [
+      {
+        "label": "Baby Octopus",
+        "image": "a tiny round pastel-purple baby octopus with giant sparkly eyes and a shy happy smile, curly little tentacles waving hello, blowing tiny bubbles, dreamy sunlit underwater world"
+      },
+      {
+        "label": "Little Seahorse",
+        "image": "an adorable curly yellow baby seahorse with big twinkly eyes and a sweet smile, tiny fluttering fins, floating gently among glowing pink coral and soft rising bubbles"
+      },
+      {
+        "label": "Puffer Buddy",
+        "image": "a chubby round teal pufferfish puffed up like a spiky balloon with big sparkly eyes and a goofy happy grin, tiny fins wiggling, dreamy underwater scene with sunbeams and bubbles"
+      },
+      {
+        "label": "Baby Turtle",
+        "image": "a cute tiny green sea turtle with a soft rounded shell, giant sparkly eyes and a happy smile, paddling cheerfully with little flippers, gentle sunlit ocean with glowing coral"
+      },
+      {
+        "label": "Sweet Starfish",
+        "image": "a chubby coral-pink starfish with big rosy cheeks, sparkly eyes and a wide happy grin, doing a little wiggly dance on the sandy sea floor, colorful shells and bubbles around"
+      },
+      {
+        "label": "Jellyfish Cutie",
+        "image": "an adorable translucent pastel-pink baby jellyfish with big glowing sparkly eyes and a tiny smile, soft flowing tentacles trailing gently, dreamy dark-blue ocean full of glowing sparkles"
+      },
+      {
+        "label": "Baby Whale",
+        "image": "a roly-poly little blue baby whale with giant sparkly eyes and a joyful open-mouth smile, a cute spout of water and hearts above its blowhole, sunlit ocean with soft light rays"
+      },
+      {
+        "label": "Clownfish Friend",
+        "image": "a cute chubby orange-and-white clownfish with big twinkly eyes and a cheerful grin, peeking out from a soft glowing pastel anemone, gentle bubbles floating up in sunlit water"
+      },
+      {
+        "label": "Tiny Crab",
+        "image": "an adorable round red baby crab with big googly sparkly eyes and a happy grin, tiny claws raised in a cute wave, scuttling on golden sand with shells and rising bubbles"
+      },
+      {
+        "label": "Rainbow Dolphin",
+        "image": "a playful pastel-rainbow baby dolphin with big excited sparkly eyes and a huge joyful smile, leaping through the water leaving a sparkling rainbow splash trail, sunny ocean surface"
+      }
+    ],
+    "tags": [
+      "sea",
+      "ocean",
+      "animals",
+      "kids",
+      "cute",
+      "cartoon",
+      "reveal",
+      "wholesome",
+      "shorts",
+      "viral"
+    ]
+  },
+  {
+    "id": "foxes-as-mythical-spirit-guardians",
+    "category": "animal",
+    "title": "Every Fox Reborn as a MYTHICAL SPIRIT 🦊 Which Is Yours?",
+    "hook": "Foxes became SPIRITS",
+    "comment_q": "Which spirit fox is yours?",
+    "cta": "Follow for the finale",
+    "music_mood": "dreamy",
+    "style": "hyper-detailed cinematic fantasy portrait, one magnificent fox reimagined as a gentle mythical spirit guardian with fur glowing with soft magical light and drifting glowing embers or petals, dramatic dark enchanted forest backdrop, soft rim lighting, floating glowing particles, ultra vibrant ethereal glow, graceful noble pose, kind gentle eyes, 8k concept art, family-friendly wondrous, consistent centered framing",
+    "reveals": [
+      {
+        "label": "FLAME FOX",
+        "image": "a graceful fox with fur glowing like warm orange and gold flame-light, gentle glowing embers drifting from its bushy tail, kind calm eyes, a soft blazing aura, noble poised stance in a dark forest"
+      },
+      {
+        "label": "FROST FOX",
+        "image": "a serene fox with fur glowing pale icy blue and white, delicate frost crystals shimmering across its coat, drifting snow sparkles around it, gentle luminous eyes, calm ethereal winter glow"
+      },
+      {
+        "label": "CHERRY BLOSSOM FOX",
+        "image": "a gentle fox with soft pink glowing fur, luminous cherry blossom petals drifting around it, tender rose light shimmering along its tail, sweet kind eyes, dreamy whimsical spring glow"
+      },
+      {
+        "label": "MOONLIGHT FOX",
+        "image": "an elegant silver fox glowing with soft pearly moonlight, translucent luminous fur shimmering, a gentle glowing crescent aura behind it, calm serene gaze, dreamy silver-blue glow"
+      },
+      {
+        "label": "EMERALD FOREST FOX",
+        "image": "a graceful fox with fur glowing vivid emerald and jade green, tiny glowing leaves and fireflies drifting around it, luminous forest light, bright gentle eyes, lush enchanted glow"
+      },
+      {
+        "label": "AMETHYST DUSK FOX",
+        "image": "a smooth fox with fur glowing deep violet amethyst, soft purple light rippling across its coat, glowing stars beginning to twinkle around it, mysterious calm eyes, dreamy twilight glow"
+      },
+      {
+        "label": "GOLDEN SUN FOX",
+        "image": "a radiant fox with fur glowing warm amber and gold like sunrise, soft rays of golden light streaming from its coat, a gentle sun halo behind it, warm kind gaze, glorious sunlit glow"
+      },
+      {
+        "label": "AURORA FROST FOX",
+        "image": "a delicate fox with fur glowing in shifting aurora colors of teal, pink and violet, luminous northern lights swirling above it, sparkling snow drifting, graceful serene enchanting glow"
+      },
+      {
+        "label": "OCEAN MIST FOX",
+        "image": "a sleek fox with fur glowing soft cyan and silver like ocean mist, glowing water droplets and gentle light drifting around it, calm luminous eyes, dreamy flowing aqua glow"
+      },
+      {
+        "label": "CELESTIAL NINE-TAIL FOX",
+        "image": "a magnificent fox with nine flowing tails glowing like a starry galaxy, each tail shimmering with violet and gold starlight, a radiant celestial aura, wise gentle eyes, awe-inspiring mythical finale"
+      }
+    ],
+    "tags": [
+      "animals",
+      "fox",
+      "kitsune",
+      "spirit",
+      "fantasy",
+      "mythical",
+      "reveal",
+      "shorts",
+      "viral",
+      "whichareyou"
+    ]
+  },
+  {
+    "id": "inside-the-human-body-worlds",
+    "category": "science",
+    "title": "Inside YOUR Body Like You've Never Seen It 🫀 Hidden Worlds",
+    "hook": "Your body is a WORLD inside",
+    "comment_q": "Which part amazed you most?",
+    "cta": "Follow to explore deeper",
+    "music_mood": "dreamy",
+    "style": "breathtaking cinematic scientific visualization, one immersive glowing microscopic view inside the human body filling the frame, soft volumetric light beams through translucent living tissue, luminous jewel-tone glow, ultra-detailed organic structures, awe-inspiring sense of scale and wonder, dreamy warm biological color palette, 8k, family-friendly, consistent immersive framing",
+    "reveals": [
+      {
+        "label": "THE HEART",
+        "image": "inside a glowing red heart chamber, powerful smooth muscle walls pulsing and rivers of luminous red blood flowing through, warm radiant light, rhythmic and alive, dramatic volumetric glow, awe of the tireless engine"
+      },
+      {
+        "label": "BLOODSTREAM",
+        "image": "floating inside a glowing blood vessel, round red blood cells drifting like soft discs through golden plasma light, translucent vessel walls arching overhead, gentle current, luminous crimson and amber glow"
+      },
+      {
+        "label": "THE LUNGS",
+        "image": "deep inside the lungs, delicate glowing branching airways opening into shimmering translucent air sacs, soft blue oxygen light flowing in and out, airy and luminous, dreamy breathing rhythm, ethereal light beams"
+      },
+      {
+        "label": "THE BRAIN",
+        "image": "a vast network of glowing neurons firing sparks of light across dark space, luminous branching connections lighting up like a living galaxy, electric blue and gold pulses, mesmerizing storm of thought, infinite wonder"
+      },
+      {
+        "label": "THE EYE",
+        "image": "inside the eye looking out, a glowing curved retina wall covered in shimmering light-catching cells, a soft beam of colored light streaming in and scattering into sparks, dreamy iridescent glow, magical vision"
+      },
+      {
+        "label": "BONES",
+        "image": "inside a glowing bone, an intricate honeycomb lattice of ivory struts with warm golden marrow glowing deep within, strong and beautiful architecture, soft dramatic light, awe of hidden inner strength"
+      },
+      {
+        "label": "THE GUT",
+        "image": "a winding glowing tunnel lined with soft rippling velvety folds, tiny luminous microbes drifting and glowing like fireflies, warm pink and gold light, a hidden living ecosystem, dreamy immersive glow"
+      },
+      {
+        "label": "MUSCLE FIBERS",
+        "image": "bundles of glowing striped muscle fibers flexing and shimmering with energy, luminous red and orange strands sliding past each other, radiant power and motion, dramatic rim light, living strength up close"
+      },
+      {
+        "label": "A SINGLE CELL",
+        "image": "zooming into one glowing translucent human cell, its soft membrane and floating inner structures lit from within, the golden nucleus glowing like a tiny sun, drifting in luminous fluid, delicate and alive"
+      },
+      {
+        "label": "DNA",
+        "image": "a magnificent glowing double-helix DNA strand spiraling through the frame like a luminous twisting ladder, softly glowing rungs in blue and pink, drifting sparkles, the elegant infinite code of you, awe and wonder"
+      }
+    ],
+    "tags": [
+      "science",
+      "human body",
+      "anatomy",
+      "biology",
+      "cells",
+      "reveal",
+      "microscope",
+      "shorts",
+      "viral"
+    ]
+  },
+  {
     "id": "one-dollar-vs-one-billion-life",
     "category": "finance-wealth",
     "title": "$1 Life vs $1 BILLION Life — Same Thing, Two Worlds 🌍",
@@ -1768,6 +2339,69 @@
       "gamer",
       "whichareyou",
       "familyfriendly"
+    ]
+  },
+  {
+    "id": "weather-characters",
+    "category": "kids",
+    "title": "What If the WEATHER Had Faces? ☀️ Which One Is the Friendliest?",
+    "hook": "WEATHER with cute faces",
+    "comment_q": "Which weather buddy do you like most?",
+    "cta": "Follow for more weather friends!",
+    "music_mood": "dreamy",
+    "style": "adorable cheerful 3D cartoon render, one cute chubby friendly weather character with big sparkly eyes tiny arms and a happy smile, soft rounded shapes in bright cheerful pastel colors, playful floating pose in a dreamy pastel sky with fluffy clouds and gentle sparkles, wholesome and gentle, family-friendly, consistent centered framing",
+    "reveals": [
+      {
+        "label": "Sunny Sun",
+        "image": "a chubby golden sun character with big sparkly eyes, rosy cheeks and a huge warm smile, tiny arms waving cheerfully, soft glowing rays around it, bright pastel-blue sky with fluffy clouds"
+      },
+      {
+        "label": "Fluffy Cloud",
+        "image": "a cute soft white cloud with big twinkly eyes and a sleepy happy smile, tiny stubby arms, floating gently and puffing little heart shapes, dreamy pastel sky with sparkles"
+      },
+      {
+        "label": "Rainy Raindrop",
+        "image": "an adorable round blue raindrop character with big sparkly eyes and a cheerful grin, tiny arms holding a colorful polka-dot umbrella, splashing happily in a puddle, soft rainy pastel sky"
+      },
+      {
+        "label": "Snowy Snowflake",
+        "image": "a cute six-pointed pastel-blue snowflake with big sparkly eyes and rosy cheeks, a sweet gentle smile, tiny mitten arms, drifting softly through a glowing pastel winter sky with sparkles"
+      },
+      {
+        "label": "Rainbow Buddy",
+        "image": "a chubby smiling rainbow arch character with big sparkly eyes and tiny arms spread wide, cheerful grin, floating over fluffy clouds with little stars and sparkles in a bright sky"
+      },
+      {
+        "label": "Thunder Cloud",
+        "image": "a cute round gray-blue cloud with big friendly eyes and a playful grin, holding a tiny cartoon lightning bolt like a toy, harmless and cheerful, dreamy pastel sky with sparkles"
+      },
+      {
+        "label": "Windy Breeze",
+        "image": "an adorable swirly pastel-teal wind character with big twinkly eyes and a cheerful smile, curly swirling tail, tiny arms blowing colorful leaves and petals, soft breezy pastel sky"
+      },
+      {
+        "label": "Foggy Mist",
+        "image": "a cute soft lavender fog character with big sleepy sparkly eyes and a gentle smile, wispy rounded shape, tiny arms, drifting dreamily among pastel hills with glowing sparkles"
+      },
+      {
+        "label": "Moon Glow",
+        "image": "a chubby crescent moon character with big sparkly eyes, rosy cheeks and a sweet peaceful smile, tiny arms, glowing softly in a dreamy pastel night sky full of twinkling stars"
+      },
+      {
+        "label": "Rainbow Storm",
+        "image": "a cheerful colorful storm cloud with big excited sparkly eyes and a huge grin, sprinkling rainbow-colored raindrops and tiny sparkles from below, tiny arms up, bright dreamy pastel sky"
+      }
+    ],
+    "tags": [
+      "weather",
+      "sky",
+      "kids",
+      "cute",
+      "cartoon",
+      "reveal",
+      "wholesome",
+      "shorts",
+      "viral"
     ]
   }
 ]

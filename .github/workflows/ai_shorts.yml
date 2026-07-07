@@ -29,6 +29,9 @@ jobs:
       - name: Python bağımlılıkları
         run: pip install -r requirements.txt
 
+      - name: Günün trendlerini logla (bilgi amaçlı)
+        run: python scripts/fetch_trends.py US GB || true
+
       - name: Dilsiz görsel reveal üret (AI görseller)
         run: python scripts/generate_visual.py
 

@@ -104,6 +104,9 @@ HASH_CAT = [
     (("nature", "world", "space", "doga", "doğa"), ["#nature", "#satisfying", "#space"]),
     (("aesthetic", "color", "estetik", "renk"), ["#aesthetic", "#aestheticedit", "#colors"]),
     (("myth", "legend", "efsane", "mitoloji", "fantasy"), ["#mythology", "#fantasy", "#legend"]),
+    (("kid", "cartoon", "cocuk", "çocuk"), ["#kids", "#cartoon", "#cute"]),
+    (("animal", "pet"), ["#animals", "#cute", "#wildlife"]),
+    (("science", "space", "bilim"), ["#science", "#space", "#didyouknow"]),
 ]
 TAGS_UNIVERSAL = ["shorts", "viral", "fyp", "for you", "reveal", "which one are you",
                   "satisfying", "aesthetic", "trending shorts", "ai art"]

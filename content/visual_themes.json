@@ -1,58 +1,122 @@
 [
   {
-    "id": "zodiac-as-flower-fairies",
-    "title": "Every Zodiac Sign as a FLOWER FAIRY 🌸 Which Blooms in You?",
-    "hook": "Your flower FAIRY",
-    "comment_q": "Which flower are you?",
-    "cta": "Follow for more",
+    "id": "money-amounts-as-physical-piles",
+    "category": "finance-wealth",
+    "title": "How BIG Is Each Amount of Money? 💰 $1 to $1 Trillion",
+    "hook": "$1 vs $1 TRILLION size",
+    "comment_q": "Which pile broke your brain?",
+    "cta": "Follow for Part 2",
+    "music_mood": "mystery",
+    "style": "hyper-detailed cinematic 3D render, one enormous physical stack of crisp generic banknotes and gold in a vast empty warehouse, dramatic overhead spotlight, tiny human silhouette for scale, cool blue shadows and warm gold highlights, ultra sharp, awe-inspiring sense of scale, family-friendly, consistent framing and camera angle",
+    "reveals": [
+      {
+        "label": "$1",
+        "image": "a single crisp generic banknote resting flat on a polished concrete floor beside a tiny human silhouette, dramatic spotlight, almost nothing there, humble tiny scale, cool empty warehouse"
+      },
+      {
+        "label": "$100",
+        "image": "a small neat folded wad of generic bills held between two fingers, glowing spotlight, human silhouette towering above it, still tiny, warm gold highlight on the edges"
+      },
+      {
+        "label": "$10,000",
+        "image": "one tidy brick-sized bundle of banded generic banknotes sitting on the floor, about the size of a book, human silhouette standing beside it for scale, sharp cinematic light"
+      },
+      {
+        "label": "$1 MILLION",
+        "image": "a small pallet stacked with one hundred banded money bricks, roughly the size of a suitcase, a human silhouette standing next to it looking impressed, dramatic overhead beam"
+      },
+      {
+        "label": "$100 MILLION",
+        "image": "several tall wooden pallets loaded with shrink-wrapped money bricks, taller than a person, human silhouette dwarfed beside the stacks, vast warehouse, glowing gold tones"
+      },
+      {
+        "label": "$1 BILLION",
+        "image": "a towering wall of ten pallets of banded banknotes stretching up like shipping containers, human silhouette tiny at the base, immense scale, epic spotlight, cool blue shadows"
+      },
+      {
+        "label": "$100 BILLION",
+        "image": "an endless field of hundreds of money pallets filling an enormous hangar to the horizon, human silhouette a barely visible speck, overwhelming ocean of cash, dramatic light shafts"
+      },
+      {
+        "label": "$1 TRILLION",
+        "image": "a colossal city-block-sized mountain of money pallets rising like a skyscraper into the hangar ceiling, human silhouette invisible at the base, jaw-dropping impossible scale, godlike overhead light"
+      },
+      {
+        "label": "vs A HOUSE",
+        "image": "the towering billion-dollar money wall next to a small ordinary generic house shown for comparison, the house looking like a toy beside it, dramatic scale contrast, cinematic light"
+      },
+      {
+        "label": "vs A JET",
+        "image": "the vast trillion-dollar money mountain dwarfing a full-size generic private jet parked at its base, the jet appearing tiny, mind-bending scale reveal, epic warehouse spotlight"
+      }
+    ],
+    "tags": [
+      "money",
+      "wealth",
+      "billion",
+      "trillion",
+      "scale",
+      "comparison",
+      "reveal",
+      "shorts",
+      "viral"
+    ]
+  },
+  {
+    "id": "zodiac-as-crystal-palaces",
+    "category": "zodiac",
+    "title": "Every Zodiac as a CRYSTAL PALACE 💎 Which One Is Yours?",
+    "hook": "Your zodiac PALACE",
+    "comment_q": "Which palace is yours?",
+    "cta": "Which is yours?",
     "music_mood": "dreamy",
-    "style": "hyper-detailed cinematic fantasy portrait, one delicate glowing flower fairy with translucent petal wings, soft magical bokeh, dramatic warm rim lighting, ultra vibrant pastel palette, dreamy enchanting, 8k, family-friendly whimsical fantasy, painterly, consistent framing",
+    "style": "breathtaking cinematic fantasy architecture, a single colossal palace carved entirely from glowing gemstone crystal, dramatic god-ray lighting, floating in a dreamlike sky, ultra-detailed reflective facets, epic scale, vibrant jewel-tone palette, 8k, family-friendly, consistent centered framing",
     "reveals": [
       {
         "label": "ARIES",
-        "image": "a bold flower fairy with fiery red poppy-petal dress and glowing ember wings, confident bright expression, surrounded by sparks of light, red palette"
+        "image": "a fiery ruby-red crystal palace with sharp blade-like towers and glowing ember veins, molten light pulsing inside, perched on a scarlet volcanic cliff with sparks in the air"
       },
       {
         "label": "TAURUS",
-        "image": "a serene fairy with lush pink-and-gold rose-petal dress and emerald leaf wings, calm and graceful among glowing blooming roses, green-pink palette"
+        "image": "a lush emerald-green crystal palace with rounded domes wrapped in golden vines and glowing blossoms, warm golden sunset light over a flowering valley"
       },
       {
         "label": "GEMINI",
-        "image": "playful twin fairies with lavender sweet-pea petals and shimmering silver wings, mirrored and giggling amid swirling pollen light, airy palette"
+        "image": "twin mirror-image citrine palaces connected by a glowing bridge of light, shimmering yellow facets, playful swirling clouds and floating light orbs between them"
       },
       {
         "label": "CANCER",
-        "image": "a gentle fairy with pearly-white moonflower petals and soft glowing wings, tender expression under a glowing full moon and dewdrops, silver-blue palette"
+        "image": "a pearly moonstone palace with soft curved shell-like domes glowing silver-blue, reflected perfectly in a glassy mirror lake beneath an enormous full moon"
       },
       {
         "label": "LEO",
-        "image": "a radiant fairy with a golden sunflower-crown and glowing amber wings, dazzling confident smile in warm sunlight sparkles, gold palette"
+        "image": "a dazzling golden-topaz palace with a radiant sunburst crown spire blazing warm light, majestic and regal atop a golden desert plateau"
       },
       {
         "label": "VIRGO",
-        "image": "an elegant fairy with delicate white-and-jade lily petals and lace-like glowing wings, graceful among glowing herbs, jade-cream palette"
+        "image": "an elegant clear-quartz palace with delicate lace-like crystal spires and floating glowing terrace gardens, pristine white-green glow, softly falling light petals"
       },
       {
         "label": "LIBRA",
-        "image": "a harmonious fairy with balanced rose-gold and sky-blue cosmos petals and symmetrical crystal wings, floating over a calm pond, pastel palette"
+        "image": "a perfectly symmetrical rose-quartz palace with balanced twin wings and giant glowing crystal scales at its gate, floating serene over still pink water, pink-gold light"
       },
       {
         "label": "SCORPIO",
-        "image": "a mysterious fairy with deep violet orchid petals and star-flecked glowing wings, alluring gaze in soft purple twilight glow, dark violet palette"
+        "image": "a mysterious deep-amethyst palace with dark violet spires and glowing hidden inner chambers, swirling star-flecked purple mist coiling around its base at midnight"
       },
       {
         "label": "SAGITTARIUS",
-        "image": "an adventurous fairy with turquoise-and-tan wildflower petals and swift glowing wings, joyful leaping mid-air under a starry sky, turquoise night palette"
+        "image": "a soaring turquoise-crystal palace shaped like a drawn bow, arrow-shaped spires aimed at a vast starry sky, glowing teal light streaking upward like comet trails"
       },
       {
-        "label": "PISCES",
-        "image": "a dreamy fairy with iridescent aqua lotus petals and shimmering water-light wings, floating peacefully in soft blue sparkles, aqua palette"
+        "label": "CAPRICORN",
+        "image": "a towering obsidian-and-diamond palace built into a frozen mountain summit, sharp glowing white spires piercing icy clouds, cold majestic grandeur"
       }
     ],
     "tags": [
       "zodiac",
-      "fairy",
-      "flowers",
+      "crystal",
+      "palace",
       "astrology",
       "reveal",
       "shorts",
@@ -61,948 +125,504 @@
     ]
   },
   {
-    "id": "elements-reimagined-titans",
-    "title": "The Elements As Ancient Titans 🌪️ Which Power Is Yours?",
-    "hook": "Elements became TITANS",
-    "comment_q": "Which power calls you?",
-    "cta": "Follow for the finale",
-    "music_mood": "mystery",
-    "style": "colossal ancient elemental titan, epic cinematic low-angle shot, dramatic storm sky, glowing energy, ultra-detailed fantasy concept art, immense scale, powerful atmosphere, 4k",
+    "id": "luxury-dream-homes-styles",
+    "category": "Luxury lifestyle",
+    "title": "8 Dream Homes: Which One Is Yours? 🏛️",
+    "hook": "PICK YOUR DREAM HOME",
+    "comment_q": "Which house is YOURS? Drop the number!",
+    "cta": "SAVE YOUR FAVE",
+    "music_mood": "dreamy",
+    "style": "Ultra-realistic cinematic architectural photography, golden-hour lighting, dramatic wide angles, glossy magazine-cover polish, rich saturated colors, shallow depth of field",
     "reveals": [
       {
-        "label": "FIRE",
-        "image": "a towering titan of living flame and molten rock, cracks glowing orange across its body, erupting from a volcanic ridge"
+        "label": "Glass Cliff House",
+        "image": "A floor-to-ceiling glass mansion cantilevered off a dramatic ocean cliff at sunset, endless sea below, warm interior lights glowing, waves crashing on rocks far beneath"
       },
       {
-        "label": "WATER",
-        "image": "a colossal titan formed of curling ocean waves and glowing blue mist, water endlessly flowing over its translucent body"
+        "label": "Desert Palace",
+        "image": "A sprawling white minimalist desert villa with long reflecting pools, palm-lined courtyard, pink sand dunes glowing at dusk, sleek geometric arches"
       },
       {
-        "label": "EARTH",
-        "image": "a giant titan of mountain stone and glowing green crystal veins, moss and trees growing across its massive shoulders"
+        "label": "Treetop Retreat",
+        "image": "A modern home built into an emerald rainforest canopy, wooden walkways and glass walls suspended among giant trees, drifting mist, warm string lights glowing"
       },
       {
-        "label": "WIND",
-        "image": "a swirling titan of silver storm clouds and spinning air currents, faint glowing eyes within a towering tornado"
+        "label": "Snow Chalet",
+        "image": "A grand alpine chalet with warm glowing windows against a snowy peak, smoke curling from a stone chimney, green aurora shimmering in the night sky above"
       },
       {
-        "label": "LIGHTNING",
-        "image": "a crackling titan of pure electric energy, jagged bolts forming its limbs, glowing white-blue against a dark storm"
+        "label": "Floating Villa",
+        "image": "An ultramodern home floating on a crystal-clear turquoise lagoon, glass floors revealing coral below, a private jetty with a sleek boat, tropical sunset"
       },
       {
-        "label": "ICE",
-        "image": "a frozen titan of jagged glacial crystal and drifting snow, pale blue glow within, standing in an endless frozen tundra"
+        "label": "Marble Estate",
+        "image": "A colossal marble mansion with grand columns, sweeping staircases, manicured hedge gardens and tiered fountains, golden sunlight, ornate iron gates"
       },
       {
-        "label": "SHADOW",
-        "image": "a towering titan of swirling dark mist and starlight, galaxies visible inside its form, glowing violet eyes in the void"
+        "label": "Hillside Eco Home",
+        "image": "A stunning home built into a green hillside, grass roof blending into the landscape, huge circular glass windows revealing an opulent interior lit warmly at twilight"
       },
       {
-        "label": "LIGHT",
-        "image": "a radiant titan of golden sunbeams and floating luminous runes, a blindingly bright core, halo of glowing light rays"
+        "label": "Sky Penthouse",
+        "image": "A rooftop penthouse above a glittering nighttime city skyline, wraparound glass terrace with an infinity pool reflecting skyscraper lights, clouds drifting below the balcony"
       },
       {
-        "label": "METAL",
-        "image": "a massive titan of gleaming liquid-silver armor and glowing molten seams, reflective chrome body under a stormy sky"
+        "label": "Volcano Villa",
+        "image": "A daring modern home perched on a black volcanic ridge above a glowing orange lava field far below, sleek dark stone and glass, dramatic red-lit sky"
       },
       {
-        "label": "NATURE",
-        "image": "a serene titan grown from ancient trees, blooming flowers and glowing pollen, waterfalls flowing from its living body"
+        "label": "Waterfall Mansion",
+        "image": "A breathtaking mansion beside a giant cascading waterfall, glass rooms suspended over rushing water, a rainbow in the mist, lush green cliffs surrounding it"
       }
     ],
     "tags": [
-      "elements",
-      "fantasy",
-      "titans",
+      "luxury",
+      "dreamhome",
+      "mansion",
+      "architecture",
       "reveal",
-      "shorts",
+      "satisfying",
+      "luxurylifestyle",
+      "homedesign",
       "viral",
-      "elemental",
-      "epic",
-      "fyp"
+      "shorts"
     ]
   },
   {
-    "id": "trees-as-ancient-sages",
-    "title": "Every Tree As An Ancient Wise Sage 🌳",
-    "hook": "This tree hides a person",
-    "comment_q": "Which tree calls to you?",
-    "cta": "Follow for more",
-    "music_mood": "dreamy",
-    "style": "mystical cinematic elder-sage fantasy portrait, bark-and-leaf woven robes, glowing wise eyes, soft forest god-rays, floating spores of light, ultra-detailed, earthy luminous colors, serene and epic, family-friendly",
+    "id": "superpowers-as-glowing-auras",
+    "category": "entertainment-curiosity",
+    "title": "If Your Superpower Was Visible ⚡ Which Aura Is Yours?",
+    "hook": "Your hidden SUPERPOWER",
+    "comment_q": "Which power did you get?",
+    "cta": "Follow for your power",
+    "music_mood": "mystery",
+    "style": "hyper-detailed cinematic hero portrait, one person radiating a glowing superpower aura made of pure energy, dramatic dark background, powerful backlight, swirling light particles, ultra vibrant saturated glow, epic confident pose, energy effects only no weapons, 8k, family-friendly comic-movie fantasy, painterly concept art, consistent framing",
     "reveals": [
       {
-        "label": "OAK",
-        "image": "a mighty bearded sage with rugged oak-bark skin and a crown of sturdy green leaves, glowing acorn staff, broad strong stance, warm golden forest light"
+        "label": "TELEKINESIS",
+        "image": "a calm figure with glowing violet eyes lifting a swirl of glowing rocks and objects orbiting around them in the air, purple energy waves rippling outward, floating debris frozen mid-air, deep violet palette"
       },
       {
-        "label": "WILLOW",
-        "image": "a gentle graceful sage with long flowing willow-branch hair draping like a veil, soft silver-green robes, calm misty riverside light, tranquil expression"
+        "label": "SUPER SPEED",
+        "image": "a figure blurred into streaks of glowing cyan light dashing forward, trails of electric-blue speed lines wrapping the body, sparks flying off the ground, dynamic motion, bright cyan palette"
       },
       {
-        "label": "CHERRY",
-        "image": "a serene sage in soft-pink blossom robes with petals drifting from delicate branch-arms, glowing spring aura, gentle peaceful smile, dreamy pink light"
+        "label": "FIRE CONTROL",
+        "image": "a figure with hands wreathed in glowing orange flames, ribbons of controlled fire spiraling gracefully around the arms, warm ember glow on the face, molten sparks rising, orange-red palette"
       },
       {
-        "label": "PINE",
-        "image": "a tall stoic sage in deep evergreen needle-robes with a snow-dusted crown, cold clear mountain light, patient enduring stance, crisp fresh air"
+        "label": "INVISIBILITY",
+        "image": "a figure fading into shimmering translucent glass-like distortion, only a faint glowing blue outline visible, light bending around the body, ghostly rippling air, cool pale-blue palette"
       },
       {
-        "label": "MAPLE",
-        "image": "a warm sage in fiery red-and-orange leaf robes with glowing amber eyes, autumn leaves swirling around him, cozy sunset forest light, kind wise smile"
+        "label": "HEALING",
+        "image": "a gentle figure with soft golden-green light glowing from cupped hands, glowing petals and warm sparkles rising, radiant nurturing halo, tiny glowing vines curling around the wrists, green-gold palette"
       },
       {
-        "label": "BAOBAB",
-        "image": "an ancient broad sage with thick weathered baobab-bark skin and a wide sturdy silhouette, golden savanna light, timeless powerful presence"
+        "label": "LIGHTNING",
+        "image": "a figure crackling with glowing white-blue electricity arcing across the whole body, bolts leaping from the fingertips, brilliant flashing storm glow behind, electric charged pose, blue-white palette"
       },
       {
-        "label": "BIRCH",
-        "image": "a slender pale sage in white-and-black birch-bark robes with silver hair, luminous glowing eyes, cool bright woodland light, elegant quiet wisdom"
+        "label": "ICE POWER",
+        "image": "a figure breathing glittering frost, glowing pale-blue ice crystals forming and floating around the raised hands, frozen mist swirling, sharp crystalline shards suspended in air, icy blue palette"
       },
       {
-        "label": "REDWOOD",
-        "image": "a towering colossal sage in deep russet-red bark robes reaching toward the canopy, misty god-rays through giant trunks, awe-inspiring majestic stance"
+        "label": "FLIGHT",
+        "image": "a figure soaring upward above glowing clouds with a streaming trail of golden light behind, cape of light rippling, arms spread triumphant, radiant sky-high glow, warm gold palette"
       },
       {
-        "label": "OLIVE",
-        "image": "a peaceful silver-haired sage in soft green-and-gray olive-leaf robes holding a glowing branch, warm Mediterranean light, calm generous smile"
+        "label": "MIND READING",
+        "image": "a serene figure with glowing pink energy ripples pulsing outward from the forehead, floating luminous thought-symbols and soft glowing orbs circling the head, dreamy telepathic haze, magenta-pink palette"
       },
       {
-        "label": "BAMBOO",
-        "image": "a calm flexible sage in sleek green bamboo-segmented robes with a slender staff, soft misty grove light, balanced serene meditative pose"
+        "label": "SHADOW STEP",
+        "image": "a mysterious figure dissolving into swirling deep-violet and starlit mist, glowing edges of starlight, calmly stepping through a portal of dark sparkles, elegant non-scary aura, midnight-violet palette"
       }
     ],
     "tags": [
-      "trees",
-      "sage",
-      "wise",
+      "superpowers",
+      "superpower",
       "reveal",
       "shorts",
       "viral",
-      "fantasy",
-      "nature",
+      "aura",
+      "hero",
+      "whichareyou",
       "familyfriendly"
     ]
   },
   {
-    "id": "seasons-and-nature-spirits",
-    "title": "Every Season & Force of Nature as a Spirit 🍂 Yours?",
-    "hook": "A nature spirit is yours",
-    "comment_q": "Which spirit matches you?",
-    "cta": "Follow for more",
-    "music_mood": "dreamy",
-    "style": "hyper-detailed cinematic fantasy spirit portrait, ethereal nature spirit being, dramatic soft rim lighting, glowing seasonal aura, dreamy magical pose, vibrant, painterly concept art, 4k, family friendly",
+    "id": "mindset-rich-vs-poor",
+    "category": "Motivasyon/zihniyet (görsel)",
+    "title": "Rich Mindset vs Poor Mindset 🧠 Which One Runs You?",
+    "hook": "Two minds, two futures",
+    "comment_q": "Which mind is yours today?",
+    "cta": "Follow to level up",
+    "music_mood": "warm",
+    "style": "cinematic split-world concept art, one glowing luminous golden-toned scene of growth beside a dim muted gray scene, dramatic symbolic lighting, inspiring uplifting mood, ultra-detailed painterly realism, no text no logos, 4k, family-friendly, consistent split-frame composition",
     "reveals": [
       {
-        "label": "SPRING",
-        "image": "a gentle spirit crowned with blooming pink blossoms, glowing green vines flowing from the form, butterflies circling, soft warm light, standing in a flowering meadow, fresh and lively"
+        "label": "TIME",
+        "image": "a split scene: on the glowing side a person planting a tiny seedling that sprouts into a golden tree of light, on the dim gray side a person slumped scrolling under a flickering screen, symbolic contrast of investing time versus wasting it, warm hopeful glow"
       },
       {
-        "label": "SUMMER",
-        "image": "a radiant golden spirit glowing with warm sunlight, sunflower crown, shimmering heat haze aura, standing in a bright wheat field under a blazing sun, joyful and vibrant"
+        "label": "FAILURE",
+        "image": "a split scene: on the radiant side a figure rising from a cracked floor with glowing stepping stones forming an upward staircase beneath them, on the gray side a figure curled inside a closed shrinking box in shadow, failure as a rising staircase versus a dead end, uplifting light"
       },
       {
-        "label": "AUTUMN",
-        "image": "a warm amber spirit wrapped in glowing orange and red falling leaves, crown of golden foliage, soft misty light, standing in a forest ablaze with autumn colors, cozy and rich"
+        "label": "MONEY",
+        "image": "a split scene: on the golden side coins turning into glowing seeds sprouting a lush garden of growing plants, on the muted side coins slipping through open hands and vanishing into black shadow below, money as a seed to plant versus water to spill, warm inspiring glow"
       },
       {
-        "label": "WINTER",
-        "image": "a serene pale spirit in glowing frost-white robes, crown of icicles, snowflakes drifting, breath of glittering mist, standing in a quiet snowy landscape at dusk, calm and pure"
+        "label": "PEOPLE",
+        "image": "a split scene: on the bright side a circle of glowing figures lifting one another toward a blazing sunrise, on the dim side a lone gray figure hunched amid pointing accusing silhouettes, lifting others versus tearing down, radiant warmth"
       },
       {
-        "label": "VOLCANO",
-        "image": "a fierce spirit glowing with molten lava veins and burning ember hair, cracked glowing skin, sparks rising, standing before a glowing erupting volcanic ridge, powerful and dramatic"
+        "label": "LEARNING",
+        "image": "a split scene: on the luminous side a person opening a glowing book that pours golden light and floating stars of knowledge into their mind, on the gray side a person turning their back on a closed dusty cobwebbed book, curiosity versus stagnation, glowing"
       },
       {
-        "label": "OCEAN",
-        "image": "a flowing spirit formed from glowing blue water and white foam, hair of curling waves, pearl accents, translucent shimmering form, standing over a glowing sea, graceful and deep"
+        "label": "PROBLEMS",
+        "image": "a split scene: on the golden side a figure stepping through a boulder that glows and splits open like a radiant doorway, on the gray side a figure sitting frozen and small before the same boulder looming as a black wall, obstacle as a door versus a wall, hopeful backlight"
       },
       {
-        "label": "FOREST",
-        "image": "a lush green spirit covered in glowing leaves, moss, and tiny flowers, antlers of living branches, gentle glowing eyes, standing in a sunlit ancient forest, alive and serene"
+        "label": "TODAY",
+        "image": "a split scene: on the radiant side a person lacing up glowing running shoes at dawn mid-stride toward the light, on the muted side a person collapsed slamming a giant snooze button under heavy gray storm clouds, action now versus someday, warm sunrise glow"
       },
       {
-        "label": "DESERT",
-        "image": "a warm golden spirit made of swirling glowing sand, flowing dune-shaped robes, sun-kissed aura, standing amid glowing sand dunes at golden hour, mysterious and calm"
+        "label": "FOCUS",
+        "image": "a split scene: on the bright side a single brilliant arrow of light streaking dead-straight into a distant glowing bullseye, on the gray side a chaotic tangle of dim broken arrows scattering in every direction, one clear aim versus endless distraction, luminous"
       },
       {
-        "label": "MOUNTAIN",
-        "image": "a mighty stone spirit with glowing crystal veins and snow-capped shoulders, crown of jagged peaks, steady ancient gaze, standing among towering mountains, strong and timeless"
+        "label": "GROWTH",
+        "image": "a split scene: on the golden side a small figure facing a mirror that reflects a towering radiant future self reaching back, on the gray side a slumped figure facing a cracked mirror showing the same tired reflection endlessly, becoming versus staying, inspiring glow"
       },
       {
-        "label": "STARLIGHT",
-        "image": "a dreamy celestial spirit glowing with soft starlight, hair of drifting stars, glowing constellation patterns across the skin, standing under a vast sparkling night sky, magical and gentle"
+        "label": "THE CHOICE",
+        "image": "a single figure standing at a glowing fork in a road, the left path a dim gray fading trail dissolving into fog and the right path a brilliant golden staircase spiraling up into blazing sunrise, one hand reaching toward the light, powerful hopeful finale, radiant warm glow"
       }
     ],
     "tags": [
-      "seasons",
-      "nature",
-      "spirits",
-      "elements",
-      "fantasy",
-      "shorts",
-      "viral",
-      "aiart",
-      "whichareyou"
-    ]
-  },
-  {
-    "id": "days-of-week-as-characters",
-    "title": "The 7 Days of the Week as People — Which One Are You? 📅",
-    "hook": "Your birthday day is WHO?",
-    "comment_q": "Which day are you?",
-    "cta": "Follow for more",
-    "music_mood": "dreamy",
-    "style": "hyper-detailed cinematic character portrait, stylized fantasy fashion, expressive face and distinct personality, dramatic mood lighting, glowing accents, vibrant cohesive color per character, distinct pose and setting each, vertical 9:16, 4k, polished illustration realism",
-    "reveals": [
-      {
-        "label": "MONDAY",
-        "image": "a determined character in a sleek deep-blue outfit gripping a glowing coffee cup, tired but resolute expression, cool morning light, faint clock symbols floating behind, fresh-start energy"
-      },
-      {
-        "label": "TUESDAY",
-        "image": "a focused character in a sharp red and steel outfit mid-stride, confident forward motion, energetic warm light, sparks of motivation trailing behind, unstoppable determined look"
-      },
-      {
-        "label": "WEDNESDAY",
-        "image": "a calm balanced character in emerald-green robes standing at a glowing crossroads, a glowing half-week arch above, serene midpoint light, steady thoughtful expression"
-      },
-      {
-        "label": "THURSDAY",
-        "image": "an optimistic character in warm amber and gold gazing toward a bright horizon, hopeful smile, glowing sunrise light, almost-there anticipation energy, wind in their hair"
-      },
-      {
-        "label": "FRIDAY",
-        "image": "a joyful celebratory character in dazzling gold and neon, arms thrown up in triumph, confetti and glowing lights bursting around them, radiant party glow, pure freedom joy"
-      },
-      {
-        "label": "SATURDAY",
-        "image": "a relaxed cheerful character in soft sunny orange lounging with a glowing drink, warm carefree light, floating balloons and sunshine, blissful weekend vibe"
-      },
-      {
-        "label": "SUNDAY",
-        "image": "a peaceful cozy character wrapped in soft lavender and cream holding a warm mug by golden candlelight, gentle restful glow, calm dreamy expression, blanket around shoulders"
-      },
-      {
-        "label": "MONDAY AGAIN",
-        "image": "the same blue Monday character stretching awake with a small brave smile, soft sunrise glow, a glowing calendar flipping to a fresh page beside them, ready-to-restart energy"
-      }
-    ],
-    "tags": [
+      "mindset",
+      "motivation",
+      "success",
+      "richmindset",
+      "growth",
       "reveal",
       "shorts",
-      "daysoftheweek",
-      "personality",
-      "aesthetic",
       "viral",
-      "fun",
-      "character",
-      "familyfriendly",
-      "whichareyou"
+      "selfimprovement"
     ]
   },
   {
-    "id": "weather-as-spirits",
-    "title": "Every Weather as a Powerful Sky Spirit ⛈️ Which Rules You?",
-    "hook": "A sky spirit rules you",
-    "comment_q": "Sun or Storm? Comment it",
-    "cta": "Follow for more",
-    "music_mood": "mystery",
-    "style": "hyper-detailed cinematic fantasy spirit portrait, divine sky guardian being, dramatic celestial rim lighting, glowing robes and aura, epic majestic pose, vibrant sky colors, concept art, 4k, family friendly",
+    "id": "wonders-as-fantasy-realms",
+    "category": "nature-world-wonder",
+    "title": "Earth's Real Places Turned Into Fantasy Realms 🌍 Which Would You Rule?",
+    "hook": "REAL places became REALMS",
+    "comment_q": "Which realm would you rule?",
+    "cta": "Follow for Part 2",
+    "music_mood": "dreamy",
+    "style": "epic wide cinematic fantasy matte painting, sweeping floating landscapes, dramatic god rays and volumetric light, glowing atmospheric mist, ultra-detailed painterly concept art, awe-inspiring sense of scale, rich vibrant color grading, 4k, family-friendly wondrous fantasy, consistent grand cinematic framing",
     "reveals": [
       {
-        "label": "SUN",
-        "image": "a radiant golden spirit in glowing robes of pure sunlight, blazing halo crown, warm brilliant aura, arms spread as light rays burst outward, standing in a golden sky, majestic"
+        "label": "SALT DESERT",
+        "image": "a vast mirror-flat white salt plain stretching to infinity, perfectly reflecting a pink-and-gold sunset sky so land and heaven merge into one, a lone glowing crystal spire rising at the center, dreamlike endless reflection"
       },
       {
-        "label": "RAIN",
-        "image": "a serene spirit in glowing silver-blue robes, gentle raindrops streaming from outstretched hands, soft misty aura, standing under falling rain and a faint arc of light, calming"
+        "label": "RICE TERRACES",
+        "image": "a colossal green mountainside carved into thousands of glowing emerald rice terraces spiraling like a giant staircase up into the clouds, soft morning mist, tiny golden lanterns lining every step, serene and immense"
       },
       {
-        "label": "STORM",
-        "image": "a powerful spirit in dark swirling cloud robes with glowing lightning veins, thunder crackling around raised fists, dramatic tempest sky behind, commanding and fierce"
+        "label": "GLOWING CAVE",
+        "image": "an enormous underground cavern with a ceiling covered in millions of tiny blue bioluminescent lights like a captured galaxy, a still black underground river reflecting them perfectly, magical silent glow"
       },
       {
-        "label": "SNOW",
-        "image": "a graceful spirit in glowing white-and-crystal robes, snowflakes swirling gently, frost crown, breath of glittering ice, standing in soft falling snow, elegant"
+        "label": "PINK LAKE",
+        "image": "a surreal bubblegum-pink lake ringed by bright white salt shores with a turquoise ocean beyond, delicate flamingos wading through the shallows, soft pastel dream-haze, impossibly vivid candy colors under a clear sky"
       },
       {
-        "label": "WIND",
-        "image": "a swift translucent spirit in flowing pale robes of swirling air, glowing wind streams spiraling around, weightless floating hair, high among gusting clouds, free"
+        "label": "WAVE CANYON",
+        "image": "a narrow slot canyon of swirling amber and rose sandstone walls carved into flowing frozen wave-like curves, a single beam of golden light pouring down from a slit far above, glowing dust drifting, sacred hidden chamber"
       },
       {
-        "label": "THUNDER",
-        "image": "a mighty spirit in glowing gold-and-black robes, crackling electric bolts forming a crown, hands charged with light, standing in a flashing lightning storm, awe-inspiring"
+        "label": "MESA FALLS",
+        "image": "a towering flat-topped mesa in a fiery red desert with dozens of ribbon waterfalls pouring off every edge into glowing mist below, a floating island crowned with ancient stone temples above, dramatic epic scale"
       },
       {
-        "label": "FOG",
-        "image": "a mysterious spirit in soft glowing gray mist robes, half-hidden serene face, swirling fog drifting all around, standing in a dreamy silver haze, quiet and enigmatic"
+        "label": "FROZEN FOREST",
+        "image": "an ancient forest where every tree is encased in shimmering translucent ice and glowing frost crystals, pale blue light glittering off every branch, a silent snow-glass wonderland, ethereal winter magic"
       },
       {
-        "label": "RAINBOW",
-        "image": "a joyful radiant spirit in glowing multicolored prismatic robes, arcs of rainbow light forming a crown, sparkling aura, standing in bright glowing light after rain, uplifting"
+        "label": "LAVENDER FIELDS",
+        "image": "endless rolling hills of glowing purple lavender waves stretching to the horizon under a warm golden sunset, a lone stone tower at the crest, drifting pollen sparkles catching the light, soft romantic dream-glow"
       },
       {
-        "label": "AURORA",
-        "image": "a mystical spirit in glowing green-and-violet flowing robes of northern lights, shimmering celestial aura, starry crown, standing under a dancing aurora sky, magical"
+        "label": "RAINBOW PEAKS",
+        "image": "jagged rainbow-striped mountains of banded mineral rock in vivid red, orange, teal and violet layers glowing at dusk, a winding river of soft light threading the valley below, surreal painted peaks"
       },
       {
-        "label": "TWILIGHT",
-        "image": "a calm elegant spirit in glowing orange-purple gradient robes, gentle glowing eyes, first stars appearing overhead, standing at the horizon between day and night, peaceful"
+        "label": "FLOATING PILLARS",
+        "image": "impossibly tall thin stone pillars piercing a glowing sea of clouds, waterfalls of mist pouring between them, ancient glowing bridges of light linking the floating summits, breathtaking vertical wonderland"
       }
     ],
     "tags": [
-      "weather",
-      "sky",
-      "spirits",
-      "storm",
+      "nature",
+      "wonders",
       "fantasy",
+      "realms",
+      "reveal",
       "shorts",
       "viral",
-      "aiart",
+      "aesthetic",
+      "travel",
       "whichareyou"
     ]
   },
   {
-    "id": "constellations-as-heroes",
-    "title": "Every Constellation As A Cosmic Hero ✨",
-    "hook": "The stars become a hero",
-    "comment_q": "Which star hero are you?",
-    "cta": "Follow for more",
-    "music_mood": "warm",
-    "style": "epic cosmic fantasy hero portrait, glowing starlight armor, constellation lines traced in light across the body, deep galaxy backdrop, nebula colors, dramatic celestial rim lighting, ultra-detailed 4k, family-friendly",
+    "id": "birthstones-as-crystal-palaces",
+    "category": "aesthetic-color",
+    "title": "Every Birth Month As A Crystal Palace 💎 Which Is Yours?",
+    "hook": "Your birth month is a PALACE",
+    "comment_q": "Which month were you born?",
+    "cta": "Follow for yours",
+    "music_mood": "dreamy",
+    "style": "epic wide cinematic fantasy architecture, a colossal palace carved entirely from a single glowing gemstone, sweeping matte-painting landscape, dramatic god rays through translucent crystal, floating light motes, ultra-detailed 8k concept art, rich monochromatic jewel-tone palette per scene, family-friendly, breathtaking sense of scale",
     "reveals": [
       {
-        "label": "ORION",
-        "image": "a mighty star-hunter hero in glowing blue-white armor with a shining belt of three bright stars, drawing a bow of light, deep starfield behind, majestic cosmic stance"
+        "label": "JANUARY",
+        "image": "a towering fortress-palace of deep blood-red garnet with sharp faceted spires, dark crimson staircases lit by inner firelight, warm red glow pouring from arched windows over a snowy valley, rich deep-red jewel palette"
       },
       {
-        "label": "LEO",
-        "image": "a golden lion-hero in radiant sun-star armor with a glowing mane of light, proud regal pose, warm amber nebula behind, dazzling stellar glow"
+        "label": "FEBRUARY",
+        "image": "a dreamy palace carved from translucent violet amethyst, tall slender pointed towers glowing lavender, purple light rippling across mirrored crystal courtyards, soft misty violet palette"
       },
       {
-        "label": "URSA MAJOR",
-        "image": "a great bear-guardian hero in silver-blue star-fur armor tracing the big dipper across its back, powerful protective stance, deep-blue galaxy backdrop"
+        "label": "MARCH",
+        "image": "a serene sea-green aquamarine palace half-submerged in glowing turquoise water, flowing coral bridges and gentle waterfalls of liquid light, cool aqua palette"
       },
       {
-        "label": "CYGNUS",
-        "image": "a graceful swan-hero with luminous white star-feather wings spread wide, glowing constellation lines along the wings, serene flight pose, soft cosmic light"
+        "label": "APRIL",
+        "image": "a dazzling palace of pure clear diamond refracting rainbow sparkles across white marble halls, blinding brilliant light, prismatic crystal chandeliers, luminous white palette"
       },
       {
-        "label": "SCORPIUS",
-        "image": "a fierce scorpion-hero in dark-red star armor with a glowing curved tail of bright stars raised high, intense crimson nebula behind, dynamic ready stance"
+        "label": "MAY",
+        "image": "a lush palace of glowing emerald with vine-wrapped green crystal towers, cascading hanging gardens growing from the walls, deep jade light filtering through leaves, vivid green palette"
+      },
+      {
+        "label": "JUNE",
+        "image": "a soft iridescent pearl palace with pink-and-cream moonstone domes shimmering, gentle opalescent glow, floating above calm silver water at dawn, dreamy pearl palette"
+      },
+      {
+        "label": "JULY",
+        "image": "a blazing rose-red ruby palace with rounded flame-shaped towers and cascading rivers of molten glowing light, dramatic fiery sunset sky behind, powerful royal ruby-red palette"
+      },
+      {
+        "label": "AUGUST",
+        "image": "a warm lime-and-gold peridot palace glowing chartreuse in golden-hour light, sun-drenched crystal terraces and honeyed reflecting pools, fresh green-gold palette"
+      },
+      {
+        "label": "SEPTEMBER",
+        "image": "a regal deep-blue sapphire palace with midnight-blue spires under a swirling starry sky, glowing cobalt windows and cosmic reflections, rich royal-blue palette"
+      },
+      {
+        "label": "OCTOBER",
+        "image": "a magical opal palace swirling with every color at once, iridescent domes flickering pink, blue and green, otherworldly shimmering rainbow palette"
+      }
+    ],
+    "tags": [
+      "birthstone",
+      "birth month",
+      "crystal",
+      "palace",
+      "gemstone",
+      "reveal",
+      "shorts",
+      "viral",
+      "aesthetic",
+      "whichmonth"
+    ]
+  },
+  {
+    "id": "myth-creatures-as-living-gemstone",
+    "category": "mythology",
+    "title": "Legendary Creatures Carved From LIVING GEMS 💎 Which One Glows for You?",
+    "hook": "Made of living GEMS",
+    "comment_q": "Which gem creature is yours?",
+    "cta": "Follow for the finale",
+    "music_mood": "mystery",
+    "style": "a single legendary creature sculpted entirely from living translucent gemstone and glowing crystal, faceted glass-like body with light refracting inside, floating gently on a dark velvet background, epic museum-artifact lighting, ultra-detailed jewel concept art, family-friendly majestic, consistent centered framing, 8k",
+    "reveals": [
+      {
+        "label": "PHOENIX",
+        "image": "a majestic phoenix bird sculpted from glowing amber and fiery orange citrine crystal, wings of translucent flame-colored gemstone catching warm light, radiant and serene"
+      },
+      {
+        "label": "DRAGON",
+        "image": "a coiling dragon carved from deep emerald and jade crystal, scales of faceted green gemstone glowing softly from within, wise gentle eyes, elegant and noble"
+      },
+      {
+        "label": "GRIFFIN",
+        "image": "a proud griffin formed of golden topaz and honey-quartz crystal, feathered lion body glinting with amber facets, wings of translucent gold, regal stance"
+      },
+      {
+        "label": "UNICORN",
+        "image": "a graceful unicorn sculpted from pearly moonstone and soft rose-quartz, spiral horn of shimmering diamond light, mane like flowing frosted glass, dreamy and pure"
       },
       {
         "label": "PEGASUS",
-        "image": "a winged star-horse hero rearing up with glowing feathered wings of light, constellation trails streaming behind, silver-blue galaxy, heroic soaring pose"
+        "image": "a soaring pegasus carved from sky-blue aquamarine crystal, glassy wings spread wide catching cool light, translucent blue body glowing gently, graceful mid-leap"
       },
       {
-        "label": "PHOENIX",
-        "image": "a rebirth-hero wreathed in golden-orange star flames with glowing wing-lines of fire-stars, rising dramatically, warm cosmic fire glow, triumphant pose"
+        "label": "KRAKEN",
+        "image": "a mighty sea creature of deep sapphire and teal crystal, long curling limbs of translucent blue gemstone glinting like water, calm and immense in a dark abyss"
       },
       {
-        "label": "DRACO",
-        "image": "a long serpentine dragon-hero coiled in emerald-green star scales tracing a winding constellation, glowing eyes, deep-green nebula, majestic winding pose"
+        "label": "SPHINX",
+        "image": "a serene sphinx sculpted from warm sandstone-gold citrine and amber crystal, calm mysterious face, faceted lion body glowing softly, ancient and wise"
       },
       {
-        "label": "GEMINI",
-        "image": "twin star-heroes in mirrored silver-and-blue armor linked by a bright bridge of stars between them, symmetrical heroic pose, luminous twin glow"
+        "label": "FIREBIRD",
+        "image": "a dazzling firebird formed of ruby and garnet crystal, tail feathers like glowing red glass ribbons, radiant crimson body catching brilliant light, elegant"
       },
       {
-        "label": "ANDROMEDA",
-        "image": "an elegant star-warrior hero in flowing violet-and-silver star robes with a glowing spiral-galaxy crown, graceful regal pose, deep purple cosmic backdrop"
+        "label": "SERPENT",
+        "image": "a great feathered serpent carved from iridescent opal, body shimmering with rainbow flecks inside milky crystal, plumed crest of translucent gemstone, majestic and coiled"
+      },
+      {
+        "label": "THUNDERBIRD",
+        "image": "a colossal thunderbird sculpted from violet amethyst crystal, vast wings of glowing purple gemstone crackling with soft light, powerful and dignified, majestic"
       }
     ],
     "tags": [
-      "constellations",
-      "stars",
-      "cosmic hero",
+      "mythology",
+      "legendary creatures",
+      "crystal art",
+      "gemstone",
+      "fantasy",
       "reveal",
       "shorts",
       "viral",
-      "fantasy",
-      "galaxy",
-      "familyfriendly"
+      "aesthetic"
     ]
   },
   {
-    "id": "flowers-as-fairies",
-    "title": "Each Flower Turns Into A Magical Fairy 🌸",
-    "hook": "Wait for YOUR flower fairy",
-    "comment_q": "Which fairy is you?",
-    "cta": "Follow for more",
+    "id": "most-valuable-things-on-earth",
+    "category": "finance-wealth",
+    "title": "The Most VALUABLE Things on Earth by Weight 💎 Guess #1?",
+    "hook": "What's worth MORE by gram?",
+    "comment_q": "Guess the #1 before it shows",
+    "cta": "Follow for the finale",
     "music_mood": "mystery",
-    "style": "ethereal glowing fantasy fairy portrait, translucent petal wings, sparkling pollen dust, dreamy bokeh, soft magical rim light, ultra-detailed, vibrant enchanted colors, family-friendly",
+    "style": "hyper-detailed macro product photography, one precious object glowing on a dark reflective pedestal, dramatic single-source rim lighting, luxurious deep-black velvet background, floating dust sparkles, ultra sharp jewel-like detail, opulent cinematic mood, family-friendly, consistent framing",
     "reveals": [
       {
-        "label": "ROSE",
-        "image": "a graceful fairy in a layered crimson-and-pink rose-petal gown with velvet petal wings, glowing red aura, a delicate golden vine crown, romantic sparkle"
-      },
-      {
-        "label": "SUNFLOWER",
-        "image": "a joyful fairy with a golden sunflower-halo crown and bright yellow petal wings, sun-warmed skin, glowing amber light, cheerful radiant pose"
-      },
-      {
-        "label": "LAVENDER",
-        "image": "a serene fairy in a flowing purple lavender-sprig gown with slender violet wings, calming purple mist, soft twilight glow, peaceful floating pose"
-      },
-      {
-        "label": "CHERRY BLOSSOM",
-        "image": "a delicate fairy in a soft-pink cherry-blossom petal dress, petal wings scattering blossoms, pink petals swirling through the air, dreamy spring light"
-      },
-      {
-        "label": "LOTUS",
-        "image": "a tranquil fairy seated on a glowing pink lotus, water-lily petal wings, shimmering droplets, luminous pond reflection, serene golden-pink glow"
-      },
-      {
-        "label": "TULIP",
-        "image": "a cheerful fairy in a cupped red-and-yellow tulip-petal gown, smooth curved petal wings, fresh spring meadow light, playful bright pose"
-      },
-      {
-        "label": "ORCHID",
-        "image": "an exotic elegant fairy in speckled purple-and-white orchid petals with intricate wings, refined graceful pose, glowing violet elegance, luxurious sparkle"
-      },
-      {
-        "label": "DAISY",
-        "image": "an innocent fairy in a white-petal daisy skirt with a bright yellow center crown, tiny round wings, sunny meadow glow, sweet gentle smile"
-      },
-      {
-        "label": "BLUEBELL",
-        "image": "a shy fairy in a tiny blue bell-shaped flower dress with translucent blue wings, soft glowing sparkles around her, cool forest twilight glow"
-      },
-      {
-        "label": "PEONY",
-        "image": "a lush fairy in a full ruffled coral-pink peony gown with grand rounded petal wings, abundant blooming aura, warm luminous romantic light"
-      }
-    ],
-    "tags": [
-      "flowers",
-      "fairy",
-      "reveal",
-      "magical",
-      "shorts",
-      "viral",
-      "fantasy",
-      "cute",
-      "familyfriendly"
-    ]
-  },
-  {
-    "id": "seasons-as-queens",
-    "title": "The 4 Seasons as Royal Queens — Which Reigns in You? 👑",
-    "hook": "One of these rules you",
-    "comment_q": "Which season are you?",
-    "cta": "Follow for more",
-    "music_mood": "mystery",
-    "style": "hyper-detailed cinematic fantasy queen portrait, majestic ornate crown and elaborate royal gown, throne-room grandeur, dramatic rim lighting, glowing atmosphere, epic regal aura, distinct throne and pose per character, vertical 9:16, 4k, painterly realism",
-    "reveals": [
-      {
-        "label": "SPRING",
-        "image": "the Spring Queen seated on a throne of blooming cherry blossoms, gown woven from fresh petals and green vines, crown of butterflies and flowers, soft pink-green glow, petals raining down around her"
-      },
-      {
-        "label": "SUMMER",
-        "image": "the Summer Queen standing before a golden sunlit throne, radiant gown of gold and coral, crown of blazing sunbeams, warm glowing light, tropical flowers and fireflies drifting around her"
-      },
-      {
-        "label": "AUTUMN",
-        "image": "the Autumn Queen reclining on a throne of amber leaves and vines, gown of copper, red and gold foliage, crown of maple leaves and acorns, warm amber glow, leaves swirling upward"
-      },
-      {
-        "label": "WINTER",
-        "image": "the Winter Queen on a towering icy crystal throne, silver-white gown sparkling with frost, crown of icicles and snowflakes, cool blue glow, gentle snow falling around her"
-      },
-      {
-        "label": "EARLY SPRING",
-        "image": "a young Spring Queen crowned with the first snowdrops, gown of pale green shoots pushing through melting frost, soft dawn glow, tiny buds opening around her feet, hopeful gentle expression"
-      },
-      {
-        "label": "MIDSUMMER",
-        "image": "a dazzling Summer Queen at her peak with arms raised, gown of sunflowers and gold flame, crown of radiant sun rays, brilliant golden light, a meadow of glowing fireflies behind her"
-      },
-      {
-        "label": "LATE AUTUMN",
-        "image": "a wise Autumn Queen in deep burgundy and bronze holding a glowing lantern, crown of bare branches and last falling leaves, misty amber twilight glow, harvest lanterns floating near her"
-      },
-      {
-        "label": "DEEP WINTER",
-        "image": "a powerful Winter Queen wrapped in glittering ice armor and fur, crown of towering frozen spires, aurora light swirling overhead, a majestic snowstorm frozen mid-air around her"
-      }
-    ],
-    "tags": [
-      "reveal",
-      "shorts",
-      "queen",
-      "seasons",
-      "aesthetic",
-      "viral",
-      "fantasy",
-      "royal",
-      "familyfriendly",
-      "whichareyou"
-    ]
-  },
-  {
-    "id": "days-as-celestial-spirits",
-    "title": "Each Day Of The Week As A Celestial Spirit ✨ What Were You Born As?",
-    "hook": "Your day is a SPIRIT",
-    "comment_q": "Which day were you born?",
-    "cta": "Follow for more magic",
-    "music_mood": "dreamy",
-    "style": "ethereal celestial spirit being, glowing translucent robes of light, floating in a starry cosmic void, soft radiant aura, dramatic backlight, dreamlike fantasy portrait, 4k",
-    "reveals": [
-      {
-        "label": "MONDAY",
-        "image": "a gentle moon spirit robed in flowing silver light, a crescent moon crown, drifting through soft pale mist and stardust"
-      },
-      {
-        "label": "TUESDAY",
-        "image": "a fierce crimson spirit wreathed in glowing red flames and floating embers, a bold warrior aura against a dark sky"
-      },
-      {
-        "label": "WEDNESDAY",
-        "image": "a swift emerald spirit surrounded by glowing green wind currents and floating leaves, quick and graceful, luminous eyes"
-      },
-      {
-        "label": "THURSDAY",
-        "image": "a majestic royal-blue spirit crowned with glowing lightning, robes of storm clouds, radiant golden accents of power"
-      },
-      {
-        "label": "FRIDAY",
-        "image": "a beautiful rose-pink spirit surrounded by floating blossoms and shimmering hearts of light, a soft warm glowing aura"
-      },
-      {
-        "label": "SATURDAY",
-        "image": "a mysterious deep-violet spirit cloaked in swirling galaxy mist, a glowing ringed-planet halo, calm and ancient presence"
-      },
-      {
-        "label": "SUNDAY",
-        "image": "a radiant golden sun spirit blazing with warm light rays, a crown of glowing sunbeams, brilliant halo against a dawn sky"
-      }
-    ],
-    "tags": [
-      "daysoftheweek",
-      "fantasy",
-      "spirits",
-      "reveal",
-      "shorts",
-      "viral",
-      "celestial",
-      "aesthetic",
-      "fyp"
-    ]
-  },
-  {
-    "id": "continents-as-champions",
-    "title": "Every Continent as a Legendary Champion 🌍 Find Yours",
-    "hook": "Your continent is a champion",
-    "comment_q": "Which continent are you?",
-    "cta": "Follow for more",
-    "music_mood": "warm",
-    "style": "hyper-detailed cinematic fantasy champion portrait, heroic armored guardian, dramatic golden-hour rim lighting, glowing themed armor, epic proud pose, vibrant, concept art, 4k, family friendly",
-    "reveals": [
-      {
-        "label": "AFRICA",
-        "image": "a proud champion in warm earth-toned armor with glowing sun motifs, standing in golden savanna light with silhouettes of acacia trees behind, radiant strength, majestic"
-      },
-      {
-        "label": "ASIA",
-        "image": "a graceful champion in glowing jade-and-gold armor with dragon and lotus patterns, misty green mountains behind, serene powerful aura, elegant and mighty"
-      },
-      {
-        "label": "EUROPE",
-        "image": "a regal champion in glowing silver armor with vine and tower motifs, ornate crown, standing before misty peaks and ancient stone spires, noble and refined"
-      },
-      {
-        "label": "NORTH AMERICA",
-        "image": "a bold champion in glowing bronze-and-blue armor with eagle and canyon motifs, standing before vast open plains and a glowing distant skyline, confident and strong"
-      },
-      {
-        "label": "SOUTH AMERICA",
-        "image": "a vibrant champion in glowing emerald armor with rainforest and jaguar motifs, colorful feather crown, standing in lush jungle beside glowing waterfalls, lively and fierce"
-      },
-      {
-        "label": "AUSTRALIA",
-        "image": "a warm champion in glowing amber-red armor with reef and outback motifs, sun-kissed aura, standing between red desert dunes and glowing coral-reef light, adventurous"
-      },
-      {
-        "label": "ANTARCTICA",
-        "image": "a serene champion in glowing crystal-white ice armor with snowflake motifs, crown of frost, standing on shining glaciers under a sweeping aurora, pure and calm"
-      },
-      {
-        "label": "THE ARCTIC",
-        "image": "a rugged champion in glowing pale-blue fur-and-ice armor, breath of frost in the air, standing amid snowy tundra beneath dancing northern lights, tough and steady"
-      }
-    ],
-    "tags": [
-      "continents",
-      "champions",
-      "geography",
-      "fantasy",
-      "world",
-      "shorts",
-      "viral",
-      "aiart",
-      "findyours"
-    ]
-  },
-  {
-    "id": "colors-as-kingdoms",
-    "title": "Each Color As A Fantasy Kingdom 🏰 Which Realm Would You Rule?",
-    "hook": "Colors became KINGDOMS",
-    "comment_q": "Which realm is yours?",
-    "cta": "Follow to explore more",
-    "music_mood": "mystery",
-    "style": "epic wide cinematic fantasy landscape, sweeping matte painting, dramatic god rays, floating castles, ultra-detailed, vibrant monochromatic color palette per scene, 4k concept art",
-    "reveals": [
-      {
-        "label": "CRIMSON",
-        "image": "a towering volcanic kingdom of red obsidian spires and rivers of glowing lava, banners of flame, fiery sunset sky"
+        "label": "SILVER",
+        "image": "a gleaming polished silver bar resting on black velvet, cool metallic shine, soft reflection beneath, dramatic side light, modest but elegant glow"
       },
       {
         "label": "GOLD",
-        "image": "a radiant golden empire of gilded domes and sunlit marble palaces, floating motes of light, warm dawn glow"
+        "image": "a radiant solid gold bar glowing warm amber on a dark pedestal, brilliant highlights and rich reflection, luxurious spotlight, opulent shimmer"
       },
       {
-        "label": "EMERALD",
-        "image": "a lush green kingdom of towering tree-cities and cascading waterfalls, castles grown from giant glowing trees, misty jade valleys"
+        "label": "PLATINUM",
+        "image": "a sleek cool-white platinum ingot with a mirror-bright surface on black velvet, crisp icy reflection, refined understated luxury, sharp rim light"
       },
       {
-        "label": "AZURE",
-        "image": "a floating blue sky-kingdom of crystal towers among clouds, waterfalls pouring into open air, cool sapphire light"
+        "label": "RARE PEARL",
+        "image": "a single flawless iridescent pearl the size of an egg resting in an open shell on dark velvet, soft rainbow sheen, gentle glowing highlight, delicate elegance"
       },
       {
-        "label": "VIOLET",
-        "image": "a mystical purple realm of amethyst castles under twin moons, glowing lavender mist and floating magic runes"
+        "label": "FLAWLESS DIAMOND",
+        "image": "a massive brilliant-cut diamond throwing sharp rainbow light sparkles across the darkness, dazzling fire and brilliance, floating glints, breathtaking clarity on black velvet"
       },
       {
-        "label": "SILVER",
-        "image": "a frozen silver kingdom of ice palaces and mirrored lakes, shimmering aurora overhead, pale moonlit glow"
+        "label": "RARE BLUE GEM",
+        "image": "a deep-blue faceted gemstone glowing with inner sapphire light on a dark pedestal, intense saturated blue, luminous halo, rare and mesmerizing"
       },
       {
-        "label": "AMBER",
-        "image": "a warm autumn kingdom of copper towers and golden falling leaves, honey-lit canyons, glowing amber sky"
+        "label": "VIVID RED GEM",
+        "image": "an intensely glowing blood-red faceted gem radiating warm crimson light, extremely rare, dramatic dark backdrop, hypnotic saturated glow, jewel-like sharpness"
       },
       {
-        "label": "ROSE",
-        "image": "a dreamy pink kingdom of blooming cherry-blossom palaces and floating petal bridges, soft luminous dawn"
+        "label": "PINK DIAMOND",
+        "image": "a rare rose-pink brilliant diamond shimmering with soft pink fire on black velvet, delicate glowing sparkles, exquisite and precious, dreamy luxurious light"
       },
       {
-        "label": "ONYX",
-        "image": "a mysterious black-and-starlight kingdom of dark crystal spires piercing a galaxy-filled sky, glowing constellations"
+        "label": "ANTIMATTER",
+        "image": "a glowing swirling orb of pure white-blue energy suspended in a floating containment ring, crackling particles of light, surreal futuristic glow, most valuable substance imaginable, awe-inspiring"
       },
       {
-        "label": "TEAL",
-        "image": "an underwater-inspired teal kingdom of coral castles and glowing bioluminescent gardens, shimmering turquoise light"
+        "label": "#1: A MOMENT",
+        "image": "a softly glowing hourglass with luminous golden sand suspended mid-fall on black velvet, warm ethereal light, the priceless nature of time, poetic and profound, gentle sparkles"
       }
     ],
     "tags": [
-      "colors",
-      "fantasy",
-      "kingdom",
+      "valuable",
+      "gems",
+      "diamond",
+      "gold",
+      "luxury",
+      "comparison",
       "reveal",
       "shorts",
-      "viral",
-      "aesthetic",
-      "worldbuilding",
-      "fyp"
+      "viral"
     ]
   },
   {
-    "id": "hours-as-mood-worlds",
-    "title": "Every Hour of the Day as a Dream World — Which Is Your Vibe? 🕐",
-    "hook": "Guess your vibe by the hour",
-    "comment_q": "What hour are you?",
-    "cta": "Follow for more",
-    "music_mood": "warm",
-    "style": "hyper-detailed cinematic dreamscape, immersive fantasy landscape, glowing atmospheric light, floating particles, epic sense of scale and mood, rich time-of-day color palette, distinct landscape per hour, vertical 9:16, 4k, painterly realism",
-    "reveals": [
-      {
-        "label": "MIDNIGHT",
-        "image": "a silent floating island under a vast starry sky, glowing blue nebula overhead, a single lantern shining, mirror-still water reflecting the cosmos, deep calm mystery"
-      },
-      {
-        "label": "3 AM",
-        "image": "a dreamy purple cloud realm with floating glowing jellyfish-lights drifting through soft mist, surreal quiet magic, gentle violet haze, weightless dreamworld"
-      },
-      {
-        "label": "6 AM",
-        "image": "a misty mountain valley at first light, soft pink and gold sunrise breaking over glowing dew, birds rising into the fog, fresh peaceful awakening, translucent morning haze"
-      },
-      {
-        "label": "9 AM",
-        "image": "a bright blooming meadow world drenched in clear golden morning sun, sparkling dew, floating pollen glints, crisp energetic freshness, wide open blue sky"
-      },
-      {
-        "label": "NOON",
-        "image": "a radiant sunlit crystal city at its brightest peak, dazzling white-gold light, shimmering fountains, vivid saturated colors, high-energy blazing midday glow"
-      },
-      {
-        "label": "3 PM",
-        "image": "a warm golden field of tall grass swaying in soft afternoon light, honeyed amber glow, drifting seeds, relaxed cozy warmth, long gentle shadows stretching across"
-      },
-      {
-        "label": "6 PM",
-        "image": "a breathtaking coastal cliff at sunset, sky blazing orange, pink and violet, glowing sun sinking into the sea, warm nostalgic golden-hour magic"
-      },
-      {
-        "label": "9 PM",
-        "image": "a cozy glowing town wrapped in twilight, warm lantern lights flickering on, deep indigo sky with the first stars, soft peaceful settling-in mood"
-      },
-      {
-        "label": "11 PM",
-        "image": "a tranquil moonlit forest clearing bathed in silver light, glowing fireflies drifting, mist rising softly, deep calm restful stillness before sleep"
-      }
-    ],
-    "tags": [
-      "reveal",
-      "shorts",
-      "hours",
-      "vibe",
-      "aesthetic",
-      "dreamworld",
-      "viral",
-      "mood",
-      "familyfriendly",
-      "whatsyourvibe"
-    ]
-  },
-  {
-    "id": "zodiac-as-dragons",
-    "title": "Every Zodiac Sign as a DRAGON 🐉 Which One Are You?",
-    "hook": "Your sign is a DRAGON",
-    "comment_q": "Which dragon are you?",
-    "cta": "Follow for more",
-    "music_mood": "warm",
-    "style": "hyper-detailed cinematic fantasy creature portrait, one majestic dragon centered, dramatic rim lighting, epic volumetric mist, ultra vibrant saturated color, glowing accents, 8k, wondrous family-friendly fantasy, painterly concept art, consistent framing",
+    "id": "zodiac-as-radiant-blades",
+    "category": "zodiac",
+    "title": "Every Zodiac as a GLOWING BLADE OF LIGHT ⚔️ Which Is Yours?",
+    "hook": "Your zodiac BLADE",
+    "comment_q": "Which blade is yours?",
+    "cta": "Comment yours",
+    "music_mood": "mystery",
+    "style": "epic cinematic close-up of a single ornate ceremonial sword made of pure glowing energy and gemstone, floating and slowly rotating on a dark dramatic backdrop, radiant magical light, ultra-detailed fantasy concept art, no blood no violence, majestic and elegant, 8k, family-friendly, consistent centered framing",
     "reveals": [
       {
         "label": "ARIES",
-        "image": "a bold crimson-and-gold dragon with curved ram horns wreathed in glowing embers, roaring on a volcanic ridge at sunrise, fiery confident pose, orange-red fire palette"
+        "image": "a fierce blade of roaring orange flame with a molten ember hilt, bright sparks trailing off the glowing edge, radiant fire aura on black"
       },
       {
         "label": "TAURUS",
-        "image": "a massive emerald-green earth dragon with mossy stone-armored scales and thick golden horns, calm and mighty in a lush green mountain meadow, deep green palette"
+        "image": "a heavy emerald-green blade grown from living crystal and golden vines, glowing leaves budding along the edge, warm earthy green glow"
       },
       {
         "label": "GEMINI",
-        "image": "a sleek twin-headed sky dragon in silver and lavender, two mirrored heads with playful expressions, swirling white wind currents, bright airy palette"
+        "image": "two identical silver light-blades crossing in a perfect X, shimmering pale-yellow energy trails, airy sparkling mist swirling around them"
       },
       {
         "label": "CANCER",
-        "image": "a luminous pearl-white ocean dragon with shimmering shell-like scales, coiled beside a glowing tide pool under a huge full moon, soft silver-blue moonlit palette"
+        "image": "a pearly moonlit blade of glowing silver-blue water-light, gentle ripples flowing along the edge, a soft crescent-moon hilt"
       },
       {
         "label": "LEO",
-        "image": "a golden sun dragon with a radiant flowing mane of pure light, regal and glowing atop a sunlit cliff like a king, brilliant gold-amber palette"
+        "image": "a magnificent golden blade blazing with sun-fire, a lion-crest hilt of glowing amber, dazzling warm radiance bursting outward"
       },
       {
         "label": "VIRGO",
-        "image": "an elegant jade-and-white forest dragon with delicate leaf-patterned wings, gentle and precise among floating glowing herbs, fresh jade-cream palette"
+        "image": "a slender pristine blade of clear glowing quartz etched with delicate luminous runes, cool white-green precision light"
       },
       {
         "label": "LIBRA",
-        "image": "a graceful rose-gold and sky-blue dragon with perfectly symmetrical crystalline wings, balanced mid-air holding glowing scales of light, pastel harmony palette"
+        "image": "a perfectly balanced rose-gold blade with symmetrical glowing feathered wings on the hilt, soft pink harmonious aura, mirror-still reflection"
       },
       {
         "label": "SCORPIO",
-        "image": "a deep violet-and-black mystic dragon with a glowing amethyst tail-tip and star-flecked scales, mysterious in a purple twilight cavern, dark violet palette"
+        "image": "a sleek deep-violet blade wreathed in glowing purple mist and tiny drifting stars, a mysterious amethyst hilt, alluring dark glow"
       },
       {
         "label": "SAGITTARIUS",
-        "image": "a tan-and-turquoise arrow-swift dragon with feathered wing-tips and a glowing crescent crest, leaping across a starry desert sky, warm turquoise night palette"
-      },
-      {
-        "label": "AQUARIUS",
-        "image": "a translucent aqua crystal dragon formed of flowing water and light, glowing droplets swirling around it, ethereal and cosmic, luminous cyan palette"
-      }
-    ],
-    "tags": [
-      "zodiac",
-      "dragon",
-      "astrology",
-      "reveal",
-      "fantasy",
-      "shorts",
-      "viral",
-      "whichoneareyou"
-    ]
-  },
-  {
-    "id": "elements-as-mystic-spirits",
-    "title": "The Elements as Mystic Spirits — Which One Lives in You? 🔥💧🌍💨",
-    "hook": "Which element is YOUR soul?",
-    "comment_q": "Which element are you?",
-    "cta": "Follow for more",
-    "music_mood": "dreamy",
-    "style": "hyper-detailed cinematic elemental spirit portrait, ethereal being formed of pure element, glowing energy body, dramatic rim lighting, swirling particles, epic magical aura, distinct pose and elemental effect per spirit, bold elemental color palette, vertical 9:16, 4k, painterly realism",
-    "reveals": [
-      {
-        "label": "FIRE",
-        "image": "a fierce fire spirit with a body of dancing flame and glowing ember eyes, mane of blazing orange-red fire streaming upward, sparks swirling around, radiant molten glow, powerful passionate stance"
-      },
-      {
-        "label": "WATER",
-        "image": "a graceful water spirit formed of flowing translucent waves, glowing blue currents streaming through her, floating droplets like jewels, calm shimmering aqua glow, serene fluid pose"
-      },
-      {
-        "label": "EARTH",
-        "image": "a grounded earth spirit of glowing stone, moss and blooming vines, crystals growing from her shoulders, warm green-gold light, roots spreading at her feet, steady nurturing presence"
-      },
-      {
-        "label": "AIR",
-        "image": "a swift air spirit made of swirling translucent wind and glowing white mist, hair spiraling into breezes, floating feathers and light around her, weightless mid-spin, free airy aura"
-      },
-      {
-        "label": "LIGHTNING",
-        "image": "an electric spirit crackling with glowing blue-white lightning, body of pure energy arcs, sparks bursting outward, brilliant flashing glow, dynamic wild pose mid-strike"
-      },
-      {
-        "label": "ICE",
-        "image": "a crystalline ice spirit of glowing frost and sharp shimmering crystals, pale blue glow, snow swirling around her, frozen mist trailing, cool serene commanding stance"
-      },
-      {
-        "label": "LIGHT",
-        "image": "a radiant light spirit of glowing golden-white beams, body shimmering like sunlight, a halo of soft rays around her, warm luminous glow, arms lifted, pure uplifting aura"
-      },
-      {
-        "label": "SHADOW",
-        "image": "a graceful shadow spirit of deep violet and midnight-blue mist edged with glowing starlight, swirling gentle dark energy, calm mysterious pose, elegant quiet aura, dreamy and non-scary"
-      },
-      {
-        "label": "METAL",
-        "image": "a gleaming metal spirit of glowing liquid silver and gold, reflective flowing body, sparks of molten light, sleek shimmering armor form, precise poised stance, radiant metallic aura"
-      },
-      {
-        "label": "NATURE",
-        "image": "a blooming nature spirit of glowing petals, leaves and butterflies, flowers opening across her body, soft green-pink light, a living breeze around her, joyful vibrant pose"
-      }
-    ],
-    "tags": [
-      "reveal",
-      "shorts",
-      "elements",
-      "spirit",
-      "aesthetic",
-      "viral",
-      "fantasy",
-      "magic",
-      "familyfriendly",
-      "whichelement"
-    ]
-  },
-  {
-    "id": "planets-as-warriors",
-    "title": "Every Planet as a Cosmic Warrior 🪐 Who Would Win?",
-    "hook": "Your planet is a warrior",
-    "comment_q": "Which planet's your fighter?",
-    "cta": "Follow for more",
-    "music_mood": "mystery",
-    "style": "hyper-detailed cinematic fantasy warrior portrait, armored cosmic guardian, dramatic space rim lighting, glowing armor, epic heroic pose, vibrant, concept art, 4k, family friendly",
-    "reveals": [
-      {
-        "label": "MERCURY",
-        "image": "a swift agile warrior in sleek silver-gray armor trailing glowing speed streaks, small and fast, holding a molten dagger, standing on a scorched cratered surface, quick and nimble"
-      },
-      {
-        "label": "VENUS",
-        "image": "a radiant warrior in golden-amber armor wrapped in swirling glowing clouds, elegant and fierce, holding a shining spear, standing in a hazy yellow atmosphere, brilliant"
-      },
-      {
-        "label": "EARTH",
-        "image": "a noble guardian warrior in blue-and-green armor with glowing continents across the chestplate, swirling cloud cloak, standing proudly on a green hill, heroic and balanced"
-      },
-      {
-        "label": "MARS",
-        "image": "a bold warrior in rugged crimson battle armor with glowing ember accents, holding a great war blade, standing on a dusty red desert battlefield under twin moons, fierce and strong"
-      },
-      {
-        "label": "JUPITER",
-        "image": "a giant commanding warrior in massive banded armor of swirling orange and cream storm patterns, glowing red storm-shield, towering presence, king of the cosmos, majestic"
-      },
-      {
-        "label": "SATURN",
-        "image": "an elegant warrior in golden armor wielding glowing spinning ring-blades that orbit around the body, graceful and regal, standing in a glittering starfield, dazzling"
-      },
-      {
-        "label": "URANUS",
-        "image": "a cool mysterious warrior in glowing pale-blue crystalline armor tilted at a sideways angle, icy calm aura, holding a frost lance, standing in soft blue mist, serene"
-      },
-      {
-        "label": "NEPTUNE",
-        "image": "a deep-blue warrior in glowing sapphire armor patterned with swirling winds, holding a glowing trident, standing amid roaring cosmic storms, powerful and calm"
-      },
-      {
-        "label": "SUN",
-        "image": "a blazing warrior king in radiant fiery armor of pure solar flame, glowing crown of light, immense overwhelming presence, standing in an eruption of sunfire, supreme and dazzling"
-      }
-    ],
-    "tags": [
-      "planets",
-      "solarsystem",
-      "warriors",
-      "space",
-      "fantasy",
-      "shorts",
-      "viral",
-      "aiart",
-      "whowouldwin"
-    ]
-  },
-  {
-    "id": "zodiac-as-elemental-guardians",
-    "title": "Every Zodiac Sign as an ELEMENTAL GUARDIAN ✨ Yours?",
-    "hook": "Choose your GUARDIAN",
-    "comment_q": "Which guardian are you?",
-    "cta": "Follow for more",
-    "music_mood": "warm",
-    "style": "hyper-detailed cinematic fantasy hero portrait, one heroic elemental guardian in glowing armor, dramatic backlight, swirling energy effects, ultra vibrant, powerful heroic pose, energy magic only no weapons, 8k, family-friendly adventure fantasy, painterly concept art, consistent framing",
-    "reveals": [
-      {
-        "label": "ARIES",
-        "image": "a fire guardian in crimson-gold glowing armor with a flaming ram-horn helmet, swirling embers around, bold heroic stance on lava rock, red-orange palette"
-      },
-      {
-        "label": "TAURUS",
-        "image": "an earth guardian in mossy stone armor with glowing emerald crystals, rooted and mighty in a glowing forest, unshakable green palette"
-      },
-      {
-        "label": "GEMINI",
-        "image": "a twin air guardian in silver-lavender armor with mirrored glowing wind trails, agile and quick, soaring over sky cliffs, airy palette"
-      },
-      {
-        "label": "CANCER",
-        "image": "a moon-water guardian in pearl-silver armor with a crescent shield of glowing moonlight, protective stance beside glowing waves at night, silver-blue palette"
-      },
-      {
-        "label": "LEO",
-        "image": "a sun guardian in radiant golden armor with a glowing lion crest and sunlight cape, dazzling pose atop a golden ruin at sunset, gold palette"
-      },
-      {
-        "label": "VIRGO",
-        "image": "a nature guardian in jade-and-cream armor woven with glowing vines and wheat, precise and graceful in a golden field, jade palette"
-      },
-      {
-        "label": "SCORPIO",
-        "image": "a shadow guardian in violet-black armor pulsing with glowing amethyst energy, mysterious powerful stance in purple twilight mist, dark violet palette"
-      },
-      {
-        "label": "SAGITTARIUS",
-        "image": "a wind guardian in tan-turquoise armor summoning a glowing arc of pure light energy, mid-leap across a starry desert, turquoise night palette"
+        "image": "a swift turquoise blade shaped like a comet-arrow, long glowing teal trails streaking behind it across a starry void"
       },
       {
         "label": "CAPRICORN",
-        "image": "an ice guardian in slate-and-gold armor with glowing frost crystals, standing firm on a snowy peak under aurora light, cold blue-gold palette"
-      },
-      {
-        "label": "AQUARIUS",
-        "image": "a cosmic-water guardian in aqua translucent armor with swirling glowing streams and star patterns, ethereal futuristic pose in space light, luminous cyan palette"
+        "image": "a solid obsidian blade with razor glowing white-diamond edges and a mountain-carved hilt, cold commanding light, frost drifting off it"
       }
     ],
     "tags": [
       "zodiac",
-      "guardian",
-      "elements",
+      "sword",
+      "energy",
       "astrology",
       "reveal",
       "shorts",
@@ -1011,430 +631,1143 @@
     ]
   },
   {
-    "id": "emotions-as-worlds",
-    "title": "Every Emotion As An Entire World 🌍 Which One Do You Live In?",
-    "hook": "Feelings became WORLDS",
-    "comment_q": "Which world today?",
-    "cta": "Follow for Part 2",
+    "id": "dream-island-escapes",
+    "category": "Luxury lifestyle",
+    "title": "Your Perfect Island Exists — Which One Is It? 🏝️",
+    "hook": "FIND YOUR PARADISE",
+    "comment_q": "Which island would you fly to right now?",
+    "cta": "TAG A TRAVEL BUDDY",
     "music_mood": "dreamy",
-    "style": "surreal dreamlike fantasy world illustration, floating landscapes, glowing atmospheric light, ethereal mood, ultra-detailed painterly art, emotional color grading, 4k",
+    "style": "Hyper-vivid travel photography, impossibly clear turquoise water, aerial drone perspectives, sun-drenched tropical color grade, dreamy soft glow, postcard-perfect composition",
     "reveals": [
       {
-        "label": "JOY",
-        "image": "a radiant floating world of golden meadows and rainbow rivers, glowing lanterns rising, warm sunbeams and drifting sparkles"
+        "label": "Overwater Villas",
+        "image": "A curving row of thatched overwater villas above glowing turquoise lagoon water, private ladders into the sea, a lone paddleboarder, golden sunrise light"
       },
       {
-        "label": "CALM",
-        "image": "a serene pastel world of still mirror lakes and soft floating islands, gentle pink and blue mist, slow drifting clouds"
+        "label": "Heart Island",
+        "image": "An aerial view of a perfectly heart-shaped tropical island ringed by white sand and neon-blue reef, a single palm-covered center, deep sapphire ocean around it"
       },
       {
-        "label": "COURAGE",
-        "image": "a bold world of towering mountains and a lone glowing bridge over a vast canyon, sunrise breaking through storm clouds"
+        "label": "Hidden Cave Beach",
+        "image": "A secret beach inside a collapsed sea cave, a circle of blue sky above, glowing aquamarine water, golden sand, a single beam of sunlight hitting the shore"
       },
       {
-        "label": "WONDER",
-        "image": "a magical world of giant glowing mushrooms and floating jellyfish drifting through the sky, iridescent stars, dreamy violet light"
+        "label": "Pink Sand Shore",
+        "image": "A dreamy beach with soft pink sand meeting clear teal water, gentle waves, palm shadows, a hammock strung between two leaning palms at golden hour"
       },
       {
-        "label": "HOPE",
-        "image": "a soft dawn world where a single beam of light pierces morning fog, tiny glowing flowers blooming across dark hills"
+        "label": "Floating Cabana",
+        "image": "A luxury floating cabana anchored in the middle of a glassy turquoise bay, billowing white curtains, a small stairway into the water, distant green islands"
       },
       {
-        "label": "LOVE",
-        "image": "a warm world of heart-shaped floating islands connected by glowing rose bridges, drifting petals, golden pink glow"
+        "label": "Glowing Blue Waves",
+        "image": "A tropical shoreline at night where the breaking waves glow electric blue with bioluminescence, silhouetted palms, a starry sky and Milky Way arching overhead"
       },
       {
-        "label": "PEACE",
-        "image": "a tranquil world of snow-capped floating temples above soft clouds, gentle waterfalls of light, pale serene glow"
+        "label": "Cliff Infinity Pool",
+        "image": "An infinity pool carved into a jungle cliff edge overlooking a vast turquoise sea, sun loungers, bright tropical flowers, water blending into the horizon"
       },
       {
-        "label": "CURIOSITY",
-        "image": "a whimsical world of spiraling staircases and floating doors leading everywhere, glowing question-mark constellations"
+        "label": "Private Sandbar",
+        "image": "A tiny crescent sandbar rising from an endless shallow blue sea, a single white umbrella and two chairs, no land in sight, aerial drone view"
       },
       {
-        "label": "DREAM",
-        "image": "a starry purple world where oceans float upside down and moons drift like bubbles, soft glowing dreamscape"
+        "label": "Jungle Lagoon",
+        "image": "A hidden emerald lagoon fed by a tall jungle waterfall, crystal water, a wooden dock, colorful birds, sunbeams cutting through the misty canopy"
       },
       {
-        "label": "GRATITUDE",
-        "image": "a warm golden-hour world of endless sunflower fields under a sky of glowing lanterns and gentle light rays"
+        "label": "Sunset Yacht Cove",
+        "image": "A sleek white yacht anchored in a calm tropical cove at sunset, glassy pink-orange water reflecting the sky, palm-covered cliffs, a small tender boat nearby"
       }
     ],
     "tags": [
-      "emotions",
-      "fantasy",
-      "worlds",
+      "travel",
+      "island",
+      "paradise",
+      "tropical",
+      "luxurylifestyle",
+      "vacation",
       "reveal",
-      "shorts",
-      "viral",
-      "aesthetic",
-      "dreamy",
-      "fyp"
+      "satisfying",
+      "wanderlust",
+      "shorts"
     ]
   },
   {
-    "id": "zodiac-as-animals",
-    "title": "Every Zodiac Sign as a Majestic ANIMAL 🦋 Which Is You?",
-    "hook": "Your spirit ANIMAL",
-    "comment_q": "Did it match you?",
-    "cta": "Follow for more",
-    "music_mood": "dreamy",
-    "style": "hyper-detailed cinematic wildlife-fantasy portrait, one glowing majestic animal centered, dramatic rim lighting, magical bioluminescent accents, ultra vibrant, dreamy bokeh background, 8k, family-friendly enchanting realism, consistent framing",
-    "reveals": [
-      {
-        "label": "ARIES",
-        "image": "a proud glowing ram with curved golden horns and a fiery mane of light, standing on a sunlit mountain ridge, bold radiant orange palette"
-      },
-      {
-        "label": "TAURUS",
-        "image": "a powerful gentle bull with emerald-tinted coat and glowing golden horns, calm in a meadow of glowing flowers, deep green palette"
-      },
-      {
-        "label": "GEMINI",
-        "image": "two glowing silver songbirds mid-flight mirrored together, trails of sparkling wind light, playful against a lavender sky, bright airy palette"
-      },
-      {
-        "label": "CANCER",
-        "image": "a luminous pearl-shelled crab glowing softly by a moonlit tide pool, silver light on rippling water, cozy silver-blue palette"
-      },
-      {
-        "label": "LEO",
-        "image": "a magnificent golden lion with a glowing mane of sunlight, regal on a savanna cliff at sunset, brilliant gold palette"
-      },
-      {
-        "label": "VIRGO",
-        "image": "a graceful glowing white deer with antlers wrapped in glowing vines, standing in a soft golden forest, pure jade-cream palette"
-      },
-      {
-        "label": "LIBRA",
-        "image": "a stunning symmetrical butterfly with rose-gold and sky-blue crystalline wings glowing softly, hovering over a serene pond, pastel palette"
-      },
-      {
-        "label": "SCORPIO",
-        "image": "a mystical scorpion glowing with amethyst-purple bioluminescence and star-flecked shell, in a violet twilight desert, dark purple palette"
-      },
-      {
-        "label": "SAGITTARIUS",
-        "image": "a swift glowing wild horse with a mane of turquoise light leaping across a starry desert plain, free and energetic, turquoise night palette"
-      },
-      {
-        "label": "PISCES",
-        "image": "two iridescent glowing koi fish swimming in a spiral of shimmering water and light, dreamy peaceful aqua palette"
-      }
-    ],
-    "tags": [
-      "zodiac",
-      "spiritanimal",
-      "astrology",
-      "animals",
-      "reveal",
-      "shorts",
-      "viral",
-      "aesthetic"
-    ]
-  },
-  {
-    "id": "zodiac-as-goddess-queens",
-    "title": "Every Zodiac Sign as a GODDESS QUEEN 👑 Find Yours",
-    "hook": "You are a QUEEN",
-    "comment_q": "Which queen are you?",
-    "cta": "Follow for yours",
-    "music_mood": "mystery",
-    "style": "hyper-detailed cinematic fantasy portrait, one ethereal fantasy queen centered, ornate crown and elegant flowing gown, dramatic golden rim lighting, glowing aura, ultra vibrant, 8k, respectful family-friendly fantasy, painterly, consistent framing",
-    "reveals": [
-      {
-        "label": "ARIES",
-        "image": "a fierce warrior queen in ruby-red and gold armored gown with a flame-shaped crown, confident stance, glowing ember aura, bold red palette"
-      },
-      {
-        "label": "TAURUS",
-        "image": "a serene queen in emerald and rose-gold gown with a floral leaf crown, surrounded by blooming golden roses, calm and luxurious, green-gold palette"
-      },
-      {
-        "label": "GEMINI",
-        "image": "a playful queen in shimmering silver-lavender gown with a crown of swirling wind and feathers, bright curious eyes, light airy palette"
-      },
-      {
-        "label": "CANCER",
-        "image": "a gentle queen in pearl-white and silver flowing gown with a crescent-moon crown, soft moonlit glow, tender radiant silver-blue palette"
-      },
-      {
-        "label": "LEO",
-        "image": "a radiant queen in golden gown with a blazing sunburst crown and glowing mane-like hair, seated on a throne of light, dazzling gold palette"
-      },
-      {
-        "label": "VIRGO",
-        "image": "an elegant queen in jade-green and cream gown with a crown of wheat and glowing herbs, poised in a golden field, fresh jade palette"
-      },
-      {
-        "label": "LIBRA",
-        "image": "a harmonious queen in rose-gold and pastel-blue gown with a crown of glowing crystal scales, symmetrical beauty, soft pastel palette"
-      },
-      {
-        "label": "SCORPIO",
-        "image": "a mysterious queen in deep violet and black star-flecked gown with an amethyst crown, magnetic gaze, glowing purple twilight palette"
-      },
-      {
-        "label": "CAPRICORN",
-        "image": "a majestic queen in slate-grey and gold armored gown with a crown of ice and stars, atop a snowy peak, cold blue-gold palette"
-      },
-      {
-        "label": "PISCES",
-        "image": "a dreamy queen in aqua and iridescent pearl gown with a crown of coral and glowing water, waves of light around her, ethereal aqua palette"
-      }
-    ],
-    "tags": [
-      "zodiac",
-      "goddess",
-      "queen",
-      "astrology",
-      "reveal",
-      "shorts",
-      "viral",
-      "aesthetic"
-    ]
-  },
-  {
-    "id": "zodiac-armored-warriors",
-    "title": "Every Zodiac Sign As An Armored Warrior ⚔️",
-    "hook": "Which one is YOUR sign?",
-    "comment_q": "Which warrior are you?",
-    "cta": "Follow for more",
+    "id": "dream-jobs-as-epic-legends",
+    "category": "entertainment-curiosity",
+    "title": "Your Dream Job But EPIC 💼 Which Legend Are You?",
+    "hook": "Your job as a LEGEND",
+    "comment_q": "Which job is yours?",
+    "cta": "Follow for your legend",
     "music_mood": "warm",
-    "style": "hyper-detailed cinematic fantasy portrait, ornate glowing armor, dramatic rim lighting, epic heroic pose, volumetric light, rich vibrant colors, 4k concept art, family-friendly",
+    "style": "hyper-detailed cinematic fantasy hero portrait, an ordinary profession reimagined as an epic glowing legendary figure, dramatic golden-hour rim lighting, glowing themed magical tools of the trade, proud heroic pose, ultra vibrant, concept art, 4k, family-friendly wondrous fantasy, consistent framing",
     "reveals": [
       {
-        "label": "ARIES",
-        "image": "a bold warrior in flame-red ram-horned helmet and molten-gold armor, holding a blazing spear, sparks rising, fierce confident stance, ember glow, red firelight"
+        "label": "CHEF",
+        "image": "a legendary master chef with glowing golden fire dancing above the pan, floating luminous ingredients swirling in the air, sparks of flavor-light bursting, warm amber kitchen glow, confident radiant grin, gold palette"
       },
       {
-        "label": "TAURUS",
-        "image": "a mighty warrior in heavy earthen-bronze bull armor with curved horns on the pauldrons, massive war hammer resting on shoulder, stone-solid stance, golden field light"
+        "label": "DOCTOR",
+        "image": "a heroic healer in glowing white-and-teal robes with soft radiant light flowing from the hands, luminous heartbeat lines and glowing helix ribbons circling around, calm powerful aura, clean teal-white palette"
       },
       {
-        "label": "GEMINI",
-        "image": "twin mirrored warriors in silver-and-sky-blue armor with feathered wing motifs, twin blades crossed, wind swirling, airy luminous white atmosphere"
+        "label": "TEACHER",
+        "image": "an inspiring teacher before a glowing board of floating luminous letters and constellations, streams of golden knowledge-light flowing from an open glowing book, warm wise glow, amber palette"
       },
       {
-        "label": "CANCER",
-        "image": "a graceful warrior in pearl-white crab-shell armor with a curved moon crest, glowing tidal-blue shield, soft silver moonlight, shimmering water droplets"
+        "label": "ARTIST",
+        "image": "a visionary artist whose brush paints strokes of living glowing color that float off the canvas into the air, rainbow light splashing around, vivid magical creativity aura, saturated multicolor palette"
       },
       {
-        "label": "LEO",
-        "image": "a regal warrior in radiant golden lion armor with a flowing sunlit mane crest, blazing sunburst shield, proud royal stance, dazzling golden light"
+        "label": "PILOT",
+        "image": "a bold pilot standing on the clouds beside a glowing silver aircraft trailing ribbons of light, sunrise breaking behind, wind and golden rays streaming, adventurous sky-high glow, blue-gold palette"
       },
       {
-        "label": "VIRGO",
-        "image": "an elegant warrior in emerald-and-white armor woven with wheat and leaf patterns, glowing green staff, calm precise stance, soft green garden light"
+        "label": "SCIENTIST",
+        "image": "a brilliant scientist surrounded by floating glowing molecules, luminous formulas and swirling galaxies of light between the hands, glowing goggles reflecting discovery, electric-green and blue lab glow"
       },
       {
-        "label": "LIBRA",
-        "image": "a balanced warrior in rose-gold and teal armor shaped like scales, holding twin glowing balance blades, harmonious symmetrical pose, elegant dusk light"
+        "label": "ATHLETE",
+        "image": "a champion athlete mid-leap wrapped in streaks of glowing energy, a radiant trophy of light glowing above, sparks trailing from the feet, stadium of light behind, triumphant fiery-orange palette"
       },
       {
-        "label": "SCORPIO",
-        "image": "a mysterious warrior in deep-violet armor with a curved glowing tail-blade arcing over the shoulder, purple energy crackling, intense shadowed stance"
+        "label": "MUSICIAN",
+        "image": "a legendary musician surrounded by glowing sound waves and floating luminous music notes rippling outward, an instrument glowing with light, dazzling stage aura, vibrant purple-and-gold palette"
       },
       {
-        "label": "SAGITTARIUS",
-        "image": "an adventurous warrior in tan-and-gold archer armor drawing a glowing star-arrow bow, cosmic light trail behind the arrow, dynamic action pose, golden sky"
+        "label": "BUILDER",
+        "image": "a mighty builder raising a glowing city of light from the ground, luminous blueprints floating in the air assembling into shining towers, warm strong glow, confident stance, bronze-and-blue palette"
       },
       {
-        "label": "CAPRICORN",
-        "image": "a stoic warrior in dark-iron mountain armor with spiraled goat horns, frost-blue cloak, standing atop a snowy peak, cold majestic blue light"
+        "label": "EXPLORER",
+        "image": "a daring explorer holding a glowing compass beaming light across a vast fantastical landscape of floating islands and waterfalls, cape flowing, sense of endless adventure, warm emerald-gold palette"
       }
     ],
     "tags": [
-      "zodiac",
-      "astrology",
-      "warrior",
+      "dreamjob",
+      "jobs",
       "reveal",
       "shorts",
       "viral",
       "fantasy",
-      "armor",
+      "career",
+      "whichareyou",
       "familyfriendly"
     ]
   },
   {
-    "id": "oceans-as-guardians",
-    "title": "Every Ocean & Sea as a Mythic Guardian 🌊 Pick Yours",
-    "hook": "Each ocean is a guardian",
-    "comment_q": "Which sea guards you?",
-    "cta": "Follow for more",
-    "music_mood": "dreamy",
-    "style": "hyper-detailed cinematic fantasy portrait, majestic water guardian being, dramatic underwater rim lighting, glowing aquatic armor, epic mythic pose, vibrant blues, concept art, 4k, family friendly",
+    "id": "goals-as-mountain-peaks",
+    "category": "Motivasyon/zihniyet (görsel)",
+    "title": "Every Level of Success Is a Mountain Peak 🏔️ How High Are You?",
+    "hook": "Which summit are you on?",
+    "comment_q": "Which level are you at?",
+    "cta": "Follow for the summit",
+    "music_mood": "warm",
+    "style": "epic cinematic mountain landscape, a lone climber ascending toward glowing summits, dramatic sunrise god rays, vast inspiring sense of scale, ultra-detailed matte painting, warm hopeful golden light, no text no logos, 4k, family-friendly, consistent heroic composition",
     "reveals": [
       {
-        "label": "PACIFIC",
-        "image": "a vast serene guardian in flowing deep-teal robes of endless water, glowing pearl crown, calm all-seeing eyes, towering gentle waves rising behind, immense and peaceful"
+        "label": "THE START",
+        "image": "a small determined figure standing at the misty base of a colossal snow-capped mountain range at dawn, backpack on, one boot pressing onto the first stone of a faint glowing trail winding upward, cool fresh morning light, quiet brave beginning"
       },
       {
-        "label": "ATLANTIC",
-        "image": "a strong bold guardian in dark-blue storm armor with glowing wave patterns, holding a coral staff, standing amid rolling ocean swells under a dramatic thundercloud sky, mighty"
+        "label": "FIRST STEPS",
+        "image": "a climber walking a gently rising green foothill dotted with glowing wildflowers, the massive peak still towering far above wrapped in pink cloud, soft golden morning glow, hopeful steady early progress"
       },
       {
-        "label": "INDIAN",
-        "image": "a warm golden-blue guardian in glowing turquoise silks, radiant sunlit aura, gentle smile, surrounded by shimmering tropical waters and glowing schools of fish, graceful"
+        "label": "THE CLIMB",
+        "image": "a climber scaling a steep gray rock face gripping glowing handholds, muscles straining and posture heavy with effort, the green valley shrinking tiny far below, warm amber light breaking over jagged ridges, real struggle and grit"
       },
       {
-        "label": "ARCTIC",
-        "image": "a pale icy guardian in glowing frost-white armor with floating ice shards, crown of icicles, cold serene beauty, standing on drifting glaciers under a green aurora, sparkling"
+        "label": "THE STORM",
+        "image": "a climber leaning hard into swirling snow and howling wind on a knife-thin ledge, cloak whipping violently, only a faint distant glow of the summit piercing the churning gray clouds above, dramatic perseverance, light stabbing through the haze"
       },
       {
-        "label": "SOUTHERN",
-        "image": "a wild windswept guardian in swirling gray-blue currents, glowing storm eyes, crashing icy waves and flying mist all around, powerful and untamed"
+        "label": "BASE CAMP",
+        "image": "a climber resting beside a warmly glowing tent on a high plateau floating above a silver sea of clouds, lantern light spilling out, gazing up at the shining peak with renewed resolve, calm golden dusk glow"
       },
       {
-        "label": "MEDITERRANEAN",
-        "image": "an elegant guardian in glowing azure robes with a coral laurel crown, warm sunlit skin, standing in crystal-clear blue water beside weathered stone columns, refined"
+        "label": "HALFWAY",
+        "image": "a climber standing on a jagged midpoint ridge, one arm gesturing back at the vast distance conquered and up at the glowing peak remaining, endless golden cloudscape sprawling in every direction, proud reflective light"
       },
       {
-        "label": "CARIBBEAN",
-        "image": "a radiant tropical guardian in glowing aqua-green silks strung with pearls, warm bright aura, surrounded by crystal-clear turquoise water and glowing corals, joyful and vibrant"
+        "label": "THE FINAL PUSH",
+        "image": "a climber clawing up the last steep snow-crusted spine of the mountain, breath frosting the air, the radiant summit blazing with fierce sunrise just a few strides ahead, every muscle striving upward, brilliant hopeful light bursting over the crest"
       },
       {
-        "label": "RED SEA",
-        "image": "a warm coral-hued guardian in glowing rose-and-gold armor, surrounded by vivid glowing reefs and colorful fish, gentle mysterious smile, richly detailed"
+        "label": "THE SUMMIT",
+        "image": "a triumphant figure standing atop the highest glowing peak with both arms flung wide to the sky, a boundless ocean of golden clouds and distant blue ranges far below, a brilliant sunrise halo blazing behind them, pure victorious joy, radiant warm light"
       },
       {
-        "label": "BLACK SEA",
-        "image": "a deep mysterious guardian in glowing dark-sapphire robes trailing silver mist, calm shadowed eyes, standing over still moonlit water, elegant and enigmatic"
+        "label": "THE VIEW",
+        "image": "a climber seated calmly cross-legged on the summit at golden hour gazing over endless glowing ranges rolling to the horizon, deep peaceful earned serenity, vast warm expansive light bathing everything, the quiet reward of the whole journey"
+      },
+      {
+        "label": "THE NEXT PEAK",
+        "image": "the same figure standing on the summit pointing toward an even taller shining mountain suddenly revealed beyond the parting clouds, a fresh glowing trail beginning at their feet, boundless renewed ambition, inspiring sunrise glow"
       }
     ],
     "tags": [
-      "oceans",
-      "seas",
-      "guardians",
-      "water",
-      "fantasy",
+      "goals",
+      "motivation",
+      "success",
+      "mountain",
+      "mindset",
+      "reveal",
       "shorts",
       "viral",
-      "aiart",
-      "geography"
+      "neverstop"
     ]
   },
   {
-    "id": "zodiac-as-magic-castles",
-    "title": "Every Zodiac Sign as a MAGIC CASTLE 🏰 Where Do You Live?",
-    "hook": "Your zodiac CASTLE",
-    "comment_q": "Would you live here?",
-    "cta": "Follow for more",
+    "id": "ocean-depths-as-sunken-kingdoms",
+    "category": "nature-world-wonder",
+    "title": "Every Ocean Depth Turned Into a Sunken Kingdom 🌊 How Deep Would You Go?",
+    "hook": "The DEEPER you go...",
+    "comment_q": "How deep would you dive?",
+    "cta": "Follow for the finale",
     "music_mood": "mystery",
-    "style": "hyper-detailed cinematic fantasy architecture, one breathtaking magical castle establishing shot, dramatic golden-hour lighting, glowing windows, epic scale, ultra vibrant, dreamy atmosphere, 8k, family-friendly wondrous fantasy, matte painting, consistent framing",
+    "style": "epic underwater cinematic fantasy concept art, vast submerged kingdoms, glowing bioluminescence, dramatic god rays piercing the water, floating particles and drifting light, ultra-detailed painterly matte painting, deepening blue color grading, immense scale, 4k, family-friendly wondrous, consistent grand cinematic framing",
+    "reveals": [
+      {
+        "label": "SUNLIT SHALLOWS",
+        "image": "a dazzling turquoise coral kingdom in bright sunlit water, golden light beams dancing over pastel coral palaces and towers, schools of shimmering fish streaming like living ribbons, cheerful radiant reef realm"
+      },
+      {
+        "label": "CORAL CITY",
+        "image": "a sprawling glowing city grown entirely from rainbow coral spires and smooth pearl domes, sea turtles gliding through arched coral streets, soft aqua light everywhere, a bustling vibrant underwater metropolis"
+      },
+      {
+        "label": "KELP FOREST",
+        "image": "a towering emerald forest of giant kelp rising like cathedral columns, shafts of green-gold light filtering down between them, glowing jellyfish drifting slowly through the pillars, serene sacred sunken grove"
+      },
+      {
+        "label": "PEARL PALACE",
+        "image": "a majestic palace of iridescent mother-of-pearl and glowing conch-shell spires resting on white sand, giant clams lining a shimmering courtyard, soft silver-blue royal glow, elegant deep realm"
+      },
+      {
+        "label": "TWILIGHT DEPTHS",
+        "image": "a dim deep-blue kingdom where the last faint sunlight fades away, silhouettes of ancient stone arches with glowing lantern-fish lighting the paths, mysterious shadowy grandeur, hushed twilight depths"
+      },
+      {
+        "label": "GLOWING TRENCH",
+        "image": "a vast dark chasm with walls lined by glowing blue and violet bioluminescent creatures like living constellations, a river of soft light winding through the deep, alien magical trench realm"
+      },
+      {
+        "label": "MIDNIGHT REALM",
+        "image": "a pitch-black abyssal kingdom lit only by drifting glowing jellyfish and pulsing bioluminescent gardens, ghostly translucent towers rising from the dark, eerie beautiful silence, mysterious deep wonder"
+      },
+      {
+        "label": "LANTERN COURT",
+        "image": "a shadowy royal court in the deep lit by hundreds of gentle glowing lure-lights held aloft, a throne of dark coral crowned with soft blue light, dramatic and mysterious yet gentle and non-scary"
+      },
+      {
+        "label": "VOLCANIC FORGE",
+        "image": "a dramatic volcanic seafloor kingdom of glowing orange chimney towers venting shimmering heat-haze, molten light seeping from cracks in the rock, swaying tube-worm gardens, fiery deep-sea forge realm"
+      },
+      {
+        "label": "THE ABYSS THRONE",
+        "image": "the deepest silent kingdom on the ocean floor, a colossal glowing crystal throne resting in total darkness surrounded by a soft halo of blue light, tiny glowing lifeforms drifting past, awe-inspiring final depth"
+      }
+    ],
+    "tags": [
+      "ocean",
+      "underwater",
+      "kingdom",
+      "deepsea",
+      "fantasy",
+      "reveal",
+      "shorts",
+      "viral",
+      "howdeep",
+      "familyfriendly"
+    ]
+  },
+  {
+    "id": "aesthetics-as-dream-rooms",
+    "category": "aesthetic-color",
+    "title": "Which Aesthetic Are You? Each One As A Dream Room 🕯️",
+    "hook": "Which room is SECRETLY you?",
+    "comment_q": "Which aesthetic is you?",
+    "cta": "Follow for Part 2",
+    "music_mood": "warm",
+    "style": "hyper-detailed cinematic interior photography, a cozy immersive themed room seen from a dreamy wide angle, soft cinematic natural light through a window, atmospheric depth and mood, tactile textures, warm inviting glow, ultra-detailed 8k, cohesive signature color palette per room, family-friendly, aspirational and lived-in",
+    "reveals": [
+      {
+        "label": "COTTAGECORE",
+        "image": "a warm rustic cottage room with dried flowers hanging from wooden beams, a linen-draped bed, fresh bread and wildflowers on a farmhouse table, soft morning sun through lace curtains, cozy sage-and-cream palette"
+      },
+      {
+        "label": "DARK ACADEMIA",
+        "image": "a moody library room with towering dark-wood bookshelves, a leather armchair, a single flickering candle, stacked old books and a brass lamp, rainy window light, rich brown-and-amber palette"
+      },
+      {
+        "label": "COASTAL",
+        "image": "an airy seaside room with crisp white linen, woven rattan chairs, seashells and driftwood, sheer curtains billowing toward an ocean-view window, bright breezy blue-and-white palette"
+      },
+      {
+        "label": "FAIRYCORE",
+        "image": "a whimsical room glowing with warm fairy lights and hanging ivy, mushroom-shaped lamps, floating dust sparkles, tiny potted plants everywhere, dreamy soft-pink and green pastel palette"
+      },
+      {
+        "label": "MINIMALIST",
+        "image": "a serene near-empty room with clean white walls, one sculptural chair, a single ceramic vase, soft diffused daylight and long calm shadows, pure beige-and-white palette"
+      },
+      {
+        "label": "BOHO",
+        "image": "a warm layered room with patterned rugs, macrame wall hangings, trailing hanging plants, floor cushions and glowing lanterns, sunset light, earthy terracotta-and-mustard palette"
+      },
+      {
+        "label": "GOTHIC",
+        "image": "an elegant dramatic room with deep velvet drapes, an ornate gilded mirror, dark roses in a vase, tall dripping candles and framed art, moody candlelit deep-burgundy-and-black palette"
+      },
+      {
+        "label": "PASTEL DREAM",
+        "image": "a soft cloud-like room in cotton-candy pastels, a plush pink bed, fluffy rugs, iridescent decor and a heart-shaped mirror, gentle glowing baby-pink-and-lilac palette"
+      },
+      {
+        "label": "COZY WINTER",
+        "image": "a snug cabin room with a crackling stone fireplace, chunky knit blankets, warm string lights and a frosted window showing falling snow, golden firelight-and-cream palette"
+      },
+      {
+        "label": "GREENHOUSE",
+        "image": "a lush indoor greenhouse room overflowing with hanging ferns and tropical plants, a glass ceiling pouring in golden light, stone floor and vintage watering cans, vivid emerald palette"
+      }
+    ],
+    "tags": [
+      "aesthetic",
+      "cottagecore",
+      "dark academia",
+      "dream room",
+      "roomtour",
+      "reveal",
+      "shorts",
+      "viral",
+      "vibe",
+      "whichareyou"
+    ]
+  },
+  {
+    "id": "ancient-kingdoms-at-their-golden-peak",
+    "category": "mythology",
+    "title": "Legendary Ancient Kingdoms at Their GOLDEN PEAK 🏛️ Which Would You Rule?",
+    "hook": "Kingdoms at their PEAK",
+    "comment_q": "Which kingdom would you rule?",
+    "cta": "Follow for the last one",
+    "music_mood": "warm",
+    "style": "a breathtaking wide establishing shot of a legendary ancient kingdom at the height of its golden age, magnificent architecture bathed in warm cinematic sunlight, banners and gardens, epic matte-painting concept art, sweeping scale, awe-inspiring, family-friendly, no text, consistent grand framing, 8k",
+    "reveals": [
+      {
+        "label": "SKY CITY",
+        "image": "a majestic mountaintop kingdom of white marble and gold domes above a sea of clouds, cascading gardens and grand staircases glowing in golden sunrise, birds circling"
+      },
+      {
+        "label": "DESERT EMPIRE",
+        "image": "a vast golden desert capital of towering sandstone pyramids and palm-lined avenues, gleaming obelisks and reflecting pools shining under a warm amber sun"
+      },
+      {
+        "label": "OCEAN REALM",
+        "image": "a radiant island kingdom of turquoise canals and coral-white palaces, seashell arches and pearl towers glittering above a clear tropical sea, sunlit and serene"
+      },
+      {
+        "label": "JADE DYNASTY",
+        "image": "a serene mountain kingdom of curved green-tiled pagodas and stone bridges over misty rivers, blossoming trees and lantern-lit courtyards in soft golden light"
+      },
+      {
+        "label": "FROST KINGDOM",
+        "image": "a shimmering northern kingdom of ice-blue spires and silver halls crowning a snowy peak, glowing lanterns and frozen waterfalls under a soft glowing aurora"
+      },
+      {
+        "label": "JUNGLE CITY",
+        "image": "a grand stone kingdom of stepped temples and vine-draped plazas rising from a lush emerald rainforest, golden idols and waterfalls glowing in dappled sunlight"
+      },
+      {
+        "label": "SUN CAPITAL",
+        "image": "a dazzling highland kingdom of terraced gold-plated temples and mountain plazas gleaming under a brilliant sun, condors soaring above misty valleys"
+      },
+      {
+        "label": "RIVER EMPIRE",
+        "image": "a flourishing river-valley kingdom of hanging gardens, blue-tiled gates and stepped ziggurats beside a wide shining river, palm groves under warm golden haze"
+      },
+      {
+        "label": "MARBLE CITY",
+        "image": "a majestic seaside kingdom of white marble columns and grand amphitheaters on a green hill above a sparkling harbor, olive trees and statues in golden light"
+      },
+      {
+        "label": "GOLDEN CITADEL",
+        "image": "a legendary walled capital of soaring golden minarets and turquoise domes, bustling gardens and fountains glowing under a radiant sunset, banners drifting"
+      }
+    ],
+    "tags": [
+      "mythology",
+      "ancient kingdoms",
+      "lost cities",
+      "legend",
+      "fantasy",
+      "reveal",
+      "shorts",
+      "viral",
+      "history"
+    ]
+  },
+  {
+    "id": "wealth-levels-as-worlds",
+    "category": "finance-wealth",
+    "title": "Every Wealth Level as an Entire WORLD 🏰 Which Is Yours?",
+    "hook": "Rich became WORLDS",
+    "comment_q": "Which world are you in?",
+    "cta": "Follow for the top tier",
+    "music_mood": "dreamy",
+    "style": "epic wide cinematic fantasy dreamscape, sweeping matte painting of a single symbolic wealth realm, dramatic god rays, floating particles, immense sense of scale and aspiration, rich cohesive color palette per level, ultra-detailed 4k concept art, family-friendly, consistent horizon framing",
+    "reveals": [
+      {
+        "label": "SURVIVING",
+        "image": "a tiny warm-lit wooden shelter alone under a vast grey rainy sky, a single glowing candle in the window, muddy path, humble and quiet, moody desaturated palette, small brave light in the dark"
+      },
+      {
+        "label": "GETTING BY",
+        "image": "a modest cozy cottage with a small green garden and a bicycle leaning by the door, soft overcast light breaking into gentle sun, calm content simple-life palette, warm and hopeful"
+      },
+      {
+        "label": "COMFORTABLE",
+        "image": "a neat suburban house with a bright lawn, a small pool and two cars in the drive, cheerful blue-sky afternoon, tidy and pleasant, fresh green-and-gold palette, easygoing warmth"
+      },
+      {
+        "label": "WELL OFF",
+        "image": "a stylish modern glass villa on a hillside with a wide terrace overlooking a valley, a sleek generic car in front, golden-hour glow, aspirational clean palette, elegant success"
+      },
+      {
+        "label": "RICH",
+        "image": "a sprawling luxury mansion with fountains, manicured gardens and a generic yacht at a private dock, warm sunset light, opulent and grand, rich gold-and-emerald palette, impressive scale"
+      },
+      {
+        "label": "VERY RICH",
+        "image": "a private tropical island estate with white villas, turquoise lagoon and a generic private jet on a small runway, brilliant sunlit paradise, dazzling luxury, vivid azure-and-gold palette"
+      },
+      {
+        "label": "ULTRA RICH",
+        "image": "a floating sky-palace of glass towers above the clouds connected by glowing bridges, private airships drifting nearby, surreal opulence, radiant golden-cloud palette, dreamlike grandeur"
+      },
+      {
+        "label": "BILLIONAIRE",
+        "image": "a gleaming futuristic private city on a mountaintop with a rocket on a launchpad and towers piercing the sky, sweeping god rays, immense visionary scale, cool silver-and-gold palette"
+      },
+      {
+        "label": "IMPOSSIBLE",
+        "image": "an entire glowing planet owned as a private garden-world, rings of golden light circling it, floating continents and endless palaces, cosmic god-tier wealth, radiant celestial palette, awe-inspiring"
+      },
+      {
+        "label": "TRULY RICH",
+        "image": "a small warm gathering of glowing silhouettes laughing together around a fire under a vast starry sky, simple and radiant, the richest scene of all, tender golden light, deeply heartfelt palette"
+      }
+    ],
+    "tags": [
+      "wealth",
+      "rich",
+      "levels",
+      "worlds",
+      "fantasy",
+      "aspiration",
+      "reveal",
+      "shorts",
+      "viral"
+    ]
+  },
+  {
+    "id": "zodiac-as-celestial-horses",
+    "category": "zodiac",
+    "title": "Every Zodiac as a MYTHIC HORSE 🐎 Which One Runs In You?",
+    "hook": "Your zodiac HORSE",
+    "comment_q": "Which horse is yours?",
+    "cta": "Which runs in you?",
+    "music_mood": "dreamy",
+    "style": "majestic cinematic fantasy portrait of a single magnificent mythical horse mid-gallop, flowing glowing mane, ethereal magical aura, dramatic rim lighting, ultra-detailed painterly fantasy art, powerful and graceful, vibrant palette, 8k, family-friendly, consistent framing",
     "reveals": [
       {
         "label": "ARIES",
-        "image": "a bold red-and-gold fortress carved into a volcanic mountain with glowing ember rivers and flame-lit towers, powerful fiery red palette"
+        "image": "a fierce fire-horse with a mane of roaring flames and glowing ember hooves, galloping through a storm of sparks, blazing red-orange aura"
       },
       {
         "label": "TAURUS",
-        "image": "a luxurious emerald-green castle draped in blooming golden roses and vines, in a lush rolling meadow, warm abundant green palette"
+        "image": "a strong emerald horse with a mane of glowing flowers and golden vines, standing proud in a sunlit meadow, warm green glow"
       },
       {
         "label": "GEMINI",
-        "image": "twin mirrored silver-lavender floating castles linked by glowing wind bridges high in a cloudy sky, airy bright palette"
+        "image": "twin mirrored silver horses galloping side by side, shimmering pale-yellow light manes flowing together, airy sparkling clouds around them"
       },
       {
         "label": "CANCER",
-        "image": "a pearl-white seaside castle with glowing moonlit towers reflecting on calm ocean water at night, cozy silver-blue palette"
+        "image": "a gentle pearl-white horse with a glowing silver-blue mane like moonlit water, standing by a calm lake beneath an enormous full moon"
       },
       {
         "label": "LEO",
-        "image": "a dazzling golden sun palace with a radiant sunburst dome and glowing amber towers on a sunlit hill, regal gold palette"
+        "image": "a regal golden horse with a blazing sun-fire mane and glowing amber eyes, majestic and radiant, rearing up in warm light"
       },
       {
         "label": "VIRGO",
-        "image": "an elegant jade-and-cream castle in a golden wheat valley with glowing herb gardens and tidy symmetrical spires, refined jade palette"
+        "image": "an elegant pristine white horse with a delicate glowing jade-green mane and floating light petals drifting around it, graceful and serene"
       },
       {
         "label": "LIBRA",
-        "image": "a perfectly symmetrical rose-gold castle with balanced crystal towers and glowing arches over a mirror-still lake, harmonious pastel palette"
+        "image": "a harmonious rose-gold horse with a perfectly flowing pink mane and glowing feathered wings, poised and balanced, soft pastel glow"
       },
       {
         "label": "SCORPIO",
-        "image": "a mysterious violet-black castle with glowing amethyst spires half-hidden in purple twilight mist on a cliff, alluring dark palette"
+        "image": "a mysterious deep-violet horse with a starry glowing mane trailing swirling purple mist, intense magical presence in twilight"
+      },
+      {
+        "label": "SAGITTARIUS",
+        "image": "a swift turquoise horse mid-leap with a comet-trail mane of glowing teal light, galloping across a vast starry night sky"
       },
       {
         "label": "CAPRICORN",
-        "image": "a majestic slate-and-gold mountain citadel on a snowy peak with glowing ice towers under swirling aurora, enduring cold palette"
-      },
-      {
-        "label": "PISCES",
-        "image": "a dreamy aqua coral castle with glowing shell towers and shimmering water-light domes beside a glowing sea, ethereal aqua palette"
+        "image": "a powerful obsidian horse with a mane of glowing white frost, standing firm on a snowy mountain peak, cold majestic aura"
       }
     ],
     "tags": [
       "zodiac",
-      "castle",
+      "horse",
+      "mythical",
       "astrology",
       "reveal",
-      "fantasy",
       "shorts",
       "viral",
       "aesthetic"
     ]
   },
   {
-    "id": "elements-as-titans",
-    "title": "The Elements as Colossal Titans ⚡ Which One Are You?",
-    "hook": "One element rules your soul",
-    "comment_q": "Fire or Water? Comment yours",
-    "cta": "Follow for more",
-    "music_mood": "warm",
-    "style": "hyper-detailed cinematic fantasy portrait, full-body colossal elemental titan, dramatic rim lighting, glowing energy, epic scale, vibrant, painterly concept art, 4k, family friendly",
+    "id": "most-jaw-dropping-pools",
+    "category": "Luxury lifestyle",
+    "title": "The Most Insane Pools on Earth — #1 Is Unreal 🌊",
+    "hook": "WOULD YOU SWIM HERE?",
+    "comment_q": "Which pool would you dive into first?",
+    "cta": "PICK YOUR POOL",
+    "music_mood": "dreamy",
+    "style": "Crisp luxury-resort photography, sparkling water caustics, vibrant blue-and-gold palette, sunny aspirational mood, glossy high-contrast, sweeping aerial and edge-of-water angles",
     "reveals": [
       {
-        "label": "FIRE",
-        "image": "a colossal titan whose entire body is made of living orange-red flame and molten cracks, glowing lava core, mane of fire, standing tall on a black volcanic ridge, embers swirling upward"
+        "label": "Sky Edge Pool",
+        "image": "A rooftop infinity pool on the very edge of a skyscraper high above a glittering city, swimmers seeming to float over the streets far below, blue sky reflected"
       },
       {
-        "label": "WATER",
-        "image": "a graceful translucent titan formed from towering swirling ocean waves and glowing blue water, flowing liquid hair, droplets floating, standing over a shimmering moonlit sea, luminous"
+        "label": "Jungle Cascade Pool",
+        "image": "A multi-tiered pool cascading down a jungle hillside like a chain of waterfalls, lush palms, swim-up seating, turquoise water glowing in bright sun"
       },
       {
-        "label": "EARTH",
-        "image": "a massive titan built from mossy boulders, thick roots, and glowing green crystal veins, gemstone heart, mountain-like shoulders, standing in an ancient forest, mighty and calm"
+        "label": "Glass-Bottom Pool",
+        "image": "A transparent glass-bottomed pool suspended in the air between two buildings, a swimmer above the gap, the city street visible directly through the water"
       },
       {
-        "label": "AIR",
-        "image": "a swift near-invisible titan made of swirling wind, white clouds, and glowing pale streams, wispy flowing form, feather-like gusts, floating high above a sea of clouds, weightless"
+        "label": "Cliffside Infinity",
+        "image": "An infinity pool on a dramatic seaside cliff, water spilling toward a vast ocean horizon, sun loungers, waves crashing on rocks far below at golden hour"
       },
       {
-        "label": "LIGHTNING",
-        "image": "a crackling titan of pure electricity, jagged blue-white lightning bolts forming its whole body, sparks flying off in every direction, standing in a violent storm, blindingly radiant"
+        "label": "Underwater Lounge",
+        "image": "A luxury pool with a submerged glass lounge room beneath it, people relaxing dry underwater looking up at swimmers, blue light rippling across the walls"
       },
       {
-        "label": "ICE",
-        "image": "a crystalline titan carved from glowing blue ice and sharp frost, jagged icicle crown, frozen mist pouring from its mouth, standing on a cracked glacier under swirling aurora, sparkling"
+        "label": "Mountain Hot Pool",
+        "image": "A steaming turquoise infinity pool overlooking snow-capped mountain peaks, rising mist, warm sunset light, a lone swimmer gazing at the vast range"
       },
       {
-        "label": "STORM",
-        "image": "a towering titan wrapped in churning black storm clouds with glowing lightning eyes, sheets of rain streaming from its form, whirlwind at its feet, standing amid a raging tempest, terrifying and grand"
+        "label": "Mirror Rooftop Pool",
+        "image": "A perfectly still rooftop pool mirroring the sky like glass, a swimmer making the only ripples, sleek white deck and palms, soft dawn reflections"
       },
       {
-        "label": "LIGHT",
-        "image": "a radiant golden titan made of pure glowing light and blazing sun rays, brilliant halo, warm shining aura beaming outward, standing in an explosion of dawn light, majestic and gentle"
+        "label": "Cave Grotto Pool",
+        "image": "A glowing blue pool inside a natural rock grotto, illuminated water, stalactites overhead, a hidden swim-through arch leading to bright daylight beyond"
       },
       {
-        "label": "SHADOW",
-        "image": "a sleek titan formed from deep purple twilight and swirling starlit mist, glowing violet outline, calm mysterious face, standing beneath a vast starry night sky, elegant and serene"
+        "label": "Desert Oasis Pool",
+        "image": "A vast palm-ringed pool in the middle of golden sand dunes, white cabanas, crystal-blue water sparkling under a bright desert sky, aerial view"
       },
       {
-        "label": "NATURE",
-        "image": "a lush living titan covered in blooming flowers, climbing vines, and glowing green leaves, butterflies circling its head, warm sunlight filtering through, standing in a blossoming meadow, vibrant and alive"
+        "label": "Sky Bridge Pool",
+        "image": "A long infinity pool spanning the gap between three tall towers like a sky bridge, swimmers gliding across, clouds and a city panorama in every direction"
       }
     ],
     "tags": [
-      "elements",
-      "fantasy",
-      "titans",
-      "fire",
-      "water",
+      "pool",
+      "luxury",
+      "infinitypool",
+      "resort",
+      "luxurylifestyle",
+      "satisfying",
+      "travel",
+      "reveal",
+      "amazing",
+      "shorts"
+    ]
+  },
+  {
+    "id": "movie-genres-as-living-worlds",
+    "category": "entertainment-curiosity",
+    "title": "Every Movie Genre As A World You Live In 🎬 Which Is Yours?",
+    "hook": "Which MOVIE is your life?",
+    "comment_q": "Which genre are you?",
+    "cta": "Follow for Part 2",
+    "music_mood": "dreamy",
+    "style": "epic wide cinematic establishing shot, a sweeping fantastical world that embodies a film genre, dramatic god rays, ultra-detailed matte painting, immense sense of scale and atmosphere, distinct bold color grade per genre, 4k concept art, family-friendly, no text",
+    "reveals": [
+      {
+        "label": "ADVENTURE",
+        "image": "a breathtaking world of floating jungle temples and glowing waterfalls, a rope bridge over a vast misty canyon, golden treasure-light glinting in the distance, warm sunlit epic exploration mood"
+      },
+      {
+        "label": "ROMANCE",
+        "image": "a dreamy pastel world of blossom-lined streets and floating rose petals, a glowing sunset over a bridge of soft lights, warm pink-and-gold haze, tender cozy romantic atmosphere"
+      },
+      {
+        "label": "SCI-FI",
+        "image": "a vast neon future city of glowing skyscrapers and hovering lights beneath twin planets in the sky, sleek chrome bridges, cool electric-blue and violet glow, awe-inspiring futuristic scale"
+      },
+      {
+        "label": "FANTASY",
+        "image": "a majestic realm of a glowing castle on a floating mountain, dragons circling distant spires, enchanted forests glowing below, magical purple-and-gold light, wondrous epic grandeur"
+      },
+      {
+        "label": "MYSTERY",
+        "image": "a moody rain-slicked old town at night, glowing lamplight reflecting on wet cobblestones, drifting fog between narrow buildings, a single lit window, intriguing deep-blue noir atmosphere"
+      },
+      {
+        "label": "COMEDY",
+        "image": "a bright cheerful cartoonish town of tilted colorful houses and bouncing balloons, sunny exaggerated shapes, confetti drifting, playful saturated rainbow palette, joyful lighthearted energy"
+      },
+      {
+        "label": "ACTION",
+        "image": "a dramatic cityscape at golden hour with glowing energy trails streaking between rooftops, sparks and dynamic light bursts, sweeping heroic angle, intense warm orange-and-teal blockbuster grade"
+      },
+      {
+        "label": "FAIRYTALE",
+        "image": "a storybook world of a glowing cottage in an enchanted glade, oversized mushrooms and fireflies, a winding golden path into misty woods, soft magical bedtime glow, gentle amber palette"
+      },
+      {
+        "label": "SPACE EPIC",
+        "image": "a majestic view of a glowing ringed planet rising over an alien desert, a lone silhouette watching from a dune, sweeping starfield and nebula colors, cinematic cosmic wonder, deep violet-gold palette"
+      },
+      {
+        "label": "SUPERHERO",
+        "image": "a shining metropolis skyline at dawn with a glowing beam of light rising from the center, dramatic clouds parting, hopeful golden rays over towering buildings, bold heroic epic atmosphere"
+      }
+    ],
+    "tags": [
+      "movies",
+      "genres",
+      "reveal",
       "shorts",
       "viral",
-      "aiart",
+      "cinematic",
+      "worldbuilding",
+      "whichareyou",
+      "aesthetic"
+    ]
+  },
+  {
+    "id": "you-now-vs-one-year",
+    "category": "Motivasyon/zihniyet (görsel)",
+    "title": "You Now vs You in 1 Year 🌱 The Glow-Up No One Sees",
+    "hook": "One year changes everything",
+    "comment_q": "What will YOU build in a year?",
+    "cta": "Follow for your future",
+    "music_mood": "dreamy",
+    "style": "cinematic inspiring transformation portrait, a softly-lit muted 'today' figure gently morphing into a radiant glowing 'future' figure bathed in golden light, uplifting hopeful mood, ultra-detailed painterly realism, no text no logos, 4k, family-friendly, consistent before-and-after composition",
+    "reveals": [
+      {
+        "label": "DISCIPLINE",
+        "image": "a before-and-after glow scene: a person hitting snooze in a dim cluttered bedroom dissolving into the same person rising at dawn in a bright tidy sunlit room stretching toward an open window, one small habit becoming a glowing routine, warm hopeful glow"
+      },
+      {
+        "label": "HEALTH",
+        "image": "a before-and-after glow scene: a tired slouched figure under flat gray light transforming into an energized upright figure sprinting through a golden sunrise park, warm vitality visibly flowing through their body, uplifting light"
+      },
+      {
+        "label": "SKILLS",
+        "image": "a before-and-after glow scene: a person fumbling awkwardly with a single tool at a bare desk becoming the same person confidently surrounded by floating glowing tools and finished creations orbiting them, mastery blooming, radiant golden glow"
+      },
+      {
+        "label": "MINDSET",
+        "image": "a before-and-after glow scene: a figure hunched under a small gray storm cloud of doubt raining overhead becoming the same figure standing tall crowned with a soft golden halo of calm belief, worry burning away into light, warm inspiring glow"
+      },
+      {
+        "label": "SAVINGS",
+        "image": "a before-and-after glow scene: a person holding a nearly empty jar with a single coin becoming the same person beside a glowing jar overflowing with light that spills into a small sprouting garden, patience growing into abundance, warm glow"
+      },
+      {
+        "label": "CIRCLE",
+        "image": "a before-and-after glow scene: a lone figure sitting isolated in a dim empty room becoming the same figure laughing warmly among a glowing circle of supportive friends around a sunlit table, loneliness turning to belonging, radiant light"
+      },
+      {
+        "label": "CONFIDENCE",
+        "image": "a before-and-after glow scene: a person shrinking with head bowed in cold shadow becoming the same person standing tall in a warm spotlight of golden light with an open certain smile, self-doubt turning to quiet power, warm glow"
+      },
+      {
+        "label": "THE WORK",
+        "image": "a before-and-after glow scene: a single blank page on an empty desk becoming a glowing gallery wall and shelf overflowing with finished books, paintings and projects radiating light, one page a day becoming a legacy, warm inspiring glow"
+      },
+      {
+        "label": "THE SMILE",
+        "image": "a before-and-after glow scene: a weary faint half-smile in dull gray light becoming a genuine radiant joyful smile bathed in golden sunrise, deep inner peace finally shining on the face, warm uplifting glow"
+      },
+      {
+        "label": "FUTURE YOU",
+        "image": "a single figure standing in brilliant golden sunrise light fully transformed and glowing with calm strength, gently reaching one hand back toward a faint gray translucent outline of their past self, gratitude and pride, radiant hopeful finale glow"
+      }
+    ],
+    "tags": [
+      "glowup",
+      "motivation",
+      "transformation",
+      "selfimprovement",
+      "oneyear",
+      "mindset",
+      "reveal",
+      "shorts",
+      "viral"
+    ]
+  },
+  {
+    "id": "aurora-realms-of-the-world",
+    "category": "nature-world-wonder",
+    "title": "Every Land Reborn Under the Northern Lights 🌌 Which Sky Is Yours?",
+    "hook": "Aurora changes EVERYTHING",
+    "comment_q": "Which sky is yours?",
+    "cta": "Follow for more magic",
+    "music_mood": "dreamy",
+    "style": "breathtaking cinematic night landscape, vast dancing aurora borealis in glowing green, violet and pink ribbons filling the sky, mirror-still reflections, ultra-detailed painterly matte painting, deep starry heavens, magical serene atmosphere, 4k, family-friendly wondrous, consistent grand cinematic framing",
+    "reveals": [
+      {
+        "label": "FROZEN LAKE",
+        "image": "a perfectly still black frozen lake mirroring vivid green-and-violet aurora ribbons overhead, a lone warmly glowing cabin on the far shore, crisp starry night, breathtaking symmetrical reflection"
+      },
+      {
+        "label": "SNOW FOREST",
+        "image": "a silent snow-blanketed pine forest under swirling pink-and-teal auroras, moonlit snow glittering on the branches, soft glowing mist drifting between the trees, peaceful enchanted winter night"
+      },
+      {
+        "label": "ICE PEAKS",
+        "image": "towering jagged glacier peaks glowing pale blue beneath a sky ablaze with emerald aurora curtains, drifting snow sparkles catching the light, majestic frozen cathedral of mountains under living color"
+      },
+      {
+        "label": "GLASS IGLOO",
+        "image": "a cozy glowing glass dome on pristine untouched snow with warm golden light inside, a vast violet-and-green aurora spiraling directly overhead, intimate magical shelter beneath the cosmos"
+      },
+      {
+        "label": "ICEBERG SEA",
+        "image": "a calm dark ocean dotted with glowing pale-blue icebergs drifting beneath rippling teal-and-rose auroras, soft colored reflections rippling on the water, serene polar dreamscape, immense quiet beauty"
+      },
+      {
+        "label": "DESERT NIGHT",
+        "image": "rolling golden sand dunes under a rare shimmering green aurora meeting a blazing field of stars, a lone caravan silhouette on the ridge, surreal warm-and-cool dream collision of desert and polar sky"
+      },
+      {
+        "label": "VOLCANO GLOW",
+        "image": "a distant erupting volcano casting warm orange light across black lava fields while emerald auroras dance above, steam rising into the glowing colored sky, dramatic fire-and-light spectacle"
+      },
+      {
+        "label": "WATERFALL VEIL",
+        "image": "a towering waterfall pouring into a glowing pool beneath rippling pink-violet auroras, mist catching the colored light, ferns and glowing moss framing the shore, lush magical night oasis"
+      },
+      {
+        "label": "CRYSTAL CAVE",
+        "image": "the mouth of a glowing blue ice cave framing a sky full of dancing green auroras beyond, translucent ice walls refracting the colors inward, a hidden portal to the light-filled heavens"
+      },
+      {
+        "label": "STARLIT TOWN",
+        "image": "a small glowing snow-covered town with warm lit windows nestled in a white valley, a colossal multicolor aurora arching over the rooftops, cozy fairytale winter kingdom under living light"
+      }
+    ],
+    "tags": [
+      "aurora",
+      "northernlights",
+      "nature",
+      "night",
+      "landscape",
+      "reveal",
+      "shorts",
+      "viral",
+      "aesthetic",
       "whichareyou"
+    ]
+  },
+  {
+    "id": "colors-as-dream-worlds",
+    "category": "aesthetic-color",
+    "title": "Each Color As An Entire Dream World 🌈 Which One Feels Like You?",
+    "hook": "Colors turned into WORLDS",
+    "comment_q": "Which color is your world?",
+    "cta": "Follow for more",
+    "music_mood": "dreamy",
+    "style": "surreal dreamlike fantasy landscape, a vast immersive floating world drenched in a single glowing color, sweeping cinematic wide shot, soft atmospheric haze, floating particles of light, ultra-detailed painterly matte painting, saturated monochromatic color grading per scene, 8k, ethereal and family-friendly, breathtaking sense of wonder",
+    "reveals": [
+      {
+        "label": "BLUSH PINK",
+        "image": "a soft dreamworld of endless rolling cotton-candy clouds and pale-pink cherry-blossom trees, floating petal islands and a glowing rose sun, gentle blush-pink haze, tender and calming"
+      },
+      {
+        "label": "OCEAN BLUE",
+        "image": "a vast blue world of floating islands above a mirror-still glowing sea, waterfalls pouring off the edges into open sky, drifting glowing whales, cool serene sapphire palette"
+      },
+      {
+        "label": "GOLDEN AMBER",
+        "image": "a warm honey-lit world of endless golden wheat fields beneath floating glowing lanterns, amber dust drifting through thick sunbeams, cozy nostalgic gold palette"
+      },
+      {
+        "label": "EMERALD GREEN",
+        "image": "a lush emerald world of giant glowing moss-covered trees, cascading green waterfalls and floating leaf platforms, misty jade light, alive and enchanted"
+      },
+      {
+        "label": "LAVENDER",
+        "image": "a soft violet dreamworld of floating purple mist, glowing lavender fields drifting in mid-air and pale twin moons, weightless and calm, soothing lilac palette"
+      },
+      {
+        "label": "SUNSET CORAL",
+        "image": "a glowing coral-and-peach world where the sky blazes orange and pink over floating cliffs, warm sunset light spilling across the horizon, radiant golden-coral palette"
+      },
+      {
+        "label": "MIDNIGHT PURPLE",
+        "image": "a deep cosmic world of dark-purple jagged mountains under a galaxy-filled sky, glowing amethyst rivers and countless floating stars, mysterious dreamy violet palette"
+      },
+      {
+        "label": "MINT TEAL",
+        "image": "a fresh mint-teal world of glowing turquoise pools and floating glass islands, soft aqua mist and shimmering bioluminescent gardens, cool refreshing palette"
+      },
+      {
+        "label": "ROSE GOLD",
+        "image": "a shimmering metallic rose-gold world of rippling copper dunes and reflective mirror-smooth sand, warm glowing amber-pink sky, luxurious liquid-metal rose-gold palette"
+      },
+      {
+        "label": "SILVER MOON",
+        "image": "a serene silver world of glowing white peaks under one huge full moon, mirror lakes reflecting pale light and drifting shimmer, calm luminous silver palette"
+      }
+    ],
+    "tags": [
+      "colors",
+      "dream world",
+      "color palette",
+      "aesthetic",
+      "reveal",
+      "shorts",
+      "viral",
+      "dreamy",
+      "vibe",
+      "whichcolor"
+    ]
+  },
+  {
+    "id": "celestial-bodies-as-divine-beings",
+    "category": "mythology",
+    "title": "The Sun, Moon & Planets as DIVINE BEINGS ☀️ Which One Is You?",
+    "hook": "The sky became GODS",
+    "comment_q": "Which celestial being are you?",
+    "cta": "Follow for the finale",
+    "music_mood": "dreamy",
+    "style": "a single serene divine celestial being personifying a heavenly body, glowing figure woven from starlight and cosmic energy with a radiant halo, flowing robes of nebula and light, epic golden-fresco meets cosmic fantasy portrait, dramatic ethereal lighting, family-friendly majestic, centered consistent framing, 8k",
+    "reveals": [
+      {
+        "label": "THE SUN",
+        "image": "a radiant golden being crowned with a blazing solar halo, robes of molten light and flame, warm confident gaze, arms wreathed in glowing sunbeams, majestic"
+      },
+      {
+        "label": "THE MOON",
+        "image": "a serene silver being crowned with a glowing crescent, robes of soft moonlight and mist, calm dreamy expression, surrounded by drifting stardust, gentle and luminous"
+      },
+      {
+        "label": "MERCURY",
+        "image": "a swift luminous being with winged light at the shoulders, robes streaked with quicksilver energy, bright alert eyes, trailing ribbons of fast-moving light"
+      },
+      {
+        "label": "VENUS",
+        "image": "a graceful glowing being wreathed in soft rose and pearl light, robes of shimmering dawn colors, serene loving expression, surrounded by floating blossoms of light"
+      },
+      {
+        "label": "MARS",
+        "image": "a bold crimson being clad in glowing ember-red armor of light, steady fearless gaze, a radiant aura of warm red energy, dignified and powerful, standing tall"
+      },
+      {
+        "label": "JUPITER",
+        "image": "a grand regal being crowned with swirling storm-cloud bands of amber and cream light, majestic robes of glowing gold, commanding serene presence, immense aura"
+      },
+      {
+        "label": "SATURN",
+        "image": "a wise elegant being encircled by a glowing halo-ring of pale gold light, robes of soft dusty-gold nebula, calm ancient eyes, graceful and contemplative"
+      },
+      {
+        "label": "NEPTUNE",
+        "image": "a tranquil deep-blue being wreathed in swirling ocean-mist light, robes of glowing sapphire and teal, serene distant gaze, surrounded by drifting cosmic waves"
+      },
+      {
+        "label": "THE STARS",
+        "image": "a shimmering being woven entirely from clustered starlight, countless tiny lights forming a gentle glowing figure, wide wondrous eyes, robes of pure constellation"
+      },
+      {
+        "label": "THE COMET",
+        "image": "a dazzling being trailing a long luminous tail of blue-white light, robes streaming like a shooting star, joyful radiant expression, blazing across a starfield"
+      }
+    ],
+    "tags": [
+      "mythology",
+      "celestial",
+      "planets",
+      "sun and moon",
+      "cosmic",
+      "reveal",
+      "shorts",
+      "viral",
+      "aesthetic"
+    ]
+  },
+  {
+    "id": "one-dollar-vs-one-billion-life",
+    "category": "finance-wealth",
+    "title": "$1 Life vs $1 BILLION Life — Same Thing, Two Worlds 🌍",
+    "hook": "$1 vs $1B: same moment",
+    "comment_q": "Which side are you on?",
+    "cta": "Follow for Part 2",
+    "music_mood": "warm",
+    "style": "cinematic split-screen diptych, left half humble everyday scene and right half extreme luxury version of the SAME thing, dramatic matched lighting across both halves, ultra-detailed, warm relatable mood, glossy aspirational contrast, family-friendly, consistent centered split framing",
+    "reveals": [
+      {
+        "label": "BREAKFAST",
+        "image": "split screen: left a simple bowl of cereal on a small kitchen table, right a lavish gourmet breakfast with fresh fruit towers and a chef plating gold-dusted pastries in a sunlit marble hall, matched warm morning light"
+      },
+      {
+        "label": "COFFEE",
+        "image": "split screen: left a plain paper cup of coffee on a bus-stop bench, right an elegant espresso served on a silver tray on a sunlit rooftop terrace overlooking a city, matched warm glow"
+      },
+      {
+        "label": "RIDE",
+        "image": "split screen: left a person waiting at a rainy bus stop, right a sleek generic luxury car with a driver holding the door open on a grand driveway, matched dramatic lighting, playful contrast"
+      },
+      {
+        "label": "HOME",
+        "image": "split screen: left a cozy tiny apartment with a small couch and warm lamp, right a vast modern penthouse with floor-to-ceiling windows and a skyline view, matched golden interior light"
+      },
+      {
+        "label": "VACATION",
+        "image": "split screen: left a small tent beside a modest lake at sunset, right an overwater villa on a turquoise lagoon with a private infinity pool, matched glowing golden-hour sky"
+      },
+      {
+        "label": "PET",
+        "image": "split screen: left a happy scruffy dog with a simple rope toy on a rug, right the same breed of dog on a plush velvet bed with a tiny jeweled collar in a marble room, matched soft warm light"
+      },
+      {
+        "label": "BIRTHDAY",
+        "image": "split screen: left a single cupcake with one candle on a kitchen counter, right a towering multi-tier cake with sparkler fountains in a chandelier-lit ballroom, matched warm celebratory glow"
+      },
+      {
+        "label": "VIEW",
+        "image": "split screen: left a person on a small balcony looking at rooftops, right a person on a superyacht deck gazing at an open sunset ocean, matched glowing orange horizon light"
+      },
+      {
+        "label": "GIFT",
+        "image": "split screen: left a small hand-wrapped present with a paper bow, right an enormous ribboned box with a generic sports car inside a glass showroom, matched sparkling festive light"
+      },
+      {
+        "label": "HAPPINESS",
+        "image": "split screen: both halves identical, two glowing silhouettes hugging warmly under the same golden sunset, no difference between rich and poor here, tender heartfelt matched light, emotional payoff"
+      }
+    ],
+    "tags": [
+      "money",
+      "rich",
+      "comparison",
+      "lifestyle",
+      "billion",
+      "vs",
+      "reveal",
+      "shorts",
+      "viral"
+    ]
+  },
+  {
+    "id": "zodiac-as-night-skies",
+    "category": "zodiac",
+    "title": "Every Zodiac as a NIGHT SKY 🌌 Which Sky Lives In You?",
+    "hook": "Your zodiac SKY",
+    "comment_q": "Which sky is yours?",
+    "cta": "Tell me yours",
+    "music_mood": "dreamy",
+    "style": "breathtaking cinematic dreamscape of a single vast night sky over a silhouetted horizon, a glowing zodiac constellation shimmering above, ultra-detailed cosmic art, deep vivid colors, magical serene atmosphere, 8k, family-friendly, consistent wide framing",
+    "reveals": [
+      {
+        "label": "ARIES",
+        "image": "a fiery red-orange night sky with glowing ember stars and streaking meteors, a blazing ram constellation above a dark volcanic horizon"
+      },
+      {
+        "label": "TAURUS",
+        "image": "a warm green-gold twilight sky with soft glowing stars over a lush silhouetted hilltop, a gentle bull constellation shining above"
+      },
+      {
+        "label": "GEMINI",
+        "image": "a shimmering pale-yellow sky split into two mirrored halves of stars, a glowing twins constellation over airy silver clouds"
+      },
+      {
+        "label": "CANCER",
+        "image": "a soft silver-blue moonlit sky with an enormous glowing full moon and gentle stars mirrored on a calm sea, a crab constellation above"
+      },
+      {
+        "label": "LEO",
+        "image": "a radiant golden dusk sky with a blazing sun-halo of stars, a glowing lion constellation reigning majestically over golden plains"
+      },
+      {
+        "label": "VIRGO",
+        "image": "a serene jade-and-white starry sky with delicate glowing constellations and floating light dust, a maiden constellation over a quiet field"
+      },
+      {
+        "label": "LIBRA",
+        "image": "a perfectly balanced rose-gold and blue gradient sky, symmetrical glowing stars, a scales constellation mirrored over still water"
+      },
+      {
+        "label": "SCORPIO",
+        "image": "a deep violet star-filled sky with swirling purple nebula clouds, a glowing scorpion constellation coiling mysteriously over dark peaks"
+      },
+      {
+        "label": "SAGITTARIUS",
+        "image": "a vivid teal night sky streaked with a bright glowing comet, an archer constellation drawing its bow across a mountain horizon"
+      },
+      {
+        "label": "CAPRICORN",
+        "image": "a crisp icy-blue starry sky above snowy mountain peaks, sharp brilliant stars, a horned goat constellation glowing coldly above"
+      }
+    ],
+    "tags": [
+      "zodiac",
+      "night sky",
+      "constellation",
+      "astrology",
+      "reveal",
+      "shorts",
+      "viral",
+      "cosmic"
+    ]
+  },
+  {
+    "id": "billion-dollar-bedrooms-jets",
+    "category": "Luxury lifestyle",
+    "title": "Inside Billion-Dollar Bedrooms & Private Jets ✨",
+    "hook": "WHICH ONE IS YOURS?",
+    "comment_q": "Bedroom or private jet — which would you take?",
+    "cta": "SAVE THIS",
+    "music_mood": "dreamy",
+    "style": "Opulent interior photography, warm golden ambient lighting, plush textures, deep rich tones with gold accents, cinematic soft focus, ultra-luxurious editorial polish",
+    "reveals": [
+      {
+        "label": "Sky View Suite",
+        "image": "A vast bedroom with a floor-to-ceiling glass wall overlooking a nighttime city skyline, a floating platform bed, warm lamp glow, gold and cream accents"
+      },
+      {
+        "label": "Round Ocean Bed",
+        "image": "A dramatic circular bed in a glass bedroom suspended over a moonlit ocean, sheer canopy drapes, soft candle glow, waves visible through curved windows"
+      },
+      {
+        "label": "Jet Lounge",
+        "image": "The interior of a lavish private jet cabin with cream leather sofas, a polished wood bar, soft ambient lighting, a window revealing clouds at golden hour"
+      },
+      {
+        "label": "Forest Glass Room",
+        "image": "A serene bedroom with three glass walls surrounded by a misty autumn forest, a low platform bed, warm wood tones, morning light filtering through the trees"
+      },
+      {
+        "label": "Flying Bedroom",
+        "image": "A luxurious flying bedroom inside a private jet, a real king bed with plush white linens, warm mood lighting, oval windows glowing with sunset sky"
+      },
+      {
+        "label": "Gold Canopy Room",
+        "image": "An opulent bedroom with a towering golden canopy bed, silk drapes, a crystal chandelier, marble floors and mirrored walls reflecting warm candlelight"
+      },
+      {
+        "label": "Underwater Bedroom",
+        "image": "A bedroom with curved glass walls beneath the sea, colorful fish and coral glowing outside, blue caustic light rippling over a plush bed and soft cushions"
+      },
+      {
+        "label": "Jet Spa Cabin",
+        "image": "The interior of a private jet featuring a small marble spa lounge, warm gold fixtures, a plush daybed, soft glowing lights and clouds outside the windows"
+      },
+      {
+        "label": "Mountain Loft",
+        "image": "A grand bedroom loft with a glass wall facing snowy alpine peaks, a crackling fireplace, soft fur throws, warm lamplight and a wooden canopy bed"
+      },
+      {
+        "label": "Starlight Ceiling Room",
+        "image": "A dark luxurious bedroom with a domed ceiling projecting a realistic starry galaxy, a softly illuminated floating bed below, blue and gold accent lighting"
+      }
+    ],
+    "tags": [
+      "luxury",
+      "bedroom",
+      "privatejet",
+      "interiordesign",
+      "luxurylifestyle",
+      "billionaire",
+      "reveal",
+      "satisfying",
+      "aesthetic",
+      "shorts"
+    ]
+  },
+  {
+    "id": "rpg-classes-as-heroes",
+    "category": "entertainment-curiosity",
+    "title": "If Life Was An RPG 🎮 Which Class Would You Main?",
+    "hook": "Pick your CLASS",
+    "comment_q": "Which class do you main?",
+    "cta": "Follow for your build",
+    "music_mood": "warm",
+    "style": "hyper-detailed cinematic video-game character portrait, one heroic fantasy RPG class in glowing themed armor, dramatic rim lighting, swirling class-colored energy aura, epic ready stance, ultra vibrant, painterly concept art, energy magic and glowing gear only, 8k, family-friendly heroic fantasy, consistent framing",
+    "reveals": [
+      {
+        "label": "WARRIOR",
+        "image": "a bold warrior in gleaming glowing steel-and-gold armor with a radiant aura of strength, standing firm and confident, sparks of golden energy rising, powerful grounded stance, warm gold-and-crimson palette"
+      },
+      {
+        "label": "MAGE",
+        "image": "a wise mage in flowing star-blue robes with glowing runes orbiting the raised hands, a swirling orb of luminous arcane energy floating above the palm, sparkling magic dust, deep sapphire-violet palette"
+      },
+      {
+        "label": "ARCHER",
+        "image": "an agile archer in sleek green-and-brown leather with a glowing bow of pure light drawn back, an arrow of energy glowing at the tip, wind and leaves swirling, sharp focused gaze, emerald palette"
+      },
+      {
+        "label": "HEALER",
+        "image": "a serene healer in soft white robes kneeling within a radiant blooming circle of golden light on the ground, glowing petals and gentle sparkles rising all around, warm protective halo overhead, kind calm expression, gold-white palette"
+      },
+      {
+        "label": "ROGUE",
+        "image": "a nimble rogue in dark hooded cloak trimmed with glowing violet edges, half-wrapped in swirling shadow-mist and starlight, a sly confident smirk, elegant crouched ready pose, midnight-violet palette"
+      },
+      {
+        "label": "PALADIN",
+        "image": "a noble paladin in radiant silver-and-gold plate armor glowing with a holy light shield of energy, a beam of warm light from above, majestic protective stance, brilliant gold-and-white palette"
+      },
+      {
+        "label": "ELEMENTALIST",
+        "image": "a dynamic elementalist with fire, water, wind and earth energy swirling together around the body in glowing ribbons, hands channeling all four elements, dazzling multicolor magical aura, vibrant rainbow-element palette"
+      },
+      {
+        "label": "BARD",
+        "image": "a charismatic bard in vibrant patchwork attire strumming a glowing instrument that releases luminous music notes and colorful sound waves, dazzling stage-light aura, joyful energetic pose, warm purple-and-gold palette"
+      },
+      {
+        "label": "TANK",
+        "image": "a mighty guardian in massive glowing blue-and-steel armor holding up a huge radiant energy shield, sparks bursting off the barrier, immovable heroic stance, protective steady glow, steel-blue palette"
+      },
+      {
+        "label": "SUMMONER",
+        "image": "a mystical summoner surrounded by glowing magic circles with a small radiant spirit creature of light materializing beside them, swirling luminous glyphs in the air, wondrous teal-and-gold magical glow"
+      }
+    ],
+    "tags": [
+      "rpg",
+      "gaming",
+      "class",
+      "reveal",
+      "shorts",
+      "viral",
+      "fantasy",
+      "gamer",
+      "whichareyou",
+      "familyfriendly"
     ]
   }
 ]

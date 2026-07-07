@@ -36,10 +36,31 @@ WORK = gv.WORK
 FONT = gv.FONT
 W, H, FPS = gv.W, gv.H, gv.FPS
 
-REVEAL_SEC = 3.0          # her reveal ekranda kaç sn
+REVEAL_SEC = 1.9          # her reveal ekranda kaç sn (hızlı tempo = retention)
 TAIL_SEC = 2.6            # sonda yorum sorusu kartı
-MUSIC_VOL = 0.85         # konuşma yok -> müzik ana ses
+MUSIC_VOL = 0.8          # konuşma yok -> müzik ana ses
+WHOOSH_VOL = 0.9          # geçiş sesi
 LABEL_Y = int(H * 0.82)   # etiket dikey konumu (alt)
+SFX = gv.ROOT / "assets" / "sfx" / "whoosh.mp3"
+
+
+def build_whoosh_track(times, dest, total):
+    """Her reveal anına whoosh yerleştirilmiş bir ses parçası üretir."""
+    if not SFX.exists() or not times:
+        return None
+    inputs = []
+    for _ in times:
+        inputs += ["-i", str(SFX)]
+    fc = []
+    for i, t in enumerate(times):
+        ms = int(t * 1000)
+        fc.append(f"[{i}:a]adelay={ms}|{ms}[w{i}]")
+    fc.append("".join(f"[w{i}]" for i in range(len(times))) +
+              f"amix=inputs={len(times)}:normalize=0[wt]")
+    gv.run(["ffmpeg", "-y", *inputs, "-filter_complex", ";".join(fc),
+            "-map", "[wt]", "-t", f"{total:.3f}", str(dest)],
+           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    return dest
 
 
 def render_label_png(text, path):
@@ -62,17 +83,91 @@ def render_label_png(text, path):
     return img.size
 
 
+# kategori -> YouTube categoryId (içeriğe uygun; anahtar kelimeler İngilizce+Türkçe eşleşir)
+CAT_YT = [
+    (("finance", "wealth", "money", "finans", "servet"), "27"),      # Education
+    (("science", "nature", "world", "space", "doga", "doğa"), "28"), # Science & Tech
+    (("motiv", "mindset", "zihniyet", "self"), "22"),                # People & Blogs
+    (("animal", "pet"), "15"),                                       # Pets & Animals
+    (("kid", "cartoon", "child", "cocuk", "çocuk"), "1"),            # Film & Animation
+    (("music",), "10"),
+]
+
+# İçerik-uyumlu hashtag havuzu — TAMAMEN İNGİLİZCE / GLOBAL
+HASH_UNIVERSAL = ["#shorts", "#viral", "#fyp", "#foryou", "#shortsfeed", "#trending", "#reveal"]
+HASH_CAT = [
+    (("finance", "wealth", "money", "finans", "servet"), ["#money", "#wealth", "#luxury"]),
+    (("zodiac", "astro", "burc", "burç"), ["#zodiac", "#astrology", "#zodiacsigns"]),
+    (("luxury", "lifestyle", "luks", "lüks", "rich"), ["#luxury", "#luxurylifestyle", "#rich"]),
+    (("entertain", "curio", "fun", "eglence", "eğlence"), ["#fun", "#whichoneareyou", "#aesthetic"]),
+    (("motiv", "mindset", "zihniyet", "self"), ["#motivation", "#mindset", "#success"]),
+    (("nature", "world", "space", "doga", "doğa"), ["#nature", "#satisfying", "#space"]),
+    (("aesthetic", "color", "estetik", "renk"), ["#aesthetic", "#aestheticedit", "#colors"]),
+    (("myth", "legend", "efsane", "mitoloji", "fantasy"), ["#mythology", "#fantasy", "#legend"]),
+]
+TAGS_UNIVERSAL = ["shorts", "viral", "fyp", "for you", "reveal", "which one are you",
+                  "satisfying", "aesthetic", "trending shorts", "ai art"]
+
+
+def _cat(theme):
+    return (theme.get("category") or "").lower()
+
+
+def yt_category(theme, cfg):
+    cat = _cat(theme)
+    for keys, cid in CAT_YT:
+        if any(k in cat for k in keys):
+            return cid
+    return str(cfg.get("categoryId", "24"))   # varsayılan Entertainment
+
+
+def build_hashtags(theme):
+    """En fazla 15, ilk 3 en güçlü, tümü İngilizce, içeriğe uygun."""
+    cat = _cat(theme)
+    tags = ["#shorts"]
+    for keys, hs in HASH_CAT:
+        if any(k in cat for k in keys):
+            tags += hs
+            break
+    for h in HASH_UNIVERSAL:
+        if h.lower() not in [x.lower() for x in tags]:
+            tags.append(h)
+    return tags[:15]
+
+
+def build_tags(theme):
+    cat = _cat(theme)
+    cat_words = [k for keys, _ in HASH_CAT for k in keys if k in cat and k.isascii()][:2]
+    raw = (list(theme.get("tags", [])) + TAGS_UNIVERSAL + cat_words
+           + [r["label"].lower() for r in theme.get("reveals", [])])
+    out, seen, total = [], set(), 0
+    for t in raw:
+        t = str(t).strip().lower()
+        if not t or t in seen or total + len(t) + 1 > 480:
+            continue
+        seen.add(t); out.append(t); total += len(t) + 1
+    return out
+
+
 def build_meta(theme, cfg):
     title = seo.build_title(theme)
-    tags = seo.build_tags(theme)
-    hashtags = " ".join(seo.build_hashtags(theme))
+    hashtags = " ".join(build_hashtags(theme))
     q = (theme.get("comment_q") or "Which one is your favorite?").strip()
-    desc = f"{seo._clean(theme['title'])} 🎬\n\n{q}\n👉 Follow for more!\n\n{hashtags}"
-    return {"title": title, "description": desc, "tags": tags,
-            "categoryId": str(cfg.get("categoryId", "24")),
+    cta = (theme.get("cta") or "Follow for more").strip()
+    labels = ", ".join(r["label"] for r in theme.get("reveals", [])[:8])
+    desc = (
+        f"{seo._clean(theme['title'])} ✨\n\n"
+        f"💬 {q}\n"
+        f"👉 {cta} — new reveals every day!\n"
+        f"🔔 Like & subscribe so you never miss one.\n\n"
+        f"In this video: {labels}.\n\n"
+        f"{hashtags}"
+    )
+    return {"title": title, "description": desc, "tags": build_tags(theme),
+            "categoryId": yt_category(theme, cfg),
             "privacyStatus": cfg.get("privacyStatus", "public"),
             "madeForKids": bool(cfg.get("madeForKids", False)),
-            "defaultLanguage": cfg.get("defaultLanguage", "en"),
+            "defaultLanguage": "en",
             "series": theme.get("id", "")}
 
 
@@ -105,7 +200,8 @@ def main():
         if first_img is None:
             first_img = img
         last_img = img
-        segs.append(gs.ken_burns(img, REVEAL_SEC, WORK / f"seg_{i:02d}.mp4", zoom_in=(i % 2 == 0)))
+        segs.append(gs.ken_burns(img, REVEAL_SEC, WORK / f"seg_{i:02d}.mp4",
+                                 zoom_in=(i % 2 == 0), flash=True))
         lp = WORK / f"lbl_{i:02d}.png"
         lw, lh = render_label_png(rv["label"], lp)
         labels.append((lp, lw, lh, i * REVEAL_SEC, (i + 1) * REVEAL_SEC))
@@ -135,6 +231,8 @@ def main():
     if use_wm:
         wm_png = WORK / "wm.png"; ww, wh = gs.render_watermark_png(handle, wm_png)
     music = gs.pick_music(theme.get("music_mood") or "dreamy")
+    reveal_times = [i * REVEAL_SEC for i in range(len(reveals))]
+    whoosh_track = build_whoosh_track(reveal_times, WORK / "whoosh.wav", video_total)
 
     # 2) montaj
     inputs = ["-i", str(bg)]
@@ -150,7 +248,10 @@ def main():
         wm_idx = nxt; inputs += ["-i", str(wm_png)]; nxt += 1
     music_idx = nxt
     if music:
-        inputs += ["-i", str(music)]
+        inputs += ["-i", str(music)]; nxt += 1
+    whoosh_idx = nxt
+    if whoosh_track:
+        inputs += ["-i", str(whoosh_track)]
 
     fc, last = [], "0:v"
     for k, (p, lw, lh, s, e) in enumerate(labels):
@@ -174,12 +275,20 @@ def main():
         f"[vbar]drawbox=x=0:y=0:w=iw:h=10:color=white@0.22:thickness=fill,"
         f"drawbox=x=0:y=0:w='iw*t/{video_total:.2f}':h=10:color=0xFFE74C@0.95:thickness=fill[vout]")
 
+    aud = []
     if music:
-        fc.append(
-            f"[{music_idx}:a]volume={MUSIC_VOL},afade=t=in:st=0:d=0.6,"
-            f"afade=t=out:st={max(0.1, video_total-1.2):.2f}:d=1.2,alimiter=limit=0.95[aout]")
-        amap = "[aout]"
-        maps = ["-map", "[vout]", "-map", amap]
+        fc.append(f"[{music_idx}:a]volume={MUSIC_VOL},afade=t=in:st=0:d=0.6,"
+                  f"afade=t=out:st={max(0.1, video_total-1.2):.2f}:d=1.2[amus]")
+        aud.append("[amus]")
+    if whoosh_track:
+        fc.append(f"[{whoosh_idx}:a]volume={WHOOSH_VOL}[awh]")
+        aud.append("[awh]")
+    if len(aud) >= 2:
+        fc.append(f"{''.join(aud)}amix=inputs={len(aud)}:normalize=0,alimiter=limit=0.95[aout]")
+        maps = ["-map", "[vout]", "-map", "[aout]"]
+    elif len(aud) == 1:
+        fc.append(f"{aud[0]}alimiter=limit=0.95[aout]")
+        maps = ["-map", "[vout]", "-map", "[aout]"]
     else:
         maps = ["-map", "[vout]"]
 
@@ -198,7 +307,7 @@ def main():
     meta = build_meta(theme, cfg)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
     (OUT / "tiktok.txt").write_text(
-        f"{hook_text} ✨\n{q_text}\n" + " ".join(seo.build_hashtags(theme)[:6]), encoding="utf-8")
+        f"{hook_text} ✨\n{q_text}\n" + " ".join(build_hashtags(theme)[:6]), encoding="utf-8")
     try:
         if first_img and first_img.exists():
             gs.make_thumbnail(first_img, hook_png, OUT / "thumb.jpg")

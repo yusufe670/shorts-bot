@@ -90,8 +90,8 @@ def gen_image(prompt, dest, seed):
     return False
 
 
-def ken_burns(image, duration, out_mp4, zoom_in=True):
-    """Durağan resmi yavaş zoom'lu 1080x1920 klibe çevir."""
+def ken_burns(image, duration, out_mp4, zoom_in=True, flash=False):
+    """Durağan resmi yavaş zoom'lu 1080x1920 klibe çevir. flash=beyaz geçiş girişi."""
     frames = max(2, int(duration * FPS))
     if zoom_in:
         zexpr = "min(zoom+0.0009,1.20)"
@@ -100,6 +100,8 @@ def ken_burns(image, duration, out_mp4, zoom_in=True):
     vf = (f"scale=1620:2880:force_original_aspect_ratio=increase,crop=1620:2880,"
           f"zoompan=z='{zexpr}':d={frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
           f"s={W}x{H}:fps={FPS},setsar=1")
+    if flash:
+        vf += ",fade=t=in:st=0:d=0.14:color=white"
     gv.run(["ffmpeg", "-y", "-loop", "1", "-i", str(image), "-t", f"{duration:.3f}",
             "-r", str(FPS), "-vf", vf, "-c:v", "libx264", "-preset", "veryfast",
             "-pix_fmt", "yuv420p", str(out_mp4)],

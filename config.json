@@ -15,7 +15,8 @@
     "entertainment"
   ],
   "categoryId": "24",
-  "privacyStatus": "public",
+  "privacyStatus": "private",
+  "add_music": false,
   "madeForKids": false,
   "defaultLanguage": "en",
 

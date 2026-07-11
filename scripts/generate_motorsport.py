@@ -55,30 +55,27 @@ def to_vertical_segment(clip, out_mp4):
     return out_mp4
 
 
+# Motorspor için evrensel, temiz hashtag ve etiketler
+MOTO_HASHTAGS = "#shorts #cars #supercar #racing #motorsport #caredit #speed #fastcars #carlovers #viral"
+MOTO_TAGS = ["cars", "supercar", "racing", "motorsport", "car edit", "speed", "fast cars",
+             "car lovers", "sports car", "cars shorts", "racing shorts", "auto", "car video"]
+
+
 def build_meta(topic, cfg):
     title = seo.build_title(topic)
-    hashtags = " ".join(seo.build_hashtags(topic))
     q = (topic.get("comment_q") or "Which one is the best?").strip()
-    cta = (topic.get("cta") or "Follow for more").strip()
-    desc = (
-        f"{seo._clean(topic['title'])} 🏁\n\n"
-        f"💬 {q}\n"
-        f"👉 {cta} — new motorsport edits daily!\n"
-        f"🔔 Like & subscribe for more.\n\n"
-        f"Footage: Pexels & Pixabay (free license, no attribution required).\n\n"
-        f"{hashtags}"
-    )
+    # temiz, evrensel açıklama
+    desc = f"{seo._clean(topic['title'])}\n\n{q}\n\n{MOTO_HASHTAGS}"
+    # temiz etiketler (konu + motorspor)
     tags, seen, total = [], set(), 0
-    base = ["motorsport", "racing", "cars", "speed", "race car", "fast cars", "car edit",
-            "motorsport edit", "racing shorts", "cars shorts", "supercar"]
-    for t in seo.build_tags(topic) + base:
+    for t in [x.lower() for x in topic.get("tags", [])] + MOTO_TAGS:
         t = t.strip().lower()
-        if not t or t in seen or total + len(t) + 1 > 480:
+        if not t or t in seen or total + len(t) + 1 > 460:
             continue
         seen.add(t); tags.append(t); total += len(t) + 1
     return {"title": title, "description": desc, "tags": tags,
             "categoryId": "2",   # Autos & Vehicles
-            "privacyStatus": cfg.get("privacyStatus", "public"),
+            "privacyStatus": cfg.get("privacyStatus", "private"),
             "madeForKids": bool(cfg.get("madeForKids", False)),
             "defaultLanguage": cfg.get("defaultLanguage", "en"),
             "series": topic.get("id", "")}
@@ -137,7 +134,8 @@ def main():
     use_wm = bool(handle) and handle != "@YourChannel"
     if use_wm:
         wm_png = WORK / "wm.png"; ww, wh = gs.render_watermark_png(handle, wm_png)
-    music = gs.pick_music(topic.get("music_mood") or "warm")
+    # add_music=false ise MÜZİKSİZ üret (kullanıcı uygulamadan viral şarkı seçecek)
+    music = gs.pick_music(topic.get("music_mood") or "warm") if cfg.get("add_music", True) else None
 
     # 5) montaj
     inputs = ["-i", str(bg), "-i", str(hook_png), "-i", str(cta_png)]
@@ -179,8 +177,10 @@ def main():
 
     meta = build_meta(topic, cfg)
     (OUT / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
-    (OUT / "tiktok.txt").write_text(
-        f"{hook_text} 🏁\n" + " ".join(seo.build_hashtags(topic)[:6]), encoding="utf-8")
+    # Uygulamadan yüklerken kopyala-yapıştır caption (temiz, evrensel)
+    (OUT / "caption.txt").write_text(
+        f"{seo._clean(topic['title'])}\n\n{(topic.get('comment_q') or '').strip()}\n\n{MOTO_HASHTAGS}",
+        encoding="utf-8")
     try:
         gs.make_thumbnail(first_seg_frame(first_seg), hook_png, OUT / "thumb.jpg")
     except Exception as e:

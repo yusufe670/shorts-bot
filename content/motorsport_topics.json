@@ -1,0 +1,62 @@
+[
+  {
+    "id": "supercar_speed",
+    "title": "Supercars at INSANE Speed 🏎️ Which One Wins?",
+    "hook": "Pure SPEED. Watch till end",
+    "comment_q": "Which supercar is your dream? 👇",
+    "cta": "Follow for more",
+    "music_mood": "warm",
+    "queries": ["supercar", "sports car driving", "fast car", "luxury car speed", "car racing"],
+    "tags": ["supercar", "sports car", "speed", "luxury cars", "car edit"]
+  },
+  {
+    "id": "race_track",
+    "title": "Race Track Beasts 🏁 The Sound of Speed",
+    "hook": "This is RAW speed",
+    "comment_q": "Would you drive this? 👇",
+    "cta": "Follow for more",
+    "music_mood": "mystery",
+    "queries": ["race car track", "formula car", "racing circuit", "motorsport", "race car"],
+    "tags": ["race car", "race track", "motorsport", "formula", "racing"]
+  },
+  {
+    "id": "motorcycle_race",
+    "title": "Motorcycles at Full Throttle 🏍️ Adrenaline Rush",
+    "hook": "Full throttle. No fear",
+    "comment_q": "Bikes or cars? 👇",
+    "cta": "Follow for more",
+    "music_mood": "warm",
+    "queries": ["motorcycle riding", "motorbike speed", "superbike", "motorcycle road", "biker"],
+    "tags": ["motorcycle", "superbike", "motorbike", "bike life", "motorsport"]
+  },
+  {
+    "id": "drift_smoke",
+    "title": "Drifting Through the Smoke 💨 So Satisfying",
+    "hook": "Sideways = the only way",
+    "comment_q": "Rate this drift 1-10 👇",
+    "cta": "Follow for more",
+    "music_mood": "mystery",
+    "queries": ["car drift", "drifting", "tire smoke car", "car burnout", "street racing"],
+    "tags": ["drift", "drifting", "car drift", "jdm", "car culture"]
+  },
+  {
+    "id": "rally_offroad",
+    "title": "Rally Cars vs Nature 🌲 Off-Road Madness",
+    "hook": "Dirt, dust, no limits",
+    "comment_q": "Tarmac or dirt? 👇",
+    "cta": "Follow for more",
+    "music_mood": "warm",
+    "queries": ["rally car", "off road car", "dirt racing", "car mud", "4x4 offroad"],
+    "tags": ["rally", "offroad", "rally car", "dirt", "4x4"]
+  },
+  {
+    "id": "night_city_cars",
+    "title": "Night City & Neon Cars 🌃 Pure Vibes",
+    "hook": "Night drive hits different",
+    "comment_q": "Day or night drive? 👇",
+    "cta": "Follow for more",
+    "music_mood": "dreamy",
+    "queries": ["night city car", "car neon lights", "night drive", "city car lights", "car at night"],
+    "tags": ["night drive", "car vibes", "neon", "city lights", "car edit"]
+  }
+]

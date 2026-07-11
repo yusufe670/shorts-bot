@@ -32,8 +32,11 @@ jobs:
       - name: Günün trendlerini logla (bilgi amaçlı)
         run: python scripts/fetch_trends.py US GB || true
 
-      - name: Dilsiz görsel reveal üret (AI görseller)
-        run: python scripts/generate_visual.py
+      - name: Motorspor montaj üret (telifsiz stok footage)
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: python scripts/generate_motorsport.py
 
       - name: Videoyu indirilebilir yap (TikTok/Reels cross-post için)
         if: always()
@@ -52,8 +55,8 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-          PROGRESS_FILE: state/visual_progress.json
-          BANK_FILE: content/visual_themes.json
+          PROGRESS_FILE: state/motorsport_progress.json
+          BANK_FILE: content/motorsport_topics.json
         run: python scripts/upload_generated.py
 
       - name: İlerlemeyi kaydet (dayanıklı push — tekrar yüklemeyi önler)
@@ -61,12 +64,12 @@ jobs:
         run: |
           git config user.name "shorts-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add state/visual_progress.json
+          git add state/motorsport_progress.json
           if git diff --staged --quiet; then
             echo "İlerleme değişmedi, kaydedilecek bir şey yok."
             exit 0
           fi
-          git commit -m "İlerleme: sıradaki tema [skip ci]"
+          git commit -m "İlerleme: sıradaki motorspor konusu [skip ci]"
           for i in 1 2 3 4 5; do
             if git pull --rebase --autostash origin main && git push origin main; then
               echo "İlerleme kaydedildi (deneme $i)."

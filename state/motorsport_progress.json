@@ -1,5 +1,5 @@
 {
-  "next_index": 3,
+  "next_index": 4,
   "made": [
     {
       "index": 0,
@@ -18,6 +18,12 @@
       "video_id": "jLNFvsfvtDk",
       "title": "Motorcycles at Full Throttle 🏍️ Adrenaline Rush #shorts",
       "series": "motorcycle_race"
+    },
+    {
+      "index": 3,
+      "video_id": "k2f1juUsFB4",
+      "title": "Drifting Through the Smoke 💨 So Satisfying #shorts",
+      "series": "drift_smoke"
     }
   ]
 }

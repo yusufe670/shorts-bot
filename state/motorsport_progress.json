@@ -1,5 +1,5 @@
 {
-  "next_index": 4,
+  "next_index": 5,
   "made": [
     {
       "index": 0,
@@ -24,6 +24,12 @@
       "video_id": "k2f1juUsFB4",
       "title": "Drifting Through the Smoke 💨 So Satisfying #shorts",
       "series": "drift_smoke"
+    },
+    {
+      "index": 4,
+      "video_id": "kOyHvJqg_T4",
+      "title": "Rally Cars vs Nature 🌲 Off-Road Madness #shorts",
+      "series": "rally_offroad"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "next_index": 2,
+  "next_index": 3,
   "made": [
     {
       "index": 0,
@@ -12,6 +12,12 @@
       "video_id": "1kTSIP0ty_s",
       "title": "Race Track Beasts 🏁 The Sound of Speed #shorts",
       "series": "race_track"
+    },
+    {
+      "index": 2,
+      "video_id": "jLNFvsfvtDk",
+      "title": "Motorcycles at Full Throttle 🏍️ Adrenaline Rush #shorts",
+      "series": "motorcycle_race"
     }
   ]
 }

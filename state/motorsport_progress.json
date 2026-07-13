@@ -1,17 +1,7 @@
 {
   "next_index": 2,
   "made": [
-    {
-      "index": 0,
-      "video_id": "jTJ1x3z4tdQ",
-      "title": "Supercars at INSANE Speed 🏎️ Which One Wins? #shorts",
-      "series": "supercar_speed"
-    },
-    {
-      "index": 1,
-      "video_id": "VSJjWJtotYQ",
-      "title": "Race Track Beasts 🏁 The Sound of Speed #shorts",
-      "series": "race_track"
-    }
+    {"index": 0, "video_id": "jTJ1x3z4tdQ", "title": "Supercars at INSANE Speed", "series": "supercar_speed"},
+    {"index": 1, "video_id": "VSJjWJtotYQ", "title": "Race Track Beasts", "series": "race_track"}
   ]
 }

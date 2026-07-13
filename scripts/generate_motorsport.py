@@ -37,6 +37,14 @@ VERTICAL = (
 )
 
 
+def pick_lib_music():
+    """Enerjik beat kütüphanesinden rastgele bir parça seç."""
+    lib = sorted((ROOT / "assets" / "music" / "lib").glob("track_*.mp3"))
+    if lib:
+        return random.choice(lib)
+    return gs.pick_music("warm")   # yedek
+
+
 def to_vertical_segment(clip, out_mp4):
     """Klibi ~SEG sn dikey parçaya çevir (ses at)."""
     try:
@@ -134,8 +142,8 @@ def main():
     use_wm = bool(handle) and handle != "@YourChannel"
     if use_wm:
         wm_png = WORK / "wm.png"; ww, wh = gs.render_watermark_png(handle, wm_png)
-    # add_music=false ise MÜZİKSİZ üret (kullanıcı uygulamadan viral şarkı seçecek)
-    music = gs.pick_music(topic.get("music_mood") or "warm") if cfg.get("add_music", True) else None
+    # her videoya kütüphaneden RASTGELE enerjik beat (add_music=false ise sessiz)
+    music = pick_lib_music() if cfg.get("add_music", True) else None
 
     # 5) montaj
     inputs = ["-i", str(bg), "-i", str(hook_png), "-i", str(cta_png)]

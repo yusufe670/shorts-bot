@@ -42,8 +42,14 @@ def pexels_videos(query, per_page=12):
     return out
 
 
-def pixabay_videos(query, per_page=20):
-    """Pixabay video ara -> [(url, w, h)]."""
+# CGI/AI/animasyon klipleri ele (gerçek çekim istiyoruz)
+_CGI_TAGS = ("3d", "animation", "animated", "render", "rendering", "cartoon", "cgi",
+             "motion graphic", "motion graphics", "loop", "abstract", "digital art",
+             "illustration", "computer graphics", "vfx")
+
+
+def pixabay_videos(query, per_page=25):
+    """Pixabay video ara -> [(url, w, h)]. CGI/animasyon etiketlileri atlar."""
     key = os.environ.get("PIXABAY_API_KEY", "").strip()
     if not key:
         return []
@@ -54,6 +60,9 @@ def pixabay_videos(query, per_page=20):
              + f"&per_page={per_page}&safesearch=true")
         data = json.loads(_get(u))
         for hit in data.get("hits", []):
+            tags = (hit.get("tags") or "").lower()
+            if any(t in tags for t in _CGI_TAGS):
+                continue   # CGI/animasyon -> atla
             vids = hit.get("videos", {})
             v = vids.get("large") or vids.get("medium") or vids.get("small")
             if v and v.get("url"):

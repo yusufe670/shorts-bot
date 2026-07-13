@@ -26,7 +26,8 @@ OUT = gv.OUT
 WORK = gv.WORK
 W, H, FPS = gv.W, gv.H, gv.FPS
 
-SEG = 3.6            # her klip parçası (sn) — hızlı kesim
+TARGET_SEC = 17.0    # hedef toplam süre (~15-20 sn)
+MAX_CLIPS = 5        # kısa video için az klip
 MUSIC_VOL = 0.9
 
 VERTICAL = (
@@ -45,8 +46,8 @@ def pick_lib_music():
     return gs.pick_music("warm")   # yedek
 
 
-def to_vertical_segment(clip, out_mp4):
-    """Klibi ~SEG sn dikey parçaya çevir (ses at)."""
+def to_vertical_segment(clip, out_mp4, seg_target=3.5):
+    """Klibi ~seg_target sn dikey parçaya çevir (ses at)."""
     try:
         dur = gv.ffprobe_duration(clip)
     except Exception:
@@ -54,7 +55,7 @@ def to_vertical_segment(clip, out_mp4):
     if dur < 1.2:
         return None
     start = min(1.0, dur * 0.15)
-    seg = min(SEG, max(1.0, dur - start - 0.1))
+    seg = min(seg_target, max(1.0, dur - start - 0.1))
     r = gv.run(["ffmpeg", "-y", "-ss", f"{start:.2f}", "-i", str(clip), "-t", f"{seg:.2f}",
                 "-vf", VERTICAL, "-an", "-c:v", "libx264", "-preset", "veryfast",
                 "-pix_fmt", "yuv420p", str(out_mp4)], capture_output=True, text=True)
@@ -106,17 +107,19 @@ def main():
         shutil.rmtree(WORK)
     WORK.mkdir(parents=True)
 
-    # 1) telifsiz klipleri indir
-    print("  klipler indiriliyor (Pexels + Pixabay)...")
-    clips = fetch_clips.fetch_for_queries(topic["queries"], WORK, want=8)
+    # 1) telifsiz GERÇEK klipleri indir (CGI/animasyon fetch_clips'te elenir)
+    print("  klipler indiriliyor (Pexels + Pixabay, gerçek çekim)...")
+    clips = fetch_clips.fetch_for_queries(topic["queries"], WORK, want=MAX_CLIPS)
+    clips = clips[:MAX_CLIPS]
     print(f"  {len(clips)} klip indirildi")
     if len(clips) < 3:
         print("  YETERLİ KLİP YOK (API key eksik ya da sonuç az). İptal."); return 1
 
-    # 2) dikey parçalara çevir
+    # 2) dikey parçalara çevir (kısa video: hedef ~17sn / klip sayısı)
+    seg_len = min(4.8, max(3.0, TARGET_SEC / max(1, len(clips))))
     segs, first_seg = [], None
     for i, c in enumerate(clips):
-        s = to_vertical_segment(c, WORK / f"seg_{i:02d}.mp4")
+        s = to_vertical_segment(c, WORK / f"seg_{i:02d}.mp4", seg_len)
         if s:
             segs.append(s)
             if first_seg is None:

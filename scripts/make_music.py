@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Telifsiz, enerjik beat kütüphanesi üretir (phonk/motorspor tarzı: kick+808+hat+karanlık melodi).
-assets/music/track_00.mp3 ... track_NN.mp3 -> generate_motorsport rastgele seçer.
+Telifsiz DRIFT PHONK beat kütüphanesi (Murder in My Mind TARZI, özgün — telif yok):
+distorted 808 bas + metalik cowbell melodi + agresif hi-hat + sert kick.
+assets/music/lib/track_00.mp3 ... -> generate_motorsport rastgele seçer.
 Bir kez: python scripts/make_music.py
 """
-import math
 import subprocess
 from pathlib import Path
 
@@ -15,8 +15,9 @@ TMP = MUS / "_tmp"
 for d in (LIB, TMP):
     d.mkdir(parents=True, exist_ok=True)
 
-BARS = 16          # kaç bar döngü
-MINOR = [0, 3, 5, 7, 10]   # minör pentatonik (uyumsuz çıkmaz)
+BARS = 16
+# doğal minör (phonk melodileri için)
+MINOR = [0, 2, 3, 5, 7, 8, 10, 12]
 
 
 def run(cmd):
@@ -27,113 +28,113 @@ def note_hz(root, semis):
     return root * (2 ** (semis / 12.0))
 
 
-def make_sample_kick(path, step):
-    # kick: düşük sinüs + hızlı düşüş (thump)
-    run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"sine=frequency=55:duration={step:.3f}",
-         "-af", f"afade=t=out:st=0:d={step*0.9:.3f},volume=1.4", str(path)])
+def s_kick(path, step):
+    # sert kick: alçak sinüs + tık, hızlı düşüş, distortion
+    run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"sine=frequency=52:duration={step:.3f}",
+         "-af", f"volume=2.2,asoftclip=type=atan,afade=t=out:st=0:d={step*0.85:.3f},volume=1.5", str(path)])
 
 
-def make_sample_hat(path, step):
-    # hat: kısa beyaz gürültü, tiz, hızlı düşüş
-    run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"anoisesrc=d={step:.3f}:c=pink:a=0.4",
-         "-af", f"highpass=f=7000,afade=t=out:st=0:d={step*0.5:.3f},volume=0.5", str(path)])
+def s_hat(path, step):
+    run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"anoisesrc=d={step:.3f}:c=pink:a=0.5",
+         "-af", f"highpass=f=8000,afade=t=out:st=0:d={step*0.4:.3f},volume=0.55", str(path)])
 
 
-def make_sample_silence(path, step):
+def s_silence(path, step):
     run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"anullsrc=r=44100:cl=mono:d={step:.3f}", str(path)])
 
 
-def make_note(path, hz, step, vol=0.5, decay=0.85):
+def s_bass(path, hz, step):
+    # distorted 808: sinüs + overdrive
     run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"sine=frequency={hz:.2f}:duration={step:.3f}",
-         "-af", f"afade=t=in:st=0:d=0.005,afade=t=out:st={step*decay:.3f}:d={step*(1-decay)+0.01:.3f},"
-         f"volume={vol}", str(path)])
+         "-af", f"volume=2.6,asoftclip=type=tanh,lowpass=f=2500,"
+         f"afade=t=in:st=0:d=0.004,afade=t=out:st={step*0.9:.3f}:d={step*0.12+0.01:.3f},volume=0.6", str(path)])
 
 
-def element_track(slots, tmp_prefix, total, i):
-    """slots: her 16-adımlık bar için sample path listesi (None=sessiz). -> döngülü tam parça."""
-    barlist = TMP / f"{tmp_prefix}_{i}_bar.txt"
-    barlist.write_text("".join(f"file '{s.as_posix()}'\n" for s in slots), encoding="utf-8")
-    bar = TMP / f"{tmp_prefix}_{i}_bar.wav"
-    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(barlist), "-c", "copy", str(bar)])
-    full = TMP / f"{tmp_prefix}_{i}_full.wav"
+def s_cowbell(path, hz, step):
+    # metalik cowbell: detune'lu harmonikler + distortion (phonk lead)
+    run(["ffmpeg", "-y",
+         "-f", "lavfi", "-i", f"sine=frequency={hz:.2f}:duration={step:.3f}",
+         "-f", "lavfi", "-i", f"sine=frequency={hz*1.5:.2f}:duration={step:.3f}",
+         "-f", "lavfi", "-i", f"sine=frequency={hz*2.01:.2f}:duration={step:.3f}",
+         "-f", "lavfi", "-i", f"sine=frequency={hz*3.02:.2f}:duration={step:.3f}",
+         "-filter_complex",
+         f"[0][1][2][3]amix=inputs=4:normalize=0,volume=3.5,asoftclip=type=atan,"
+         f"highpass=f=300,afade=t=in:st=0:d=0.002,afade=t=out:st={step*0.55:.3f}:d={step*0.45:.3f},"
+         f"volume=0.34", str(path)])
+
+
+def element(slots, name, i):
+    lst = TMP / f"{name}_{i}.txt"
+    lst.write_text("".join(f"file '{s.as_posix()}'\n" for s in slots), encoding="utf-8")
+    bar = TMP / f"{name}_{i}_bar.wav"
+    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(bar)])
+    full = TMP / f"{name}_{i}_full.wav"
     run(["ffmpeg", "-y", "-stream_loop", str(BARS - 1), "-i", str(bar), str(full)])
     return full
 
 
-# desen varyasyonları (16 adım)
-KICKS = [
-    [1,0,0,0, 0,0,1,0, 0,0,0,0, 1,0,0,0],
-    [1,0,0,0, 1,0,0,0, 1,0,0,0, 1,0,0,0],
-    [1,0,0,1, 0,0,1,0, 0,1,0,0, 1,0,0,0],
+# 16 adım desenler (phonk: sert kick, hızlı hat, catchy cowbell riff)
+KICK_P = [
+    [1,0,0,0, 0,0,1,0, 0,0,0,1, 0,0,1,0],
+    [1,0,0,0, 0,1,0,0, 1,0,0,0, 0,1,0,0],
 ]
-HATS = [
-    [0,0,1,0, 0,0,1,0, 0,0,1,0, 0,0,1,1],
-    [0,1,0,1, 0,1,0,1, 0,1,0,1, 0,1,1,1],
+HAT_P = [
+    [1,0,1,1, 1,0,1,0, 1,0,1,1, 1,1,1,1],
+    [1,1,1,0, 1,0,1,1, 1,1,1,0, 1,0,1,1],
 ]
-BASSLINES = [
-    [0,None,None,None, 0,None,None,None, 3,None,None,None, 0,None,None,None],
-    [0,None,None,0, None,None,7,None, None,None,5,None, 0,None,None,None],
+BASS_P = [
+    [0,None,None,None, 0,None,None,None, 5,None,None,None, 3,None,None,None],
+    [0,None,None,0, None,None,None,None, 7,None,None,None, 5,None,3,None],
 ]
-LEADS = [
-    [0,None,3,None, 5,None,3,None, 7,None,5,None, 3,None,0,None],
-    [7,None,None,5, None,3,None,None, 5,None,3,None, None,0,None,None],
-    [0,None,7,None, None,5,None,3, None,None,7,None, 5,None,3,None],
+# cowbell riff (minör indexleri; None=sus). Catchy, tekrarlı.
+COW_P = [
+    [7,None,7,5, None,3,None,0, 3,None,5,None, 7,None,5,3],
+    [0,None,3,None, 5,None,3,0, None,7,None,5, 3,None,0,None],
+    [5,None,5,7, None,5,3,None, 0,None,3,5, None,3,None,0],
 ]
 
 
-def build_track(i, bpm, root_hz, kick_p, hat_p, bass_p, lead_p):
+def build(i, bpm, root, kp, hp, bp, cp):
     step = 60.0 / bpm / 4.0
-    kick = TMP / f"kick_{i}.wav"; make_sample_kick(kick, step)
-    hat = TMP / f"hat_{i}.wav"; make_sample_hat(hat, step)
-    sil = TMP / f"sil_{i}.wav"; make_sample_silence(sil, step)
+    kick = TMP / f"k_{i}.wav"; s_kick(kick, step)
+    hat = TMP / f"h_{i}.wav"; s_hat(hat, step)
+    sil = TMP / f"s_{i}.wav"; s_silence(sil, step)
+    bnotes, cnotes = {}, {}
+    for off in set(x for x in bp if x is not None):
+        p = TMP / f"b_{i}_{off}.wav"; s_bass(p, note_hz(root / 2, MINOR[off % len(MINOR)]), step); bnotes[off] = p
+    for off in set(x for x in cp if x is not None):
+        p = TMP / f"c_{i}_{off}.wav"; s_cowbell(p, note_hz(root * 2, MINOR[off % len(MINOR)]), step); cnotes[off] = p
 
-    # pitched notalar (bass 1 oktav aşağı, lead orta)
-    bass_notes, lead_notes = {}, {}
-    for off in set(x for x in bass_p if x is not None):
-        p = TMP / f"b_{i}_{off}.wav"; make_note(p, note_hz(root_hz / 2, MINOR[off % len(MINOR)]), step, vol=0.55, decay=0.9)
-        bass_notes[off] = p
-    for off in set(x for x in lead_p if x is not None):
-        p = TMP / f"l_{i}_{off}.wav"; make_note(p, note_hz(root_hz, MINOR[off % len(MINOR)]), step, vol=0.32, decay=0.7)
-        lead_notes[off] = p
+    ek = element([kick if v else sil for v in kp], "k", i)
+    eh = element([hat if v else sil for v in hp], "h", i)
+    eb = element([bnotes[v] if v is not None else sil for v in bp], "b", i)
+    ec = element([cnotes[v] if v is not None else sil for v in cp], "c", i)
 
-    kick_slots = [kick if v else sil for v in kick_p]
-    hat_slots = [hat if v else sil for v in hat_p]
-    bass_slots = [bass_notes[v] if v is not None else sil for v in bass_p]
-    lead_slots = [lead_notes[v] if v is not None else sil for v in lead_p]
-
-    tracks = [element_track(kick_slots, "k", 0, i),
-              element_track(hat_slots, "h", 0, i),
-              element_track(bass_slots, "b", 0, i),
-              element_track(lead_slots, "l", 0, i)]
     out = LIB / f"track_{i:02d}.mp3"
-    inputs = []
-    for t in tracks:
-        inputs += ["-i", str(t)]
-    run(["ffmpeg", "-y", *inputs, "-filter_complex",
-         f"amix=inputs=4:normalize=0,aecho=0.8:0.85:60:0.2,loudnorm=I=-11:TP=-1.0,"
-         f"afade=t=in:st=0:d=0.4", str(out)])
-    print(f"  track_{i:02d}.mp3  (bpm {bpm})")
+    run(["ffmpeg", "-y", "-i", str(ek), "-i", str(eh), "-i", str(eb), "-i", str(ec),
+         "-filter_complex",
+         "amix=inputs=4:normalize=0,asoftclip=type=atan,loudnorm=I=-9:TP=-1.0,"
+         "afade=t=in:st=0:d=0.3", str(out)])
+    print(f"  track_{i:02d}.mp3  (phonk, {bpm}bpm)")
 
 
 if __name__ == "__main__":
-    # eski 3 ambient dosyayı sil (aptal müzik)
     for old in ("warm", "mystery", "dreamy"):
         f = MUS / f"{old}.mp3"
         if f.exists():
             f.unlink()
-    combos = []
-    roots = [110.0, 98.0, 123.47, 130.81, 87.31]   # A2, G2, B2, C3, F2 (karanlık)
-    bpms = [140, 145, 150, 132, 155]
-    idx = 0
+    for f in LIB.glob("*.mp3"):
+        f.unlink()
+    roots = [110.0, 98.0, 116.54, 130.81, 103.83]   # A2 G2 A#2 C3 G#2 (karanlık)
+    bpms = [145, 150, 140, 155, 148]
+    i = 0
     for r_i, root in enumerate(roots):
         for k in range(2):
-            combos.append((idx, bpms[r_i], root,
-                           KICKS[idx % len(KICKS)], HATS[idx % len(HATS)],
-                           BASSLINES[idx % len(BASSLINES)], LEADS[idx % len(LEADS)]))
-            idx += 1
-    for c in combos:
-        build_track(*c)
+            build(i, bpms[r_i], root,
+                  KICK_P[i % len(KICK_P)], HAT_P[i % len(HAT_P)],
+                  BASS_P[i % len(BASS_P)], COW_P[i % len(COW_P)])
+            i += 1
     for f in TMP.glob("*"):
         f.unlink()
     TMP.rmdir()
-    print(f"Bitti. {idx} parçalık kütüphane -> {LIB}")
+    print(f"Bitti. {i} phonk parça -> {LIB}")

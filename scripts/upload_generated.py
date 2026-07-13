@@ -99,10 +99,12 @@ def main():
         bank_len = len(json.loads(BANK.read_text(encoding="utf-8")))
     except Exception:
         bank_len = index + 1
+    import datetime
     state["next_index"] = (index + 1) % max(1, bank_len)
     state.setdefault("made", []).append(
         {"index": index, "video_id": video_id, "title": meta["title"],
-         "series": meta.get("series", "")}
+         "series": meta.get("series", ""),
+         "date": datetime.datetime.utcnow().strftime("%Y-%m-%d")}
     )
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"İlerleme kaydedildi. Sıradaki index: {state['next_index']}")

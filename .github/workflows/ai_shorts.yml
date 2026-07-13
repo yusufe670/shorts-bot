@@ -2,8 +2,12 @@ name: AI Shorts Üret ve Yükle
 
 on:
   schedule:
-    # Her 6 saatte bir = günde 4 (3 ile 6/gün arası dengeli). Kota tavanı: 6/gün.
-    - cron: "0 */6 * * *"
+    # TR saatiyle 10:00, 17:00, 18:30, 21:00  (UTC = TR-3)
+    # Bekçi (should_run.py) her gün 4 slottan 1'ini rotasyonla atlar -> günde 3 video.
+    - cron: "0 7 * * *"     # 10:00 TR
+    - cron: "0 14 * * *"    # 17:00 TR
+    - cron: "30 15 * * *"   # 18:30 TR
+    - cron: "0 18 * * *"    # 21:00 TR
   workflow_dispatch: {}
 
 concurrency:
@@ -23,23 +27,37 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Zamanlama bekçisi (günde 3, belirli saatler)
+        id: guard
+        env:
+          PROGRESS_FILE: state/motorsport_progress.json
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Manuel çalıştırma -> çalış"
+          elif python scripts/should_run.py; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: ffmpeg kur
+        if: steps.guard.outputs.run == 'true'
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Python bağımlılıkları
+        if: steps.guard.outputs.run == 'true'
         run: pip install -r requirements.txt
 
-      - name: Günün trendlerini logla (bilgi amaçlı)
-        run: python scripts/fetch_trends.py US GB || true
-
-      - name: Motorspor montaj üret (telifsiz stok footage)
+      - name: Motorspor montaj üret (telifsiz stok footage + gerçek phonk)
+        if: steps.guard.outputs.run == 'true'
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: python scripts/generate_motorsport.py
 
-      - name: Videoyu indirilebilir yap (TikTok/Reels cross-post için)
-        if: always()
+      - name: Videoyu indirilebilir yap (cross-post için)
+        if: steps.guard.outputs.run == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: short-${{ github.run_number }}
@@ -51,6 +69,7 @@ jobs:
           if-no-files-found: ignore
 
       - name: YouTube'a yükle
+        if: steps.guard.outputs.run == 'true'
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
@@ -59,14 +78,14 @@ jobs:
           BANK_FILE: content/motorsport_topics.json
         run: python scripts/upload_generated.py
 
-      - name: İlerlemeyi kaydet (dayanıklı push — tekrar yüklemeyi önler)
-        if: success()
+      - name: İlerlemeyi kaydet (dayanıklı push)
+        if: success() && steps.guard.outputs.run == 'true'
         run: |
           git config user.name "shorts-bot"
           git config user.email "bot@users.noreply.github.com"
           git add state/motorsport_progress.json
           if git diff --staged --quiet; then
-            echo "İlerleme değişmedi, kaydedilecek bir şey yok."
+            echo "İlerleme değişmedi."
             exit 0
           fi
           git commit -m "İlerleme: sıradaki motorspor konusu [skip ci]"
@@ -75,8 +94,8 @@ jobs:
               echo "İlerleme kaydedildi (deneme $i)."
               exit 0
             fi
-            echo "push denemesi $i reddedildi, yeniden eşitlenip denenecek..."
+            echo "push denemesi $i reddedildi, yeniden denenecek..."
             sleep 3
           done
-          echo "HATA: ilerleme 5 denemede push edilemedi." >&2
+          echo "HATA: ilerleme push edilemedi." >&2
           exit 1

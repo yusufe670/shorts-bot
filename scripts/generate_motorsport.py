@@ -39,11 +39,11 @@ VERTICAL = (
 
 
 def pick_lib_music():
-    """Enerjik beat kütüphanesinden rastgele bir parça seç."""
-    lib = sorted((ROOT / "assets" / "music" / "lib").glob("track_*.mp3"))
+    """Müzik kütüphanesinden (lib/) rastgele bir parça seç."""
+    lib = sorted((ROOT / "assets" / "music" / "lib").glob("*.mp3"))
     if lib:
         return random.choice(lib)
-    return gs.pick_music("warm")   # yedek
+    return None   # müzik yoksa sessiz
 
 
 def to_vertical_segment(clip, out_mp4, seg_target=3.5):
@@ -64,10 +64,12 @@ def to_vertical_segment(clip, out_mp4, seg_target=3.5):
     return out_mp4
 
 
-# Motorspor için evrensel, temiz hashtag ve etiketler
-MOTO_HASHTAGS = "#shorts #cars #supercar #racing #motorsport #caredit #speed #fastcars #carlovers #viral"
-MOTO_TAGS = ["cars", "supercar", "racing", "motorsport", "car edit", "speed", "fast cars",
-             "car lovers", "sports car", "cars shorts", "racing shorts", "auto", "car video"]
+# En etkili motorspor + phonk/araba-kültürü hashtag'leri (bu kitlenin kullandığı)
+MOTO_HASHTAGS = ("#shorts #cars #car #supercar #racing #jdm #drift #phonk "
+                 "#caredit #carculture #speed #fyp #viral #fastcars #cargram")
+MOTO_TAGS = ["cars", "car", "supercar", "racing", "motorsport", "car edit", "phonk",
+             "jdm", "drift", "car culture", "speed", "fast cars", "car lovers",
+             "sports car", "cars shorts", "car edit phonk", "car video", "cargram"]
 
 
 def build_meta(topic, cfg):

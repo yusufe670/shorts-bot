@@ -36,9 +36,9 @@ VERTICAL = (
     "[b]scale=1080:1920:force_original_aspect_ratio=decrease[fg];"
     "[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1,fps=30,"
     # sinematik renk: güçlü kontrast (beyaz duman / koyu asfalt) + doygunluk + keskinlik
-    "eq=contrast=1.22:saturation=1.32:gamma=0.93,"
+    "eq=contrast=1.22:saturation=1.4:gamma=0.93,vibrance=intensity=0.25,"
     "curves=all='0/0 0.25/0.16 0.75/0.88 1/1',"
-    "unsharp=5:5:0.8:5:5:0.0"
+    "unsharp=5:5:0.9:5:5:0.0"
 )
 # klip başına hız rampası deseni (slow-mo + hızlandırma -> dinamizm)
 SPEEDS = [1.0, 0.8, 1.25, 0.85, 1.2]
@@ -58,6 +58,17 @@ def make_whoosh(path):
             "-af", "highpass=f=400,lowpass=f=7000,afade=t=in:st=0:d=0.12,"
             "afade=t=out:st=0.18:d=0.32,volume=0.7", str(path)],
            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+
+def motion_score(clip):
+    """Kaba hareket skoru (kare farkı ortalaması) — en hareketli klip başa gelsin."""
+    import re
+    r = gv.run(["ffmpeg", "-hide_banner", "-ss", "0.3", "-t", "3", "-i", str(clip),
+                "-vf", "scale=160:90,tblend=all_mode=difference,signalstats,"
+                       "metadata=print:key=lavfi.signalstats.YAVG",
+                "-an", "-f", "null", "-"], capture_output=True, text=True)
+    vals = [float(x) for x in re.findall(r"YAVG=([\d.]+)", r.stderr or "")]
+    return sum(vals) / len(vals) if vals else 0.0
 
 
 def _has_audio(clip):
@@ -148,11 +159,13 @@ def main():
 
     # 1) telifsiz GERÇEK klipleri indir (CGI/animasyon fetch_clips'te elenir)
     print("  klipler indiriliyor (Pexels + Pixabay, gerçek çekim)...")
-    clips = fetch_clips.fetch_for_queries(topic["queries"], WORK, want=MAX_CLIPS)
-    clips = clips[:MAX_CLIPS]
-    print(f"  {len(clips)} klip indirildi")
+    clips = fetch_clips.fetch_for_queries(topic["queries"], WORK, want=MAX_CLIPS + 2)
     if len(clips) < 3:
         print("  YETERLİ KLİP YOK (API key eksik ya da sonuç az). İptal."); return 1
+    # en hareketli klipleri seç ve en hareketliyi BAŞA koy (kaos ilk karede)
+    clips.sort(key=motion_score, reverse=True)
+    clips = clips[:MAX_CLIPS]
+    print(f"  {len(clips)} klip (hareket sıralı, en aksiyonlu başta)")
 
     # 2) dikey parçalara çevir (kısa video: hedef ~17sn / klip sayısı)
     seg_len = min(4.8, max(3.0, TARGET_SEC / max(1, len(clips))))

@@ -34,8 +34,13 @@ VERTICAL = (
     "split[a][b];"
     "[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=20[bg];"
     "[b]scale=1080:1920:force_original_aspect_ratio=decrease[fg];"
-    "[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1,fps=30"
+    "[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1,fps=30,"
+    # sinematik renk tonlaması + keskinlik (gri/soluk yerine punchy)
+    "eq=contrast=1.14:saturation=1.35:gamma=0.96:brightness=0.01,"
+    "unsharp=5:5:0.7:5:5:0.0"
 )
+# klip başına hız rampası deseni (slow-mo + hızlandırma -> dinamizm)
+SPEEDS = [1.0, 0.8, 1.25, 0.85, 1.2]
 
 
 def pick_lib_music():
@@ -46,18 +51,29 @@ def pick_lib_music():
     return None   # müzik yoksa sessiz
 
 
-def to_vertical_segment(clip, out_mp4, seg_target=3.5):
-    """Klibi ~seg_target sn dikey parçaya çevir (ses at)."""
+def make_whoosh(path):
+    """Geçiş whoosh sesi (filtreli gürültü — kesimlerde vurgu)."""
+    gv.run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anoisesrc=d=0.5:c=pink:a=0.8",
+            "-af", "highpass=f=400,lowpass=f=7000,afade=t=in:st=0:d=0.12,"
+            "afade=t=out:st=0.18:d=0.32,volume=0.7", str(path)],
+           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+
+def to_vertical_segment(clip, out_mp4, seg_target=3.5, speed=1.0):
+    """Klibi ~seg_target sn dikey + renk tonlu + hız rampalı parçaya çevir (ses at)."""
     try:
         dur = gv.ffprobe_duration(clip)
     except Exception:
         return None
     if dur < 1.2:
         return None
-    start = min(1.0, dur * 0.15)
-    seg = min(seg_target, max(1.0, dur - start - 0.1))
-    r = gv.run(["ffmpeg", "-y", "-ss", f"{start:.2f}", "-i", str(clip), "-t", f"{seg:.2f}",
-                "-vf", VERTICAL, "-an", "-c:v", "libx264", "-preset", "veryfast",
+    start = min(1.0, dur * 0.12)
+    src_len = seg_target * speed          # hız için kaynaktan alınacak süre
+    if start + src_len > dur - 0.05:
+        src_len = max(0.8, dur - start - 0.05)
+    vf = (f"setpts=PTS/{speed:.3f},{VERTICAL}" if abs(speed - 1.0) > 0.01 else VERTICAL)
+    r = gv.run(["ffmpeg", "-y", "-ss", f"{start:.2f}", "-t", f"{src_len:.2f}", "-i", str(clip),
+                "-vf", vf, "-an", "-r", "30", "-c:v", "libx264", "-preset", "veryfast",
                 "-pix_fmt", "yuv420p", str(out_mp4)], capture_output=True, text=True)
     if r.returncode != 0 or not out_mp4.exists():
         return None
@@ -121,7 +137,8 @@ def main():
     seg_len = min(4.8, max(3.0, TARGET_SEC / max(1, len(clips))))
     segs, first_seg = [], None
     for i, c in enumerate(clips):
-        s = to_vertical_segment(c, WORK / f"seg_{i:02d}.mp4", seg_len)
+        spd = SPEEDS[i % len(SPEEDS)]   # slow-mo / hızlandırma rampası
+        s = to_vertical_segment(c, WORK / f"seg_{i:02d}.mp4", seg_len, speed=spd)
         if s:
             segs.append(s)
             if first_seg is None:
@@ -137,6 +154,14 @@ def main():
     gv.run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(vlist),
             "-c", "copy", str(bg)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     video_total = min(gv.ffprobe_duration(bg), 59.5)
+    # geçiş whoosh'ları için kesim zamanları
+    cut_times, acc = [], 0.0
+    for s in segs[:-1]:
+        acc += gv.ffprobe_duration(s)
+        if 0.3 < acc < video_total - 0.4:
+            cut_times.append(acc)
+    whoosh = WORK / "whoosh.wav"
+    make_whoosh(whoosh)
 
     # 4) kartlar
     hook_text = (topic.get("hook") or " ".join(seo._clean(topic["title"]).split()[:5])).strip()
@@ -158,7 +183,10 @@ def main():
         wm_idx = nxt; inputs += ["-i", str(wm_png)]; nxt += 1
     music_idx = nxt
     if music:
-        inputs += ["-i", str(music)]
+        inputs += ["-i", str(music)]; nxt += 1
+    whoosh_idx = nxt
+    if music and cut_times:
+        inputs += ["-i", str(whoosh)]; nxt += 1
 
     fc = []
     fc.append(f"[0:v][{hook_idx}:v]overlay={int((W-hw)/2)}:{int(0.20*H)}:enable='between(t,0.2,2.4)'[vh]")
@@ -172,8 +200,21 @@ def main():
         f"drawbox=x=0:y=0:w='iw*t/{video_total:.2f}':h=10:color=0xFFE74C@0.95:thickness=fill[vout]")
 
     if music:
-        fc.append(f"[{music_idx}:a]volume={MUSIC_VOL},afade=t=in:st=0:d=0.5,"
-                  f"afade=t=out:st={max(0.1, video_total-1.2):.2f}:d=1.2,alimiter=limit=0.95[aout]")
+        # loudnorm: her phonk track'i tutarlı ve yüksek seviyeye getir (kısık dosya sorunu)
+        fc.append(f"[{music_idx}:a]loudnorm=I=-12:TP=-1.0,afade=t=in:st=0:d=0.5,"
+                  f"afade=t=out:st={max(0.1, video_total-1.2):.2f}:d=1.2[m]")
+        if cut_times:
+            fc.append(f"[{whoosh_idx}:a]asplit={len(cut_times)}"
+                      + "".join(f"[w{k}]" for k in range(len(cut_times))))
+            wl = []
+            for k, t in enumerate(cut_times):
+                ms = int(t * 1000)
+                fc.append(f"[w{k}]adelay={ms}|{ms}[wd{k}]")
+                wl.append(f"[wd{k}]")
+            fc.append(f"[m]{''.join(wl)}amix=inputs={1+len(cut_times)}:normalize=0,"
+                      f"alimiter=limit=0.95[aout]")
+        else:
+            fc.append("[m]alimiter=limit=0.95[aout]")
         maps = ["-map", "[vout]", "-map", "[aout]"]
     else:
         maps = ["-map", "[vout]"]

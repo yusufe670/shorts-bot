@@ -1,5 +1,5 @@
 {
-  "next_index": 4,
+  "next_index": 5,
   "made": [
     {
       "index": 0,
@@ -67,6 +67,13 @@
       "video_id": "sP-IFs2iBa0",
       "title": "This Drift Shouldn't Be Possible 💨 #shorts",
       "series": "drift_smoke",
+      "date": "2026-07-16"
+    },
+    {
+      "index": 4,
+      "video_id": "1EdM-Ze2Lj8",
+      "title": "How Is This Even Legal? 🌲 Off-Road Chaos #shorts",
+      "series": "rally_offroad",
       "date": "2026-07-16"
     }
   ]

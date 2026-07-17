@@ -1,5 +1,5 @@
 {
-  "next_index": 0,
+  "next_index": 1,
   "made": [
     {
       "index": 0,
@@ -82,6 +82,13 @@
       "title": "3AM Drive Hits Different 🌃 Pure Vibes #shorts",
       "series": "night_city_cars",
       "date": "2026-07-16"
+    },
+    {
+      "index": 0,
+      "video_id": "PCoysbMgjmE",
+      "title": "The Detail Millions Missed 🏎️ Wait For It... #shorts",
+      "series": "supercar_speed",
+      "date": "2026-07-17"
     }
   ]
 }

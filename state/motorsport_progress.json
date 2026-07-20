@@ -1,5 +1,5 @@
 {
-  "next_index": 2,
+  "next_index": 3,
   "made": [
     {
       "index": 0,
@@ -137,6 +137,13 @@
       "video_id": "JPNVCkBsr64",
       "title": "Pure Speed, Zero Limits 🏁 Turn The Sound ON #shorts",
       "series": "race_track",
+      "date": "2026-07-20"
+    },
+    {
+      "index": 2,
+      "video_id": "3m0QWFNJwp4",
+      "title": "The Moment Physics Broke 🏍️ Watch Closely #shorts",
+      "series": "motorcycle_race",
       "date": "2026-07-20"
     }
   ]

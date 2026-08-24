@@ -1,6 +1,6 @@
 # 📊 Kanal Performans Raporu
 
-**Video sayısı:** 82  |  **Toplam izlenme:** 56  |  **Video başı ort.:** 0
+**Video sayısı:** 99  |  **Toplam izlenme:** 67  |  **Video başı ort.:** 0
 
 ## 🏆 En çok izlenen 10 video
 
@@ -15,13 +15,13 @@
 | 7 | 3 | 0 | 0 | drift_smoke | This Drift Shouldn't Be Possible 💨 #shorts |
 | 8 | 3 | 0 | 0 | rally_offroad | How Is This Even Legal? 🌲 Off-Road Chaos #shorts |
 | 9 | 3 | 0 | 0 | race_track | Pure Speed, Zero Limits 🏁 Turn The Sound ON #short |
-| 10 | 2 | 2 | 0 | rally_offroad | How Is This Even Legal? 🌲 Off-Road Chaos #shorts |
+| 10 | 3 | 1 | 0 | drift_smoke | This Drift Shouldn't Be Possible 💨 #shorts |
 
 ## 📈 Seri bazında ortalama izlenme (kazananı çoğalt)
 
-- **race_track**: ort. 1 izlenme (14 video)
-- **motorcycle_race**: ort. 1 izlenme (14 video)
-- **drift_smoke**: ort. 1 izlenme (14 video)
-- **supercar_speed**: ort. 1 izlenme (13 video)
-- **rally_offroad**: ort. 0 izlenme (14 video)
-- **night_city_cars**: ort. 0 izlenme (13 video)
+- **race_track**: ort. 1 izlenme (17 video)
+- **drift_smoke**: ort. 1 izlenme (17 video)
+- **supercar_speed**: ort. 1 izlenme (16 video)
+- **motorcycle_race**: ort. 1 izlenme (17 video)
+- **night_city_cars**: ort. 0 izlenme (16 video)
+- **rally_offroad**: ort. 0 izlenme (16 video)

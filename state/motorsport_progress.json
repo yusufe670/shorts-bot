@@ -1,5 +1,5 @@
 {
-  "next_index": 3,
+  "next_index": 4,
   "made": [
     {
       "index": 0,
@@ -732,6 +732,13 @@
       "video_id": "_kYlbRLxQFM",
       "title": "The Moment Physics Broke 🏍️ Watch Closely #shorts",
       "series": "motorcycle_race",
+      "date": "2026-08-25"
+    },
+    {
+      "index": 3,
+      "video_id": "cqb1jhkuN7k",
+      "title": "This Drift Shouldn't Be Possible 💨 #shorts",
+      "series": "drift_smoke",
       "date": "2026-08-25"
     }
   ]

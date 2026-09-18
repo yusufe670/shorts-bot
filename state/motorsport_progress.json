@@ -1,5 +1,5 @@
 {
-  "next_index": 1,
+  "next_index": 2,
   "made": [
     {
       "index": 0,
@@ -970,6 +970,13 @@
       "video_id": "ZT10Pu1Sfq8",
       "title": "The Detail Millions Missed 🏎️ Wait For It... #shorts",
       "series": "supercar_speed",
+      "date": "2026-09-18"
+    },
+    {
+      "index": 1,
+      "video_id": "t_S0zj6Js0Y",
+      "title": "Pure Speed, Zero Limits 🏁 Turn The Sound ON #shorts",
+      "series": "race_track",
       "date": "2026-09-18"
     }
   ]

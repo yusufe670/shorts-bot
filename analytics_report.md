@@ -1,6 +1,6 @@
 # 📊 Kanal Performans Raporu
 
-**Video sayısı:** 142  |  **Toplam izlenme:** 208  |  **Video başı ort.:** 1
+**Video sayısı:** 154  |  **Toplam izlenme:** 221  |  **Video başı ort.:** 1
 
 ## 🏆 En çok izlenen 10 video
 
@@ -13,15 +13,15 @@
 | 5 | 6 | 0 | 0 | night_city_cars | 3AM Drive Hits Different 🌃 Pure Vibes #shorts |
 | 6 | 6 | 0 | 0 | night_city_cars | 3AM Drive Hits Different 🌃 Pure Vibes #shorts |
 | 7 | 4 | 0 | 0 | race_track | Pure Speed, Zero Limits 🏁 Turn The Sound ON #short |
-| 8 | 3 | 3 | 0 | race_track | Race Track Beasts 🏁 The Sound of Speed #shorts |
-| 9 | 3 | 3 | 0 | drift_smoke | This Drift Shouldn't Be Possible 💨 #shorts |
-| 10 | 3 | 1 | 0 | night_city_cars | 3AM Drive Hits Different 🌃 Pure Vibes #shorts |
+| 8 | 4 | 0 | 0 | night_city_cars | 3AM Drive Hits Different 🌃 Pure Vibes #shorts |
+| 9 | 4 | 0 | 0 | race_track | Pure Speed, Zero Limits 🏁 Turn The Sound ON #short |
+| 10 | 3 | 3 | 0 | race_track | Race Track Beasts 🏁 The Sound of Speed #shorts |
 
 ## 📈 Seri bazında ortalama izlenme (kazananı çoğalt)
 
-- **supercar_speed**: ort. 3 izlenme (23 video)
-- **night_city_cars**: ort. 3 izlenme (23 video)
-- **race_track**: ort. 2 izlenme (24 video)
-- **drift_smoke**: ort. 1 izlenme (24 video)
-- **motorcycle_race**: ort. 0 izlenme (24 video)
-- **rally_offroad**: ort. 0 izlenme (24 video)
+- **supercar_speed**: ort. 3 izlenme (25 video)
+- **night_city_cars**: ort. 3 izlenme (25 video)
+- **race_track**: ort. 2 izlenme (26 video)
+- **drift_smoke**: ort. 1 izlenme (26 video)
+- **rally_offroad**: ort. 0 izlenme (26 video)
+- **motorcycle_race**: ort. 0 izlenme (26 video)

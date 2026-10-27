@@ -1,5 +1,5 @@
 {
-  "next_index": 5,
+  "next_index": 0,
   "made": [
     {
       "index": 0,
@@ -1334,6 +1334,13 @@
       "video_id": "GOlXq-2L0Fk",
       "title": "How Is This Even Legal? 🌲 Off-Road Chaos #shorts",
       "series": "rally_offroad",
+      "date": "2026-10-27"
+    },
+    {
+      "index": 5,
+      "video_id": "vCyrDJeP-ZA",
+      "title": "3AM Drive Hits Different 🌃 Pure Vibes #shorts",
+      "series": "night_city_cars",
       "date": "2026-10-27"
     }
   ]

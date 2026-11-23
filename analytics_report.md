@@ -1,6 +1,6 @@
 # 📊 Kanal Performans Raporu
 
-**Video sayısı:** 209  |  **Toplam izlenme:** 234  |  **Video başı ort.:** 1
+**Video sayısı:** 213  |  **Toplam izlenme:** 235  |  **Video başı ort.:** 1
 
 ## 🏆 En çok izlenen 10 video
 
@@ -20,8 +20,8 @@
 ## 📈 Seri bazında ortalama izlenme (kazananı çoğalt)
 
 - **night_city_cars**: ort. 2 izlenme (35 video)
-- **supercar_speed**: ort. 2 izlenme (34 video)
-- **race_track**: ort. 1 izlenme (35 video)
-- **drift_smoke**: ort. 1 izlenme (35 video)
+- **supercar_speed**: ort. 2 izlenme (35 video)
+- **race_track**: ort. 1 izlenme (36 video)
+- **drift_smoke**: ort. 1 izlenme (36 video)
 - **rally_offroad**: ort. 0 izlenme (35 video)
-- **motorcycle_race**: ort. 0 izlenme (35 video)
+- **motorcycle_race**: ort. 0 izlenme (36 video)
